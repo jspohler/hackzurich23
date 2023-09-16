@@ -5,6 +5,9 @@ from docx import Document
 import extract_msg
 import fitz 
 import olefile
+import markdown
+import re
+from bs4 import BeautifulSoup
 
 
 def extract_data_from_db(db_file, output_folder):
@@ -31,7 +34,7 @@ def extract_data_from_db(db_file, output_folder):
 
             txt_file.write(f"{table_name}\n")
             for row in rows:
-                txt_file.write('\t'.join(map(str, row)) + '\n')
+                txt_file.write('\t'.join(map(str, row[1:])) + '\n')
     # Close the database connection
     conn.close()
 
@@ -82,14 +85,21 @@ def extract_log_data(folder_path, output_folder):
         copy_data_from_log(log_file, output_folder)
 
 def copy_data_from_md(md_file, output_folder):
-    # Extract data from a single md file
-    base_name = os.path.splitext(os.path.basename(md_file))[0]
+    
+    with open(md_file, 'r', encoding='ISO-8859-1') as f:
+        text = f.read()
+        text = text.replace("```", "")
+        html = markdown.markdown(text)
+        # extract text
+        soup = BeautifulSoup(html, "lxml")
+        text = ''.join(soup.findAll(text=True))
 
-    # Create a new .txt file in the output folder and copy the content
-    txt_file_path = os.path.join(output_folder, f"{base_name}_md.txt")
-    with open(md_file, 'r', encoding='ISO-8859-1') as md_file_content:
+        
+        file_name = os.path.splitext(os.path.basename(md_file))[0]
+        txt_file_path = os.path.join(output_folder, f"{file_name}_md.txt")
+
         with open(txt_file_path, 'w', encoding='utf-8', errors='ignore') as txt_file:
-            txt_file.write(md_file_content.read())
+            txt_file.write(text)
 
 def extract_md_data(folder_path, output_folder):
     # Extract data from all md files in the specified folder
@@ -190,7 +200,7 @@ def extract_pem_data(folder_path, output_folder):
     
     for pem_file in pem_files:
         if pem_file.endswith('.pem'):
-            extract_data_from_pub(pem_file, output_folder)
+            extract_data_from_pem(pem_file, output_folder)
 
 def extract_data_from_py(py_file, output_folder):
     base_name = os.path.splitext(os.path.basename(py_file))[0]
@@ -210,53 +220,53 @@ def extract_py_data(folder_path, output_folder):
     py_files = glob.glob(os.path.join(folder_path, '*.py'))
     
     for py_file in py_files:
-        if py_file.endswith('.pem'):
+        if py_file.endswith('.py'):
             extract_data_from_pub(py_file, output_folder)
 
 folder_path = 'files'
 
 #py
-if True:
+if False:
     output_folder_py = 'texted_from_files/py/'
     extract_py_data(folder_path, output_folder_py)
 
 #pem
-if True:
+if False:
     output_folder_pem = 'texted_from_files/pem/'
     extract_pub_data(folder_path, output_folder_pem)
     
 #pub
-if True:
+if False:
     output_folder_pub = 'texted_from_files/pub/'
     extract_pub_data(folder_path, output_folder_pub)
         
 #ps1
-if True:
+if False:
     output_folder_ps1 = 'texted_from_files/ps1/'
     extract_ps1_data(folder_path, output_folder_ps1)
     
 #msg
-if True:
+if False:
     output_folder_msg = 'texted_from_files/msg/'
     extract_msg_data(folder_path, output_folder_msg)
     
 #md
-if True:
+if False:
     output_folder_md = 'texted_from_files/md/'
     extract_md_data(folder_path, output_folder_md)
     
 #log
-if True:
+if False:
     output_folder_log = 'texted_from_files/log/'
     extract_log_data(folder_path, output_folder_log)
 
 #docx
-if True:
+if False:
     output_folder_docx = 'texted_from_files/docx/'
     extract_docx_data(folder_path, output_folder_docx)
     
 #db
-if True:
+if False:
     output_folder_db = 'texted_from_files/db/'
     extract_db_data(folder_path, output_folder_db)
 
