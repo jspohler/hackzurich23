@@ -60,14 +60,14 @@ def extract_docx_data(folder_path, output_folder):
     for docx_file in docx_files:
         extract_data_from_docx(docx_file, output_folder)
 
-def extract_data_from_log(log_file, output_folder):
+def copy_data_from_log(log_file, output_folder):
     #TODO when doing tokenizing it may require changes
     # Extract data from a single log file
     base_name = os.path.splitext(os.path.basename(log_file))[0]
 
     # Rename the .log file to .txt
     txt_file_path = os.path.join(output_folder, f"{base_name}_log.txt")
-    with open(log_file, 'r', encoding='utf-8') as log_file:
+    with open(ps1_file, 'r', encoding='ISO-8859-1') as ps1_file:
         with open(txt_file_path, 'w', encoding='utf-8') as txt_file:
             txt_file.write(log_file.read())
 
@@ -77,9 +77,9 @@ def extract_log_data(folder_path, output_folder):
     log_files = glob.glob(os.path.join(folder_path, '*.log'))
     
     for log_file in log_files:
-        extract_data_from_log(log_file, output_folder)
+        copy_data_from_log(log_file, output_folder)
 
-def extract_data_from_md(md_file, output_folder):
+def copy_data_from_md(md_file, output_folder):
     # Extract data from a single md file
     base_name = os.path.splitext(os.path.basename(md_file))[0]
 
@@ -95,7 +95,7 @@ def extract_md_data(folder_path, output_folder):
     md_files = glob.glob(os.path.join(folder_path, '*.md'))
     
     for md_file in md_files:
-        extract_data_from_md(md_file, output_folder)
+        copy_data_from_md(md_file, output_folder)
 
 def extract_data_from_msg(msg_file, output_folder):
     base_name = os.path.splitext(os.path.basename(msg_file))[0]
@@ -125,11 +125,32 @@ def extract_msg_data(folder_path, output_folder):
     for msg_file in msg_files:
         extract_data_from_msg(msg_file, output_folder)
 
+def copy_ps1_to_txt(ps1_file, output_folder):
+    # Get the base name of the file (without extension)
+    base_name = os.path.splitext(os.path.basename(ps1_file))[0]
+
+    # Create a new .txt file in the output folder and copy the content
+    txt_file_path = os.path.join(output_folder, f"{base_name}_ps1.txt")
+    with open(ps1_file, 'r', encoding='ISO-8859-1') as ps1_file:
+        with open(txt_file_path, 'w', encoding='utf-8') as txt_file:
+            txt_file.write(ps1_file.read())
+
+def extract_ps1_data(folder_path, output_folder):
+    os.makedirs(output_folder, exist_ok=True)
+
+    ps1_files = glob.glob(os.path.join(folder_path, '*.ps1'))
+
+    for ps1_file in ps1_files:
+        copy_ps1_to_txt(ps1_file, output_folder)
     
 folder_path = 'files'
 
-#msg
+#ps1
 if True:
+    output_folder_ps1 = 'texted_from_files/ps1/'
+    extract_ps1_data(folder_path, output_folder_ps1)
+#msg
+if False:
     output_folder_msg = 'texted_from_files/msg/'
     extract_msg_data(folder_path, output_folder_msg)
     
