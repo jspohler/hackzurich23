@@ -71,7 +71,10 @@ def rename_log_to_txt(log_file, output_folder):
 
     # Rename the .log file to .txt
     txt_file_path = os.path.join(output_folder, f"{base_name}_log.txt")
-    os.rename(log_file, txt_file_path)
+    with open(log_file, 'r', encoding='utf-8') as log_file:
+        with open(txt_file_path, 'w', encoding='utf-8') as txt_file:
+            txt_file.write(log_file.read())
+
 
 def extract_log_data(folder_path, output_folder):
     # Extract data from all log files in the specified folder
