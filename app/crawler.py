@@ -22,6 +22,10 @@ import os
 from pathlib import Path
 import pickle
 
+import random
+
+from entities_detector import detect_pii_entities_in_text, Entity
+
 
 def save_dict_as_pickle(labels, filename):
     with open(filename, "wb") as handle:
@@ -29,19 +33,28 @@ def save_dict_as_pickle(labels, filename):
 
 
 def classifier(file_path):
+    print('opening file', file_path)
+    text = read_file_as_text(file_path)
+
+    entities = detect_pii_entities_in_text(text)
+
+    label = decide_label_from_entities(entities)
+    
+    return label
+
+def read_file_as_text(file_path) -> str:
     # Check the data type
     if file_path.suffix == ".txt":
         # Open the file to read out the content
         with open(file_path) as f:
             file_content = f.read()
-            # If the file contains the word "hello" label it as true
-            if file_content.find("hello") != -1:
-                return "True"
-            else:
-                return "False"
+           
+        return file_content
     else:
-        # If it is not a `.txt` file the set the label to "review"
-        return "review"
+        return ''
+
+def decide_label_from_entities(entities: list[str]) -> str:
+    return random.choice(["True", "False", "review"])
 
 
 def main():
