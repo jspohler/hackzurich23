@@ -23,6 +23,7 @@ from pathlib import Path
 import pickle
 import funcs
 
+
 def save_dict_as_pickle(labels, filename):
     with open(filename, "wb") as handle:
         pickle.dump(labels, handle, protocol=pickle.HIGHEST_PROTOCOL)
@@ -39,7 +40,7 @@ def classifier(file_path):
     elif file_path.suffix == ".txt":
         with open(file_path) as f:
             text = f.read()
-        return funcs.iban_regex(text)
+        return funcs.NER(text)
 
     else:
         return 'Review'
