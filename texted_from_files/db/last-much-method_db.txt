@@ -1,0 +1,72 @@
+last-much-method
+employees
+1		dr..alexandre.mayer@hotmail.com		
+2				
+3				
+4		agata.bernasconi.wirz@yahoo.com		
+5				CH4536235953728896165
+6				CH5773714708253398147
+7				
+8		irmgard.wettstein.gfeller@gmail.com		
+9		dr..ana.schärer@yahoo.com		
+10		noah.fankhauser@yahoo.com		
+11	Jovana Graf			
+12			Hugstrasse 55
+4941 Spiez	
+13				CH3644285308099759817
+sqlite_sequence
+employees	13
+last-much-method
+employees
+1		dr..alexandre.mayer@hotmail.com		
+2				
+3				
+4		agata.bernasconi.wirz@yahoo.com		
+5				CH4536235953728896165
+6				CH5773714708253398147
+7				
+8		irmgard.wettstein.gfeller@gmail.com		
+9		dr..ana.schärer@yahoo.com		
+10		noah.fankhauser@yahoo.com		
+11	Jovana Graf			
+12			Hugstrasse 55
+4941 Spiez	
+13				CH3644285308099759817
+sqlite_sequence
+employees	13
+last-much-method
+employees
+1		dr..alexandre.mayer@hotmail.com		
+2				
+3				
+4		agata.bernasconi.wirz@yahoo.com		
+5				CH4536235953728896165
+6				CH5773714708253398147
+7				
+8		irmgard.wettstein.gfeller@gmail.com		
+9		dr..ana.schärer@yahoo.com		
+10		noah.fankhauser@yahoo.com		
+11	Jovana Graf			
+12			Hugstrasse 55
+4941 Spiez	
+13				CH3644285308099759817
+sqlite_sequence
+employees	13
+last-much-method
+employees
+1		dr..alexandre.mayer@hotmail.com		
+2				
+3				
+4		agata.bernasconi.wirz@yahoo.com		
+5				CH4536235953728896165
+6				CH5773714708253398147
+7				
+8		irmgard.wettstein.gfeller@gmail.com		
+9		dr..ana.schärer@yahoo.com		
+10		noah.fankhauser@yahoo.com		
+11	Jovana Graf			
+12			Hugstrasse 55
+4941 Spiez	
+13				CH3644285308099759817
+sqlite_sequence
+employees	13
