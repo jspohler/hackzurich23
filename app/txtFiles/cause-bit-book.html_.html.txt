@@ -1,0 +1,77 @@
+
+Earthstar - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+Earthstar
+Peer-to-Peer
+Earthstar is a peer-to-peer (P2P) document-oriented database.
+Data Model
+Document / XML
+Query Interface
+Custom API
+Storage Model
+N-ary Storage Model (Row/Record)
+System Architecture
+Embedded
+Revision #3
+&nbsp;|&nbsp;
+Updated 06/26/2022 11:12 p.m.
+People Also Viewed
+Website
+https://earthstar-project.org/
+Source Code
+https://github.com/earthstar-project/earthstar
+Tech Docs
+https://doc.deno.land/https://deno.land/x/[email&#160;protected]/mod.ts
+Twitter
+   @earthstar_proj
+Developer
+Earthstar Project
+Country of Origin
+US
+Start Year
+2020
+https://github.com/earthstar-project/earthstar/commit/cfcbc11e100cba474d9b097c6929978be6a53956
+Former Name
+keywing
+Project Type
+Academic, Open Source
+Written in
+TypeScript
+Embeds / Uses
+SQLite
+Licenses
+LGPL v3
+Revision #3
+&nbsp;|&nbsp;
+Updated 06/26/2022 11:12 p.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

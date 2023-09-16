@@ -1,0 +1,169 @@
+
+OrientDB - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+OrientDB
+OrientDB is a multi-model NoSQL DBMS that supports of graph, documents, key-value, and object-oriented storage. Instead of just implementing another layer with an API, OrientDB integrates those models. It also supports both disk-oriented and in-memory storages. Moreover, OrientDB supports SQL syntax with few differences from standard SQL and extends SQL syntax to support graph concepts. It is also an ACID compliant DBMS and able to handle transactional workloads. OrientDB supports a multi-master distributed architecture.
+http://orientdb.com/docs/3.1.x/misc/Overview.html
+http://orientdb.com/docs/3.1.x/gettingstarted/Tutorial-SQL.html
+History
+OrientDB was originally developed by Luca Garulli in 2010. Luca rewrote the fast persistent layer of OrientDB ODBMS in Java as OrientDB. Starting from 2012, OrientDB is sponsored by OrientDB LTD, whose founder and CEO is Luca. OrientDB LTD is a for-profit company, whose former is called Orient Technologies LTD. Andrey Lomakin redeveloped the storage engine of OrientDB, called plocal, from 2012 to 2014. In 2013, Andrey joined the company as the co-owner and the leader of R&amp;D department of OrientDB LTD. On Sep. 19 2017, Callidus Software Inc., also called CallidusCloud acquired OrientDB LTD. On January 30 2018, CallidusCloud and consequently OrientDB was acquired by SAP SE.
+https://en.wikipedia.org/wiki/OrientDB
+https://orientdb.com/calliduscloud-acquires-orientdb-the-leading-multi-model-database-technology/
+Checkpoints
+Consistent
+OrientDB supports full checkpointing. It is a simple disk cache flush, which means it flushes all the content in disk cache to the disk when full checkpointing is invoked. Users can set custom time stamps to perform full checkpointing in those scenarios during the configuration of storage engine.
+http://orientdb.com/docs/3.1.x/internals/plocal-storage-engine.html
+Compression
+Naïve (Record-Level)
+OrientDB supports record-level compression. The records will be decompressed when they are loaded from the storage engine. The compression includes two types of algorithms: gzip and snappy. The default is no compression. Users can set compression choices using SQL syntax or in the configuration of storage engine. Users can also define custom compression algorithms.
+http://orientdb.com/docs/3.1.x/sql/SQL-Alter-Cluster.html
+Concurrency Control
+Multi-version Concurrency Control (MVCC)
+OrientDB applies Multi-version Concurrency Control and checks integrity constraints on commit. It is optimistic and OrientDB does not support pessimistic transactions. When a transaction has a conflict with another, OrientDB will throw an exception and the application can determine whether to abort it or not. With Graph, OrientDB provides three consistency mode. The first mode, which is default, maintains consistency using transactions while the other two does not use transactions. They use a database repair operation. One runs the repair operation synchronously to the application, but the other runs the repair operation asynchronously to the application.
+http://orientdb.com/docs/3.1.x/internals/Transactions.html
+http://orientdb.com/docs/3.1.x/java/Graph-Consistency.html
+Data Model
+Key/Value
+Document / XML
+Graph
+Object-Oriented
+OrientDB is a multi-model DBMS. It supports graph, document, key-value and object-oriented models. It combines all the features of the four models into the engine rather than just implement an additional layer of APIs to support them. The graph model represents a network structures including vertices representing entities and edges showing connections among vertices. Apart from necessary properties to define vertices and edges, OrientDB allows user-defined properties for both vertices and edges. For document model, OrientDB introduces the concept "LINK" as the relationship among documents. Hence, when users refer a document, all "LINK"s defined with that document are resolved by OrientDB automatically instead of done by developers in most document DBMS.
+For key/value model, OrientDB organizes key-value pairs similar to common key-value models. The difference is that OrientDB supports richer types of values: it allows graph elements and documents as values. The object-oriented model is derived from the concept of object-oriented programming. OrientDB directly uses the concept of class in object-oriented programming to define records. It supports inheritance and polymorphism among classes.
+http://orientdb.com/docs/3.1.x/datamodeling/Tutorial-Document-and-graph-model.html
+Indexes
+B+Tree
+Hash Table
+Inverted Index (Full Text)
+OrientDB supports five index algorithms, which belong to three categories. Moreover, OrientDB allows users to define custom index engines by asking them to implement specific classes. SB-Tree index The SB-tree index is a variant of B-tree index with optimizations focusing on data insertion and long range queries. It is the default index type of OrientDB. Hash index OrientDB supports two hash index algorithms, regular hash index and auto sharding index, an implementation of distributed hash table based on Murmur3 hash function. Both index applies extendible hashing algorithm and do not support range queries. Lucene engine Apache Lucene Core is an implementation of inverted index. OrientDB provides full-text and spatial index using Lucene engine.
+OrientDB uses SQL syntax to manage indexes using a specific prefix representing indexes. OrientDB can update indexes automatically and manually. The default is manual.
+http://orientdb.com/docs/3.1.x/indexing/Indexes.html
+http://orientdb.com/docs/3.1.x/internals/Custom-Index-Engine.html
+http://orientdb.com/docs/3.1.x/indexing/Auto-Sharding-Index.html
+Isolation Levels
+Read Committed
+Repeatable Read
+OrientDB supports two isolation levels: Read Committed and Repeatable Reads. The default isolation level is Read Committed. Read Committed is the only available isolation level when transactions are performed on remote databases. Repeatable Reads is allowed only when transactions are perform on local databases and consumes more memory than Read Committed. Users can change the isolation level using Java API.
+http://orientdb.com/docs/3.1.x/internals/Transactions.html
+Joins
+Not Supported
+OrientDB does not support join syntax. It introduces the concept LINKS to represent relationships among entities. LINKS refers to the record ID and is defined as a pointer to the record. Users can traverse LINKS in order to achieve the same goal as join.
+http://orientdb.com/docs/3.1.x/sql/SQL-Introduction.html#no-joins
+Logging
+Physical Logging
+OrientDB applies Write Ahead Logging (WAL). It performs physical logging by recording changes done in pages. For every changes in each page, OrientDB records offset and length of bytes changed with before and after values in the log.
+http://orientdb.com/docs/3.1.x/internals/Write-Ahead-Log.html
+Query Compilation
+JIT Compilation
+The execution planner of query engine in OrientDB generates execution plans consisting of components (objects) in Java. It does not directly compile queries into Java bytecode. Then, OrientDB uses JVM JIT compilation. Besides, execution plans are cached to avoid regeneration for the same query.
+https://community.orientdb.org/t/questions-on-information-of-orientdb/102
+Query Execution
+Tuple-at-a-Time Model
+Vectorized Model
+OrientDB is originally designed to use iterator model. However, OrientDB allows some fetching strategies to use vectorized model. Some components in execution plans pre-fetch records in a single call and then do batch processing e.g aggregations and ORDER BY. This pattern can be considered as vectorized model.
+https://community.orientdb.org/t/questions-on-information-of-orientdb/102
+http://orientdb.com/docs/3.1.x/java/Fetching-Strategies.html
+Query Interface
+SQL
+Stored Procedures
+GraphQL
+Gremlin
+HTTP / REST
+OrientDB supports SQL syntax with some differences from SQL standard. It also extends SQL to support graph functionality. For example, it does not support joins or HAVING keyword. OrientDB also has its own concept similar to stored procedures of RDBMS. It also supports many other APIs to do queries for other data models.
+http://orientdb.com/docs/3.1.x/apis-and-drivers/
+https://orientdb.com/docs/3.0.x/sql/SQL-Introduction.html#orientdb-sql-dialect
+Storage Architecture
+Hybrid
+OrientDB supports in-memory and disk-oriented databases. It has corresponding abstractions to memory and disk storage in order to support both storage architectures. OrientDB also supports larger-than-memory databases. JVM is responsible for allocating extra space from swap.
+http://orientdb.com/docs/3.1.x/internals/Memory-storage.html
+http://orientdb.com/docs/3.1.x/internals/Paginated-Local-Storage.html
+Storage Model
+N-ary Storage Model (Row/Record)
+OrientDB uses page as a basic unit to store records. It is the N-ary storage model. Records are usually stored in two kinds of pages. The first kind of pages store metadata about records including record ID and pointers to the actual content. Each entry in the first kind of pages has fixed size. The other kind of pages store actual content of records. Each record is stored as key/value pairs in the second kind of pages.
+http://orientdb.com/docs/3.1.x/internals/Paginated-Local-Storage.html
+https://community.orientdb.org/t/questions-on-information-of-orientdb/102
+Storage Organization
+Heaps
+The pages are unordered and the size of a page is 64KB. Actual content of records are stored in pages. If the size of a record exceeds that of a page, it will be stored in multiple pages.
+https://community.orientdb.org/t/questions-on-information-of-orientdb/102/3
+Stored Procedures
+Supported
+OrientDB introduces the concept Functions similar to Stored Procedure. Users can write Functions in SQL and JavaScript. OrientDB can execute Functions in SQL, Java and REST API.
+http://orientdb.com/docs/3.1.x/admin/Functions.html
+System Architecture
+Shared-Nothing
+OrientDB supports multi-master and shared-nothing distributed architecture. OrientDB integrates the Hazelcast project in its distributed architecture. It uses Hazelcast to maintain the lifecycle of every nodes in the distributed system. OrientDB also uses Hazelcast plugin for the configuration of distributed system.
+http://orientdb.com/docs/3.1.x/distributed/Distributed-Architecture.html
+Views
+Materialized Views
+OrientDB supports materialized views. It uses the SQL syntax to create or drop views. OrientDB supports read-only and updatable materialized views. The default is read-only. For updatable materialized views, users can define time intervals to update views every certain period. Users can also manually modify views and the modification will be reflected in corresponding records. Updatable views cannot be created from aggregation.
+http://orientdb.com/docs/3.1.x/datamodeling/Concepts.html
+Revision #19
+&nbsp;|&nbsp;
+Updated 06/27/2022 11:02 p.m.
+Derivative Systems
+People Also Viewed
+Website
+https://orientdb.org/
+Source Code
+https://github.com/orientechnologies/orientdb
+Tech Docs
+https://orientdb.org/docs/
+Twitter
+   @OrientDB
+Developer
+OrientDB LTD
+Country of Origin
+GB
+Start Year
+2010
+https://en.wikipedia.org/wiki/OrientDB
+Acquired By
+SAP SE
+https://orientdb.com/calliduscloud-acquires-orientdb-the-leading-multi-model-database-technology/
+Project Type
+Commercial, Open Source
+Written in
+Java
+Supported languages
+C, C#, C++, Clojure, Elixir, Go, Groovy, Java, JavaScript, Perl, PHP, Python, Ruby, Scala
+Operating Systems
+All OS with Java VM
+Licenses
+Apache v2
+Wikipedia
+https://en.wikipedia.org/wiki/OrientDB
+Revision #19
+&nbsp;|&nbsp;
+Updated 06/27/2022 11:02 p.m.
+Derivative Systems
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

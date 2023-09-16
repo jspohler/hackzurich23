@@ -1,0 +1,61 @@
+
+OctopusDB - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+OctopusDB
+OctopusDB is an academic project to build a DBMS that can automatically evolve its storage and execution architecture over time based on the application's workload.
+Revision #1
+&nbsp;|&nbsp;
+Updated 09/21/2018 12:02 p.m.
+People Also Viewed
+ KingDB
+IBAN:2627931482420337616
+Email:joshua.herrera@proton.ch
+Name:Joshua Herrera
+Website
+https://bigdata.uni-saarland.de/projects/octopusdb.php
+Developer
+Saarland University
+Country of Origin
+DE
+Start Year
+2010
+https://bigdata.uni-saarland.de/publications/Jin10.pdf
+End Year
+2014
+Project Type
+Academic
+Revision #1
+&nbsp;|&nbsp;
+Updated 09/21/2018 12:02 p.m.
+People Also Viewed
+ KingDB
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

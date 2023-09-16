@@ -1,0 +1,64 @@
+
+Dydra - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+Dydra
+Dydra is a cloud-hosted graph database service.
+Data Model
+Triplestore (RDF)
+Revision #4
+&nbsp;|&nbsp;
+Updated 01/03/2022 9:32 p.m.
+People Also Viewed
+Website
+http://dydra.com/
+Tech Docs
+http://docs.dydra.com/
+Twitter
+   @dydradata
+Developer
+Datagraph, Inc.
+Country of Origin
+DE
+Start Year
+2010
+https://www.crunchbase.com/organization/dydra
+Project Type
+Commercial
+Operating Systems
+Hosted
+Licenses
+Proprietary
+Revision #4
+&nbsp;|&nbsp;
+Updated 01/03/2022 9:32 p.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

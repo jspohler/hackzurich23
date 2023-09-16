@@ -1,0 +1,64 @@
+
+AnzoGraph - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+AnzoGraph
+AnzoGraph is an in-memory distributed graph DBMS designed for analytics.
+Data Model
+Graph
+Query Interface
+SPARQL
+Storage Architecture
+In-Memory
+Revision #3
+&nbsp;|&nbsp;
+Updated 01/02/2022 8:27 p.m.
+People Also Viewed
+Website
+https://www.cambridgesemantics.com/product/anzograph/
+Twitter
+   @CamSemantics
+Developer
+Cambridge Semantics Inc.
+Country of Origin
+US
+Start Year
+2007
+https://www.bloomberg.com/research/stocks/private/snapshot.asp?privcapId=108538173
+Project Type
+Commercial
+Licenses
+Proprietary
+Revision #3
+&nbsp;|&nbsp;
+Updated 01/02/2022 8:27 p.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

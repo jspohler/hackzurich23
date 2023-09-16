@@ -1,0 +1,58 @@
+
+tinySQL - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+tinySQL
+Revision #1
+&nbsp;|&nbsp;
+Updated 05/12/2018 3:51 p.m.
+People Also Viewed
+Website
+http://priede.bf.lu.lv/ftp/pub/DatuBazes/tinySQL/tinySQL.htm
+Source Code
+https://sourceforge.net/projects/tinysql/
+Developer
+Brian Jepson
+Country of Origin
+US
+Start Year
+2003
+End Year
+2007
+Project Type
+Open Source
+Written in
+Java
+Revision #1
+&nbsp;|&nbsp;
+Updated 05/12/2018 3:51 p.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

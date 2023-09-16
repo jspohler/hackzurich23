@@ -1,0 +1,128 @@
+
+ActivePivot - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+ActivePivot
+ActivePivot is a distributed, in-memory DBMS designed for HTAP workloads, which supports real-time data streams and continuous queries. It uses a columnar storage architecture with dictionary compression and binary representation of Java objects. The system can also materialize OLAP cubes, constructed with compressed columns, for analyzing multidimensional data.
+https://activeviam.com/images/pdf/white-papers/ActiveViam_Technical_White_Paper_-_ActivePivot.pdf
+History
+ActivePivot is one of the core products of the French company ActiveViam -- once known as Quartet FS, which was founded in 2005. The companies primary customers are banks and other financial institutions, so there is an emphasis on support for real-time data streams and continuous queries.
+https://activeviam.com/images/pdf/white-papers/ActiveViam_White_Paper_-_FRTB.pdf
+Checkpoints
+Not Supported
+https://docs.google.com/document/d/1vFpmaAQWanhKRyMGBB049Y4rg7FmzlOkva3MTLs09YU/edit?usp=sharing
+Compression
+Dictionary Encoding
+ActivePivot uses both dictionary encoding and Java primitives for compression. 
+Dictionary Compression: When there is a small number of distinct values for an attribute, the attributes can be encoded into an integer from 1 to N where N denotes the total number of distinct values by using a dictionary that stores the distinct values.
+Java Primitives: Instead of storing integers as Java Integer objects, ActivePivot stores these as primitives. The number of bits stored for each number is based on the range of possible values. For example, if the values in a column are given to be between 0 and 256 then the system would only store 8 bits per number. This form of compression can be combined with dictionary compression
+https://activeviam.com/images/pdf/white-papers/ActiveViam_Technical_White_Paper_-_ActivePivot.pdf
+Concurrency Control
+Multi-version Concurrency Control (MVCC)
+The system allows for multiple versions of a database using delta storage to keep track of different versions. For example, there can be one version that continuously gathers incoming data, and another version from an earlier point in time for analysis.
+https://activeviam.com/images/pdf/white-papers/ActiveViam_Technical_White_Paper_-_ActivePivot.pdf
+Data Model
+Relational
+Both relational tables and multidimensional OLAP cubes are used for organizing the data.
+https://docs.google.com/document/d/1vFpmaAQWanhKRyMGBB049Y4rg7FmzlOkva3MTLs09YU/edit?usp=sharing
+Foreign Keys
+Supported
+https://docs.google.com/document/d/1vFpmaAQWanhKRyMGBB049Y4rg7FmzlOkva3MTLs09YU/edit?usp=sharing
+Hardware Acceleration
+Custom
+ActivePivot provides support for multi-core processing and non-uniform memory access architectures. SIMD instructions can be used in accelerating operations such as column scans and aggregations.
+https://activeviam.com/images/pdf/white-papers/ActiveViam_Technical_White_Paper_-_ActivePivot.pdf
+Indexes
+BitMap
+ActivePivot uses bitmap indexing for multidimensional cubes and supports primary and secondary indexes for relational tables.
+https://activeviam.com/images/pdf/white-papers/ActiveViam_Technical_White_Paper_-_ActivePivot.pdf
+Isolation Levels
+Snapshot Isolation
+https://docs.google.com/document/d/1vFpmaAQWanhKRyMGBB049Y4rg7FmzlOkva3MTLs09YU/edit?usp=sharing
+Logging
+Not Supported
+https://docs.google.com/document/d/1vFpmaAQWanhKRyMGBB049Y4rg7FmzlOkva3MTLs09YU/edit?usp=sharing
+Parallel Execution
+Intra-Operator (Horizontal)
+When a server receives a query, it also sends the query out to the other servers. Once it receives a response from all the servers it aggregates all of the information and returns the result.
+https://activeviam.com/images/pdf/white-papers/ActiveViam_Technical_White_Paper_-_ActivePivot.pdf
+Query Compilation
+JIT Compilation
+The Java JIT compiler is responsible for handling the compilation of Multidimensional Expression (MDX) queries. MDX queries are similar in syntax to SQL queries, but they serve a different purpose. While SQL queries operate on tables which are two dimensional, MDX queries operate on OLAP cubes, which can support many dimensions. Some other operations are compiled directly into Java byte code.
+https://docs.google.com/document/d/1vFpmaAQWanhKRyMGBB049Y4rg7FmzlOkva3MTLs09YU/edit?usp=sharing
+Query Interface
+Custom API
+ActivePivot supports queries through Multidimensional Expressions (MDX) either through ActiveUI or any another MDX-compliant interface.
+https://activeviam.com/images/pdf/white-papers/ActiveViam_Technical_White_Paper_-_ActivePivot.pdf
+https://www.activeviam.com/activepivot/5.8.5/docs/mdx/mdx_functions.html
+Storage Architecture
+In-Memory
+The system takes advantage of non-uniform memory access (NUMA) by partitioning the tables based upon the number of CPU cores available on servers.
+https://activeviam.com/images/pdf/white-papers/ActiveViam_Technical_White_Paper_-_ActivePivot.pdf
+https://docs.google.com/document/d/1vFpmaAQWanhKRyMGBB049Y4rg7FmzlOkva3MTLs09YU/edit
+Storage Model
+Decomposition Storage Model (Columnar)
+Data is stored in columns in memory, DRAM or flash, with no additional row-based storage.
+https://activeviam.com/images/pdf/white-papers/ActiveViam_Technical_White_Paper_-_ActivePivot.pdf
+https://docs.google.com/document/d/1vFpmaAQWanhKRyMGBB049Y4rg7FmzlOkva3MTLs09YU/edit?usp=sharing
+System Architecture
+Shared-Nothing
+All servers act independently and do not have access to the information contained on other servers. Data can be distributed between servers based on the values of a given attribute. For example, if one of the attributes is city then the data can be distributed based on geographic regions.
+https://activeviam.com/images/pdf/white-papers/ActiveViam_Technical_White_Paper_-_ActivePivot.pdf
+Views
+Materialized Views
+The system supports materialized views for both OLAP cubes and continuous queries. Views can be materialized on a subset of dimensions for the OLAP cube. For continuous queries, the materialized view of the result is updated alongside changes to the underlying data.
+https://docs.google.com/document/d/1vFpmaAQWanhKRyMGBB049Y4rg7FmzlOkva3MTLs09YU/edit?usp=sharing
+Revision #8
+&nbsp;|&nbsp;
+Updated 01/02/2022 8:44 p.m.
+People Also Viewed
+Website
+https://activeviam.com/en/products/activepivot-in-memory-analytical-database
+Tech Docs
+https://www.activeviam.com/activepivot
+Twitter
+   @ActiveViam
+Developer
+ActiveViam
+Country of Origin
+FR
+Project Type
+Commercial
+Written in
+Java
+Licenses
+Proprietary
+Revision #8
+&nbsp;|&nbsp;
+Updated 01/02/2022 8:44 p.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });
