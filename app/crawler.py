@@ -22,9 +22,9 @@ import os
 from pathlib import Path
 import pickle
 
-import random
-
 from entities_detector import detect_pii_entities_in_text, Entity
+
+from decide_label import decide_label_from_entities
 
 
 def save_dict_as_pickle(labels, filename):
@@ -52,9 +52,6 @@ def read_file_as_text(file_path) -> str:
         return file_content
     else:
         return ''
-
-def decide_label_from_entities(entities: list[str]) -> str:
-    return random.choice(["True", "False", "review"])
 
 
 def main():

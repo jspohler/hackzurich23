@@ -3,7 +3,7 @@ from pathlib import Path
 import os
 
 # Get the path of the directory where this script is in
-script_dir_path = os. getcwd() 
+script_dir_path = os.getcwd() 
 # Get the path containing the files that we want to label
 
 from transformers import AutoModelForTokenClassification, AutoTokenizer
@@ -20,7 +20,7 @@ tokenizer = AutoTokenizer.from_pretrained(pretrained_path, local_files_only=True
 model = AutoModelForTokenClassification.from_pretrained(pretrained_path, local_files_only=True)
 
 # ner = pipeline("ner", grouped_entities=True)
-ner = pipeline(task="ner", model=model, tokenizer=tokenizer, grouped_entities=True)
+ner = pipeline(task="ner", model=model, tokenizer=tokenizer)
 
 def detect_pii_entities_in_text(text: str) -> list[str]:
     result = set()
