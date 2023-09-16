@@ -22,7 +22,7 @@ model = AutoModelForTokenClassification.from_pretrained(pretrained_path, local_f
 # ner = pipeline("ner", grouped_entities=True)
 ner = pipeline(task="ner", model=model, tokenizer=tokenizer)
 
-def detect_pii_entities_in_text(text: str) -> list[str]:
+def detect_pii_entities_in_text_ner(text: str) -> list[str]:
     result = set()
     entities = ner(text)
     for entity in entities:
@@ -31,3 +31,15 @@ def detect_pii_entities_in_text(text: str) -> list[str]:
 
     return list(result)
 
+def detect_pii_entities_in_text_spicy(text: str) -> list[str]:
+    return []
+
+def detect_pii_entities_in_text_regex(text: str) -> list[str]:
+    return []
+
+def detect_pii_entities_in_text(text: str) -> list[str]:
+    ner_entitites = detect_pii_entities_in_text_ner(text)
+    regex_entities = detect_pii_entities_in_text_regex(text)
+    spicy_entities = detect_pii_entities_in_text_spicy
+
+    return list(set(ner_entitites + regex_entities + spicy_entities))
