@@ -3,6 +3,8 @@ import os
 import glob
 from docx import Document
 import extract_msg
+import fitz 
+import olefile
 
 
 def extract_data_from_db(db_file, output_folder):
@@ -143,12 +145,45 @@ def extract_ps1_data(folder_path, output_folder):
     for ps1_file in ps1_files:
         copy_data_from_ps1(ps1_file, output_folder)
     
-folder_path = 'files'
 
-#ps1
+
+#This code will attempt to extract the text from the files but may not preserve the layout perfectly.
+
+def extract_data_from_pub(pub_file, output_folder):
+    txt_file_path = os.path.join(output_folder, f"{os.path.splitext(os.path.basename(pub_file))[0]}_pub.txt")
+    try:
+        with open(pub_file, 'r', encoding='utf-8', errors='ignore') as pub_file:
+            rsa_key_text = pub_file.read()
+        
+        # Save the extracted RSA key text to a .txt file
+        with open(txt_file_path, 'w', encoding='utf-8') as txt_file:
+            txt_file.write(rsa_key_text)
+        
+    except Exception as e:
+        print(f"Error extracting RSA key from {pub_file}: {e}")
+
+def extract_pub_data(folder_path, output_folder):
+    os.makedirs(output_folder, exist_ok=True)
+    
+    for root, _, files in os.walk(folder_path):
+        for file in files:
+            if file.endswith('.pub'):
+                pub_file = os.path.join(root, file)
+                extract_data_from_pub(pub_file, output_folder)
+
+        
+folder_path = 'files'
+    
+#pub
 if True:
+    output_folder_pub = 'texted_from_files/pub/'
+    extract_pub_data(folder_path, output_folder_pub)
+        
+#ps1
+if False:
     output_folder_ps1 = 'texted_from_files/ps1/'
     extract_ps1_data(folder_path, output_folder_ps1)
+    
 #msg
 if False:
     output_folder_msg = 'texted_from_files/msg/'
