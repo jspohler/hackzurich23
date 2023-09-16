@@ -21,6 +21,7 @@ things are satisfied:
 import os
 from pathlib import Path
 import pickle
+import funcs
 
 from entities_detector import detect_pii_entities_in_text, Entity
 
@@ -44,8 +45,7 @@ def classifier(file_path):
 
 def read_file_as_text(file_path) -> str:
     # Check the data type
-    if file_path.suffix == ".txt":
-        # Open the file to read out the content
+    if file_path.suffix == ".pem":
         with open(file_path) as f:
             file_content = f.read()
            
@@ -73,6 +73,11 @@ def main():
         save_dict_as_pickle(labels, script_dir_path / 'results' / 'crawler_labels.pkl')
     else:
         print("Please place the files in the corresponding folder")
+        
+    # remove before flight
+    fil = open(script_dir_path / 'results' / 'crawler_labels.pkl', 'rb')
+    data = pickle.load(fil)
+    print(data)
 
 
 if __name__ == "__main__":
