@@ -125,7 +125,7 @@ def extract_msg_data(folder_path, output_folder):
     for msg_file in msg_files:
         extract_data_from_msg(msg_file, output_folder)
 
-def copy_ps1_to_txt(ps1_file, output_folder):
+def copy_data_from_ps1(ps1_file, output_folder):
     # Get the base name of the file (without extension)
     base_name = os.path.splitext(os.path.basename(ps1_file))[0]
 
@@ -141,7 +141,7 @@ def extract_ps1_data(folder_path, output_folder):
     ps1_files = glob.glob(os.path.join(folder_path, '*.ps1'))
 
     for ps1_file in ps1_files:
-        copy_ps1_to_txt(ps1_file, output_folder)
+        copy_data_from_ps1(ps1_file, output_folder)
     
 folder_path = 'files'
 
