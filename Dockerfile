@@ -29,6 +29,9 @@ WORKDIR ..
 
 RUN python -m spacy download en_core_web_lg
 
+
+RUN apt-get update && apt-get install -y tesseract-ocr
+
 COPY app/requirements.txt /app/
 WORKDIR /app
 RUN pip install --upgrade pip

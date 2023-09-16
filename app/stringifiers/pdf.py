@@ -4,7 +4,6 @@ from PIL import Image
 from pytesseract import pytesseract
 
 def extract_data(file_path):
-    return ''
     pdf_file = fitz.open(file_path)
     pdf_text = ""
     for page_index in range(len(pdf_file)):
@@ -23,7 +22,7 @@ def extract_data(file_path):
                 # dict_keys(['ext', 'smask', 'width', 'height', 'colorspace', 'bpc', 'xres', 'yres', 'cs-name', 'image'])
                 # Load it to PIL
                 image = Image.open(io.BytesIO(image_bytes))
-                pytesseract.tesseract_cmd = 'C:/Users/Anything/Desktop/HackZurich/tesseract/tesseract.exe'
+                pytesseract.tesseract_cmd = 'tesseract'
                 img_text = pytesseract.image_to_string(image)
                 if img_text != "":
                     pdf_text += img_text

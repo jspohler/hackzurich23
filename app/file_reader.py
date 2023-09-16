@@ -3,8 +3,6 @@ import os
 import glob
 from docx import Document
 import extract_msg
-import fitz 
-import olefile
 import markdown
 import re
 import ast

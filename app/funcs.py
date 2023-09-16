@@ -43,7 +43,7 @@ def phone_number_regex(text):
     for match in matches:
         if len(match) > 8:
             phone_numbers.append(match)
-    print(phone_numbers)
+    # print(phone_numbers)
 
     if phone_numbers != []: 
         return True
@@ -77,13 +77,13 @@ def NER(text: str) -> list[str]:
 
         for ent in doc.ents:
             if ent.label_ == "PERSON":
-                print(ent.text)
+                # print(ent.text)
                 # Check if the entity contains a space (indicating a full name)
                 if " " in ent.text:
                     full_names.append(ent.text)
                     result.add(Entity.PERSON)
             elif ent.label_ == "ORG":
-                print(ent.text)
+                # print(ent.text)
                 org.append(ent.text)
                 result.add(Entity.ORGANIZATION)
             else:
@@ -93,9 +93,9 @@ def NER(text: str) -> list[str]:
         # for match_id, start, end in matches:
         #     span = doc[start:end]
         #     print(span.text
-    print('---')
-    print(full_names)
-    print(emails)
+    # print('---')
+    # print(full_names)
+    # print(emails)
     # print(phones)
 
     return list(result)

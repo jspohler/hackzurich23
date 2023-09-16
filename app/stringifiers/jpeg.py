@@ -5,7 +5,7 @@ import os
 
 def extract_data(file_path):
     content = ''
-    pytesseract.tesseract_cmd = 'C:/Users/Anything/Desktop/HackZurich/tesseract/tesseract.exe'
+    pytesseract.tesseract_cmd = 'tesseract'
 
     img = Image.open(file_path)
     content = pytesseract.image_to_string(img)
