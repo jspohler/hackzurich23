@@ -9,10 +9,6 @@ script_dir_path = os.getcwd()
 from transformers import AutoModelForTokenClassification, AutoTokenizer
 import os
 
-from enum import Enum
-
-Entity = Enum('Entity', ['AGE', 'CARD_CVV', 'COMMUNITY', 'COUNTRY', 'CREDIT_CARD', 'DATE_OF_BIRTH', 'EMAIL_ADDRESS', 'GENDER', 'GREEN_CARD', 'IDEOLOGY', 'MARITAL_STATUS', 'NATIONALITY', 'NUMBER', 'OCCUPATION', 'ORGANIZATION', 'ORIENTATION', 'PERSON', 'PHONE_NUMBER', 'PHYSICAL_LOCATION', 'POLITICAL_PARTY', 'RELIGION', 'SKILL_SET', 'TITLE', 'US_BANK_ACCOUNT', 'US_PASSPORT', 'US_SSN', 'YEAR'])
-
 pretrained_path = os.path.join(script_dir_path, "..", "roberta_ner_personal_info")
 
 
@@ -27,19 +23,21 @@ def detect_pii_entities_in_text_ner(text: str) -> list[str]:
     entities = ner(text)
     for entity in entities:
         if entity['score'] > 0.5 and len(entity['word']) > 1:
-            result.add(entity['entity_group'])
+            print(entity)
+            result.add(entity['entity'][2:])
 
+    print("NER V results:", list(result))
     return list(result)
 
-def detect_pii_entities_in_text_spicy(text: str) -> list[str]:
-    return []
 
-def detect_pii_entities_in_text_regex(text: str) -> list[str]:
-    return []
+from funcs import NER
+
+def detect_pii_entities_in_text_spacy(text: str) -> list[str]:
+    return NER(text)
+
 
 def detect_pii_entities_in_text(text: str) -> list[str]:
     ner_entitites = detect_pii_entities_in_text_ner(text)
-    regex_entities = detect_pii_entities_in_text_regex(text)
-    spicy_entities = detect_pii_entities_in_text_spicy
+    spacy_entities = detect_pii_entities_in_text_spacy(text)
 
-    return list(set(ner_entitites + regex_entities + spicy_entities))
+    return list(set(ner_entitites  + spacy_entities))

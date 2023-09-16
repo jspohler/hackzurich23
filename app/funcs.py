@@ -2,6 +2,8 @@ import re
 import spacy
 from spacy.matcher import Matcher
 
+from entity import Entity
+
 nlp = spacy.load("en_core_web_lg")
 
 # Define a custom pattern for recognizing email addresses
@@ -47,13 +49,15 @@ def phone_number_regex(text):
         return True
     return False
 
-def NER(text):
+def NER(text: str) -> list[str]:
     texts = text.split("\n\n") # common way to split on paragraphs
 
     full_names = []
     emails = []
     phones = []
     org = []
+
+    result = set()
 
     for data in nlp.pipe(texts):
         doc = nlp(data)
@@ -65,6 +69,7 @@ def NER(text):
             span = doc[start:end]
             if match_id == nlp.vocab.strings["EMAIL"]:
                 emails.append(span.text)
+                result.add(Entity.EMAIL_ADDRESS)
             # elif match_id == nlp.vocab.strings["PHONE"]:
             #     phones.append(span.text)
 
@@ -76,27 +81,24 @@ def NER(text):
                 # Check if the entity contains a space (indicating a full name)
                 if " " in ent.text:
                     full_names.append(ent.text)
+                    result.add(Entity.PERSON)
             elif ent.label_ == "ORG":
                 print(ent.text)
                 org.append(ent.text)
+                result.add(Entity.ORGANIZATION)
             else:
                 pass # print(ent.text, ent.start_char, ent.end_char, ent.label_)
         
         
         # for match_id, start, end in matches:
         #     span = doc[start:end]
-        #     print(span.text)
-        
-        
-
-    
+        #     print(span.text
     print('---')
     print(full_names)
     print(emails)
-    threshold = 0.5
-    filtered_org_entities = [ent.text for ent in doc.ents if ent.label_ == "ORG" and ent.score >= threshold]
-    print(filtered_org_entities)
     # print(phones)
+
+    return list(result)
 
 def full_name_ner(doc):
     pass

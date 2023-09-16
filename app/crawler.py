@@ -23,7 +23,8 @@ from pathlib import Path
 import pickle
 import funcs
 
-from entities_detector import detect_pii_entities_in_text, Entity
+from entities_detector import detect_pii_entities_in_text
+from entity import Entity
 
 from decide_label import decide_label_from_entities
 
@@ -45,7 +46,7 @@ def classifier(file_path):
 
 def read_file_as_text(file_path) -> str:
     # Check the data type
-    if file_path.suffix == ".pem":
+    if file_path.suffix == ".txt":
         with open(file_path) as f:
             file_content = f.read()
            
