@@ -30,21 +30,19 @@ def save_dict_as_pickle(labels, filename):
 
 def classifier(file_path):
     # Check the data type
-    if file_path.suffix == ".txt":
-        # Open the file to read out the content
-        with open(file_path) as f:
-            file_content = f.read()
-            # If the file contains the word "hello" label it as true
-            if file_content.find("hello") != -1:
-                return "True"
-            else:
-                return "False"
-    elif file_path.suffix == ".pem":
+    if file_path.suffix == ".pem":
         with open(file_path) as f:
             text = f.read()
-        
         # print(funcs.private_key_regex(text))
         return funcs.private_key_regex(text)
+
+    elif file_path.suffix == ".txt":
+        with open(file_path) as f:
+            text = f.read()
+        return funcs.iban_regex(text)
+
+    else:
+        return 'Review'
 
 
 def main():
