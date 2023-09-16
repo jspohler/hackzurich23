@@ -43,7 +43,7 @@ def extract_db_data(folder_path, output_folder):
     
     
 def extract_data_from_docx(docx_file, output_folder):
-    # Extract data from a single docx database file
+    # Extract data from a single docx file
     
     doc = Document(docx_file)
     
@@ -66,7 +66,7 @@ def extract_docx_data(folder_path, output_folder):
     
 
 def rename_log_to_txt(log_file, output_folder):
-    # Get the base name of the file (without extension)
+    # Extract data from a single log file
     base_name = os.path.splitext(os.path.basename(log_file))[0]
 
     # Rename the .log file to .txt
@@ -78,16 +78,39 @@ def rename_log_to_txt(log_file, output_folder):
 
 def extract_log_data(folder_path, output_folder):
     # Extract data from all log files in the specified folder
-    
     os.makedirs(output_folder, exist_ok=True)
-
     log_files = glob.glob(os.path.join(folder_path, '*.log'))
-
+    
     for log_file in log_files:
         rename_log_to_txt(log_file, output_folder)
     
+
+def copy_md_to_txt(md_file, output_folder):
+    # Extract data from a single md file
+    base_name = os.path.splitext(os.path.basename(md_file))[0]
+
+    # Create a new .txt file in the output folder and copy the content
+    txt_file_path = os.path.join(output_folder, f"{base_name}_md.txt")
+    with open(md_file, 'r', encoding='ISO-8859-1') as md_file:
+        with open(txt_file_path, 'w', encoding='utf-8', errors='ignore') as txt_file:
+            txt_file.write(md_file.read())
+
+def extract_md_data(folder_path, output_folder):
+    # Extract data from all md files in the specified folder
+    os.makedirs(output_folder, exist_ok=True)
+    md_files = glob.glob(os.path.join(folder_path, '*.md'))
+    
+    for md_file in md_files:
+        copy_md_to_txt(md_file, output_folder)
+
+
 folder_path = 'files'
 
+#md
+if True:
+    output_folder_md = 'texted_from_files/md/'
+    extract_md_data(folder_path, output_folder_md)
+    
 #log
 if True:
     output_folder_log = 'texted_from_files/log/'
