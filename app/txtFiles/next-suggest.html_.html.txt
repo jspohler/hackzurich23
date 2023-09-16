@@ -1,0 +1,139 @@
+
+SwayDB - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+SwayDB
+SwayDB is an embedded, non-blocking and type-safe NoSql database under development. It can be configured for both persistent and in-memory storage. It supports normal operations for key-value stores, and additionally supports auto expiring key values. It provides a Scala and Java API. It reaches up to 600,000 writes per second for in-memory databases and up to 300,000 for persistent databases. For transactions, SwayDB only guarantees atomicity. Log-structured merge-tree is the main underlying algorithm.
+http://www.swaydb.io
+https://www.linkedin.com/in/simerplaha/?originalSubdomain=au
+History
+SwayDB project started in 2017, and had its first release in 2018. Currently, it is under beta release.
+https://twitter.com/SwayDB
+Checkpoints
+Not Supported
+No checkpoints are supported. For its in-memory implementation, no checkpointing or logging is supported. For the persistent version, it can persist its memory segments to disk, but this is used for reducing that level's storage, not for recovery.
+It has a notion of 'eventual persistent' in its documentation. It means that the database can write the memory storage to disk whenever it exceeds a threshold. This is somewhat similar to checkpointing, but it is not a full checkpoint, so the data left in memory can still be lost.
+http://www.swaydb.io/create-databases/eventually-persistent/
+Compression
+Naïve (Page-Level)
+Prefix Compression
+Segments are chunks of key-value pairs in a Log-Structured Merge Tree. Key-values within the same segment can be grouped to create sub-segments and then be compressed by specifying groupingStrategy. SwayDB supports compressing them using LZ4 and Snappy, which are open-sourced Java compression tools. Strictly-speaking, the compression is done on sub-segment level instead of page level.
+Additionally, duplicate data within index entries are always compressed. Duplicate values within same segments are also detected and compressed. All index entries are prefix-compressed with the previous index entry.
+http://www.swaydb.io/configuring-levels/groupingStrategy/
+http://www.swaydb.io/implementation/segment/file-format/
+Concurrency Control
+Not Supported
+SwayDB assumes it runs 'under a single process in a single application', as the author clarifies on Reddit. Everything is atomic in SwayDB, including transactions. The only guarantee it has on transactions is atomicity. No concurrency control is needed, and indeed it is not mentioned in docs at all.
+https://www.reddit.com/r/programming/comments/9n7t6l/swaydb_typesafe_nonblocking_backpressured/
+http://www.swaydb.io/api/write/transaction/
+Data Model
+Key/Value
+SwayDB is a key-value store, having Map[K, V] and Set[T] for data storage and providing APIs to create, read, stream, update, delete &amp; expire data. 
+Its storage components uses CRC checksums to prevent corruption of data and support recovery.
+http://www.swaydb.io/
+Foreign Keys
+Not Supported
+Indexes
+Log-Structured Merge Tree
+SwayDB organizes data in levels of segments, using the Log-Structured Merge Tree data structure. Upper levels write to lower levels in batches when it is full or the user explicitly demanded.
+Bloom Filters are used in each segment to search quickly whether a key belongs to that segment.
+http://www.swaydb.io/implementation/level/
+Isolation Levels
+Serializable
+Since every operation and transaction is atomic and runs on the same memory space, it is serializable.
+http://www.swaydb.io/
+Joins
+Not Supported
+Logging
+Physical Logging
+Write ahead logging is used for its persistent version databases. Because it is a key-value store, it does not have the notion of pages. The logs are physical logging of write operations.
+http://www.swaydb.io/implementation/map/
+Query Compilation
+Not Supported
+SwayDB is an embedded database written in Scala. It is compiled along with its Scala/Java application.
+Query Interface
+Custom API
+SwayDB is used embedded in applications. The API is in Scala with its custom APIs. A Java wrapper is also implemented for Java APIs.
+http://www.swaydb.io/api/
+https://github.com/simerplaha/SwayDB.java
+Storage Architecture
+Disk-oriented
+In-Memory
+SwayDB supports both in-memory and disk storage. For its in-memory version, it does not provide guarantee on data durability because it does not have logging. However, the user can persist the memory to disk at some time.
+For its persistent database, write-ahead logging is used for durability. Data is organized into segments on different levels, aligning to the Log-Structured Merge Tree algorithm.
+http://www.swaydb.io/
+Storage Model
+Decomposition Storage Model (Columnar)
+For the segment file format, SwayDB stores all values in the head of the file, in the same ordering as keys. Key index entries are stored after the value bytes. At the last of the file is the checksum, bloom-filter and other metadata about the segment.
+http://www.swaydb.io/implementation/segment/file-format/
+Storage Organization
+Log-structured
+Log-Structured Merge Trees are used in SwayDB. Storage are divided into different levels, corresponding to different hardware capabilities. If the upper level cannot find an entry, it will go into the next level. During a compaction, data from upper levels are pushed into lower levels, and deletion is also performed if necessary.
+http://www.swaydb.io/implementation/segment/
+Stored Procedures
+Not Supported
+System Architecture
+Embedded
+SwayDB is an embedded database.
+Views
+Not Supported
+Revision #11
+&nbsp;|&nbsp;
+Updated 01/06/2022 10:49 p.m.
+People Also Viewed
+Website
+http://www.swaydb.io/
+Source Code
+https://github.com/simerplaha/SwayDB
+Tech Docs
+http://www.swaydb.io/
+Twitter
+   @SwayDB
+Developer
+Simer Plaha
+Country of Origin
+AU
+Start Year
+2018
+https://twitter.com/SwayDB
+Project Type
+Commercial, Open Source
+Written in
+Scala
+Supported languages
+Java, Scala
+Licenses
+AGPL v3
+Revision #11
+&nbsp;|&nbsp;
+Updated 01/06/2022 10:49 p.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

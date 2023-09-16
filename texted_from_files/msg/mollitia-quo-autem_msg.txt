@@ -1,0 +1,8 @@
+Sender: None
+Recipients: paul.burri@juliusbaer.com <None>; volkan.frick@juliusbaer.com <None>
+Subject: Customer Survey
+Email Text:
+Hello Team, 
+
+The results from our latest customer satisfaction survey are in. I've attached the insights. We'll discuss in our next team meeting. Regards, Stephanie.
+

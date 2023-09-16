@@ -1,0 +1,173 @@
+
+BigchainDB - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+BigchainDB
+Blockchain
+BigchainDB is an open-source blockchain database. It is a NoSQL database that has blockchain properties such as immutability, decentralization and owner-controlled asset.
+Immutability is the property that once the data is stored in BigchainDB, it can’t be modified or erased. Decentralization means there is no single point of failure in the control and storage process of the data. The owner-controlled asset is the property that only the owner of the asset can transfer the asset. The database provides the user with Byzantine Fault Tolerance (BFT) with no more than one-third arbitrary node failures. There are two main layers in BigchainDB, the consensus layer based on Tendermint the and storage layer based on MongoDB.
+https://www.bigchaindb.com/whitepaper/bigchaindb-whitepaper.pdf
+History
+The first version of BigchainDB was published in February 2016. However, there were many issues with the initial version. For example, the system was not Byzantine Fault tolerant, and there was a single point of failure in the underlying storage database and the system supported only one logical database, which means once got the control of the database the adversary could delete the whole database. BigchainDB 2.0 was published in 2018 and solved all the issues above.
+https://www.bigchaindb.com/whitepaper/bigchaindb-whitepaper.pdf
+Checkpoints
+Consistent
+Blocking
+The consensus layer is based on Tendermint.
+Tendermint uses LevelDB as blockchain storage.
+LevelDB builds checkpoints in a blocking manner, see LevelDB for more details.
+The storage layer is based on MongoDB.
+MongoDB builds consisten checkpoints, see MongoDB for more details.
+https://www.bigchaindb.com/whitepaper/bigchaindb-whitepaper.pdf
+https://tendermint.com/docs/
+Concurrency Control
+Two-Phase Locking (Deadlock Prevention)
+Optimistic Concurrency Control (OCC)
+The consensus layer is based on Tendermint. Tendermint uses LevelDB as blockchain storage.
+LevelDB uses Two-Phase Locking with Deadlock Prevention, see LevelDB for more details.
+The storage layer on each node is based on MongoDB.
+MongoDB uses Two-Phase Locking with Deadlock Prevention and Optimistic Concurrency Control, see MongoDB for more details.
+https://www.bigchaindb.com/whitepaper/bigchaindb-whitepaper.pdf
+https://tendermint.com/docs/
+Data Model
+Key/Value
+Document / XML
+The consensus layer is based on LevelDB, see LevelDB for more details.
+The storage layer is based on MongoDB, see MongoDB for more details.
+The main data model is Document/XML.
+https://www.bigchaindb.com/whitepaper/bigchaindb-whitepaper.pdf
+Indexes
+B+Tree
+Skip List
+Log-Structured Merge Tree
+The consensus layer is based on LevelDB, see LevelDB for more details.
+The storage layer is based on MongoDB, see MongoDB for more details.
+The B+Tree is the index for main storage.
+https://www.bigchaindb.com/whitepaper/bigchaindb-whitepaper.pdf
+Isolation Levels
+Read Uncommitted
+Snapshot Isolation
+The consensus layer is based on LevelDB, see LevelDB for more details.
+The storage layer is based on MongoDB, see MongoDB for more details.
+LevelDB guarantees snapshot isolation for blockchain storage.
+MongoDB guarantees read uncommitted isolation level for main storage.
+https://www.bigchaindb.com/whitepaper/bigchaindb-whitepaper.pdf
+Joins
+Not Supported
+Logging
+Logical Logging
+Physiological Logging
+The consensus layer is based on LevelDB, see LevelDB for more details.
+The storage layer is based on MongoDB, see MongoDB for more details.
+MongoDB uses physiological logging, LevelDB uses logical logging.
+https://www.bigchaindb.com/whitepaper/bigchaindb-whitepaper.pdf
+Query Compilation
+JIT Compilation
+The consensus layer is based on LevelDB, see LevelDB for more details.
+The storage layer is based on MongoDB, see MongoDB for more details.
+MongoDB supports JIT Compilation, but there is not enough information about LevelDB.
+https://www.bigchaindb.com/whitepaper/bigchaindb-whitepaper.pdf
+Query Execution
+Tuple-at-a-Time Model
+The consensus layer is based on LevelDB, see LevelDB for more details.
+The storage layer is based on MongoDB, see MongoDB for more details.
+https://www.bigchaindb.com/whitepaper/bigchaindb-whitepaper.pdf
+Query Interface
+HTTP / REST
+BigchainDB officially provides the users with multiple programming languages including Python, JavaScript/Node.js, and Java. And there are also many community driven libraries and tools available including Haskell transaction builder, Golang and Ruby driver.
+https://www.bigchaindb.com/whitepaper/bigchaindb-whitepaper.pdf
+https://docs.bigchaindb.com/en/latest/
+Storage Architecture
+Disk-oriented
+The consensus layer is based on LevelDB, see LevelDB for more details.
+The storage layer is based on MongoDB, see MongoDB for more details.
+MongoDB supports both in-memory and disk-oriented storage, while LevelDB only supports disk-oriented storage.
+https://docs.bigchaindb.com/en/latest/
+https://www.bigchaindb.com/whitepaper/
+Storage Model
+N-ary Storage Model (Row/Record)
+Custom
+The consensus layer is based on LevelDB, see LevelDB for more details.
+The storage layer is based on MongoDB, see MongoDB for more details.
+MongoDB supports custom storage model. LevelDB uses N-ary Storage Model.
+https://www.bigchaindb.com/whitepaper/
+Storage Organization
+Log-structured
+The consensus layer is based on LevelDB, see LevelDB for more details.
+The storage layer is based on MongoDB, see MongoDB for more details.
+There is not enough information about MongoDB. LevelDB uses log-structured storage organization.
+https://www.bigchaindb.com/whitepaper/
+Stored Procedures
+Not Supported
+https://www.bigchaindb.com/whitepaper/
+System Architecture
+Shared-Nothing
+BigchainDB 2.0 has two layers, the consensus layer, and the storage layer. Each node runs its own MongoDB database as the storage layer and uses Tendermint consensus protocol to communicate with each other. Each node maintains its own MongoDB database to store the structured data and handle queries, it also maintains a LevelDB key-value store to keep the blockchain and support the consensus protocol.
+Each transaction is proposed by the proposer in each round, and the changes are not committed to the underlying MongoDB until it is settled on the blockchain. The Tendermint protocol can guarantee the BFT under at most one-third arbitrary node failures.
+https://www.bigchaindb.com/whitepaper/
+Views
+Virtual Views
+The consensus layer is based on LevelDB, see LevelDB for more details.
+The storage layer is based on MongoDB, see MongoDB for more details.
+MongoDB supports virtual views. LevelDB does not support views.
+https://www.bigchaindb.com/whitepaper/
+Revision #21
+&nbsp;|&nbsp;
+Updated 06/26/2022 11:56 p.m.
+People Also Viewed
+Website
+https://www.bigchaindb.com/
+Source Code
+https://github.com/bigchaindb/bigchaindb
+Tech Docs
+https://docs.bigchaindb.com/en/latest/
+Twitter
+   @BigchainDB
+Developer
+BigchainDB GmbH
+Country of Origin
+DE
+Start Year
+2015
+https://www.bigchaindb.com/about/
+Project Type
+Commercial, Open Source
+Written in
+Python
+Supported languages
+JavaScript, Python
+Licenses
+Apache v2
+Revision #21
+&nbsp;|&nbsp;
+Updated 06/26/2022 11:56 p.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

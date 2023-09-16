@@ -1,0 +1,74 @@
+
+P*TIME - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+P*TIME
+OLTP
+P*TIME ("Parallel* Transact-In-Memory Engine") is an in-memory relational database management system designed for real-time acquisition and analysis of update-intensive stream workloads.
+http://dl.acm.org/citation.cfm?id=1316778
+History
+P*TIME was acquired by SAP in 2005. It was then integrated as the transactional catalog system in SAP HANA.
+http://www.scmfocus.com/saphana/2017/08/03/hasso-plattner-students-invent-hana/
+Data Model
+Relational
+Logging
+Physical Logging
+P*TIME uses a fine-grain differential logging technique to allow for fast recovery of the entire database in memory.
+https://15721.courses.cs.cmu.edu/spring2018/papers/12-logging/lee-icde2001.pdf
+Storage Architecture
+In-Memory
+Revision #5
+&nbsp;|&nbsp;
+Updated 06/27/2022 1:42 p.m.
+Derivative Systems
+People Also Viewed
+ Haixun
+Website
+http://ptime.com/
+Developer
+Transact In Memory, Inc.
+Country of Origin
+KR
+Start Year
+2000
+Acquired By
+SAP
+Project Type
+Commercial
+Licenses
+Proprietary
+Revision #5
+&nbsp;|&nbsp;
+Updated 06/27/2022 1:42 p.m.
+Derivative Systems
+People Also Viewed
+ Haixun
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

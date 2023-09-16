@@ -1,0 +1,73 @@
+
+Quokka - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+Quokka
+OLAP
+Quokka is a distributed query execution engine written in Python.
+Data Model
+Relational
+Query Execution
+Vectorized Model
+Query Interface
+SQL
+Storage Format
+Apache Arrow
+System Architecture
+Shared-Disk
+Revision #1
+&nbsp;|&nbsp;
+Updated 01/06/2023 10:53 a.m.
+People Also Viewed
+Website
+https://marsupialtail.github.io/quokka/
+Source Code
+https://github.com/marsupialtail/quokka
+Developer
+Ziheng Wang
+Country of Origin
+US
+Start Year
+2021
+https://github.com/marsupialtail/quokka/commit/5a168c66e62fcfaa3fdc4f47b0a3045c6f40f54a
+Project Type
+Hobby, Open Source
+Written in
+Python
+Embeds / Uses
+Redis
+Licenses
+Apache v2
+Revision #1
+&nbsp;|&nbsp;
+Updated 01/06/2023 10:53 a.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

@@ -1,0 +1,96 @@
+republican-accept
+customers
+1		lilian.conradi.mba.@gmail.com		
+2	Ekrem Sauer			
+3		gottlieb.jäkel@googlemail.com		
+4				
+5				DE89382587025626870901
+6		heinz-joachim.dussen.van.b.sc.@web.de		
+7				
+8				DE60424215159040633813
+9			Vitali-Kusch-Platz 8
+40360 Meppen	
+10	Dipl.-Ing. Marian Caspar			
+11		herr.philipp.ring.mba.@yahoo.de		
+12				
+13		mariana.langern@googlemail.com		
+14				DE12194390700897614435
+15			Günter-Löwer-Ring 90
+16435 Nürtingen	
+16				DE96185703468478979853
+17				
+18			Mühlegasse 6
+16260 Bischofswerda	
+19		björn.eigenwillig@web.de		
+20			Heinz-Josef-Etzold-Ring 09
+08774 Staffelstein	
+21			Michail-Gieß-Platz 9/3
+19042 Bad Langensalza	
+22				DE80456669811336575273
+23				
+24	Susanna Stiebitz			
+25				
+26				
+27			Peukertweg 2/8
+63060 Sondershausen	
+28				
+29			Schusterweg 8/5
+49854 Norden	
+30	Uwe Putz			
+31				
+32		rochus.renner@hotmail.de		
+33			Rohledergasse 9/5
+85688 Euskirchen	
+34				
+35		ryszard.eigenwillig.b.sc.@gmx.de		
+36		diana.stroh@googlemail.com		
+37				
+38	Winfried Schuster			
+39	Prof. Liesel Kitzmann B.A.			
+40	Dr. Cemal Mälzer			
+41				DE95097505738026870946
+42				
+43	Eric Neuschäfer			
+44			Mirko-Lachmann-Allee 2/5
+33222 Parsberg	
+45				
+46		dipl.-ing..valerie.rust.b.sc.@gmail.com		
+47	Tatiana Lübs			
+48	Gerald Bähr			
+49		helmut.junitz@aol.de		
+50	Univ.Prof. Waldtraut Klingelhöfer B.Sc.			
+51		prof..agnieszka.budig.b.a.@yahoo.de		
+52				DE78985967031843166285
+53				
+54				
+55		christl.hesse-scheel@googlemail.com		
+56			Striebitzallee 0/5
+62685 Holzminden	
+57				DE02489607896776326745
+58				
+59			Wulfring 69
+52013 Fulda	
+60		hardy.hänel@gmx.de		
+61		greta.dussen.van@gmx.de		
+62				
+63		nuray.knappe@yahoo.de		
+64	Antje Naser			
+65				
+66	Janin Hermann			
+67				
+68				DE15336172889714881925
+69			Kruschwitzstr. 0
+30962 Pasewalk	
+70	Ben Kostolzin			
+71	Mirjana Schaaf			
+72				
+73		olga.rogge.b.a.@gmail.com		
+74	Danica Kreusel-Drubin			
+75	Thea Otto-Boucsein			
+76			Danny-Reichmann-Allee 38
+77628 Säckingen	
+77				
+78				DE61859766759300953749
+79				DE38858996590146968035
+sqlite_sequence
+customers	79

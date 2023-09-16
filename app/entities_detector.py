@@ -26,7 +26,6 @@ def detect_pii_entities_in_text_ner(text: str) -> list[str]:
             print(entity)
             result.add(entity['entity'][2:])
 
-    print("NER V results:", list(result))
     return list(result)
 
 

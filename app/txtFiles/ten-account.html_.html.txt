@@ -1,0 +1,68 @@
+
+AceDB - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+AceDB
+AceDB ("a C. elegans database") is a biological database for handling genomic data. It was developed by Richard M. Durbin and Jean Thierry-Mieg in 1989.
+Revision #4
+&nbsp;|&nbsp;
+Updated 05/28/2018 10:32 p.m.
+People Also Viewed
+ abhot
+ PearlDB
+Website
+http://www.acedb.org/
+Source Code
+https://github.com/richarddurbin/acedb
+Developer
+Richard M. Durbin, Jean Thierry-Mieg
+Country of Origin
+GB
+Start Year
+1989
+End Year
+2018
+https://web.archive.org/web/20180401140628/https://www.acedb.org/
+Project Type
+Academic, Open Source
+Written in
+C
+Licenses
+GPL v2, LGPL v2
+Wikipedia
+https://en.wikipedia.org/wiki/AceDB
+Revision #4
+&nbsp;|&nbsp;
+Updated 05/28/2018 10:32 p.m.
+People Also Viewed
+ abhot
+ PearlDB
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

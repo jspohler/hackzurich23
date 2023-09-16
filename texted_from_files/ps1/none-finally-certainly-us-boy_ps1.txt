@@ -1,0 +1,22 @@
+ï»¿<#
+.SYNOPSIS
+	Sets the working directory to the users directory
+.DESCRIPTION
+	This PowerShell script changes the working directory to the users directory.
+.EXAMPLE
+	PS> ./cd-users
+	ðC:\Users
+.LINK
+	https://github.com/fleschutz/PowerShell
+.NOTES
+
+try {
+	$Path = Resolve-Path "$HOME/.."
+	if (-not(Test-Path "$Path" -pathType container)) { throw "Users directory at ð$Path doesn't exist (yet)" }
+	Set-Location "$Path"
+	"ð$Path"
+	exit 0 # success
+} catch {
+	"â ï¸ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
+	exit 1
+}

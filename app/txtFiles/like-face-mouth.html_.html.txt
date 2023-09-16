@@ -1,0 +1,75 @@
+
+GaussDB - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+GaussDB
+GaussDB is a distributed DBMS based on Postgres developed by Huawei.
+History
+A newer version of GaussDB was announced in 2019 as a "AI-Native" system, although the details of this are vague.
+Data Model
+Object-Relational
+Query Interface
+SQL
+Storage Architecture
+Disk-oriented
+Storage Model
+Decomposition Storage Model (Columnar)
+N-ary Storage Model (Row/Record)
+Revision #3
+&nbsp;|&nbsp;
+Updated 01/04/2022 7:52 a.m.
+People Also Viewed
+ Neoview
+Website
+https://e.huawei.com/us/solutions/cloud-computing/big-data/gaussdb-distributed-database
+Twitter
+   @openGauss
+Developer
+Huawei
+Country of Origin
+CN
+Start Year
+2011
+https://www.theregister.co.uk/2019/05/15/huawei_gaussdb_is_it_actually_new/
+Project Type
+Commercial
+Derived From
+PostgreSQL
+Operating Systems
+Hosted
+Licenses
+Proprietary
+Revision #3
+&nbsp;|&nbsp;
+Updated 01/04/2022 7:52 a.m.
+People Also Viewed
+ Neoview
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

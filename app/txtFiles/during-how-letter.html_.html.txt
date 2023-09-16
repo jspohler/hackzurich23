@@ -1,0 +1,77 @@
+
+openGemini - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+openGemini
+Time-Series
+openGemini is an open-source time-series database management system that is compatible with the InfluxDB wire protocol and query language.
+Data Model
+Relational
+Query Interface
+SQL
+System Architecture
+Shared-Nothing
+Revision #1
+&nbsp;|&nbsp;
+Updated 06/09/2023 10:39 a.m.
+Website
+http://www.opengemini.org/
+Source Code
+https://github.com/openGemini/openGemini
+Tech Docs
+http://www.opengemini.org/docs
+Twitter
+   @OpenGemini
+Developer
+Huawei
+Country of Origin
+CN
+Start Year
+2022
+https://github.com/openGemini/openGemini/commit/ff9795f879ebc5864e0a4040feb67d4a054ce9ee
+Former Name
+GeminiTS
+Project Type
+Open Source
+Written in
+Go
+Supported languages
+C, C++, Java, JavaScript
+Compatible With
+InfluxDB
+Operating Systems
+Linux
+Licenses
+Apache v2
+Revision #1
+&nbsp;|&nbsp;
+Updated 06/09/2023 10:39 a.m.
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

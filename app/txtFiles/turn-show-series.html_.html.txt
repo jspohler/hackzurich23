@@ -1,0 +1,148 @@
+
+LMDB - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+LMDB
+LMDB (Lightning Memory-Mapped Database) is a embedded database for key-value data based on B+trees. It is fully ACID transactional. The key features of LMDB are that it uses a single-level store based on memory-map files, which means that the OS is responsible for managing the pages (like caching frequently uses pages). It uses shared memory copy-on-write semantics with a single writer; readers do not block writers, writers do not block readers, and readers do not block readers. The system allows as many versions of data at any time as there are transactions (many read, one write). It also maintains a free list of pages to track and reuse pages instead of allocating memory each time.
+https://www.symas.com/mdb/
+https://lmdb.readthedocs.io/en/release/
+http://lmdb.tech/doc/
+http://db.cs.cmu.edu/events/databaseology-2015-howard-chu-lmdb/
+History
+LMDB was developed and maintained by the Symas Corporation to replace Berkeley DB in the OpenLDAP project.
+http://db.cs.cmu.edu/events/databaseology-2015-howard-chu-lmdb/
+http://www.openldap.org/
+Concurrency Control
+Multi-version Concurrency Control (MVCC)
+Locking overhead avoided by using MVCC, readers don't block at all and writers don't block readers. Deleted versions are reclaimed by the free space management module of LMDB (essentially stored into a B+ tree for later use).
+http://lmdb.tech/doc/
+Data Model
+Key/Value
+This embedded database is a key-value in the backend, which is stored in the memory-map. The keys are indexed in a B+ tree. LMDB provides transactional guarantees on top of this key-value store. It is not a relational database.
+Indexes
+B+Tree
+LMDB uses a modified design of B+ Tree with an append-only enhancement, and it uses 2 B+ trees : one for maintaining the regular user data pages and one for maintaining the free pages obtained after deletes. LMDB is optimized for read transactions. Due to use of Copy-on-Write, readers never block writers, therefore read transactions, by using older pages, may live indefinitely without affecting write performance.
+http://lmdb.tech/doc/
+http://www.bzero.se/ldapd/btree.html
+Isolation Levels
+Serializable
+LMDB provides Serializable isolation with MVCC, this is possible because of the single-writer semantics. Only a single write transaction can can be alive at a single point of time, hence no races among multiple writers modifying the database.
+http://lmdb.tech/doc/
+Joins
+Not Supported
+Logging
+Shadow Paging
+No logging procedures are implemented here, using copy-on-write semantics (with shadow paging) provides durability without any need for logging. Shadow paging allows new writes to a different location and not directly replace the existing pages, hence avoids data-corruption: the root page changing to the new data is only updated after the new tree is saved. Also the shadow root page reference update is atomic. Combined, this entirely avoids the need for logging. As a result, data loss on a power loss event is only up to the point where the last root page was saved, as long as fsync (or fdatasync on GNU/Linux OSes) is used. Reliability of the underlying storage hardware (SSD, HDD, NAS) is out of scope of LMDB's design.
+https://symas.com/products/lightning-memory-mapped-database/
+https://www.openldap.org/lists/openldap-devel/201410/msg00008.html
+https://symas.com/is-lmdb-a-leveldb-killer/
+Parallel Execution
+Intra-Operator (Horizontal)
+Inter-Operator (Vertical)
+LMDB employs "Multi-version Concurrency Control". Multiple threads in multiple processes are permitted, whilst at the same time limiting write transactions to only one (via a mutex). There is however no limit on the number of readers, which scale linearly (resources permitting), including when a write transaction is in progress, and are "wait-free".
+https://en.wikipedia.org/wiki/Lightning_Memory-Mapped_Database#Concurrency
+http://www.lmdb.tech/bench/inmem/scaling.html
+https://openldap.org/pub/
+http://www.lmdb.tech/bench/inmem/scale2/
+Query Compilation
+Not Supported
+Query Execution
+Tuple-at-a-Time Model
+There is no query planning or query execution options as this is an embedded database, since we operate at individual key level, the closest we can classify it is under tuple-at-a-time. The user can program custom querying models on top this embeddded database, which can support other query execution options.
+Query Interface
+Custom API
+LMDB has no SQL layer but applications can directly access the database using API calls provided by LMDB. API support is not just in C but many wrappers for other languages have been developed by open-source contributors. All key-value store operations can be performed using these API calls.
+https://symas.com/products/lightning-memory-mapped-database/wrappers/
+Storage Architecture
+In-Memory
+LMDB uses mmap (shmem with copy-on-write enabled), hence it reliquishes most of the caching control to the OS. Memory map allows zero-copies for read/write and no additional buffers for the transaction control. Supports larger-than memory databases, it is bounded by the size of the virtual memory since they use a memory map.
+Storage Model
+Custom
+They use a memory-map to store the database with copy-on-write semantics, hence no specific storage model but the semantics are left to the operating system. The on-disk representation is similar to the memory representation of the database.
+Stored Procedures
+Not Supported
+System Architecture
+Shared-Memory
+LMDB uses shared-memory model i.e. it handles the memory as a single address space and all the threads access this in parallel. It uses copy-on-write semantics.
+Views
+Not Supported
+Revision #19
+&nbsp;|&nbsp;
+Updated 06/26/2022 10:57 p.m.
+Derivative Systems
+ libmdbx
+View All (4)
+Embeddings
+View All (12)
+People Also Viewed
+ libmdbx
+Website
+https://symas.com/lmdb/technical/
+Source Code
+http://www.openldap.org/software/repo.html
+Tech Docs
+http://www.lmdb.tech/doc/
+Twitter
+   @hyc_symas
+Developer
+Howard Chu
+Country of Origin
+IE
+Start Year
+2011
+https://en.wikipedia.org/wiki/Lightning_Memory-Mapped_Database
+Former Name
+LightningDB
+Project Type
+Commercial, Open Source
+Written in
+C
+Supported languages
+C, C++, Clojure, Erlang, Go, Haskell, JavaScript, Julia, Lisp, Lua, Matlab, Nim, Objective-C, Ocaml, Perl, PHP, Python, R, Ruby, Rust, Swift, Tcl
+Inspired By
+Berkeley DB
+Operating Systems
+AIX, Android, BSD, iOS, Linux, OS X, Solaris, Windows
+Licenses
+OpenLDAP Public License
+Wikipedia
+https://en.wikipedia.org/wiki/Lightning_Memory-Mapped_Database
+Revision #19
+&nbsp;|&nbsp;
+Updated 06/26/2022 10:57 p.m.
+Derivative Systems
+ libmdbx
+View All (4)
+Embeddings
+View All (12)
+People Also Viewed
+ libmdbx
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

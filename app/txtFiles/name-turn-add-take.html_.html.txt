@@ -1,0 +1,130 @@
+
+Clustrix - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+Clustrix
+Clustrix is a clustered relational DBMS designed to be a a drop-in MySQL replacement. It is ACID compliant and provides scalability and fault tolerance. It is a scale-out database built for high-value, high-transaction OLTP applications on cloud and on premise. It uses automatic data distribution, a sophisticated query planner, and a distributed execution model along with MVCC and PAXOS to provide scalability, concurrency and fault tolerance.
+History
+Paul Mikesell after working on EMC Isilon and Sergei Tsarev after working on a time-series database for AOL, came together to work on their common idea of a database that could handle transactions and also scale which led to Clustrix. Both of them started to build the database from scratch and decided to make the system MySQL compatible but add better ways of distributing and replicating data in the cluster. They worked with various SSD manufacturers to profile their devices and eventually started shipping a Clustrix Database Appliance in 2010. With cloud computing in the picture and commodity hardware quality improving, they released the first software version, ClustrixDB 5.0 in 2014 and discontinued the appliance.
+The Clustrix company was acquired by MariaDB in 2018. The product was renamed to MariaDB Xpand in 2002.
+https://www.clustrix.com/history/
+https://severalnines.com/database-blog/overview-mariadb-xpand-formerly-clustrixdb
+Checkpoints
+Non-Blocking
+Every 500 milliseconds, a global periodic process running on one of the nodes(chosen when a new group is created) selects the minimum of commit IDs across all nodes to be the globc value. Then, a global checkpoint transaction with the selected globc value is executed marking all prior commits durable and establishing a point in the transaction timeline to which all nodes are able to revert, while still remaining consistent with respect to each other.
+http://docs.clustrix.com/display/SAG70/Global+Checkpoint
+Concurrency Control
+Multi-version Concurrency Control (MVCC)
+Two-Phase Locking (Deadlock Prevention)
+It uses the two phase locking protocol for writer-writer conflict resolution. It has a distributed lock manager to scale write accesses on hot tables, the lock information is spread across all nodes. The database also has a concept of row level locks which locks only a subset of rows(size is configurable at runtime) instead of the whole table. If a transaction uses most of the rows on the table, the query optimizer promotes it to a table lock.
+http://docs.clustrix.com/display/CLXDOC/Concurrency+Control
+Data Model
+Relational
+The founders wanted to keep the interface as close to MySQL so that people won't have to change their application code to move from MySQL to ClustrixDB and hence, ClustrixDB follows a relational model.
+http://docs.clustrix.com/display/CLXDOC/ClustrixDB+-+High+Level+Architectural+Overview
+Foreign Keys
+Supported
+It supports foreign keys just like MySQL but has one more restriction unlike MySQL. It disallows creation of foreign keys with non-unique parents with referential actions CASCADE or SET NULL and throws an error to the user if encountered in DDL statement.
+http://docs.clustrix.com/display/CLXDOC/ClustrixDB+SQL+and+DDL#ClustrixDBSQLandDDL-ForeignKeys
+Isolation Levels
+Read Committed
+Serializable
+Repeatable Read
+The default isolation level is a modified version of ANSI Repeatable Reads, allows a per-transaction consistent snapshot read. The other levels supported are serializable and read committed.
+http://docs.clustrix.com/display/CLXDOC/Concurrency+Control
+Joins
+Nested Loop Join
+Since joins are distributed, hash_join etc. don't fit in with the streaming model of ClustrixDB.
+http://docs.clustrix.com/display/CLXDOC/Understanding+the+ClustrixDB+Explain+Output
+Query Interface
+SQL
+Stored Procedures
+Similar to MySQL but there are restrictions on stored procedures like the following: altering a stored procedure, creating a view which calls a stored procedure, creating a prepared statement that calls a stored procedure and savepoints are not allowed.
+http://docs.clustrix.com/display/CLXDOC/Stored+Routines
+Storage Architecture
+Hybrid
+Support for both in-memory as well as persisted tables.
+http://docs.clustrix.com/display/CLXDOC/In-Memory+Tables
+Stored Procedures
+Supported
+Supported but with the following restrictions: altering a stored procedure, creating a view which calls a stored procedure, creating a prepared statement that calls a stored procedure and savepoints are not allowed.
+http://docs.clustrix.com/display/CLXDOC/Stored+Routines
+System Architecture
+Shared-Nothing
+Shared-nothing architecture was chosen so that the database can scale. Each node can perform any read or write. The architecture has three main parts to it:
+1. The global transaction manager(GTM): A node in the cluster which coordinates the processing of the transaction in the cluster. On this node, the database engine parses and compiles the SQL statements into query fragments and comes up with an optimal distributed query plan. The fragments are distributed according to the plan and the GTM is responsible for collecting the results and returning it back to the user.
+2. The Rebalancer: This is patented technology used by ClustrixDB to distribute data throughout the cluster. The system uses consistent hashing and splices the tables based on multiple indexes into different shards and distributes it across the cluster.
+3. The Sierra Database Engine: This handles query planning and execution. It has two parts: the planner comes up with an optimal distributed query plan and the execution engine compiles the query into small executable query fragments and is responsible for executing those queries.
+http://docs.clustrix.com/display/CLXDOC/ClustrixDB+-+High+Level+Architectural+Overview
+Views
+Virtual Views
+Materialized views are not supported just like MySQL. There is only one major difference from views for MySQL and that is that the DEFINER and SQL SECURITY arguments for views are ignored.
+http://docs.clustrix.com/display/CLXDOC/Unsupported+Features
+Revision #14
+&nbsp;|&nbsp;
+Updated 01/02/2022 9:13 p.m.
+People Also Viewed
+Website
+http://www.clustrix.com/
+Tech Docs
+http://docs.clustrix.com/
+Twitter
+   @Clustrix
+Developer
+Clustrix, Inc.
+Country of Origin
+US
+Start Year
+2006
+Former Name
+Sprout-Clustrix
+Acquired By
+MariaDB
+https://techcrunch.com/2018/09/20/mariadb-acquires-clusterix/
+Project Type
+Commercial
+Written in
+C
+Supported languages
+SQL
+Compatible With
+MySQL
+Operating Systems
+Linux
+Licenses
+Proprietary
+Wikipedia
+https://en.wikipedia.org/wiki/Clustrix
+Revision #14
+&nbsp;|&nbsp;
+Updated 01/02/2022 9:13 p.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });
