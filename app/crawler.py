@@ -17,7 +17,7 @@ things are satisfied:
   Use the filename as the key and the label as the value for each file.
 - Your code cannot the internet during evaluation. Design accordingly.
 """
-
+from typing import List
 import os
 from pathlib import Path
 import pickle
@@ -25,14 +25,14 @@ import pickle
 import random
 
 from entities_detector import detect_pii_entities_in_text, Entity
-
+from file_reader import extract_str_from_docx
 
 def save_dict_as_pickle(labels, filename):
     with open(filename, "wb") as handle:
         pickle.dump(labels, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 
-def classifier(file_path):
+def classifier(file_path, read_file_as_text):
     print('opening file', file_path)
     text = read_file_as_text(file_path)
 
@@ -42,35 +42,37 @@ def classifier(file_path):
     
     return label
 
-def read_file_as_text(file_path) -> str:
-    # Check the data type
-    if file_path.suffix == ".txt":
-        # Open the file to read out the content
-        with open(file_path) as f:
-            file_content = f.read()
-           
-        return file_content
-    else:
-        return ''
+# def read_file_as_text(file_path) -> str:
+#     # Check the data type
+#     if file_path.suffix == ".txt":
+#         # Open the file to read out the content
+#         with open(file_path) as f:
+#             file_content = f.read()
+#         return file_content
+#     else:
+#         return ''
 
-def decide_label_from_entities(entities: list[str]) -> str:
+def decide_label_from_entities(entities: List[str]) -> str:
     return random.choice(["True", "False", "review"])
 
 
 def main():
     # Get the path of the directory where this script is in
+    print("DFNSKJGBNJKSBGFKSDNJF")
     script_dir_path = Path(os.path.realpath(__file__)).parents[1]
     # Get the path containing the files that we want to label
     file_dir_path = script_dir_path / "files"
-
+    print(os.listdir(file_dir_path))
     if os.path.exists(file_dir_path):
         # Initialize the label dictionary
         labels = {}
-
+        file_path = file_dir_path + "baby-thing-follow.docx"
+        print(file_path)
+        print(classifier(file_path, extract_str_from_docx))
         # Loop over all items in the file directory
-        for file_name in os.listdir(file_dir_path):
-            file_path = file_dir_path / file_name
-            labels[file_name] = classifier(file_path)
+        # for file_name in os.listdir(file_dir_path):
+        #     file_path = file_dir_path / file_name
+        #     labels[file_name] = classifier(file_path, extract_str_from_docx)
 
         # Save the label dictionary as a Pickle file
         save_dict_as_pickle(labels, script_dir_path / 'results' / 'crawler_labels.pkl')

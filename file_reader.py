@@ -57,6 +57,15 @@ def extract_data_from_docx(docx_file, output_folder):
         for paragraph in doc.paragraphs:
             txt_file.write(paragraph.text + '\n')
 
+def extract_str_from_docx(docx_file):
+    doc = Document(docx_file)
+    full_text = []
+    
+    for paragraph in doc.paragraphs:
+        full_text.append(paragraph.text)
+    
+    return '\n'.join(full_text)
+
 def extract_docx_data(folder_path, output_folder):
     # Extract data from all docx files in the specified folder
     os.makedirs(output_folder, exist_ok=True)
@@ -226,7 +235,7 @@ def extract_py_data(folder_path, output_folder):
 folder_path = 'files'
 
 #py
-if True:
+if False:
     output_folder_py = 'texted_from_files/py/'
     extract_py_data(folder_path, output_folder_py)
 

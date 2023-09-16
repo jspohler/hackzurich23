@@ -3,12 +3,12 @@ from pathlib import Path
 import os
 
 # Get the path of the directory where this script is in
-script_dir_path = os. getcwd() 
+script_dir_path = os.getcwd() 
 # Get the path containing the files that we want to label
 
 from transformers import AutoModelForTokenClassification, AutoTokenizer
 import os
-
+from typing import List
 from enum import Enum
 
 Entity = Enum('Entity', ['AGE', 'CARD_CVV', 'COMMUNITY', 'COUNTRY', 'CREDIT_CARD', 'DATE_OF_BIRTH', 'EMAIL_ADDRESS', 'GENDER', 'GREEN_CARD', 'IDEOLOGY', 'MARITAL_STATUS', 'NATIONALITY', 'NUMBER', 'OCCUPATION', 'ORGANIZATION', 'ORIENTATION', 'PERSON', 'PHONE_NUMBER', 'PHYSICAL_LOCATION', 'POLITICAL_PARTY', 'RELIGION', 'SKILL_SET', 'TITLE', 'US_BANK_ACCOUNT', 'US_PASSPORT', 'US_SSN', 'YEAR'])
@@ -22,7 +22,7 @@ model = AutoModelForTokenClassification.from_pretrained(pretrained_path, local_f
 # ner = pipeline("ner", grouped_entities=True)
 ner = pipeline(task="ner", model=model, tokenizer=tokenizer, grouped_entities=True)
 
-def detect_pii_entities_in_text(text: str) -> list[str]:
+def detect_pii_entities_in_text(text: str) -> List[str]:
     result = set()
     entities = ner(text)
     for entity in entities:
