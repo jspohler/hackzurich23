@@ -65,8 +65,31 @@ def extract_docx_data(folder_path, output_folder):
         extract_data_from_docx(docx_file, output_folder)
     
 
+def rename_log_to_txt(log_file, output_folder):
+    # Get the base name of the file (without extension)
+    base_name = os.path.splitext(os.path.basename(log_file))[0]
 
+    # Rename the .log file to .txt
+    txt_file_path = os.path.join(output_folder, f"{base_name}_log.txt")
+    os.rename(log_file, txt_file_path)
+
+def extract_log_data(folder_path, output_folder):
+    # Extract data from all log files in the specified folder
+    
+    os.makedirs(output_folder, exist_ok=True)
+
+    log_files = glob.glob(os.path.join(folder_path, '*.log'))
+
+    for log_file in log_files:
+        rename_log_to_txt(log_file, output_folder)
+    
 folder_path = 'files'
+
+#log
+if True:
+    output_folder_log = 'texted_from_files/log/'
+    extract_log_data(folder_path, output_folder_log)
+
 
 #docx
 if False:
