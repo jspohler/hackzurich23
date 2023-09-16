@@ -1,0 +1,81 @@
+
+EDB Postgres Advanced Server - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+EDB Postgres Advanced Server
+EDB is an enhanced version of PostgresQL.
+Concurrency Control
+Multi-version Concurrency Control (MVCC)
+Timestamp Ordering
+Data Model
+Relational
+Foreign Keys
+Supported
+Joins
+Nested Loop Join
+Hash Join
+Sort-Merge Join
+Query Interface
+SQL
+Storage Architecture
+Disk-oriented
+Storage Model
+N-ary Storage Model (Row/Record)
+Revision #2
+&nbsp;|&nbsp;
+Updated 06/09/2018 10:48 a.m.
+People Also Viewed
+Website
+https://www.enterprisedb.com/products/edb-postgres-platform/edb-postgres-advanced-server
+Tech Docs
+https://www.enterprisedb.com/resources/product-documentation
+Developer
+EnterpriseDB
+Country of Origin
+US
+Start Year
+2005
+http://oraclerea.sys-con.com/node/117728
+Former Name
+EnterpriseDB, EnterpriseDB Advanced Server, Postgres Plus Advanced Server
+Project Type
+Commercial
+Derived From
+PostgreSQL
+Compatible With
+Oracle RDBMS, PostgreSQL
+Wikipedia
+https://en.wikipedia.org/wiki/EnterpriseDB
+Revision #2
+&nbsp;|&nbsp;
+Updated 06/09/2018 10:48 a.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

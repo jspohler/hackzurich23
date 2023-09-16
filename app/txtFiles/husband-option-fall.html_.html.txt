@@ -1,0 +1,83 @@
+
+FrostDB - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+FrostDB
+FrostDB is an embedded columnar DBMS written in Go designed for observability time-series data sets.
+https://www.polarsignals.com/blog/posts/2022/05/04/introducing-arcticdb/
+History
+The original ArcticDB system was renamed to FrostDB in 2022 due to a trademark conflict.
+https://www.polarsignals.com/blog/posts/2022/06/16/arcticdb-is-now-frostdb/
+Data Model
+Column Family / Wide-Column
+Query Interface
+Custom API
+Storage Architecture
+In-Memory
+Storage Format
+Apache Parquet
+Apache Arrow
+Storage Model
+Decomposition Storage Model (Columnar)
+System Architecture
+Embedded
+Revision #2
+&nbsp;|&nbsp;
+Updated 06/17/2022 7:22 a.m.
+People Also Viewed
+Website
+https://github.com/polarsignals/frostdb
+Source Code
+https://github.com/polarsignals/frostdb
+Twitter
+   @PolarSignalsIO
+Developer
+Polar Signals
+Country of Origin
+US
+Start Year
+2022
+51ec4280ca3deb36795cc54baf9b3628704cb2a8
+Former Name
+ArcticDB
+Project Type
+Open Source
+Written in
+Go
+Supported languages
+Go
+Licenses
+Apache v2
+Revision #2
+&nbsp;|&nbsp;
+Updated 06/17/2022 7:22 a.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

@@ -1,0 +1,60 @@
+
+IMS - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+IMS
+Data Model
+Hierarchical
+Revision #3
+&nbsp;|&nbsp;
+Updated 06/02/2018 11:15 p.m.
+People Also Viewed
+ Integrated Data Store
+Website
+http://www.ibm.com/software/data/ims/ims/
+Developer
+IBM
+Country of Origin
+US
+Start Year
+1968
+Project Type
+Commercial
+Licenses
+Proprietary
+Wikipedia
+https://en.wikipedia.org/wiki/IBM_Information_Management_System
+Revision #3
+&nbsp;|&nbsp;
+Updated 06/02/2018 11:15 p.m.
+People Also Viewed
+ Integrated Data Store
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

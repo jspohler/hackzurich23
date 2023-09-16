@@ -1,0 +1,137 @@
+
+GrapheneDB - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+GrapheneDB
+GrapheneDB is a cloud-based Database-as-a-Service provider for graph databases based on Neo4j. The cloud vendors it supports are Heroku and Amazon Web Services. It provides automatic and on-demand backups as well as 24/7 monitoring and help.
+https://neo4j.com/developer/graph-database/
+https://www.graphenedb.com
+History
+In 2012, the founder of GrapheneDB, Alberto Perdomo, wanted to use Neo4j for a project. The process of setting up and monitoring servers and finding a place to host it was challenging. Therefore, he decided to create GrapheneDB to make it easier for clients to focus on learning about Cypher and graph modeling in Neo4j as well as developing their applications.
+https://neo4j.com/blog/production-grade-neo4j-hosting/
+Checkpoints
+Non-Blocking
+GrapheneDB is a Database-as-a-Service provider that uses Neo4j. Neo4j uses non-block checkpoints, so it can be backed up as it serves user traffic. Neo4j can have daily or weekly full backups, which results in a database image on the disk. It also provides incremental backups that can be done hourly or daily. A combination of incremental and full backups allows for safety and efficiency. GrapheneDB also provides similar backups- daily, weekly, monthly, or on-demand backups. This also captures a current snapshot of the database for recovery (if needed) and doesn't require downtime.
+https://d0.awsstatic.com/whitepapers/Database/neo4j-graph-databases-aws.pdf
+https://docs.graphenedb.com/docs/backups
+Compression
+Bit Packing / Mostly Encoding
+GrapheneDB uses "bit shaving" to compress the number of bits needed to store primitive types in arrays. This means that if an int array of size 4 has a a largest value of 4, it will only require 3 bits to write that 4. Therefore, each element in the array will be written in 3 bits to separate them from each other. The values are still "ints", but can be stored more efficiently. Similarly, if an int array contains -1, then that value will use the 32 bits required to write it, so each element in the array must also be written in 32 bits. It also has classes to limit the number of characters in each class. For example, the "Numerical, Date, and Hex" class have a 54 character count limit. This helps determine whether a string can be inlined or not, which allows for compression and less disk space required.
+https://neo4j.com/docs/operations-manual/current/performance/property-compression/
+Concurrency Control
+Two-Phase Locking (Deadlock Detection)
+Since GrapheneDB uses Neo4j as its graph database, it has the same concurrency control choices. Neo4j does deadlock detection and the transaction causing the deadlock is rolled back so the other transactions can continue. Neo4j allows the user to retry the transaction either by asking for the transaction to be attempted a certain number of times or through a retry loop.
+https://neo4j.com/docs/java-reference/current/transactions/
+Data Model
+Graph
+Graphene is a Database-as-a-Service that uses Neo4j as the underlying graph database. Graph databases are good for data that are highly related to all the other data points as graph databases store data as nodes and the relationships between the nodes. Accessing nodes and getting relationships in a graph database is a constant time operation, which makes querying fast.
+https://neo4j.com/developer/graph-database/
+https://www.graphenedb.com/why-graphenedb.html
+https://www.producthunt.com/posts/graphenedb
+Foreign Keys
+Not Supported
+In relational databases, a foreign key is a key that "joins" two tables in a JOIN. In graph databases, because relationships are just as important as the actual data, relationships and adjacent nodes are stored in the data itself, so foreign keys are not necessary in a graph database. The graphs uses the adjacent nodes and connections to access other data.
+https://neo4j.com/developer/graph-db-vs-rdbms/
+Indexes
+B+Tree
+Inverted Index (Full Text)
+GrapheneDB uses B+ trees as its native index. The key size of an index is limited to 4036 bytes, however, so if a transaction reaches the maximum key size, it will fail. When the B+ tree index is full, a user can change the configuration to use Lucene for that particular index- the user would have to delete that index and recreate it. It can also support full text search by keeping all the data up to date automatically whenever new data or indexes are created. These index choices come from Neo4j.
+https://neo4j.com/docs/operations-manual/current/performance/index-configuration/schema-indexes/
+https://neo4j.com/docs/operations-manual/current/performance/index-configuration/fulltext-search/
+Joins
+Hash Join
+Neo4j uses hash join for its joins. There are four variation- NodeHashJoin, ValueHashJoin, NodeLeftOuterHashJoin, and NodeRightOuterHashJoin. These are different hash joins that the Neo4j database supports. For example, NodeHashJoin joins on node ids while ValueHashJoin joins on any value.
+https://neo4j.com/docs/cypher-manual/3.5/execution-plans/
+https://neo4j.com/docs/cypher-manual/3.5/execution-plans/operators/#execution-plans-operators-hash-join-general
+Logging
+Logical Logging
+The Neo4j uses logical logging to recover the database after an unclean shutdown and for incremental backups. The logs record write operations to the database (ex: adding or updating the indexes or data).
+https://neo4j.com/developer/guide-performance-tuning/
+https://neo4j.com/docs/operations-manual/current/configuration/transaction-logs/
+Query Execution
+Tuple-at-a-Time Model
+GrapheneDB uses Neo4j, which uses the tuple-at-a-time model as each operator in the tree takes in an input and first evaluates that. This output then goes into its parent operator as the input.
+https://neo4j.com/docs/cypher-manual/current/execution-plans/
+IBAN:CH34 7281 9440 3553 3550 0
+Name:Erika Keller
+Email:erika.keller
+@gmx.de
+Query Interface
+Cypher
+Cypher is Neo4j's graph query language that lets user's store and get data from the graph database easily. GrapheneDB has also followed suit and uses Cypher. Cypher has similar functionalities as SQL since it was inspired by the SQL language. Cypher allows queries to be written so that it can select, insert, update, delete data without a description of how to do it.
+https://neo4j.com/developer/cypher-query-language/
+https://www.graphenedb.com/blog/
+Storage Architecture
+Disk-oriented
+GrapheneDB stores its database on disk. It optimizes performance by storing information in a cache when possible. It caches data in memory by using buffer pools.
+https://docs.graphenedb.com/docs/plans-and-placements
+https://neo4j.com/docs/operations-manual/3.1/performance/disks-ram-and-other-tips/
+https://neo4j.com/developer/kb/understanding-memory-consumption/
+Storage Model
+Custom
+GrapheneDB uses Neo4j, which uses a custom storage model. Because Neo4j does not have a schema, each store file has the nodes, relationships, and key value properties. These are all stored at particular offsets in the files. For example, the property record holds 32 bytes (4 8byte blocks) which can either be a key, value, or both. Data that is on disk is a linked list size records that are fixed. Property records are also stored as a linked list. Each node also references the first relationship it has.
+https://neo4j.com/developer/kb/understanding-data-on-disk/
+Stored Procedures
+Supported
+A user can create a procedure using Cypher. The arguments when calling the function can either come from the query or from the associated parameter set.
+https://neo4j.com/docs/java-reference/3.5/extending-neo4j/procedures-and-functions/procedures/
+Revision #16
+&nbsp;|&nbsp;
+Updated 01/03/2022 9:46 p.m.
+People Also Viewed
+Website
+https://www.graphenedb.com/
+Tech Docs
+http://www.graphenedb.com/docs
+Twitter
+   @GrapheneDB
+Developer
+GrapheneDB Labs, S.L.
+Country of Origin
+ES
+Start Year
+2012
+https://www.crunchbase.com/organization/graphenedb#section-overview
+Project Type
+Commercial
+Supported languages
+Java, PHP, Python, Ruby
+Derived From
+Neo4j
+Compatible With
+Neo4j
+Operating Systems
+Hosted
+Revision #16
+&nbsp;|&nbsp;
+Updated 01/03/2022 9:46 p.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

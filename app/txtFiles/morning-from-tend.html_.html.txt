@@ -1,0 +1,75 @@
+
+Mondrian - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+Mondrian
+Mondrian is an OLAP query execution engine written in Java.
+Data Model
+Relational
+Revision #3
+&nbsp;|&nbsp;
+Updated 01/05/2022 11:08 p.m.
+People Also Viewed
+ MUFFIN
+ OSIsoft PI
+Website
+https://mondrian.pentaho.com/
+Source Code
+https://github.com/pentaho/mondrian
+Tech Docs
+https://mondrian.pentaho.com/documentation/
+Twitter
+   @MondrianOLAP
+Developer
+Pentaho
+Country of Origin
+US
+Start Year
+2002
+https://mondrian.pentaho.com/documentation/roadmap.php#Release_0.3
+Acquired By
+Hitachi
+https://www.hitachivantara.com/en-us/news-resources/press-releases/2015/gl150210a.html
+Project Type
+Commercial, Open Source
+Written in
+Java
+Licenses
+Eclipse Public License
+Wikipedia
+https://en.wikipedia.org/wiki/Mondrian_OLAP_server
+Revision #3
+&nbsp;|&nbsp;
+Updated 01/05/2022 11:08 p.m.
+People Also Viewed
+ MUFFIN
+ OSIsoft PI
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

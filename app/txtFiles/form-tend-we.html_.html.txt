@@ -1,0 +1,68 @@
+
+EaseDB - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+EaseDB
+EaseDB is a small database system for storing hierarchical data with a REST interface.
+Data Model
+Document / XML
+Query Interface
+HTTP / REST
+Revision #2
+&nbsp;|&nbsp;
+Updated 06/08/2018 10:01 p.m.
+People Also Viewed
+Website
+http://dl.acm.org/citation.cfm?id=1247607
+Source Code
+https://github.com/X2rdas/easedb
+Tech Docs
+https://github.com/X2rdas/easedb
+Developer
+Alexander Shakhmatov
+Country of Origin
+RU
+Start Year
+2013
+https://github.com/X2rdas/easedb/commit/453bb118a7ec20b9ce3f33cfe175808a47314b48
+End Year
+2014
+Project Type
+Open Source
+Written in
+Ruby
+Licenses
+MIT
+Revision #2
+&nbsp;|&nbsp;
+Updated 06/08/2018 10:01 p.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

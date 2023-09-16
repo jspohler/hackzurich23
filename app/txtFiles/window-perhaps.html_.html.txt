@@ -1,0 +1,79 @@
+
+Rasdaman - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+Rasdaman
+Rasdaman ("raster data manager") is an array / datacube storage and query engine.
+Rasdaman engine uses embedded SQLite for managing its array metadata. By default it writes out array data files to the local filesystem. It can optionally write arrays as BLOB data to PostgreSQL, but this feature is deprecated.
+Data Model
+Array / Matrix
+Query Interface
+SQL
+The DBMS uses proprietary extensions to SQL called the Rasdaman Query Language (rasql). It supports supports retrieval, manipulation, and data definition for multi-dimensional arrays.
+https://doc.rasdaman.org/04_ql-guide.html
+Storage Format
+Custom
+System Architecture
+Shared-Everything
+Revision #8
+&nbsp;|&nbsp;
+Updated 06/11/2023 9:28 p.m.
+People Also Viewed
+Website
+https://rasdaman.org
+Source Code
+https://rasdaman.org/browser
+Tech Docs
+https://doc.rasdaman.org/
+Twitter
+   @rasdamanGmbH
+Developer
+Jacobs University Bremen
+Country of Origin
+DE
+Start Year
+1989
+https://nbn-resolving.org/urn:nbn:de:gbv:579-opus-1007237
+Project Type
+Commercial, Open Source
+Written in
+C++
+Embeds / Uses
+PostgreSQL, SQLite
+Licenses
+GPL v3
+Wikipedia
+https://en.wikipedia.org/wiki/Rasdaman
+Revision #8
+&nbsp;|&nbsp;
+Updated 06/11/2023 9:28 p.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

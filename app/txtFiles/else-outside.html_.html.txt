@@ -1,0 +1,84 @@
+
+AlchemyDB - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+AlchemyDB
+AlchemyDB is a NewSQL RDBMS built on top Redis.
+History
+The project was acquired by Aerospike in 2012 and discontinued.
+https://techcrunch.com/2012/08/28/nosql-company-citrusleaf-lands-series-b-funding-changes-name-and-acquires-alchemydb/
+Data Model
+Relational
+Query Interface
+SQL
+System Architecture
+Shared-Everything
+Revision #2
+&nbsp;|&nbsp;
+Updated 05/13/2022 11:45 a.m.
+People Also Viewed
+ AODBM
+Website
+https://code.google.com/p/alchemydatabase/
+Source Code
+https://github.com/JakSprats/Alchemy-Database
+Tech Docs
+https://code.google.com/archive/p/alchemydatabase/wikis
+Developer
+Russell Sullivan
+Country of Origin
+US
+Start Year
+2010
+https://jaksprats.wordpress.com/2014/03/10/alchemydb-is-all-grown-up/
+End Year
+2012
+Former Name
+Redisql
+Acquired By
+Aerospike
+https://techcrunch.com/2012/08/28/nosql-company-citrusleaf-lands-series-b-funding-changes-name-and-acquires-alchemydb/
+Project Type
+Commercial, Open Source
+Written in
+C
+Derived From
+Redis
+Compatible With
+Neo4j
+Licenses
+AGPL v3
+Revision #2
+&nbsp;|&nbsp;
+Updated 05/13/2022 11:45 a.m.
+People Also Viewed
+ AODBM
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

@@ -1,0 +1,70 @@
+
+RadonDB - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+RadonDB
+RadonDB is an open-source distribution layer for hosting MySQL in a cloud environment.
+Data Model
+Relational
+Query Interface
+SQL
+System Architecture
+Shared-Nothing
+Revision #2
+&nbsp;|&nbsp;
+Updated 06/08/2018 9:13 a.m.
+People Also Viewed
+Website
+http://radondb.io/
+Source Code
+https://github.com/radondb/radon
+Developer
+Yunify Technologies Inc.
+Country of Origin
+CN
+Start Year
+2018
+https://github.com/radondb/radon/commit/bf5bcdf2839381ee541da45f2d7323f72ea5b5df
+Project Type
+Commercial, Open Source
+Written in
+Go
+Derived From
+MySQL
+Operating Systems
+Hosted
+Licenses
+GPL v3
+Revision #2
+&nbsp;|&nbsp;
+Updated 06/08/2018 9:13 a.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

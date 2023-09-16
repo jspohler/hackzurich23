@@ -1,0 +1,110 @@
+
+InfinityDB - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+InfinityDB
+InfinityDB is an embedded database engine based on a B+Tree written in Java. It supports relational data and non-tabular or custom structures. InfinityDB is appropriate for embedded hardware platforms, text indexing engines, distributed industrial data collection systems, and heterogeneous data environments.
+History
+The Infinity Database Engine was first written by Roger L. Deran in the Intel 8088 assembly language in the 1980s. It was then re-written to be entirely in Java in 2002 and now marketed by Boiler Bay Inc.
+Compression
+Bit Packing / Mostly Encoding
+Prefix Compression
+InfinityDB supports compression for both in-memory and on disk data. It uses ZLib for compressing common substrings and small values via Huffman coding. Furthermore, it also supports prefix and suffix compression to remove common-prefixes in keys and common suffixes in upper tree levels. Other compression methods, including variable-length concatenations of primitives and variable-length encoded Java primitives, are used as well.
+https://boilerbay.com/
+https://boilerbay.com/infinitydb/manual/features.html
+Concurrency Control
+Optimistic Concurrency Control (OCC)
+InfinityDB 1.0 only executes one global transaction at a time. Any data store modification in the system will be visible to all threads. No lock is used and one global transaction is effected all the time.
+InfinityDB 2.0 added support for multi-threaded transactions using optimistic concurrency control. If one transaction of a particular thread has held one lock and another transaction of another thread requests this lock. The existing locks of the requester are all released, the transaction is reset to the not-in-progress state and changes are rolled back. InfinityDB does not use pessimistic locking to avoid deadlocks.
+https://boilerbay.com/infinitydb/manual/acid-transactionality.html
+Data Model
+Relational
+Key/Value
+Graph
+Hierarchical
+Array / Matrix
+InfinityDB supports a rich data representation space. ItemSpace is the lowest-level data model containing a set of Items. The basic data model can be used to define huge spare arrays, matrix, any mixture of trees, graphs, key/value maps, key/value maps or user-defined structures.
+https://boilerbay.com/
+https://boilerbay.com/infinitydb/manual/basic-operations.html
+Indexes
+B+Tree
+InfinityDB is based on its own proprietary lock-free, concurrent B+tree.
+https://boilerbay.com/docs/TheDesignOfTheInfinityDatabaseEngine.pdf
+Isolation Levels
+Read Committed
+Serializable
+InfinityDB 1.0 transactionality provides no isolation. For InfinityDB 2.0, it supports Serializable and Read Committed transaction isolation modes.
+https://boilerbay.com/infinitydb/manual/acid-transactionality.html
+https://boilerbay.com/infinitydb/manual/features.html
+Logging
+Shadow Paging
+InfinityDB uses a copy-on-write approach for updating the database, thus it does not require a log.
+https://boilerbay.com/infinitydb/manual/acid-transactionality.html
+Storage Architecture
+Hybrid
+InfinityDB stores and compresses data on disk and in memory.
+https://boilerbay.com/
+System Architecture
+Embedded
+InfinityDB is an embedded database engine written in Java.
+Revision #21
+&nbsp;|&nbsp;
+Updated 01/03/2022 10:15 p.m.
+People Also Viewed
+Website
+https://boilerbay.com/infinitydb/
+Tech Docs
+https://boilerbay.com/papers/
+Twitter
+   @boiler_bay
+Developer
+Boiler Bay Software
+Country of Origin
+US
+Start Year
+2002
+Project Type
+Commercial
+Written in
+Java
+Supported languages
+Java
+Operating Systems
+All OS with Java VM
+Licenses
+Proprietary
+Wikipedia
+https://en.wikipedia.org/wiki/InfinityDB
+Revision #21
+&nbsp;|&nbsp;
+Updated 01/03/2022 10:15 p.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

@@ -1,0 +1,63 @@
+
+TIMBER - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+TIMBER
+TIMBER ("Tree-structured native XML database Implemented at the University of Michigan by Bright Energetic Researchers") is a academic XML DBMS prototype.
+Data Model
+Document / XML
+Query Interface
+XQuery
+Revision #4
+&nbsp;|&nbsp;
+Updated 07/19/2019 9:51 p.m.
+People Also Viewed
+Website
+http://dbgroup.eecs.umich.edu/timber/
+Source Code
+http://dbgroup-internal.eecs.umich.edu/timber/download.php
+Tech Docs
+http://dbgroup.eecs.umich.edu/timber/usermanual/index.htm
+Developer
+University of Michigan
+Country of Origin
+US
+End Year
+2006
+Project Type
+Academic, Open Source
+Embeds / Uses
+Berkeley DB, Shore
+Revision #4
+&nbsp;|&nbsp;
+Updated 07/19/2019 9:51 p.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });

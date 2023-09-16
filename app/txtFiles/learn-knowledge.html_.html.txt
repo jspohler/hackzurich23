@@ -1,0 +1,128 @@
+
+GrapheekDB - Database of Databases
+Database of Databases
+Browse
+Leaderboards
+Recent
+Revision List
+Accounts
+Login
+GrapheekDB
+GrapheekDB is a lightweight graph database with support for multiple back-end storage managers. It only represents directed graphs and is persistent if the chosen data model is a Key/Value store.
+https://bitbucket.org/nidusfr/grapheekdb/src/default/docs/graph_database.rst
+History
+GrapheekDB was developed in 2014 by Raphaël Braud, a freelance developer from France. It was built for a recommendation system to extract the contents of documents, tokenizing their contents, and give recommendations of similar documents based on user queries. A graph database was chosen over a relational database to avoid multiple joins on tables of several million rows to improve performance. It was built with a specific purpose of recommending documents and has a python-like API (close to Django and Gremlin).
+http://www.nidus.fr/blog/grapheekdb-base-graphe-python/
+Checkpoints
+Not Supported
+Compression
+Naïve (Page-Level)
+The Naive Page Rank compression algorithm is listed as one of the todo items in the source-code but is not yet supported.
+https://bitbucket.org/nidusfr/grapheekdb/src/default/docs/index.rst
+Concurrency Control
+Two-Phase Locking (Deadlock Prevention)
+GrapheekDB supports a pessimistic lock based concurrency protocol. Transactions are only allowed to take exclusive locks on data items. Following a graph based implementation, a transaction T is only allowed to explicitly lock a data item Q if the parent of Q is currently locked by T. Like Two-Phase Locking, the concurrency protocol leads to a deadlock-free, conflict serializable schedules, but are susceptible to cascading rollbacks.
+https://bitbucket.org/nidusfr/grapheekdb/src/001a7252bdfba8e45fa313a4d0bb57d8d1fab335/docs/tutorial5.rst
+Data Model
+Key/Value
+Graph
+The DBMS is a multi-model document store. Presently it can either be a graph or Key/Value Store (KVS). The DBMS uses many KVS backends such as Kyoto Cabinet and Symas LMDB. If a KVS backend is used, the DBMS becomes object persistent.
+There are no strict assertions on data modelling.
+https://bitbucket.org/nidusfr/grapheekdb/src/default/docs/index.rst
+http://fallabs.com/kyotocabinet/ 
+ http://symas.com/mdb/ 
+Foreign Keys
+Not Supported
+Indexes
+Hash Table
+While a graph database is index-free as it consists of direct pointers to its adjacent elements (a property known as adjacency), GrapheekDB does not need an index to find node and edge indices. However, the latest version of the DBMS does support nodes and edge indices for lookups on sparse graphs. The current version only supports "exact match indices" and performs a Depth-First-Search (DFS) in order to match indices. Storing the indices leads to a storage overhead and slows down writes in the DBMS.
+https://bitbucket.org/nidusfr/grapheekdb/src/001a7252bdfba8e45fa313a4d0bb57d8d1fab335/docs/tutorial4.rst
+Isolation Levels
+Serializable
+The DBMS was built with serializable execution in mind. This was done to avoid loading the entire data in memory every time the intended recommendation algorithm was run and produce the desired list of documents based on the user query.
+http://www.nidus.fr/blog/grapheekdb-base-graphe-python/
+Joins
+Not Supported
+A graph database does not need join operations as they are expensive.
+https://bitbucket.org/nidusfr/grapheekdb/src/default/docs/graph_database.rst
+https://en.wikipedia.org/wiki/Graph_database#Storage
+Logging
+Not Supported
+Query Execution
+Tuple-at-a-Time Model
+Almost every query such as collections and aggregations in the DBMS is implemented via Python iterators referred to as "entity iterators". The term 'entity' refers to the property of the objects in the database used to generate recommendations. For example, an object "book" is an entity if the DBMS is recommending a list of books to read based on a user's query for a book.
+https://bitbucket.org/nidusfr/grapheekdb/src/001a7252bdfba8e45fa313a4d0bb57d8d1fab335/docs/tutorial3.rst
+Query Interface
+Custom API
+Gremlin
+The Query interface is close to Germlin and Django frontend. The DBMS has methods for lookups on graphs that resemble Django lookups and methods for path traversals for inner and outer vertices and edges that resemble Germlin traversal methods. The DBMS also has aliasing and collecting methods as well as aggregation methods such as count and sum which are implemented using python's entity iterators.
+https://bitbucket.org/nidusfr/grapheekdb/src/001a7252bdfba8e45fa313a4d0bb57d8d1fab335/docs/tutorial3.rst
+https://bitbucket.org/nidusfr/grapheekdb/src/001a7252bdfba8e45fa313a4d0bb57d8d1fab335/docs/features.rst
+Storage Architecture
+In-Memory
+The DBMS uses in memory storage to store the graph.
+Storage Model
+Custom
+GrapheekDB is a multi model document store. The nodes and edges can have related data, but this is not enforced. The database is schemaless.
+System Architecture
+Embedded
+The database uses a client-server model and runs on TCP, port 5555. The database lacks an authentication mechanism between the client and the server. It can be used as a pure-in memory database but is targeted to be used with persistent backends such as KyotoCabinet or LMDB.
+https://bitbucket.org/nidusfr/grapheekdb/src/001a7252bdfba8e45fa313a4d0bb57d8d1fab335/docs/tutorial5.rst
+Revision #11
+&nbsp;|&nbsp;
+Updated 04/17/2020 3:27 p.m.
+People Also Viewed
+Website
+https://bitbucket.org/nidusfr/grapheekdb
+Source Code
+https://bitbucket.org/nidusfr/grapheekdb
+Tech Docs
+https://bitbucket.org/nidusfr/grapheekdb/src/default/docs/index.rst
+Developer
+Raphaël Braud
+Country of Origin
+FR
+Start Year
+2014
+End Year
+2015
+Project Type
+Open Source
+Written in
+Python
+Supported languages
+Python
+Embeds / Uses
+Kyoto Cabinet, LMDB
+Inspired By
+ArangoDB, OrientDB, Titan
+Licenses
+GPL v3
+Revision #11
+&nbsp;|&nbsp;
+Updated 04/17/2020 3:27 p.m.
+People Also Viewed
+Copyright &copy; 2023
+&bullet;
+Carnegie Mellon Database Group
+ Contact
+ Github
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4067813-21');
+    function convertToSlug(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w -]+/g,'')
+            .replace(/ +/g,'-');
+    }
+    // Top Search Box
+    $("#topsearch").find('input[name="q"]').autoComplete({
+        minChars: 3,
+        source: function(term, response) {
+            $.getJSON('/search/autocomplete/', { q: term }, function(data) { response(data); });
+        },
+        onSelect: function(e, term, item) { window.location.href = "/db/" + convertToSlug(term); }
+    });
