@@ -226,7 +226,7 @@ def extract_py_data(folder_path, output_folder):
 folder_path = 'files'
 
 #py
-if False:
+if True:
     output_folder_py = 'texted_from_files/py/'
     extract_py_data(folder_path, output_folder_py)
 
