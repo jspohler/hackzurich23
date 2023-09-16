@@ -84,7 +84,7 @@ login (LOGIN) [Y/n/?] y
 21:38:12 T:139832867932032    INFO: Loading special://xbmc/system/keymaps/joystick.Logitech.RumblePad.2.xml
 	at info.magnolia.module.cache.executor.Bypass.processCacheRequest(Bypass.java:58) [magnolia-cache-core-5.9.1.jar:?]
 -- [download 34% complete]
-tdf#116264 UI: No buttons shown in dialogs like "Error saving the document" (with a locked file) [Caolán McNamara]
+tdf#116264 UI: No buttons shown in dialogs like "Error saving the document" (with a locked file) [CaolÃ¡n McNamara]
 tdf#116265 FILEOPEN: Identation is lost in some cases [Miklos Vajna]
 tdf#116266 FILEOPEN: Impress 6.0.2 breaks links to svg-files [Serge Krot]
 
@@ -146,7 +146,7 @@ Chapter 7.
     + apparently breaks Win-x86@42 tinderbox... disable on Windows. [Lionel Elie Mamane]
     + apparently no reason to force underlying type here [Stephan Bergmann]
     + apple_remote: autorelease --> release in dealloc (destructor) [Douglas Mencken]
-    + apple_remote: fix “variable set but not used” for non-debug builds [Douglas Mencken]
+    + apple_remote: fix âvariable set but not usedâ for non-debug builds [Douglas Mencken]
     + application/visio.drawing is sometimes used in bugzilla [David Tardon]
 <09:18AM NeilM> BBC REPORT==RUETERS report
 <09:18AM DrStupid> KNBC - Grenada Hills hosptical emergency and serious injury care now CLOSED
@@ -444,7 +444,7 @@ tim+hack+and+kelly+drew	01.08.2009 18:33:28	http://www.google.com/search?hl=en&q
 [22:42:45] Hindu temples T2: [-] 4071/4573 download failed (Return: -) - http://www.sprecz.eu/infusions/guest_book/guest_book.php?new_message=1
 [22:42:44] Travels: [-] 8129/8261 no form at all - http://www.angulonline.in/register/
 [22:42:45] Computer: [-] 0315/8028 download failed (Return: -) - http://butterboom.com/tech/gadget/iphone-hong-kong-pricing-rumours/
-tdf#63766 EDITING: Merging of merged cell and unmerged cell fails with error message [Zdeněk Crhonek]
+tdf#63766 EDITING: Merging of merged cell and unmerged cell fails with error message [ZdenÄk Crhonek]
 LaTeX Info: Redefining \ref on input line 90.
 [2023.05.20-22.07.43:062][  0]LogDeviceProfileManager: 	[00000A60F9922A00][00000A60F9950000 52] AppleTV2_4K, 
 [2023.05.20-22.07.43:062][  0]LogDeviceProfileManager: 	[00000A60F9922E00][00000A60F9955000 52] TVOS, 

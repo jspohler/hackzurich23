@@ -127,7 +127,7 @@ US Core Comparison: compare StructureDefinition[http://hl7.org/fhir/us/ph-librar
 [22:42:46] Mesa DUI lawyer T2: [-] 4199/8439 download failed (Return: -) - http://stephenmorabito.com/2014/09/art-gallery/2014-07-08-15-26-08/
 
 tdf#49134 On opening a password-protected file, the LibreOffice dialog is not raised/given focus [Mike Kaganski]
-tdf#49683 FILEOPEN property Keyword (File>Properties ..> Description) no longer imported in rtf document [Zdeněk Crhonek]
+tdf#49683 FILEOPEN property Keyword (File>Properties ..> Description) no longer imported in rtf document [ZdenÄk Crhonek]
 tdf#50507 zoom slider always looks like disabled, too little contrast (OS X only) [heiko tietze]
 ciMethodData java/lang/AbstractStringBuilder appendNull ()Ljava/lang/AbstractStringBuilder; 1 0 orig 264 8 110 37 81 0 0 0 0 176 82 131 22 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 9 0 0 0 0 0 data 2 0x90002 0x0 oops 0
 ciMethodData java/lang/String getChars (II[CI)V 2 6106 orig 264 8 110 37 81 0 0 0 0 8 66 124 22 0 0 0 0 8 2 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 57 1 0 0 9 181 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 160 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 20 0x10007 0x16a1 0x30 0x0 0x90002 0x0 0x130007 0x16a1 0x30 0x0 0x1b0002 0x0 0x210007 0x16a1 0x30 0x0 0x2b0002 0x0 0x3a0002 0x16a1 oops 0
@@ -385,7 +385,7 @@ yours+mine+and+ours+1968	01.08.2009 23:54:07	http://www.google.com/search?hl=en&
 tdf#116733 UI: The settings in the expert configuration won't expanded [Jan Holesovsky]
 tdf#116789 UNO API: XText of cell is not the same object all the time [Miklos Vajna]
 tdf#116791 dialog.dtd:245:61: fatal: character not allowed when converting with trang [Kevin Brubeck Unhammer]
-tdf#116796 UI: Cancel button missing on dialog Confirmation replacing already installed extension [Caolán McNamara]
+tdf#116796 UI: Cancel button missing on dialog Confirmation replacing already installed extension [CaolÃ¡n McNamara]
 tdf#116799 UI: Border selection icon tool in sidebar disappearing (white square) [Noel Grandin]
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
  (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
@@ -404,35 +404,35 @@ Installing hl7.base.template#current done.
 Installing fhir.base.template#current to the package cache
   Fetching:
               to/TO-19  ==                        DEL    $0.429  [D]
-tdf#114848 FILESAVE: PPTX: Shape's colour lost after RT [Szymon Kłos]
-tdf#114872 Broken selection from other user [Tamás Zolnai]
-tdf#114873 Letter, fax and agenda wizard not localized [Caolán McNamara, Julien Nabet]
+tdf#114848 FILESAVE: PPTX: Shape's colour lost after RT [Szymon KÅos]
+tdf#114872 Broken selection from other user [TamÃ¡s Zolnai]
+tdf#114873 Letter, fax and agenda wizard not localized [CaolÃ¡n McNamara, Julien Nabet]
 tdf#114882 Error Message: File format error found at SAXParseException: '[word/document.xml line 2]: Opening and ending tag mismatch: txbxContent line 0 and sdtContent ', Stream 'word/document.xml', Line 2, Column 3157(row,col). [Mike Kaganski]
-tdf#114901 UI: TSCP Classification dialog: too much vertical white space and Part list too wide [Tomaž Vajngerl]
+tdf#114901 UI: TSCP Classification dialog: too much vertical white space and Part list too wide [TomaÅ¾ Vajngerl]
 tdf#114907 [NEW HELP] Contents folder symbol not rendered in Windows 7 [Ilmari Lauhakangas]
 tdf#114913 FILEOPEN: PPTX: Bullets size is too small [Paul Trojahn]
 tdf#114935 Document will lose focus after using the floating windows color picker [Maxim Monastirsky]
 tdf#114939 rtl_digest SHA1 and MD5 code both have an off by 1 bug [Stephan Bergmann, Michael Stahl]
 tdf#114952 filep is still used in soltools/mkdepend/parse.c [Noel Grandin]
-tdf#114992 Delete a sheet in a calc document and LO crashes. [Zdeněk Crhonek]
+tdf#114992 Delete a sheet in a calc document and LO crashes. [ZdenÄk Crhonek]
 tdf#115511 Description field in customize dialog cannot get focus [Muhammet Kara]
 tdf#115519 Enhance the conditional formatting confirmation dialog [Armin Le Grand]
 tdf#115530 Conditional formatting isn't updated when formula is updated (XLSX) [Markus Mohrhard]
 tdf#115554 Files in Debian packages have wrong owner [michael.weghorn, Michael Weghorn]
 tdf#115565 Unable to use keyboard to move to previous or next toolbox item when Sidebar Navigator deck GotoPage control has focus [Jim Raykowski]
-tdf#115572 table format gets reset by deleting a row [Zdeněk Crhonek]
-tdf#115573 EDITING: Table loses formatting when inserting a new row in a table [Zdeněk Crhonek, Jim Raykowski]
+tdf#115572 table format gets reset by deleting a row [ZdenÄk Crhonek]
+tdf#115573 EDITING: Table loses formatting when inserting a new row in a table [ZdenÄk Crhonek, Jim Raykowski]
 tdf#115574 Doesn't work simple pasting spreadsheet from Excel 2010 in to document Writer [Miklos Vajna]
 tdf#115582 VIEWING: Rotated Text in a Cell gets invisible (steps in comment 6 ) [Armin Le Grand]
 tdf#115584 Crash when launching Base [Julien Nabet]
-tdf#115600 Missing Messages at the Use of “Navigate by” Function when Document Beginning or End is Reached [Jim Raykowski]
+tdf#115600 Missing Messages at the Use of âNavigate byâ Function when Document Beginning or End is Reached [Jim Raykowski]
 tdf#115602 Disabled toolbox items in the Sidebar Navigator deck are accessible when using keyboard navigation [Jim Raykowski]
 tdf#115623 EPUB: support vertical writing mode (tb) [Mark Hung]
-tdf#115639 Align right/center with trailing spaces aren't treated the same in PPT(X) as in DOC(X) [Tamás Zolnai]
+tdf#115639 Align right/center with trailing spaces aren't treated the same in PPT(X) as in DOC(X) [TamÃ¡s Zolnai]
 tdf#115659 Apparmor profile for senddoc is broken [Olivier Tilloy]
-tdf#115666 “Navigate By” Function does not Work if Cursor is Positioned in Comment [Jim Raykowski]
+tdf#115666 âNavigate Byâ Function does not Work if Cursor is Positioned in Comment [Jim Raykowski]
 tdf#115675 Shape selection breaks after changing position or size from the sidebar [Jan Holesovsky]
-tdf#115683 When CSV file importing to calc, if LibreOffice already open, text import dialog box open behind a grey window. [Caolán McNamara]
+tdf#115683 When CSV file importing to calc, if LibreOffice already open, text import dialog box open behind a grey window. [CaolÃ¡n McNamara]
 tdf#115691 Automatic preview of custom animation throws focus out of the effects list [Jim Raykowski]
 Successful compile:
 Source:

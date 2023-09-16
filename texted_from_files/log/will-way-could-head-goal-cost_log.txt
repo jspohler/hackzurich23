@@ -70,7 +70,7 @@ socorro+caro	01.08.2009 18:49:21	http://www.google.com/search?q=soccoro+caro&rls
 -- [download 30% complete]
       4    26.180479
       5    23.548161
-tdf#90834 Turn in-line version control history comments into meaningful good comments [Gökhan Gurbetoğlu]
+tdf#90834 Turn in-line version control history comments into meaningful good comments [GÃ¶khan GurbetoÄlu]
 tdf#91106 1st Hierarchical level in Styles and Formatting is not alphabetically sorted [Michael Stahl]
 tdf#108523 Remove @author annotations from source code [Manuj Vashist]
 tdf#108556 Start center welcome text should respect window width [heiko tietze]
@@ -82,8 +82,8 @@ tdf#113624 Wrong position and size of the characters in EMF/EMF+ dual mode [Bart
 tdf#113651 UI Edit - Track Changes submenu item names inconsistent with ones in Writer [Yousuf Philips]
 tdf#113688 Cannot set data series filling to pattern [Katarina Behrens]
 tdf#113715 Customize dialog: .uno:EditAnnotation visible in functions list [Maxim Monastirsky]
-tdf#113788 ActiveX controls' text color is not saved back to DOCX file [Bán Róbert]
-tdf#113805 Insert->Footnote/Endnote , choose character [Caolán McNamara]
+tdf#113788 ActiveX controls' text color is not saved back to DOCX file [BÃ¡n RÃ³bert]
+tdf#113805 Insert->Footnote/Endnote , choose character [CaolÃ¡n McNamara]
 tdf#113854 Cross-reference "above" and "below" in Swedish should trade places [sleepingpillow]
 tdf#113856 Navigator: Bad behaviour of controllers when changing slides [martinb214]
 tdf#113860 Selecting a recent or favorite special character is not applied by OK in bullets and numbering dialog [Mark Vecsernyes]
@@ -108,17 +108,17 @@ tdf#98212 RTL: 'Text Direction' drop down menu doesnt update preview in alignmen
 tdf#98505 Pressing ENTER in SIDEBAR combobox/spinbox cause it to press ENTER in the document [Jim Raykowski]
 tdf#98931 Insert images into cells in Calc [Samuel Mehrbrodt]
 tdf#99363 SMTP over SSL on port 465 (mailmerge on your Google Account: smtp.gmail.com) [Justin Luth]
-tdf#99386 Undo with merged cell, needs hard recalculate, no automatic update [Zdeněk Crhonek]
+tdf#99386 Undo with merged cell, needs hard recalculate, no automatic update [ZdenÄk Crhonek]
 tdf#116841 FILEOPEN: Bullet list has no identation [Miklos Vajna]
-tdf#116842 Adding spreadsheets or slides crashes android viewer [Mert Tümer]
+tdf#116842 Adding spreadsheets or slides crashes android viewer [Mert TÃ¼mer]
 tdf#116848 opening OTT blocks writer [Miklos Vajna]
 tdf#116874 PDF: FILESAVE: Any text left in 'Sign with watermark' 'text' appears even if 'Sign with watermark' is no longer checked [Xisco Fauli]
 tdf#116890 Firebird: empty columns gone with prepared statement [Julien Nabet]
 tdf#116925 Automatic text color in textbox does not consider fill style of shape [Miklos Vajna]
-tdf#116928 EDITING Calc crashes after long file name is supplied in the insert hyperlink dialog [Caolán McNamara]
+tdf#116928 EDITING Calc crashes after long file name is supplied in the insert hyperlink dialog [CaolÃ¡n McNamara]
 tdf#116929 FILEOPEN: Transparent mask imported incorrectly [Noel Grandin]
 tdf#116944 Firebird-migration must happen only after user consent and advise to backup data prior to migration at 6.1 [Tamas Bunth]
-tdf#116951 LibreOffice crashed when inserted "−" (minus, U+2212) character on Gnome on Wayland [Caolán McNamara]
+tdf#116951 LibreOffice crashed when inserted "â" (minus, U+2212) character on Gnome on Wayland [CaolÃ¡n McNamara]
 tdf#116954 EDITING: firebird: migration: View definitions are lost on conversion from embedded hsql files [Tamas Bunth]
 tdf#116965 EDITING: firebird: migration: Relationships lost when database converted to firebird [Tamas Bunth]
 tdf#116976 DOCX import: bitmap does not consume its relative size [Miklos Vajna]
@@ -130,7 +130,7 @@ tdf#116990 FILESAVE Unwanted line breaks if ODS Document gets exported to XHTML 
     Abstract model built after 0.005 second.[0m
     [0mMemory for abstract model: 871.996 KiB (i.e., 223231 words)[0m
     [0m[0m
-    [0m  [BC (full coverage with learning-based abstraction)] Starting running cartography…
+    [0m  [BC (full coverage with learning-based abstraction)] Starting running cartographyâ¦
     [0m
     [0m
     **************************************************[0m
@@ -148,8 +148,8 @@ Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
 \abovecaptionskip=\skip47
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 i#696969 colibre icons: use for font icons [andreas kainz]
-ofz#4746 invalid-bool-value [Caolán McNamara]
-ofz#4753 bad-cast, check all open tables [Caolán McNamara]
+ofz#4746 invalid-bool-value [CaolÃ¡n McNamara]
+ofz#4753 bad-cast, check all open tables [CaolÃ¡n McNamara]
 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:9.0.34]
 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [catalina.jar:9.0.34]
 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [catalina.jar:9.0.34]
@@ -167,7 +167,7 @@ ofz#4753 bad-cast, check all open tables [Caolán McNamara]
 12:32:05 T:2676   DEBUG:   Frame Samples   : 1322
 12:32:05 T:2676   DEBUG:   Frame Size      : 8
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - channel update id:485978368, name:CNN Int.
-tdf#104792 FILESAVE: PPTX: Corrupted File after RT (The element has incomplete child element) [Szymon Kłos]
+tdf#104792 FILESAVE: PPTX: Corrupted File after RT (The element has incomplete child element) [Szymon KÅos]
 tdf#104861 When navigating the Extension manager with the keyboard, it is not possible to focus the list of extensions [Katarina Behrens]
              1974 Mar 21 2100     -              NASA 15.123GM                  NASA 15.123GM                     Arcas                  NASA 15.123GM    CSG ALFS                 0.0
              1974 Mar 22 0645     -              NASA 10.421GM                  NASA 10.421GM                     Nike Cajun             NASA 10.421GM    CSG ALFS               119.0
@@ -308,9 +308,9 @@ NeutronHP: /Inelastic file for Z = 8, A = 18 is not found and CrossSection set t
                                               </musiclibrary>
                                               <splash>false</splash>
                                               <!-- <cputempcommand>echo "$(cat /sys/devices/platform/coretemp.0/temp*_input | awk '{ sum += $1/1000; count += 1 } END { printf "%i\n", sum/count }') C"</cputempcommand>
-ofz#3002 speed up cymk conversion a tad [Caolán McNamara]
-ofz#3004 timeout [Caolán McNamara]
-ofz#3005 timeout [Caolán McNamara]
+ofz#3002 speed up cymk conversion a tad [CaolÃ¡n McNamara]
+ofz#3004 timeout [CaolÃ¡n McNamara]
+ofz#3005 timeout [CaolÃ¡n McNamara]
      Serial Number            : 4437237723
      Firmware Version         : 1.1-5
      Elevation Cutoff Setting : (deg)
@@ -353,7 +353,7 @@ Doing alignment for problem 10
 socorro+caro	01.08.2009 18:13:17	http://www.google.com/search?q=socorro+caro&rls=com.microsoft:en-us:IE-SearchBox&ie=UTF-8&oe=UTF-8&sourceid=ie7&rlz=1I7GGLG_en	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.1.4322; MSN Optimized;US; .NET CLR 2.0.50727; MSN Optimized;US)	75.47.148.247
        dx (m)                 : (m)
        dy (m)                 : (m)
-coverity#1430061 silence Unchecked return value [Caolán McNamara]
+coverity#1430061 silence Unchecked return value [CaolÃ¡n McNamara]
 tdf#91106 1st Hierarchical level in Styles and Formatting is not alphabetically sorted [Michael Stahl]
 tdf#91292 FORMATTING: DOCX, Paragraph background color set to 'No Fill' not persisted on save [Justin Luth]
 tdf#91362 wrong defaults for format/orientation in printsettingsdialogs of printerdrivers [Vasily Melenchuk]
@@ -362,23 +362,23 @@ tdf#92069 LOCALHELP: write help page for Calc ENCODEURL function [Dmitri Kharche
 tdf#92430 LOCALHELP: Use URI instead of URL in help pages for WEBSERVICE and FILTERXML spreadsheet functions [Olivier Hallot]
 tdf#92685 Add PageNumber Header option ... [Gulsah Kose]
 tdf#92825 (Help-Menu-Updates) [META] Update help for all menu changes [Olivier Hallot]
-tdf#93068 UI: Crash when Character dialogue opened [Zdeněk Crhonek]
+tdf#93068 UI: Crash when Character dialogue opened [ZdenÄk Crhonek]
 tdf#93120 Flickering of Thumbnails in Start Center while Moving the Mouse Pointer (without GPU hardware acceleration) [Mike Kaganski]
 tdf#93173 Allow line spacing proportionally to over 200% [Mike Kaganski]
 tdf#94017 WIKIHELP: Imported heading 1 entries should be embedded as heading 2 [Olivier Hallot]
-tdf#94055 Sorting rows makes autofilter disappear (EDITING) [Zdeněk Crhonek]
+tdf#94055 Sorting rows makes autofilter disappear (EDITING) [ZdenÄk Crhonek]
 tdf#94265 bootstrap exception when running C# application with LibreOffice API [Mike Kaganski]
 tdf#94300 Fill gradients dont work in area content panel of chart sidebar [Katarina Behrens]
 tdf#94341 Total record number overwritten in record toolbar control on form [Mike Kaganski]
 tdf#94438 Duplicates of IDs in help files [Olivier Hallot]
 tdf#94498 UI: Ctrl+Shift+F does not repeat search in Basic IDE [tagezi]
-tdf#95024 Support for new Hungarian orthography [László Németh]
+tdf#95024 Support for new Hungarian orthography [LÃ¡szlÃ³ NÃ©meth]
 tdf#104658 Chart bars shrink and jump up on applying bitmap fill [Katarina Behrens]
 tdf#104668 FORMATTING: Difference between MS Word and Writer text alignment. [Vitaliy Anderson]
 tdf#104707 FILESAVE DOCX: URL in comment is not saved to docx format [Justin Luth]
 tdf#104734 FIREBIRD: Add those field types that are not available with FB while they are available with Hsqldb [Tamas Bunth]
-tdf#104786 FILESAVE: PPTX: Corrupted File after RT (The element has invalid child element) [Szymon Kłos]
-tdf#104792 FILESAVE: PPTX: Corrupted File after RT (The element has incomplete child element) [Szymon Kłos]
+tdf#104786 FILESAVE: PPTX: Corrupted File after RT (The element has invalid child element) [Szymon KÅos]
+tdf#104792 FILESAVE: PPTX: Corrupted File after RT (The element has incomplete child element) [Szymon KÅos]
 tdf#104861 When navigating the Extension manager with the keyboard, it is not possible to focus the list of extensions [Katarina Behrens]
 tdf#104942 Conversion HSQLDB to Firebird, Table design issues [Julien Nabet]
 tdf#104986 Firebird: Function EXTRACT doesn't work with WEEKDAY, YEARDAY, MILLISECOND [Lionel Elie Mamane, Tor Lillqvist]

@@ -5,8 +5,8 @@ catv (CATV) [Y/n/?] y
  PROC_COUNT gamma : Transportation = 1419140
  PROC_COUNT gamma : ALL = 1.41914e+06
 instanceKlass java/lang/invoke/MethodType
-ofz#5299 timeout [Caolán McNamara]
-ofz#5301 direct-leak [Caolán McNamara]
+ofz#5299 timeout [CaolÃ¡n McNamara]
+ofz#5301 direct-leak [CaolÃ¡n McNamara]
 [22:42:45] Mesa DUI lawyer: [+] 8186/8415 new URL - https://www.zanettiterrazzo.nl/component/users/?view=login&Itemid=101
 [   1964156] overriding handle for mp_f_freemode_01/jbib_diff_014_i_uni.ytd (was 4cd0453) -> 27d
 [   1964172] overriding handle for mp_f_freemode_01/jbib_diff_014_j_uni.ytd (was 4cd0454) -> 27e
@@ -20,7 +20,7 @@ PROC_CREATOR_COUNT Li7 : neutronInelastic = 6
 ./Film/Jurassic_Park
 ./Film/Ponyo
 ./Film/Porco_Rosso
-./Film/Princesse_Mononoké
+./Film/Princesse_MononokÃ©
 <09:52AM NPR_News> NPR Talk of the Nation (2 pm EST): Expect news, update, and call-in from around the country
 --> "+o tasm" mode change by NeilM on #earthquake
 <09:52AM DrStupid> KNBC - knocked off the foundations - first story collapsed

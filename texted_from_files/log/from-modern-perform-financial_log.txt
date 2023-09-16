@@ -206,8 +206,8 @@ US Core Comparison: compare StructureDefinition[http://hl7.org/fhir/us/ph-librar
 tdf#113651 UI Edit - Track Changes submenu item names inconsistent with ones in Writer [Yousuf Philips]
 tdf#113688 Cannot set data series filling to pattern [Katarina Behrens]
 tdf#113715 Customize dialog: .uno:EditAnnotation visible in functions list [Maxim Monastirsky]
-tdf#113788 ActiveX controls' text color is not saved back to DOCX file [Bán Róbert]
-tdf#113805 Insert->Footnote/Endnote , choose character [Caolán McNamara]
+tdf#113788 ActiveX controls' text color is not saved back to DOCX file [BÃ¡n RÃ³bert]
+tdf#113805 Insert->Footnote/Endnote , choose character [CaolÃ¡n McNamara]
 tdf#113854 Cross-reference "above" and "below" in Swedish should trade places [sleepingpillow]
 tdf#113856 Navigator: Bad behaviour of controllers when changing slides [martinb214]
 tdf#113860 Selecting a recent or favorite special character is not applied by OK in bullets and numbering dialog [Mark Vecsernyes]
@@ -226,13 +226,13 @@ tdf#114013 Compound strings in Writer: "Text Format " + "(Search)" or "(Replace)
 tdf#114117 draw: page shadow issue. [Stephan Bergmann]
 tdf#114122 Double click in special character dialog inserts a character into the document, even when the dialog is only opened to select a single character [Mark Vecsernyes]
 tdf#114132 Tiling bitmaps does not work for charts (Format Wall) [Katarina Behrens]
-tdf#114173 FILESAVE XLSX Custom size of chart legend is not preserved when the file is saved as XLSX [Caolán McNamara]
+tdf#114173 FILESAVE XLSX Custom size of chart legend is not preserved when the file is saved as XLSX [CaolÃ¡n McNamara]
 tdf#114180 FILESAVE XLSX Many custom chart wall properties are not preserved when the spreadsheet is saved as XLSX [Markus Mohrhard]
 tdf#114182 FILESAVE XLSX Pie chart slice moved back by LibreOffice Calc [Markus Mohrhard]
 tdf#114200 FILEOPEN: "Text Import" dialog: option to trim whitespace [Gabor Kelemen, manujvashist]
 tdf#114204 Clarify the "Local Help not installed" message [tagezi]
 tdf#114206 Remove duplication of strings found in StartModuleCommands.xcu [Yousuf Philips, Stephan Bergmann]
-tdf#114232 function ISERROR() doesn't work [Eike Rathke, Zdeněk Crhonek]
+tdf#114232 function ISERROR() doesn't work [Eike Rathke, ZdenÄk Crhonek]
                                                 <pass>xxxxx</pass>
                                               </musicdatabase>
 12:32:05 T:6472  NOTICE:         m_sampleRates     : 48000
@@ -241,10 +241,10 @@ tdf#114232 function ISERROR() doesn't work [Eike Rathke, Zdeněk Crhonek]
 
 Installing hl7.fhir.uv.tools#current to the package cache
 tdf#114418 BASIC Format() runtime function help should contain a link to number format codes [Olivier Hallot]
-tdf#114434 Font metrics in sm Formula editor erratic with Liberation 1.07 (Fedora 27) [Caolán McNamara]
-ofz#7065 integer-overflow [Caolán McNamara]
-ofz#7109 infinite regress [Caolán McNamara]
-ofz#7110 ensure join is called on std::exceptions as well as uno::Exception [Caolán McNamara]
+tdf#114434 Font metrics in sm Formula editor erratic with Liberation 1.07 (Fedora 27) [CaolÃ¡n McNamara]
+ofz#7065 integer-overflow [CaolÃ¡n McNamara]
+ofz#7109 infinite regress [CaolÃ¡n McNamara]
+ofz#7110 ensure join is called on std::exceptions as well as uno::Exception [CaolÃ¡n McNamara]
 staticfield com/android/dx/rop/type/StdTypeList INT_BYTEARR_INT Lcom/android/dx/rop/type/StdTypeList; com/android/dx/rop/type/StdTypeList
 staticfield com/android/dx/rop/type/StdTypeList INT_CHARARR_INT Lcom/android/dx/rop/type/StdTypeList; com/android/dx/rop/type/StdTypeList
 Successful compile:
@@ -653,35 +653,35 @@ You are running SAS 9. Some SAS 8 files will be automatically converted
 by the V9 engine; others are incompatible.  Please see 
 http://support.sas.com/rnd/migration/planning/platform/64bit.html
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/WaveTable/Content/' mounted to '/WaveTable/'
-coverity#1426171 unchecked dynamic_cast [Caolán McNamara]
-coverity#1426312 unchecked return value [Caolán McNamara]
-coverity#1426313 unchecked return value [Caolán McNamara]
-coverity#1426314 silence Resource leak [Caolán McNamara]
-coverity#1426315 logically dead code [Caolán McNamara]
-coverity#1426736 uninitialized scalar field [Caolán McNamara]
-coverity#1426737 uninitialized scalar field [Caolán McNamara]
-coverity#1426738 dereference null return value [Caolán McNamara]
-coverity#1426740 uninitialized scalar field [Caolán McNamara]
-coverity#1426741 uninitialized scalar field [Caolán McNamara]
-coverity#1426742 IsTextBox will be false here unless pVirtO is non-null [Caolán McNamara]
-coverity#1426743 uninitialized scalar field [Caolán McNamara]
-coverity#1426744 uninitialized scalar variable [Caolán McNamara]
-coverity#1426873 unintended sign extension [Caolán McNamara]
-coverity#1426874 bogus Dereference after null check [Caolán McNamara]
-coverity#1426921 uninitialized scalar field [Caolán McNamara]
-coverity#1426922 uninitialized scalar field [Caolán McNamara]
-coverity#1426923 pointer to local outside scope [Caolán McNamara]
-coverity#1426945 unchecked dynamic_cast [Caolán McNamara]
-coverity#1426946 unchecked return value [Caolán McNamara]
-coverity#1427008 result is not floating-point [Caolán McNamara]
-coverity#1427009 uninitialized scalar field [Caolán McNamara]
-coverity#1427248 operands don't affect result [Caolán McNamara]
-coverity#1427249 operands don't affect result [Caolán McNamara]
-coverity#1427250 dereference null return value [Caolán McNamara]
-coverity#1427627 'Constant' variable guards dead code [Caolán McNamara]
-coverity#1427628 dereference before null check [Caolán McNamara]
-coverity#1427629 unchecked return value [Stephan Bergmann, Caolán McNamara]
-coverity#1427630 unchecked return value [Caolán McNamara]
+coverity#1426171 unchecked dynamic_cast [CaolÃ¡n McNamara]
+coverity#1426312 unchecked return value [CaolÃ¡n McNamara]
+coverity#1426313 unchecked return value [CaolÃ¡n McNamara]
+coverity#1426314 silence Resource leak [CaolÃ¡n McNamara]
+coverity#1426315 logically dead code [CaolÃ¡n McNamara]
+coverity#1426736 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1426737 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1426738 dereference null return value [CaolÃ¡n McNamara]
+coverity#1426740 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1426741 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1426742 IsTextBox will be false here unless pVirtO is non-null [CaolÃ¡n McNamara]
+coverity#1426743 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1426744 uninitialized scalar variable [CaolÃ¡n McNamara]
+coverity#1426873 unintended sign extension [CaolÃ¡n McNamara]
+coverity#1426874 bogus Dereference after null check [CaolÃ¡n McNamara]
+coverity#1426921 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1426922 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1426923 pointer to local outside scope [CaolÃ¡n McNamara]
+coverity#1426945 unchecked dynamic_cast [CaolÃ¡n McNamara]
+coverity#1426946 unchecked return value [CaolÃ¡n McNamara]
+coverity#1427008 result is not floating-point [CaolÃ¡n McNamara]
+coverity#1427009 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1427248 operands don't affect result [CaolÃ¡n McNamara]
+coverity#1427249 operands don't affect result [CaolÃ¡n McNamara]
+coverity#1427250 dereference null return value [CaolÃ¡n McNamara]
+coverity#1427627 'Constant' variable guards dead code [CaolÃ¡n McNamara]
+coverity#1427628 dereference before null check [CaolÃ¡n McNamara]
+coverity#1427629 unchecked return value [Stephan Bergmann, CaolÃ¡n McNamara]
+coverity#1427630 unchecked return value [CaolÃ¡n McNamara]
 coverity#1427631 sfx2: fix silly infinite loop [Michael Stahl]
 [22:42:49] Make money online: [-] 7834/8047 download failed (Return: -) - http://www.trickphotographyideas.com/photography/2011/04/hugin-tips/
 [22:42:49] Web Design T2: [-] 4928/8453 download failed (Return: -) - https://www.haverford.edu/users/jdougher
@@ -766,28 +766,28 @@ invicta+9212+men%E2%80%99s+gold+plated+stainless+steel+speedway+watch	01.08.2009
 [2023.05.20-22.07.40:674][  0]LogTargetPlatformManager:   ADPCM
 	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.3.jar:?]
 	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1602) [vaadin-server-8.9.4.jar:8.9.4]
-ofz#6368 integer-overflow [Caolán McNamara]
+ofz#6368 integer-overflow [CaolÃ¡n McNamara]
 ofz#6372 fix bitmap decoding of pattern in LwpBackgroundStuff [Noel Grandin]
-ofz#7671 undefined-shift [Caolán McNamara]
-ofz#7729 null-dereference READ [Caolán McNamara]
-ofz#1429182 unchecked dynamic_cast [Caolán McNamara]
-rhbz#1396729 [GTK3] LibreOffice Writer slows scrolling with embedded images [Caolán McNamara]
-rhbz#1517407 Capitalize every word does not work with words after non-alphabet characters [Caolán McNamara]
-rhbz#1527945 [fix available] Segmentation fault when opening password protected LO document [Caolán McNamara]
+ofz#7671 undefined-shift [CaolÃ¡n McNamara]
+ofz#7729 null-dereference READ [CaolÃ¡n McNamara]
+ofz#1429182 unchecked dynamic_cast [CaolÃ¡n McNamara]
+rhbz#1396729 [GTK3] LibreOffice Writer slows scrolling with embedded images [CaolÃ¡n McNamara]
+rhbz#1517407 Capitalize every word does not work with words after non-alphabet characters [CaolÃ¡n McNamara]
+rhbz#1527945 [fix available] Segmentation fault when opening password protected LO document [CaolÃ¡n McNamara]
 rhbz#1541486 Base table creation dialog window title is shown in different languages [Stephan Bergmann]
 rhbz#1559633 Cannot open immutable files [Stephan Bergmann]
-rhbz#1569331 Libreoffice applications crash when tried to input through any IME [Caolán McNamara]
+rhbz#1569331 Libreoffice applications crash when tried to input through any IME [CaolÃ¡n McNamara]
 tdf#16083 writer table resize behavior is random [Noel Grandin]
 tdf#32935 CSV import dialog doesn't get focus if libreoffice is already running [Mike Kaganski]
 tdf#33596 [TASK] Extract PDF Export and Hyperlink handling bugs from original export [Justin Luth]
-tdf#35294 Calc autofilter function: column header drop-down box contents isn't sorted correctly [Zdeněk Crhonek]
+tdf#35294 Calc autofilter function: column header drop-down box contents isn't sorted correctly [ZdenÄk Crhonek]
 tdf#35301 Allow vertical ruby text in the Asian phonetic guide [Mark Hung, Adolfo Jayme Barrientos]
 tdf#36308 [UI]Change behaviour for "tree view" on Writer's Navigator [Jim Raykowski]
 tdf#36970 Help on Managing Digital Signatures is incorrect [Olivier Hallot]
 tdf#37074 customization of MOD3 missing on macOS [Heiko Tietze]
-tdf#37901 EDITING: Undo not available for Merge Cells in Calc [Zdeněk Crhonek]
+tdf#37901 EDITING: Undo not available for Merge Cells in Calc [ZdenÄk Crhonek]
 tdf#38915 Multiple soffice.bin soffice.exe [Mike Kaganski]
-tdf#39312 Writer improvement: Reorder buttons in “Paragraph Style” dialog for better usability [heiko tietze]
+tdf#39312 Writer improvement: Reorder buttons in âParagraph Styleâ dialog for better usability [heiko tietze]
 tdf#39593 copy/paste code detector / fixing [tagezi, Hrishabh, Eike Rathke]
 tdf#40457 Place captions above tables by default [vikasmahato]
 tdf#40460 [LOCALHELP] Calc IRR function error can be avoided but is not documented in help (see comment 11) [Olivier Hallot]
@@ -901,7 +901,7 @@ jonathan+campos	01.08.2009 20:23:33	http://www.google.com/search?hl=en&q=Petty+O
 12:32:05 T:7664  NOTICE: Thread RemoteControl start, auto delete: false
 12:32:05 T:7432    INFO: CKeyboardLayoutManager: loading keyboard layouts from special://xbmc/system/keyboardlayouts...
 12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "Arabic QWERTY" successfully loaded
-12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "Bulgarian ЯВЕРТЪ" successfully loaded
+12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "Bulgarian Ð¯ÐÐÐ Ð¢Ðª" successfully loaded
 12:32:05 T:7432  NOTICE: Additional mode: 1280x720@ 75.00 - Full Screen
 12:32:05 T:7432  NOTICE: Previous line repeats 2 times.
 12:32:05 T:7432  NOTICE: Additional mode: 1280x768@ 60.00 - Full Screen
@@ -963,7 +963,7 @@ jonathan+campos	01.08.2009 20:23:33	http://www.google.com/search?hl=en&q=Petty+O
             Population analysis using the SCF density.
 
             useClassicAlignmentFeatures    = false
-tdf#53460 TABLE: Writer crashes after trying to resize(decrease) the cell height with a table inside it, using the keyboard shortcuts <ALT>+↑ [Zdeněk Crhonek]
+tdf#53460 TABLE: Writer crashes after trying to resize(decrease) the cell height with a table inside it, using the keyboard shortcuts <ALT>+â [ZdenÄk Crhonek]
 Remote system type is UNIX.
 Using binary mode to transfer files.
 	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.3.jar:?]

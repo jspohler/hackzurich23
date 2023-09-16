@@ -44,7 +44,7 @@ U30	ARIZONA	TEMPLE BAR	afd	sw_33_25OCT2007.png
 12:32:05 T:7432   DEBUG: ADDON: cpluff: 'Plug-in script.module.pil has been installed.'
 12:32:05 T:7432   DEBUG: ADDON: cpluff: 'Plug-in visualization.dxspectrum has been installed.'
 12:32:05 T:7432   DEBUG: ADDON: cpluff: 'Plug-in pvr.vuplus has been installed.'
-12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "Bulgarian АБВ" successfully loaded
+12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "Bulgarian ÐÐÐ" successfully loaded
 [   1916468] ResourceCache::AddEntry: Saved cache:v1:af0883230292a66415434c5d70e598d21db758c1 to the index cache.
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
@@ -89,7 +89,7 @@ ciInstanceKlass java/security/AccessControlContext 1 1 313 9 9 10 8 10 10 9 9 9 
 <09:48AM DrStupid> KNBC - "oh that sky looks beautiful"
 <09:48AM CNN_news> CNN lost KTLA live coverage
 <09:49AM tasm> barbara bocer: really nice to have a FEMA director who is a real human being... on TODAY SHOW
-12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "Ukrainian ЙЦУКЕН" successfully loaded
+12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "Ukrainian ÐÐ¦Ð£ÐÐÐ" successfully loaded
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
 	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:155) ~[vaadin-server-8.9.4.jar:8.9.4]

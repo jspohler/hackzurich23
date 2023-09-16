@@ -121,21 +121,21 @@ tdf#98212 RTL: 'Text Direction' drop down menu doesnt update preview in alignmen
 tdf#98505 Pressing ENTER in SIDEBAR combobox/spinbox cause it to press ENTER in the document [Jim Raykowski]
 tdf#98931 Insert images into cells in Calc [Samuel Mehrbrodt]
 tdf#99363 SMTP over SSL on port 465 (mailmerge on your Google Account: smtp.gmail.com) [Justin Luth]
-tdf#99386 Undo with merged cell, needs hard recalculate, no automatic update [Zdeněk Crhonek]
+tdf#99386 Undo with merged cell, needs hard recalculate, no automatic update [ZdenÄk Crhonek]
 tdf#99483 Marque cell selection should be removed after paste [Olivier Hallot]
 tdf#99524 Broken undo for bulleted lists [Mark Hung]
 tdf#99529 Input field content is changed if another input field is inserted in front of it [Noel Grandin]
 tdf#99539 Added slide masters disappear from list after unassigning it from slides [Christian Lohmaier]
 tdf#99611 improve function AND() documentation [Olivier Hallot]
-tdf#100226 Strings that are not fully removed from source code [Caolán McNamara]
+tdf#100226 Strings that are not fully removed from source code [CaolÃ¡n McNamara]
 tdf#100243 System freezes when attempting to print while OpenGL is enabled [Julien Nabet]
 tdf#100370 Status bar functions - Selection Icon not working properly on left mouse click [Kshitij Pathania]
 tdf#100715 Slide transition sound doesn't remember last folder [Samuel Mehrbrodt]
-tdf#100726 Improve readability of OUString/OString concatenations [Gökhan Gurbetoğlu]
+tdf#100726 Improve readability of OUString/OString concatenations [GÃ¶khan GurbetoÄlu]
 tdf#100810 functions CEILING.XCL, CEILING.MATH not in help [Dmitri Kharchev]
 tdf#100898 Sidebar decks without a content panel title are unattainable with keyboard [Katarina Behrens]
 tdf#103080 A new default set of bundled fonts [Yousuf Philips]
-tdf#103083 EDITING: Cut and Paste (at the same position) changes bullet point formatting [Mert Tümer]
+tdf#103083 EDITING: Cut and Paste (at the same position) changes bullet point formatting [Mert TÃ¼mer]
 tdf#103550 JIS function [Winfried Donkers]
 tdf#103705 Clone formatting does not copy all paragraph-level properties [heiko tietze]
 tdf#103733 [UI] Menus and toolbars of master documents have not been reorganized as for Writer documents [Yousuf Philips]
@@ -149,7 +149,7 @@ tdf#104368 With GTK3 port, floating search bar textentry widget can never get fo
                     1          2          3
      1  O    0.000000
 .                    ==> .
-Building reference valuation…
+Building reference valuationâ¦
                                   1994-034C      STRV 1B                        STRV 1B                   S23126
                                   1994-034A      Intelsat 702                   Intelsat 702              S23124
 1994-040     1994 Jul  8 2305:32  1994-040B      BS-3N                          BS-3N                     S23176  Ariane 44L             V65              CSG ELA2                 0.0
@@ -427,11 +427,11 @@ What kind of applet links to install
 [   1966578] overriding handle for mp_f_freemode_01_mp_f_importexport_01/jbib_diff_007_l_uni.ytd (was 51d0012) -> 58b
 
 679 redirects imported
-ofz#6390 leak [Caolán McNamara]
-ofz#6414 integer-overflow [Caolán McNamara]
-ofz#6427 use of uninitialized values [Caolán McNamara]
-ofz#6432 bad-cast [Caolán McNamara]
-ofz#6433 bad-cast [Caolán McNamara]
+ofz#6390 leak [CaolÃ¡n McNamara]
+ofz#6414 integer-overflow [CaolÃ¡n McNamara]
+ofz#6427 use of uninitialized values [CaolÃ¡n McNamara]
+ofz#6432 bad-cast [CaolÃ¡n McNamara]
+ofz#6433 bad-cast [CaolÃ¡n McNamara]
 [2023.05.20-22.07.39:933][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
 [2023.05.20-22.07.39:933][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
 [2023.05.20-22.07.39:933][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
@@ -457,7 +457,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
      -- Verifying Misc. Spice Kernel Variables
 
 ........................................
-ofz#6843 integer-overflow [Caolán McNamara]
+ofz#6843 integer-overflow [CaolÃ¡n McNamara]
 ofz#6845 use of "deleted" ScRange [Eike Rathke]
   GEN     coreutils/Config.in
   GEN     coreutils/libcoreutils/Kbuild

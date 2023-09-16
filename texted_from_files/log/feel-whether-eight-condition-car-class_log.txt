@@ -21,15 +21,15 @@
     + also test that we are not still listening to the old area [Markus Mohrhard]
     + also use the right stream for check [David Tardon]
     + always align color bar to icon bottom edge (tdf#84985) [Regina Henschel]
-    + always copying the full bitmap, not just a portion of it [Caolán McNamara]
-    + always copying to a different bitmap [Caolán McNamara]
+    + always copying the full bitmap, not just a portion of it [CaolÃ¡n McNamara]
+    + always copying to a different bitmap [CaolÃ¡n McNamara]
     + always provide control points for beziers (tdf#99165) [Armin Le Grand]
     + always save cell format (tdf#92296, tdf#98083) [Katarina Behrens]
     + always show the text direction alignment control (tdf#97251) [Yousuf Philips]
-    + always support packagekit if dbus is enabled [Caolán McNamara]
+    + always support packagekit if dbus is enabled [CaolÃ¡n McNamara]
     + ambiguity between clang:: and llvm::PointerType [Stephan Bergmann]
     + aMethod is more accurately an SvMetaSlot [Noel Grandin]
-    + an empty string here seems no hardship [Caolán McNamara]
+    + an empty string here seems no hardship [CaolÃ¡n McNamara]
     + and in .SDI parser (cid#1352218, cid#1352216) [Noel Grandin]
     + and now add the correct patch [David Ostrovsky]
     + and now put the patch in the right location [David Ostrovsky]
@@ -135,19 +135,19 @@ LaTeX Info: Redefining \ref on input line 6145.
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - channel update id:1822900671, name:NDR FS HH HD
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - channel update id:1891485708, name:tagesschau24 HD
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - channel update id:2014958006, name:N24
-12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - channel update id:2080796194, name:MDR Thüringen HD
+12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - channel update id:2080796194, name:MDR ThÃ¼ringen HD
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - tag updated id:3, name:HDTV
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - tag updated id:2, name:Radio
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - tag updated id:4, name:UNSER
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - tag updated id:1, name:TV channels
-12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:360022343, state:scheduled, title:quer, desc:... durch die Woche mit Christoph Süß, error:none
+12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:360022343, state:scheduled, title:quer, desc:... durch die Woche mit Christoph SÃ¼Ã, error:none
 12:32:06 T:7988   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - receive message [dvrEntryAdd]
 12:32:06 T:6224   DEBUG: Previous line repeats 30 times.
-12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:1868422472, state:scheduled, title:Börse vor acht, desc:Moderation: Markus Gürne, error:none
+12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:1868422472, state:scheduled, title:BÃ¶rse vor acht, desc:Moderation: Markus GÃ¼rne, error:none
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:1844310176, state:scheduled, title:Tagesschau, desc:, error:none
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:259642368, state:scheduled, title:Silent Witness, desc:Verschollen (1), error:none
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:1117432608, state:scheduled, title:Silent Witness, desc:Verschollen (2), error:none
-12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:2085455399, state:scheduled, title:Börse vor acht, desc:Moderation: Markus Gürne, error:none
+12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:2085455399, state:scheduled, title:BÃ¶rse vor acht, desc:Moderation: Markus GÃ¼rne, error:none
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:191562448, state:scheduled, title:Tagesschau, desc:, error:none
 \openout1 = `main.aux'.
 
@@ -218,14 +218,14 @@ US Core Comparison: compare StructureDefinition[http://hl7.org/fhir/us/ph-librar
     & Delta = 3[0m
     [0mExecuting: 'python /home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../interfaceCV.py ./examples/Fischer/FERA3.imi ./examples/Fischer/FERA3-learning_learning_2.imi delta=1,Delta=3'[0m
 [0;36;40m*-**--***---****---***--**-*[0;36;40m
-[0;36;40mHello, this is Interfaçator![0;36;40m
-Building reference valuation…
+[0;36;40mHello, this is InterfaÃ§ator![0;36;40m
+Building reference valuationâ¦
 Pi0:
     v(delta) = 1
     v(Delta) = 3
-Valuating component A with pi0…
-Writing content to "./examples/Fischer/FERA3.cv"…
-[0;36;40mExecuting "/home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../CV/Compositional_Verifier -imi ./examples/Fischer/FERA3.cv"…[0;36;40m
+Valuating component A with pi0â¦
+Writing content to "./examples/Fischer/FERA3.cv"â¦
+[0;36;40mExecuting "/home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../CV/Compositional_Verifier -imi ./examples/Fischer/FERA3.cv"â¦[0;36;40m
 [0;36;40m[91mFatal error![0;36;40m[0;36;40m
 [0;36;40m[91mCall to "/home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../CV/Compositional_Verifier" failed. Error code: -9[0;36;40m[0;36;40m
  [91m*** ERROR: Fatal internal error: Something went wrong in the command.
@@ -360,9 +360,9 @@ tim+hack+and+kelly+drew	01.08.2009 18:00:05	http://www.google.com/search?client=
                                   1991-015B      Meteosat 5                     MOP 2                     S21140
 1991-026     1991 Apr  4 2333:00  1991-026A      Anik E2                        Anik E2                   S21222  Ariane 44P             V43              CSG ELA2                 0.0
 1991-050     1991 Jul 17 0146:31  1991-050A      ERS-1                          ERS-1                     S21574  Ariane 40              V44              CSG ELA2                 0.0
-ofz#6376 floating-point-exception [Caolán McNamara]
-ofz#6390 leak [Caolán McNamara]
-ofz#6414 integer-overflow [Caolán McNamara]
+ofz#6376 floating-point-exception [CaolÃ¡n McNamara]
+ofz#6390 leak [CaolÃ¡n McNamara]
+ofz#6414 integer-overflow [CaolÃ¡n McNamara]
 find (FIND) [Y/n/?] y
   return 0;
 12:32:05 T:7664  NOTICE: Thread RemoteControl start, auto delete: false
@@ -401,7 +401,7 @@ find (FIND) [Y/n/?] y
 (KD4CQY/#earthquake) all floors collapsed
 2021-10-26T21:52:27.223Z,98.223618,4f32000,7 [FLog::Network] Disconnection Notification. Reason: -1
 2016-02-23 15:45:25,616  INFO Injector:69    -> com.google.inject.internal.ConstructorBindingImpl$Factory@3c3d9b6b[Scopes.SINGLETON]
-    + add i18nlangtag and ucbhelper to libmerged [Matúš Kukan]
+    + add i18nlangtag and ucbhelper to libmerged [MatÃºÅ¡ Kukan]
 E95	ARIZONA	BENSON MUNI	afd	sw_2_25OCT2007.png
 P04	ARIZONA	BISBEE MUNI	afd	sw_2_25OCT2007.png
 BXK	ARIZONA	BUCKEYE MUNI	afd	sw_2_25OCT2007.png
@@ -501,16 +501,16 @@ Interactive mode on.
 [   1912093] ResourceCache::AddEntry: Saved cache:v1:50bf2dd6d0151f1202700547dec216e2350b0c7b to the index cache.
 [   1912109] ResourceCacheDevice: downloaded resource.rpf in 184 msec (size 6144)
   GEN     libbb/Config.in
-[0;36;40mHello, this is Interfaçator![0;36;40m
+[0;36;40mHello, this is InterfaÃ§ator![0;36;40m
 Sushi:   Line: 26                                                                (04:23.462)
 Sushi: warn  Element Library.useContext:reportingContext.value[x] has its cardinality satisfied by a rule that does not include the slice name. Use slice names in rule paths when possible. (04:23.505)
 Sushi: warn  Element Library.useContext:specificationTypeContext.value[x] has its cardinality satisfied by a rule that does not include the slice name. Use slice names in rule paths when possible. (04:23.508)
 [22:42:48] Web Design: [-] 0799/7978 download failed (Return: -) - http://www.esisa.es
       "eslint-plugin-import": "^2.22.1",
       "eslint-plugin-no-only-tests": "^2.4.0",
-coverity#1421124 uncaught exception [Caolán McNamara]
-coverity#1424266 uncaught exception [Caolán McNamara]
-coverity#1424321 dereference after null check [Caolán McNamara]
+coverity#1421124 uncaught exception [CaolÃ¡n McNamara]
+coverity#1424266 uncaught exception [CaolÃ¡n McNamara]
+coverity#1424321 dereference after null check [CaolÃ¡n McNamara]
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - channel update id:262014743, name:ARD-alpha
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - channel update id:311783343, name:Eurosport 1 Deutschland
 21:38:12 T:139832867932032   DEBUG: ADDON: cpluff: 'Plug-in webinterface.default has been installed.'
@@ -836,7 +836,7 @@ fedex+field	01.08.2009 19:20:18	http://www.google.com/search?q=fedex+field+parki
 socorro+caro	01.08.2009 18:29:47	http://www.google.com/search?hl=en&q=Socorro+Caro+&aq=f&oq=&aqi=	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)	69.228.37.117
 sono+arts+festival	01.08.2009 18:30:01	http://www.google.com/search?q=sono+festival%2C+ct&rls=com.microsoft:en-us:IE-SearchBox&ie=UTF-8&oe=UTF-8&sourceid=ie7&rlz=1I7GZHZ_en	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; (R1 1.5); .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)	67.87.5.227
 fedex+field	01.08.2009 18:30:17	http://www.google.com/search?q=fedex+field+concert+parking&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a	Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.1.1) Gecko/20090715 Firefox/3.5.1 (.NET CLR 3.5.30729)	98.231.248.30
-./JeuxVideos/Pokémon_-_OST/Générique%20Pokémon%20(Francais)
+./JeuxVideos/PokÃ©mon_-_OST/GeÌneÌrique%20PokeÌmon%20(Francais)
   the                  ==&gt; the
   10th_of_December_,_1936 ==&gt; _
 instanceKlass java/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl$1
@@ -901,7 +901,7 @@ tdf#115874 On Style dialog's Organizer tab, non-integer font size is shown round
 Importing posts...
 tdf#115353 Status bar displays wrong characters upon load (OpenGL) [Tamas Bunth]
 tdf#115388 Change link in "About" to HTTPS [Xisco Fauli]
-tdf#115394 FILEOPEN: slide transition times are not imported correctly [Szymon Kłos]
+tdf#115394 FILEOPEN: slide transition times are not imported correctly [Szymon KÅos]
 build	14-Jul-2020 09:19:53	[INFO] Processing change of com.XXXXXX.eps.epdg:epdg-app-aggregator:1.0.0-SNAPSHOT -> 1.0.16-SNAPSHOT
 build	14-Jul-2020 09:19:53	[INFO] Processing com.XXXXXX.eps.epdg:epdg-app-aggregator
 build	14-Jul-2020 09:19:53	[INFO]     Updating project com.XXXXXX.eps.epdg:epdg-app-aggregator
@@ -918,9 +918,9 @@ Build shared libbusybox (BUILD_LIBBUSYBOX) [N/y/?] n
 bullet+express	01.08.2009 20:28:37	http://www.google.com/search?sourceid=navclient&ie=UTF-8&rlz=1T4DKUS_enUS311&q=Bullet+express+does+it+work	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)	96.250.181.62
 <09:35AM KFWB> Apartment building in Northridge collapsed, reducing the 1st floor to 18" high - Reportedly housed Univ. Students. - 5 known dead
 <09:35AM KNBC> FEMA briefing on ABC in a few
-coverity#1430093 logically dead code [Caolán McNamara]
-coverity#1430095 uncaught exception [Caolán McNamara]
-./Les%202%20Minutes%20du%20Peuple%20-%20François%20Pérusse/Roger%20et%20Caroline
+coverity#1430093 logically dead code [CaolÃ¡n McNamara]
+coverity#1430095 uncaught exception [CaolÃ¡n McNamara]
+./Les%202%20Minutes%20du%20Peuple%20-%20FrancÌ§ois%20PeÌrusse/Roger%20et%20Caroline
        Height Diff to Ant     : (m)
        Calibration date       : (CCYY-MM-DD)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)

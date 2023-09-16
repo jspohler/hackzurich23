@@ -32,7 +32,7 @@ int main() {
 \pgf@hbox=\box61
 GNU	ALASKA	GOODNEWS	afd	al_87_25OCT2007.png
 ofz#6845 use of "deleted" ScRange [Eike Rathke]
-ofz#6888 /forcepoint#27 adjust consistency check [Caolán McNamara]
+ofz#6888 /forcepoint#27 adjust consistency check [CaolÃ¡n McNamara]
 MPI Message Lengths:  0.000e+00      0.00000   0.000e+00  0.000e+00
 MPI Reductions:       0.000e+00      0.00000
 
@@ -210,8 +210,8 @@ Importing categories...
 ./Film/Star_Wars
 [22:42:30] Sports: [+] 8077/8698 new URL - http://ringofentrepreneurs.com/wp-login.php?action=register
 [22:42:30] Travels: [-] 8120/8261 no engine matches (HTTP-Status: 503) - http://fewo-silesia.de
-ofz#4419 integer-overflow [Caolán McNamara]
-ofz#4422 integer-overflow [Caolán McNamara]
+ofz#4419 integer-overflow [CaolÃ¡n McNamara]
+ofz#4422 integer-overflow [CaolÃ¡n McNamara]
 [22:42:43] Cooking TIPS: [-] 0202/7845 no engine matches (HTTP-Status: 400) - https://www.newscorpaustralia.com
 [22:42:43] Mesothelioma T1: [+] 0213/8853 unknown registration status - http://www.ietrade.com.cn
 [22:42:43] Insurance: [+] 8214/8262 matches engine Wordpress Article - http://www.inktippitchsummit.com/
@@ -444,7 +444,7 @@ make[1]: Entering directory '/builds/free-electrons/toolchains-builder/buildroot
 File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 sono+arts+festival	01.08.2009 20:29:00	http://www.google.com/search?q=sono+fine+art+festival&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a	Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20	67.86.121.209
 NOTE: The PROCEDURE PRINT printed page 2.
-ofz#4530 null-dereference READ [Caolán McNamara]
+ofz#4530 null-dereference READ [CaolÃ¡n McNamara]
 ./Film/by_John_Williams/John%20Williams%20-%2040%20Years%20of%20music/CD2
 ./Film/by_John_Williams/John%20Williams%20-%2040%20Years%20of%20music/CD3
 	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.3.jar:?]

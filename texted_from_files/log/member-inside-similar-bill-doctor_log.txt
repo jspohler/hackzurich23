@@ -422,9 +422,9 @@ sed \
 [22:42:37] Precious metals T1: [+] 0062/8752 matches engine Discuz - http://bbs.saforever.com/member.php?mod=register&inajax=1&inajax=1&inajax=1
 [   1964250] overriding handle for mp_f_freemode_01/jbib_diff_014_p_uni.ytd (was 4cd045a) -> 284
   Support wtmp file (FEATURE_WTMP) [Y/n/?] y
-[18/Jun/2019:19:43:09] (ℹ️): [PLUGIN] Toolbar Extras : v1.4.3 (David Decker - DECKERWEB)
-[18/Jun/2019:19:43:09] (ℹ️): [PLUGIN] Visual Elements : v1.0.0 (Jared S Dias)
-[18/Jun/2019:19:43:09] (ℹ️): [PLUGIN] Weglot Translate : v3.0.6 (Weglot Translate team)
+[18/Jun/2019:19:43:09] (â¹ï¸): [PLUGIN] Toolbar Extras : v1.4.3 (David Decker - DECKERWEB)
+[18/Jun/2019:19:43:09] (â¹ï¸): [PLUGIN] Visual Elements : v1.0.0 (Jared S Dias)
+[18/Jun/2019:19:43:09] (â¹ï¸): [PLUGIN] Weglot Translate : v3.0.6 (Weglot Translate team)
 === START empty 2016-05-16 14:26:26 ===
 Users deleted
 WordPress content removed

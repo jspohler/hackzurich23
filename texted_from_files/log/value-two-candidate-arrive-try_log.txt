@@ -11,7 +11,7 @@ US Core Comparison: compare StructureDefinition[http://hl7.org/fhir/us/ph-librar
 [22:42:45] Dwi Attorney T1: [+] 0079/8745 new URL - http://restaurant.nomadsadventurequest.com/component/users/?view=login
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ./Hugues_Aufray/Hugues%201980
-ofz#6764 null-Dereference [Caolán McNamara]
+ofz#6764 null-Dereference [CaolÃ¡n McNamara]
 build	14-Jul-2020 09:19:51	[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.jcraft:jsch:jar -> version 0.1.50 vs 0.1.54 @ com.XXXXXX.eps.epdg:epdg-app-war:[unknown-version], D:\BambooAgent\xml-data\build-dir\EPDG-EPWBD-JOB1\epdg-app-war\pom.xml, line 6241, column 15
 build	14-Jul-2020 09:19:51	[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.eclipse.m2e:lifecycle-mapping @ com.XXXXXX.enterprise.build:enterprise-pom:3.0.0, d:\MavenRepo\com\XXXXXX\enterprise\build\enterprise-pom\3.0.0\enterprise-pom-3.0.0.pom, line 197, column 13
 build	14-Jul-2020 09:19:51	[WARNING] 

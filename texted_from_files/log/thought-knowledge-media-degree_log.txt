@@ -7,8 +7,8 @@ evil+knievel	01.08.2009 21:03:14	http://www.google.com/search?hl=en&rlz=1R2GPEA_
 [2023.05.20-22.07.40:739][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
 [2023.05.20-22.07.40:739][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
 [2023.05.20-22.07.40:739][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
-[18/Jun/2019:19:43:09] (ℹ️): Site URL : http://ambientetotal.org.br
-[18/Jun/2019:19:43:09] (ℹ️): WordPress Version : 5.2.1
+[18/Jun/2019:19:43:09] (â¹ï¸): Site URL : http://ambientetotal.org.br
+[18/Jun/2019:19:43:09] (â¹ï¸): WordPress Version : 5.2.1
      Cr_sctns:          He3HPInelasticXS: 0 eV  ---> 200 MeV
      Cr_sctns: Glauber-Gribov nucleus nucleus: 0 eV  ---> 2.88022e+295 J  
 tdf#115905 Help mentions non-existing "Slide Show - Custom Animation" menu entry [Olivier Hallot]
@@ -22,8 +22,8 @@ LogPluginManager: Mounting Engine plugin PerforceSourceControl
 [   1946593] rage::gameSkeleton::RunInitFunctions: Invoking CRandomEventManager INIT_BEFORE_MAP_LOADED init (25 out of 31)
 [   1946609] rage::gameSkeleton::RunInitFunctions: Invoking CCrimeInformationManager INIT_BEFORE_MAP_LOADED init (26 out of 31)
       3          1           0        0.000000   -0.756950   -0.468706
-coverity#1433788 unintended sign extension [Caolán McNamara]
-coverity#1433789 unintended sign extension [Caolán McNamara]
+coverity#1433788 unintended sign extension [CaolÃ¡n McNamara]
+coverity#1433789 unintended sign extension [CaolÃ¡n McNamara]
 #include "conffix.h"
 [      1797] [    GTAProcess]             MainThrd/ No such command rbind.
 [      1797] [    GTAProcess]             MainThrd/ No such command rbind.

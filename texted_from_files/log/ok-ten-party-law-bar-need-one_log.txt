@@ -47,7 +47,7 @@ i2cget (I2CGET) [Y/n/?] y
 45       ! _____________________
 46         
     + "Ugandan" is better than "Uganda" (tdf#98403) [Julien Nabet]
-    + 'Constant' variable guards dead code (cid#1357163, coverity#1351878, coverity#1351882, coverity#1351755, coverity#1351877, tdf#96414) [Stephan Bergmann, Caolán McNamara]
+    + 'Constant' variable guards dead code (cid#1357163, coverity#1351878, coverity#1351882, coverity#1351755, coverity#1351877, tdf#96414) [Stephan Bergmann, CaolÃ¡n McNamara]
 ./Notre_Dame_de_Paris/Acte_II
 ./Tari%20Tari
 ./Walt%20Disney
@@ -89,7 +89,7 @@ LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
 \c@pgfmathroundto@lastzeros=\count320
 [22:42:38] eBay: [-] 8125/8467 no engine matches (HTTP-Status: 503) - http://www.wolviston.org.uk/?p=696
 [22:42:38] Currency: [-] 7908/8085 no engine matches (HTTP-Status: 503) - https://northeastnow.com/
-tdf#94055 Sorting rows makes autofilter disappear (EDITING) [Zdeněk Crhonek]
+tdf#94055 Sorting rows makes autofilter disappear (EDITING) [ZdenÄk Crhonek]
 fsync (FSYNC) [N/y/?] n
 
 US Core Comparison: compare StructureDefinition[http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-pregnancy-outcome-observation|1.0.0] to StructureDefinition[http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation|6.1.0]
@@ -97,7 +97,7 @@ DUT	ALASKA	UNALASKA	afd	al_230_25OCT2007.png
 VDZ	ALASKA	VALDEZ PIONEER FIELD	afd	al_231_25OCT2007.png
  PROC_COUNT Be10 : ALL = 3461
 .                    ==> .
-12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:627707058, state:completed, title:SOKO Stuttgart, desc:Krimiserie, Deutschland 2016Sandy, Besitzerin eines Hundesalons, wurde bei der Arbeit an einem Hund erschlagen. Führt das Tier zum Täter?Bo Bollmann, Ehemann des Opfers und Mitinhaber des Hundesalons, hat angeblich mit Sandy eine glückliche Ehe geführt. Bald steht der Verdacht im Raum, dass Sandy Bo mit ihrem alten Schulfreund Jens Fink betrogen hat.Darsteller:Martina Seiffert - Astrid M. FünderichJoachim Stoll - Peter KetnathRico Sander - Benjamin StreckerSelma Kirsch - Yve BurbachMichael Kaiser - Karl KranzkowskiJan Arnaud - Mike Zaka SommerfeldtProf. Dr. Lisa Wolter - Eva Maria BayerwaltesFriedemann Sonntag - Christian PätzoldBenedikt Förster - Florian WünscheThomas "Bo" Bollmann - Martin KapsJens Fink - Michael PinkRosalie Eisele - Annekathrin BürgerDaniel Karlsberg - Urs RemondKundin - Tara Maria Linkeund andereRegie: Daniel AndersonBuch/Autor: Stephan WuschanskyKamera: Notker MahrMusik: Peter GromerHD-ProduktionAltersfreigabe: 12, error:none
+12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:627707058, state:completed, title:SOKO Stuttgart, desc:Krimiserie, Deutschland 2016Sandy, Besitzerin eines Hundesalons, wurde bei der Arbeit an einem Hund erschlagen. FÃ¼hrt das Tier zum TÃ¤ter?Bo Bollmann, Ehemann des Opfers und Mitinhaber des Hundesalons, hat angeblich mit Sandy eine glÃ¼ckliche Ehe gefÃ¼hrt. Bald steht der Verdacht im Raum, dass Sandy Bo mit ihrem alten Schulfreund Jens Fink betrogen hat.Darsteller:Martina Seiffert - Astrid M. FÃ¼nderichJoachim Stoll - Peter KetnathRico Sander - Benjamin StreckerSelma Kirsch - Yve BurbachMichael Kaiser - Karl KranzkowskiJan Arnaud - Mike Zaka SommerfeldtProf. Dr. Lisa Wolter - Eva Maria BayerwaltesFriedemann Sonntag - Christian PÃ¤tzoldBenedikt FÃ¶rster - Florian WÃ¼nscheThomas "Bo" Bollmann - Martin KapsJens Fink - Michael PinkRosalie Eisele - Annekathrin BÃ¼rgerDaniel Karlsberg - Urs RemondKundin - Tara Maria Linkeund andereRegie: Daniel AndersonBuch/Autor: Stephan WuschanskyKamera: Notker MahrMusik: Peter GromerHD-ProduktionAltersfreigabe: 12, error:none
 G4ParticleHPManager::GetDataStream FILE /home/arce/gamos/external/geant4/geant4.10.04.p02.gamos/../data/G4TENDL1.3.2/Deuteron/Inelastic/F02//7_15_Nitrogen.z
 -- [download 36% complete]
 PROC_CREATOR_COUNT deuteron : neutronInelastic = 85
@@ -275,11 +275,11 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \lst@mode=\count188
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_252]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.34]
-tdf#57274 EDITING: Paste Special Link Checkbox fails to insert cell references when the source cell is blank [Zdeněk Crhonek]
+tdf#57274 EDITING: Paste Special Link Checkbox fails to insert cell references when the source cell is blank [ZdenÄk Crhonek]
 tdf#57950 Replace chained O(U)StringBuffer::append() with operator+ [ekuiitr]
 tdf#58407 Call inserted images Figure rather than Illustration by default in caption [Nickson Thanda]
 tdf#58874 OFFSET function in array context compatibility with Excel [Eike Rathke]
-tdf#84205 FILESAVE: Theme Colors inverted in drawings after PPTX roundtrip (black part turned to white) [Szymon Kłos]
+tdf#84205 FILESAVE: Theme Colors inverted in drawings after PPTX roundtrip (black part turned to white) [Szymon KÅos]
 build	14-Jul-2020 09:19:57	[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
 0 posts imported
 12:32:05 T:7432   DEBUG: ADDON: cpluff: 'Plug-in plugin.video.zdf_de_lite has been installed.'
@@ -331,7 +331,7 @@ nanddump (NANDDUMP) [N/y/?] n
      MPG Build Date: Tue Apr 24 12:25:56 PDT 2007
        MPG Build OS: Linux
      MPG Build Node: Linux sps-linux-srv-1.jpl.nasa.gov 2.4.20-28.7smp #1 SMP Thu Dec 18 11:18:31 EST 2003 i686 unknown
-ofz#6102 null-dereference [Caolán McNamara]
+ofz#6102 null-dereference [CaolÃ¡n McNamara]
      Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
 
 PROC_CREATOR_COUNT neutron : neutronInelastic = 865

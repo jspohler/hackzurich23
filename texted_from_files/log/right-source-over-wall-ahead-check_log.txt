@@ -169,10 +169,10 @@ CYYD	ALASKA	SMITHERS	afd	al_203_25OCT2007.png
 NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /home/arce/gamos/external/geant4/geant4.10.04.p02.gamos/../data/G4NDL4.5/Elastic/CrossSection/6_nat_Carbon
     + also use the right stream for check [David Tardon]
     + always align color bar to icon bottom edge (tdf#84985) [Regina Henschel]
-    + always copying the full bitmap, not just a portion of it [Caolán McNamara]
-    + always copying to a different bitmap [Caolán McNamara]
+    + always copying the full bitmap, not just a portion of it [CaolÃ¡n McNamara]
+    + always copying to a different bitmap [CaolÃ¡n McNamara]
     + always provide control points for beziers (tdf#99165) [Armin Le Grand]
-[01;31m./.ATRIER ./ABBA ./ACDC ./Apocalyptica ./Metallica ./Dragon_Force ./Era ./Film ./Haruhi_Suzumiya ./Hugues_Aufray ./Pink_Floyd ./Reflets%20d'acide ./Renaud ./Rhapsody ./Simon_and_Garfunkel ./Sonata_Artica ./JeuxVideos ./Jim_Croce ./BESTOF ./Chanson%20Plus%20Bifluorée ./Inconnus ./L'intégral%20de%20Coluche ./Les%20aventuriers%20du%20Survivaure ./Manau ./Notre_Dame_de_Paris ./Tari%20Tari ./Walt%20Disney ./Les%20Choristes ./Lindsey_Stirling ./Bobby_Lapointe ./Carpenters ./Indochine ./Iron%20Maiden ./Téléphone ./The_Beatles ./The_Notting_Hillbillies ./Turisas ./Classique ./Divers ./Djiboutep%20-%20Chants%20de%20Marins ./Le%20Donjon%20de%20Naheulbeuk ./Led_Zeppelin ./Les%202%20Minutes%20du%20Peuple%20-%20François%20Pérusse[01;37m
+[01;31m./.ATRIER ./ABBA ./ACDC ./Apocalyptica ./Metallica ./Dragon_Force ./Era ./Film ./Haruhi_Suzumiya ./Hugues_Aufray ./Pink_Floyd ./Reflets%20d'acide ./Renaud ./Rhapsody ./Simon_and_Garfunkel ./Sonata_Artica ./JeuxVideos ./Jim_Croce ./BESTOF ./Chanson%20Plus%20BifluorÃ©e ./Inconnus ./L'intÃ©gral%20de%20Coluche ./Les%20aventuriers%20du%20Survivaure ./Manau ./Notre_Dame_de_Paris ./Tari%20Tari ./Walt%20Disney ./Les%20Choristes ./Lindsey_Stirling ./Bobby_Lapointe ./Carpenters ./Indochine ./Iron%20Maiden ./TeÌleÌphone ./The_Beatles ./The_Notting_Hillbillies ./Turisas ./Classique ./Divers ./Djiboutep%20-%20Chants%20de%20Marins ./Le%20Donjon%20de%20Naheulbeuk ./Led_Zeppelin ./Les%202%20Minutes%20du%20Peuple%20-%20FrancÌ§ois%20PeÌrusse[01;37m
 For [4m.ATRIER[24m: [01;33m88[01;37m photos, [01;35m2[01;37m subdirs.
 For [4mABBA[24m: [01;33m7[01;37m photos, [01;35m1[01;37m subdirs.
 For [4mACDC[24m: [01;33m0[01;37m photos, [01;35m4[01;37m subdirs.
@@ -192,9 +192,9 @@ For [4mSonata_Artica[24m: [01;33m17[01;37m photos, [01;35m0[01;37m subdirs
 For [4mJeuxVideos[24m: [01;33m0[01;37m photos, [01;35m36[01;37m subdirs.
 For [4mJim_Croce[24m: [01;33m21[01;37m photos, [01;35m0[01;37m subdirs.
 For [4mBESTOF[24m: [01;33m164[01;37m photos, [01;35m0[01;37m subdirs.
-For [4mChanson Plus Bifluorée[24m: [01;33m30[01;37m photos, [01;35m0[01;37m subdirs.
+For [4mChanson Plus BifluorÃ©e[24m: [01;33m30[01;37m photos, [01;35m0[01;37m subdirs.
 For [4mInconnus[24m: [01;33m17[01;37m photos, [01;35m3[01;37m subdirs.
-For [4mL'intégral de Coluche[24m: [01;33m80[01;37m photos, [01;35m0[01;37m subdirs.
+For [4mL'intÃ©gral de Coluche[24m: [01;33m80[01;37m photos, [01;35m0[01;37m subdirs.
 For [4mLes aventuriers du Survivaure[24m: [01;33m14[01;37m photos, [01;35m0[01;37m subdirs.
 For [4mManau[24m: [01;33m0[01;37m photos, [01;35m1[01;37m subdirs.
 For [4mNotre_Dame_de_Paris[24m: [01;33m0[01;37m photos, [01;35m2[01;37m subdirs.
@@ -221,7 +221,7 @@ what+did+greg+mcmackin+say	01.08.2009 19:19:35	http://www.google.com/search?sour
 bullet+express	01.08.2009 19:19:38	http://www.google.com/search?q=bullet+express&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a	Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.0.12) Gecko/2009070609 Firefox/3.0.12	98.119.77.132
 21:38:12 T:139832867932032    INFO: Pixel Ratio: 0.899306
     + aMethod is more accurately an SvMetaSlot [Noel Grandin]
-    + an empty string here seems no hardship [Caolán McNamara]
+    + an empty string here seems no hardship [CaolÃ¡n McNamara]
     + and in .SDI parser (cid#1352218, cid#1352216) [Noel Grandin]
 what+did+greg+mcmackin+say	01.08.2009 20:14:55	http://www.google.com/search?client=safari&rls=en-us&q=what+did+greg+mcmackin+say&ie=UTF-8&oe=UTF-8	Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.19.2 (KHTML, like Gecko) Version/4.0.2 Safari/530.19	71.193.96.103
 
@@ -259,10 +259,10 @@ Features ------------------------------------------------
     + add default XCommandEnvironment to ... (tdf#88502) [Giuseppe Castagno]
     + add description about NoLabel property... (i#126658) [Kay Schenk]
     + add description and @since LibreOffice 5.2 [Eike Rathke]
-    + add EDB-39395-1 test-case [Caolán McNamara]
-    + add EDB-39396-1 test-case [Caolán McNamara]
-    + add EDB-39397-1 test-case [Caolán McNamara]
-    + add EDB-39398-1 test-case [Caolán McNamara]
+    + add EDB-39395-1 test-case [CaolÃ¡n McNamara]
+    + add EDB-39396-1 test-case [CaolÃ¡n McNamara]
+    + add EDB-39397-1 test-case [CaolÃ¡n McNamara]
+    + add EDB-39398-1 test-case [CaolÃ¡n McNamara]
     + add existing CppUnit test for sal/rtl/random [Christoph Brill]
     + add FontCharMap::GetDefaultMap(bool) to unusedcode.exclude (cxx#1205) [Juergen Funk]
     + add FORECAST.ETS functions to Calc (tdf#94635) [Winfried Donkers]
@@ -271,7 +271,7 @@ Features ------------------------------------------------
     + add HAVE_FEATURE_ATL to disable failing tests due to ATL [Mayank Gupta]
     + add helper code to load popup menus from xml (tdf#93837) [Maxim Monastirsky]
     + add I$JAVA_HOME/include/linux to JAVAINC to kFreeBSD to fix build [Rene Engelhard]
-    + add i18nlangtag and ucbhelper to libmerged [Matúš Kukan]
+    + add i18nlangtag and ucbhelper to libmerged [MatÃºÅ¡ Kukan]
     + add icons for 'Save to Remote Server' (tdf#93038) [Laurent Balland-Poirier]
     + add import of HTML inline graphics (tdf#94088, fdo#63211) [Armin Le Grand]
     + add Interlingue Occidental [ie] to language list (tdf#96647) [Eike Rathke]
@@ -451,7 +451,7 @@ sayville+summerfest	01.08.2009 23:54:16	http://www.google.com/search?hl=en&rlz=1
 x+games+15+moto+x+best+trick	01.08.2009 23:54:30	http://www.google.com/search?hl=en&client=firefox-a&channel=s&rls=org.mozilla%3Aen-US%3Aofficial&hs=0s3&q=X+Game+15+MTX+best+trick&aq=f&oq=&aqi=	Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.12) Gecko/2009070611 Firefox/3.0.12	69.126.37.19
 joel+tenenbaum	01.08.2009 23:54:36	http://www.google.co.vi/search?q=Nesson%20Joel%20Tenenbaum&hl=en&client=firefox-a&rls=org.mozilla:en-US:official&hs=PcO&tbo=1&tbs=rcnt:1	Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.1.1) Gecko/20090715 Firefox/3.5.1	66.248.167.1
 x+games+15+moto+x+best+trick	01.08.2009 23:54:42	http://www.google.com/search?hl=en&client=firefox-a&channel=s&rls=org.mozilla%3Aen-US%3Aofficial&hs=0s3&q=X+Game+15+MTX+best+trick&aq=f&oq=&aqi=	Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.12) Gecko/2009070611 Firefox/3.0.12	69.126.37.19
-carlos+justo	01.08.2009 23:55:14	http://www.google.ru/search?hl=ru&q=Carlos+Justos&btnG=Поиск+в+Google&lr=	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022)	91.208.116.14
+carlos+justo	01.08.2009 23:55:14	http://www.google.ru/search?hl=ru&q=Carlos+Justos&btnG=ÐÐ¾Ð¸ÑÐº+Ð²+Google&lr=	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022)	91.208.116.14
 market+days+chicago+2009	01.08.2009 23:55:33	http://www.google.com/url?sa=t&source=web&ct=res&cd=10&url=http%3A%2F%2Fcomicsunlimited.com%2Fcomics%2Findex.php%3Fmarket%2Bdays%2Bchicago%2B2009&ei=EdV0SvLYFJG6NcG3kbEM&rct=j&q=market+days+chicago+2009&usg=AFQjCNEecxkbkrmeI_r2VfxIpQUIrGXGcw&sig2=D3QVIhr8Xp1YuNm3eJQwbw	Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.12) Gecko/2009070611 Firefox/3.0.12	24.148.57.136
 spiedie+fest	01.08.2009 23:56:27	http://www.google.com/search?q=edward+ranucci&hl=en&rlz=1T4GFRC_enUS204US204&start=10&sa=N	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 1.0.3705; .NET CLR 1.1.4322; Media Center PC 4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)	74.67.71.178
 jerry+garcia+birthday	01.08.2009 23:57:05	http://www.google.com/search?hl=en&rlz=1G1GGLQ_ENUS306&q=jerry+garcia+birthday+McLaren+park&btnG=Search&aq=f&oq=&aqi=	Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.0.12) Gecko/2009070609 Firefox/3.0.12	216.101.171.178

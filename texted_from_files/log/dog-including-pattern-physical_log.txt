@@ -92,8 +92,8 @@ YKM	ALASKA	YAKIMA AIR TERMINAL-MCALLISTER FLD	afd	al_245_25OCT2007.png
 ./Haruhi_Suzumiya/The%20Melancholy%20of%20Suzumiya%20Haruhi%20-%20SOS%20Dan%20Radio%20Shibu%20OP%20ED%20Single%20[Hirano%20Aya%20%20%20Chihara%20Minori%20%20%20Goto%20Yuko]
 ./Haruhi_Suzumiya/The%20Melancholy%20of%20Suzumiya%20Haruhi%20Character%20Song%20Vol.1%20-%20Suzumiya%20Haruhi%20[Hirano%20Aya]
 ./Haruhi_Suzumiya/The%20Melancholy%20of%20Suzumiya%20Haruhi%20Character%20Song%20Vol.2%20-%20Nagato%20Yuki%20[Chihara%20Minori]
-ofz#4949 direct-leak [Caolán McNamara]
-ofz#4950 direct-leak [Caolán McNamara]
+ofz#4949 direct-leak [CaolÃ¡n McNamara]
+ofz#4950 direct-leak [CaolÃ¡n McNamara]
 ./JeuxVideos/Xenoblade_Chronicles/Disc%201
 	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.3.jar:?]
           Checking shared linker mpicc using flags ['-shared']
@@ -103,7 +103,7 @@ Package hyperref Info: Bookmarks ON on input line 4445.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
     + adjust print page range for unprinted blank pages (tdf#89708) [Eilidh McAdam]
     + adjust sheet references when copying sheet-local named expressions [Eike Rathke]
-coverity#1427248 operands don't affect result [Caolán McNamara]
+coverity#1427248 operands don't affect result [CaolÃ¡n McNamara]
 instanceKlass java/lang/LinkageError
      Temperature Stabiliz.    : (none or tolerance in degrees C)
                of/IN-8  ==                        DEL    $0.429  [D]
@@ -140,11 +140,11 @@ instanceKlass java/lang/LinkageError
   vi-style line editing commands (FEATURE_EDITING_VI) [Y/n/?] y
   History size (FEATURE_EDITING_HISTORY) [999] 999
 ln -snf lib /builds/free-electrons/toolchains-builder/build/tmp/test-x86-64-core-i7--uclibc--stable/target/usr/lib64
-ofz#4976 integer-overflow [Caolán McNamara]
-ofz#4979 divide-by-zero [Caolán McNamara]
-ofz#4982 integer-overflow [Caolán McNamara]
-ofz#4983 divide-by-zero [Caolán McNamara]
-ofz#4990 direct-leak [Caolán McNamara]
+ofz#4976 integer-overflow [CaolÃ¡n McNamara]
+ofz#4979 divide-by-zero [CaolÃ¡n McNamara]
+ofz#4982 integer-overflow [CaolÃ¡n McNamara]
+ofz#4983 divide-by-zero [CaolÃ¡n McNamara]
+ofz#4990 direct-leak [CaolÃ¡n McNamara]
   Infantry_Brigade/...  ==                        DEL    $0.429  [D]
                 ,/,-42  ==                        DEL    $0.429  [D]
 sono+arts+festival	01.08.2009 19:21:33	http://www.google.com/search?hl=en&q=sono+arts+festival+parking&aq=f&oq=&aqi=	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727)	173.2.120.193
@@ -179,8 +179,8 @@ NullPunisher: Hyp word Africa found in text, not penalizing
 Matching relations are: []
 [-2.000] RootEntailment.unalignedRoot: "live" not aligned to anything
 ./Divers/Chanson_Hits_France
-ofz#4570 depth protect mathtype parsing [Caolán McNamara]
-ofz#4571 more Direct-leaks [Caolán McNamara]
+ofz#4570 depth protect mathtype parsing [CaolÃ¡n McNamara]
+ofz#4571 more Direct-leaks [CaolÃ¡n McNamara]
 	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.3.jar:?]
 	at info.magnolia.module.site.filters.SiteMergeFilter.doFilter(SiteMergeFilter.java:119) [magnolia-site-1.3.1.jar:?]
 	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.3.jar:?]
@@ -344,10 +344,10 @@ tdf#112373 cleanup SpellChecker [abstatic]
 tdf#112384 Chapter Numbering: Allow line breaks for "separator, after" in the Chapter Numbering dialog [Adolfo Jayme Barrientos, Nithin Kumar Padavu]
 tdf#112448 FILEOPEN, DOCX spurious blank line in text [Serge Krot]
 tdf#112474 Statusbar: Clicking on page number section should open go to dialog [Jim Raykowski]
-tdf#112481 Ability to add sheets on Calc on Android Viewer [Mert Tümer]
-tdf#112482 Ability to add slides on Impress on Android Viewer [Mert Tümer]
+tdf#112481 Ability to add sheets on Calc on Android Viewer [Mert TÃ¼mer]
+tdf#112482 Ability to add slides on Impress on Android Viewer [Mert TÃ¼mer]
 tdf#112571 FILESAVE XLSX New named range is created every time an Excel made spreadsheet that contains print ranges is saved as XLSX [Eike Rathke]
-tdf#112656 selected text is truncated in Calc sort dropdown [Zdeněk Crhonek]
+tdf#112656 selected text is truncated in Calc sort dropdown [ZdenÄk Crhonek]
 tdf#112689 Replace chained O(U)StringBuffer::append() with operator+ [Shubham Verma]
 tdf#112755 [NEWHELP] Reorder module Icons in top of the page [Olivier Hallot]
 tdf#112757 [NEWHELP] Improvements required in index search [Ilmari Lauhakangas]
@@ -359,14 +359,14 @@ tdf#113197 FILEOPEN: EMF+ Incorrect lines' height [Armin Le Grand]
 tdf#113239 UI Spin button field for Column spacing (in Sections / Page styles) changes with 0,01 cm :) [brian houston morrow]
 tdf#113258 FILEOPEN: Text in shape in a docx document is misplaced (partially cut) when opening in LO [Miklos Vajna]
 tdf#113275 Last line drop down and expand single word check box should only be show active for Justified [Jim Raykowski]
-tdf#113284 Crash opening index dialog [Zdeněk Crhonek]
+tdf#113284 Crash opening index dialog [ZdenÄk Crhonek]
 tdf#113377 Crash in: OpenGLContext::AcquireFramebuffer(OpenGLTexture const &) [Miklos Vajna]
 tdf#113413 LibO hangs at the JRE Required dialog when creating a New Database [Michael Stahl]
 tdf#113455 Impossible to clear "Width/Height in pages" after converting "Page style" sheet to Widget UI [Mike Kaganski]
 tdf#113481 EDITING: it takes multiple backspace to delete one ideographic variation sequence [Mark Hung]
 tdf#113558 Replace 'AutoFormat' button with table style listbox in insert table dialog [Gabor Kelemen, Furkan Tokac, heiko tietze]
 tdf#113572 Copying a chart converts data ranges to data table [Vasily Melenchuk]
-tdf#114477 Can't set character highlighting on a text box using sidebar highlighting icon. [Tamás Zolnai]
+tdf#114477 Can't set character highlighting on a text box using sidebar highlighting icon. [TamÃ¡s Zolnai]
 	New feature
 		- Add new progress report for calculate payment	
 Version 1.54.0 (7 JUNE 2022)
@@ -562,7 +562,7 @@ G4ParticleHPManager::GetDataStream FILE /home/arce/gamos/external/geant4/geant4.
 [   1962453] overriding handle for mp_f_freemode_01/accs_diff_012_f_uni.ytd (was 4cd00f9) -> 204
 [   1962468] overriding handle for mp_f_freemode_01/accs_diff_012_g_uni.ytd (was 4cd00fa) -> 205
 MXA	ARKANSAS	MANILA MUNI	afd	sc_26_25OCT2007.png
-coverity#1433782 unintended sign extension [Caolán McNamara]
+coverity#1433782 unintended sign extension [CaolÃ¡n McNamara]
 i2cset (I2CSET) [Y/n/?] y
 i2cdump (I2CDUMP) [Y/n/?] y
 i2cdetect (I2CDETECT) [Y/n/?] y
@@ -575,7 +575,7 @@ i2cdetect (I2CDETECT) [Y/n/?] y
     + <vcl/spin.h> can be private to vcl [Tor Lillqvist]
     + [ABI CHANGE] In SDK, replace regcompare with unoidl-check [Stephan Bergmann]
     + [ANIMATION] Animation Spiral in does not work (tdf#96522) [Noel Grandin]
-    + [API CHANGE] add Author Initials to XAnnotation [Caolán McNamara]
+    + [API CHANGE] add Author Initials to XAnnotation [CaolÃ¡n McNamara]
 mountaineer+race+track	01.08.2009 22:23:30	http://www.google.com/search?hl=en&rlz=1G1GGLQ_ENUS294&q=mountaineer+horse+race+track+history&btnG=Search&aq=f&oq=&aqi=	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1)	75.213.183.163
 mountaineer+race+track	01.08.2009 22:23:37	http://www.google.com/search?hl=en&rlz=1G1GGLQ_ENUS294&q=mountaineer+horse+race+track+history&btnG=Search&aq=f&oq=&aqi=	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1)	75.213.183.163
 HKA	ARKANSAS	BLYTHEVILLE MUNI	afd	sc_5_25OCT2007.png
@@ -585,7 +585,7 @@ HKA	ARKANSAS	BLYTHEVILLE MUNI	afd	sc_5_25OCT2007.png
      CDP Number               : (A4)
      Monument Description     : ALUMINUM MAST
        Height of the Monument : (m)
-    + add i18nlangtag and ucbhelper to libmerged [Matúš Kukan]
+    + add i18nlangtag and ucbhelper to libmerged [MatÃºÅ¡ Kukan]
 Executing: uname -s
 4AK1	ALASKA	INIGOK	afd	al_60_25OCT2007.png
 CYDL	ALASKA	DEASE LAKE	afd	al_60_25OCT2007.png
@@ -601,7 +601,7 @@ D66	ALASKA	DELTA JUNCTION	afd	al_61_25OCT2007.png
 [22:42:37] Sai: [-] 8085/8249 no engine matches (HTTP-Status: 501) - https://www.washingtonmainstream.org/transportation-isnt-just-a-puget-sound-problem/
 tdf#70425 EDITING: Embedded Firebird - Copying integer values from Calc to Base impossible [Tamas Bunth]
 tdf#71007 EDITING: Embedded Firebird - Impossible to set milliseconds in a timefield with GUI [Tor Lillqvist]
-tdf#71339 EDITING sigma icon (sum function) operating on selected range [Zdeněk Crhonek]
+tdf#71339 EDITING sigma icon (sum function) operating on selected range [ZdenÄk Crhonek]
        Notes                  : (multiple lines)
 
 
@@ -829,12 +829,12 @@ US Core Comparison: compare StructureDefinition[http://hl7.org/fhir/us/ph-librar
 ./JeuxVideos/Okamiden
 ./Jim_Croce
 ./BESTOF
-./Chanson%20Plus%20Bifluorée
+./Chanson%20Plus%20BifluorÃ©e
 ./Inconnus
 ./Inconnus/Le%20Nouveau%20Spectacle
-./Inconnus/Les%20étonnifiants
+./Inconnus/Les%20Ã©tonnifiants
 ./Inconnus/Ze%20Inconnus%20story
-./L'intégral%20de%20Coluche
+./L'intÃ©gral%20de%20Coluche
 ./Les%20aventuriers%20du%20Survivaure
 ./Manau
 ./Manau/Panique%20Celtique
@@ -954,7 +954,7 @@ HOME=/home/petsc
        Calibration date       : 
 ;
 tdf#99363 SMTP over SSL on port 465 (mailmerge on your Google Account: smtp.gmail.com) [Justin Luth]
-tdf#99386 Undo with merged cell, needs hard recalculate, no automatic update [Zdeněk Crhonek]
+tdf#99386 Undo with merged cell, needs hard recalculate, no automatic update [ZdenÄk Crhonek]
 tdf#99483 Marque cell selection should be removed after paste [Olivier Hallot]
 [   1955734] instrumented function 0x1408f9544 (23) took 3msec
 [   1955906] instrumented function 0x1408f8dbc (24) took 148msec

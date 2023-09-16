@@ -1,0 +1,108 @@
+important-popular
+employees
+1			Kägistrasse 23
+6046 Bern	
+2	Konrad Ernst			
+3				CH6464620601201894235
+4			Freistrasse 21
+7439 Wald	
+5				
+6	Ledion Brun			
+7		geneviève.eichenberger@gmail.com		
+8		donatella.benz@gmail.com		
+9	Jasin Huber			
+10			Baumgartnerstrasse 566
+4867 Delsberg	
+11				CH6579365948978697654
+12			Lutzstrasse 6
+8773 Luzern	
+13				
+14		maud.ferrari@hotmail.com		
+15		nives.sidler@hotmail.com		
+16			Favrestrasse 337
+3520 Bulle	
+17				
+18			Steinmannstrasse 52
+4126 Thalwil	
+19			Sennstrasse 15
+8746 Affoltern	
+20		clemens.hirt@gmail.com		
+21	Prof. Joaquim Staub			
+22		aisha.baur@gmail.com		
+23			Näfstrasse 9
+3538 Lugano	
+24				
+25	Kerim Walder			
+26				CH8706746203561530193
+27				
+28				
+29		samuel.aebi@yahoo.com		
+30		dejan.zbinden@yahoo.com		
+31	Karolina Martin			
+32			Hirtstrasse 59
+2096 Spreitenbach	
+33			Schnyderstrasse 72
+5154 Brig-Glis	
+34		romane.betschart@yahoo.com		
+35				
+36		dr..enzo.fischer@yahoo.com		
+37		celia.brunner@hotmail.com		
+38		joël.käser@yahoo.com		
+39				CH7416423639132490603
+40		carolin.schwab@gmail.com		
+41				CH9582624752203360284
+42				CH5669957712573896078
+43				CH5040447088218318733
+44				CH5995981697244167302
+45				CH9535234862300653445
+46				
+47		petr.benz@yahoo.com		
+48			Scheideggerstrasse 34
+6528 Sarnen	
+49				
+50		alex.schmidt@gmail.com		
+51	Stephan Weber			
+52	Jakub Rüegg			
+53		nikolaos.baur-wagner@gmail.com		
+54				
+55	Henriette Keller			
+56			Frickstrasse 575
+4075 Onex	
+57		josette.gloor-bühlmann@hotmail.com		
+58			Zürcherstrasse 62
+1531 Zug	
+59			Siegriststrasse 47
+3104 Muri	
+60	Lindita Wyss			
+61				CH4814680661820920319
+62		theresia.kälin@hotmail.com		
+63		alessandro.schneider@gmail.com		
+64				CH6606369275599337785
+65				CH5310075701360478562
+66				CH4026204771598064247
+67	Marilena Schaller			
+68				
+69			Kaiserstrasse 2
+8680 Glarus	
+70	Dr. Delphine Schmidt			
+71				
+72			Albrechtstrasse 51
+4342 Luzern	
+73			Zinggstrasse 939
+6792 Mendrisio	
+74		ina.schärer@gmail.com		
+75				
+76				
+77			Schwabstrasse 3
+9095 Renens	
+78		dora.zimmermann.albrecht@yahoo.com		
+79	Dr. Jann Kohler			
+80				CH0320638130996045995
+81		arlinda.kuhn@hotmail.com		
+82				CH1117803104286069333
+83			Bühlmannstrasse 64
+9205 Delsberg	
+84			Wettsteinstrasse 124
+1009 Crans-Montana	
+sqlite_sequence
+employees	84

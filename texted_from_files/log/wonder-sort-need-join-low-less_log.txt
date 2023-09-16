@@ -355,7 +355,7 @@ tdf#89215 Unable to open Impress document [Christian Lohmaier]
 tdf#89453 Improve the wording of "Paste Special" options [heiko tietze]
 ciMethod com/android/dx/util/MutabilityControl <init> (Z)V 4097 1 6963 0 0
 [      2688] [    GTAProcess]             MainThrd/ pre-gameload component net:http-server
-12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:2090612722, state:completed, title:Wie beim ersten Mal, desc:Seit 31 Jahren sind Kay und Arnold verheiratet. Doch ob man ihre eingespielte Ehe noch glücklich nennen kann, beginnt Kay immer stärker zu bezweifeln. Kurz entschlossen bucht sie eine einwöchige Paartherapie bei einem berühmten Spezialisten in New England. Der grantige Arnold versteht zunächst gar nicht, was seine Frau von ihm will - für ihn ist alles in bester Ordnung. Während der Sitzungen zeigt sich, dass es der Beziehung vor allem an körperlicher Nähe und Sex mangelt. Aber die erloschene Leidenschaft neu zu entfachen, erweist sich als äußerst schwieriges Unterfangen mit ungewissem Ausgang.Produziert in HD, error:none
+12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:2090612722, state:completed, title:Wie beim ersten Mal, desc:Seit 31 Jahren sind Kay und Arnold verheiratet. Doch ob man ihre eingespielte Ehe noch glÃ¼cklich nennen kann, beginnt Kay immer stÃ¤rker zu bezweifeln. Kurz entschlossen bucht sie eine einwÃ¶chige Paartherapie bei einem berÃ¼hmten Spezialisten in New England. Der grantige Arnold versteht zunÃ¤chst gar nicht, was seine Frau von ihm will - fÃ¼r ihn ist alles in bester Ordnung. WÃ¤hrend der Sitzungen zeigt sich, dass es der Beziehung vor allem an kÃ¶rperlicher NÃ¤he und Sex mangelt. Aber die erloschene Leidenschaft neu zu entfachen, erweist sich als Ã¤uÃerst schwieriges Unterfangen mit ungewissem Ausgang.Produziert in HD, error:none
 [2023.05.20-22.07.40:452][  0]LogWindows: Found 1 attached monitors.
 [2023.05.20-22.07.40:452][  0]LogWindows: Gathering driver information using Windows Setup API
 [2023.05.20-22.07.40:452][  0]LogRHI: RHI Adapter Info:
@@ -392,7 +392,7 @@ Curve fit start and end: 2008 023 // 23:32:55.00000 - 2008 024 // 12:35:19.00000
        Z coordinate (m)       : 2922523.033
        Latitude (N is +)      : +272659.05
        Longitude (E is +)     : -0824124.85
-coverity#1430097 dereference null return value [Caolán McNamara]
+coverity#1430097 dereference null return value [CaolÃ¡n McNamara]
 
 [   1963859] overriding handle for mp_f_freemode_01/jbib_diff_012_a_uni.ytd (was 4cd042b) -> 268
 [   1963875] overriding handle for mp_f_freemode_01/jbib_diff_012_b_uni.ytd (was 4cd042c) -> 269

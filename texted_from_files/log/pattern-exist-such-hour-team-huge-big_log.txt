@@ -51,8 +51,8 @@ spiedie+fest	01.08.2009 23:01:26	http://www.google.com/m?hl=en&gl=us&client=ms-a
 spiedie+fest	01.08.2009 23:01:58	http://www.google.com/m?hl=en&gl=us&client=ms-android-tmobile-us&source=android-launcher-widget&q=speedie+chicken+festival	Mozilla/5.0 (Linux; U; Android 1.5; en-us; T-Mobile G1 Build/CRC1) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1	208.54.87.79
 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.34]
 	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690) [catalina.jar:9.0.34]
-ofz#5193 negative-size-param [Caolán McNamara]
-ofz#5211 limit table parsing depth [Caolán McNamara]
+ofz#5193 negative-size-param [CaolÃ¡n McNamara]
+ofz#5211 limit table parsing depth [CaolÃ¡n McNamara]
 instanceKlass java/io/ObjectStreamField
 instanceKlass java/lang/Number
 instanceKlass java/lang/Character
@@ -80,7 +80,7 @@ tdf#117075 FILEOPEN: ODT: TOC numberings have incorrect right indent [Noel Grand
 tdf#117081 cannot create Firebird embedded database unless experimental features is turned on [Xisco Fauli]
 tdf#117103 Warning error is empty [Noel Grandin]
 tdf#117161 REPORTBUILDER - Horizontal align isn't shown while editing the report [Noel Grandin]
-tdf#117183 GTK3: gtk-cancel in cancel button [Caolán McNamara]
+tdf#117183 GTK3: gtk-cancel in cancel button [CaolÃ¡n McNamara]
 
 NOTE: There were 1715 observations read from the data set THIS.MYTICKER.
       WHERE price not = .;
@@ -92,14 +92,14 @@ PROC_CREATOR_COUNT B11 : dInelastic = 3
     & Delta = 3[0m
     [0mExecuting: 'python /home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../interfaceCV.py ./examples/Fischer/FERA3.imi ./examples/Fischer/FERA3-learning_learning_2.imi delta=1,Delta=3'[0m
 [0;36;40m*-**--***---****---***--**-*[0;36;40m
-[0;36;40mHello, this is Interfaçator![0;36;40m
-Building reference valuation…
+[0;36;40mHello, this is InterfaÃ§ator![0;36;40m
+Building reference valuationâ¦
 Pi0:
     v(delta) = 1
     v(Delta) = 3
-Valuating component A with pi0…
-Writing content to "./examples/Fischer/FERA3.cv"…
-[0;36;40mExecuting "/home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../CV/Compositional_Verifier -imi ./examples/Fischer/FERA3.cv"…[0;36;40m
+Valuating component A with pi0â¦
+Writing content to "./examples/Fischer/FERA3.cv"â¦
+[0;36;40mExecuting "/home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../CV/Compositional_Verifier -imi ./examples/Fischer/FERA3.cv"â¦[0;36;40m
 [0;36;40m[91mFatal error![0;36;40m[0;36;40m
 [0;36;40m[91mCall to "/home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../CV/Compositional_Verifier" failed. Error code: -9[0;36;40m[0;36;40m
  [91m*** ERROR: Fatal internal error: Something went wrong in the command.
@@ -204,7 +204,7 @@ US Core Comparisons Finished
 2021-10-26T21:52:03.526Z,74.526253,4231000,6 [FLog::GameJoinUtil] Delaying request by 0.66 seconds
 2021-10-26T21:52:04.257Z,75.257950,4231000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequestForTeleport, response:
 {"jobId":"JoinPrivateGame:PlaceId=4996049426&AccessCode=df63cb48-6c59-4b3c-b945-a9bd6dc15df7","status":0,"joinScriptUrl":null,"authenticationUrl":null,"authenticationTicket":null,"message":null,"joinScript":null}
-For [4mTéléphone[24m: [01;33m0[01;37m photos, [01;35m13[01;37m subdirs.
+For [4mTeÌleÌphone[24m: [01;33m0[01;37m photos, [01;35m13[01;37m subdirs.
 
 <tasm> what is Gore saying.. 
 -- [download 59% complete]
@@ -448,14 +448,14 @@ Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 ./JeuxVideos/The_Legend_of_Zelda
 ./JeuxVideos/The_Legend_of_Zelda/Album_Anniversaire_25_ans
 ./JeuxVideos/The_Legend_of_Zelda/BestOF
-./JeuxVideos/The_Legend_of_Zelda/Intégrale_25_ans
-./JeuxVideos/The_Legend_of_Zelda/Intégrale_25_ans/Zelda%20-%20OST%201
-./JeuxVideos/The_Legend_of_Zelda/Intégrale_25_ans/Zelda%20-%20OST%202
-./JeuxVideos/The_Legend_of_Zelda/Intégrale_25_ans/Zelda%20-%20OST%203
-./JeuxVideos/The_Legend_of_Zelda/Intégrale_25_ans/Zelda%20-%20OST%203/FSA_disc2_NaviTrackers_ShadowBattle
-./JeuxVideos/The_Legend_of_Zelda/Intégrale_25_ans/Zelda%20-%20OST%204
-./JeuxVideos/The_Legend_of_Zelda/Intégrale_25_ans/Zelda%20-%20OST%204/pdz_mp3_oracleofages
-./JeuxVideos/The_Legend_of_Zelda/Intégrale_25_ans/Zelda%20-%20OST%204/pdz_mp3_oracleofseasons
+./JeuxVideos/The_Legend_of_Zelda/IntÃ©grale_25_ans
+./JeuxVideos/The_Legend_of_Zelda/IntÃ©grale_25_ans/Zelda%20-%20OST%201
+./JeuxVideos/The_Legend_of_Zelda/IntÃ©grale_25_ans/Zelda%20-%20OST%202
+./JeuxVideos/The_Legend_of_Zelda/IntÃ©grale_25_ans/Zelda%20-%20OST%203
+./JeuxVideos/The_Legend_of_Zelda/IntÃ©grale_25_ans/Zelda%20-%20OST%203/FSA_disc2_NaviTrackers_ShadowBattle
+./JeuxVideos/The_Legend_of_Zelda/IntÃ©grale_25_ans/Zelda%20-%20OST%204
+./JeuxVideos/The_Legend_of_Zelda/IntÃ©grale_25_ans/Zelda%20-%20OST%204/pdz_mp3_oracleofages
+./JeuxVideos/The_Legend_of_Zelda/IntÃ©grale_25_ans/Zelda%20-%20OST%204/pdz_mp3_oracleofseasons
 ./JeuxVideos/The_Legend_of_Zelda/Ocarina_of_Time
 ./JeuxVideos/The_Legend_of_Zelda/Oracles_of_Age_and_Season
 ./JeuxVideos/The_Legend_of_Zelda/Phantom_Hourglass

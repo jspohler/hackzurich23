@@ -47,8 +47,8 @@ what+did+greg+mcmackin+say	01.08.2009 23:06:11	http://www.google.com/search?hl=e
 market+days+chicago+2009	01.08.2009 23:06:14	http://www.google.com/search?hl=en&rls=com.microsoft%3A*%3AIE-SearchBox&rlz=1I7DKUS&q=chicago+market+days+halsted&aq=f&oq=&aqi=	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506)	99.140.180.57
 petty+officer+jonathan+campos	01.08.2009 23:06:16	http://www.google.com/url?sa=t&source=web&ct=res&cd=1&url=http%3A%2F%2Fcomicsunlimited.com%2Fcomics%2Findex.php%3Fpetty%2Bofficer%2Bjonathan%2Bcampos&ei=Y8p0Sq6zCozqsQOP_P3nCA&rct=j&q=Petty+Officer+Second+Class+Jonathan+Campos&usg=AFQjCNEfwCdxt7slWX7dD8SrXdUGwDcOVQ&sig2=IbUg640H4xtwVVX-ZdNbcw	Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; en-US; rv:1.9.0.5) Gecko/2008120121 Firefox/3.0.5	66.180.199.196
 jonathan+campos	01.08.2009 23:06:41	http://www.google.com/url?sa=t&source=web&ct=res&cd=2&url=http%3A%2F%2Fcomicsunlimited.com%2Fcomics%2Findex.php%3Fjonathan%2Bcampos&ei=Y8p0Sq6zCozqsQOP_P3nCA&rct=j&q=Petty+Officer+Second+Class+Jonathan+Campos&usg=AFQjCNGI-cX6oaPhwePbeYlIekSqW1AQYA&sig2=buMkopq3LDb2NF3J5ZP7lA	Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; en-US; rv:1.9.0.5) Gecko/2008120121 Firefox/3.0.5	66.180.199.196
-ofz#5539 stricter on strings in dxf [Caolán McNamara]
-ofz#5561 integer-overflow [Caolán McNamara]
+ofz#5539 stricter on strings in dxf [CaolÃ¡n McNamara]
+ofz#5561 integer-overflow [CaolÃ¡n McNamara]
 ./Film/Tonari_no_Totoro/Soundtrack%20Collection
 	at info.magnolia.dam.app.contentview.column.AssetNameColumnDefinition$ValueProvider.apply(AssetNameColumnDefinition.java:64) ~[magnolia-dam-app-3.0.3.jar:?]
 	at com.vaadin.ui.Grid$Column.generateRendererValue(Grid.java:1111) ~[vaadin-server-8.9.4.jar:8.9.4]
@@ -81,12 +81,12 @@ ERROR info.magnolia.aws.foundation.AwsCredentialsProvider 15.10.2020 00:12:42 --
 staticfield com/android/dx/rop/type/StdTypeList LONG Lcom/android/dx/rop/type/StdTypeList; com/android/dx/rop/type/StdTypeList
  Entering Gaussian System, Link 0=g09
  Input=wat-sp.com
-For [4mChanson Plus Bifluorée[24m: [01;33m30[01;37m photos, [01;35m0[01;37m subdirs.
+For [4mChanson Plus BifluorÃ©e[24m: [01;33m30[01;37m photos, [01;35m0[01;37m subdirs.
 tdf#116733 UI: The settings in the expert configuration won't expanded [Jan Holesovsky]
 tdf#116789 UNO API: XText of cell is not the same object all the time [Miklos Vajna]
 * \paperwidth=597.50787pt
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:2085455399, state:scheduled, title:Börse vor acht, desc:Moderation: Markus Gürne, error:none
+12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:2085455399, state:scheduled, title:BÃ¶rse vor acht, desc:Moderation: Markus GÃ¼rne, error:none
 21:38:12 T:139832867932032   DEBUG: CPlayerSelectionRule::Initialize: creating rule: dvd
 <09:53AM DrStupid> KNBC - no bad columns of black smoke
 [   1341265] EndpointMapper::HandleRequest: POST /gta5/11/gameservices/GeoLocation.asmx/GetLocationInfoFromIP
@@ -248,7 +248,7 @@ Package pdftex.def Info: images/datadriven/SI_Gain.png  used on input line 50.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 G4ParticleHPManager::GetDataStream FILE /home/arce/gamos/external/geant4/geant4.10.04.p02.gamos/../data/G4TENDL1.3.2/Triton/Inelastic/F02//18_40_Argon.z
 
-ofz#4526 null-reference READ with openssl crypto backend [Caolán McNamara]
+ofz#4526 null-reference READ with openssl crypto backend [CaolÃ¡n McNamara]
                    \relax 
 l.9 
 </ActivateLexScorer>
@@ -356,7 +356,7 @@ tdf#116407 option "Border" for new table redundant [heiko tietze]
 
 
 7.   Collocation Information
-tdf#116138 Insert Special Character also inserts selected character in current cursor in Title numbering [Caolán McNamara]
+tdf#116138 Insert Special Character also inserts selected character in current cursor in Title numbering [CaolÃ¡n McNamara]
 tdf#116150 [NEWHELP] CASE and CASEINLINE for 'sys' logic flawed, default cannot be WIN [Olivier Hallot]
 bullet+express	01.08.2009 19:18:48	http://www.google.com/search?q=%22bullet+express%22+reviews+8+minutes&btnG=Search&hl=en&client=safari&rls=en-us&sa=2	Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.19.2 (KHTML, like Gecko) Version/4.0.2 Safari/530.19	71.138.143.151
 	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.3.jar:?]
@@ -422,20 +422,20 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ./Iron%20Maiden/The%20Number%20Of%20The%20Beast
 ./Iron%20Maiden/The%20X%20Factor
 ./Iron%20Maiden/Virtual%20XI
-./Téléphone
-./Téléphone/Dure%20Limite
-./Téléphone/La%20Totale
-./Téléphone/Telephone-Best%20Of
-./Téléphone/Telephone-Rappels%202
-./Téléphone/Téléphone%20-%2020th%20Anniversary%201976-1996
-./Téléphone/Téléphone%20-%20Au%20Coeur%20De%20La%20Nuit
-./Téléphone/Téléphone%20-%20Crache%20Ton%20Venin%20!
-./Téléphone/Téléphone%20-%20La%20bombe%20humaine
-./Téléphone/Téléphone%20-%20Le%20Live
-./Téléphone/Téléphone%20-%20Rappels
-./Téléphone/Téléphone%20Plus
-./Téléphone/Téléphone-Paris%20'81
-./Téléphone/Téléphone-Un%20Autre%20Monde
+./TeÌleÌphone
+./TeÌleÌphone/Dure%20Limite
+./TeÌleÌphone/La%20Totale
+./TeÌleÌphone/Telephone-Best%20Of
+./TeÌleÌphone/Telephone-Rappels%202
+./TeÌleÌphone/TeÌleÌphone%20-%2020th%20Anniversary%201976-1996
+./TeÌleÌphone/TeÌleÌphone%20-%20Au%20Coeur%20De%20La%20Nuit
+./TeÌleÌphone/TeÌleÌphone%20-%20Crache%20Ton%20Venin%20!
+./TeÌleÌphone/TeÌleÌphone%20-%20La%20bombe%20humaine
+./TeÌleÌphone/TeÌleÌphone%20-%20Le%20Live
+./TeÌleÌphone/TeÌleÌphone%20-%20Rappels
+./TeÌleÌphone/TeÌleÌphone%20Plus
+./TeÌleÌphone/TÃ©lÃ©phone-Paris%20'81
+./TeÌleÌphone/TÃ©lÃ©phone-Un%20Autre%20Monde
 ./The_Beatles
 ./The_Beatles/cd1
 ./The_Beatles/cd2

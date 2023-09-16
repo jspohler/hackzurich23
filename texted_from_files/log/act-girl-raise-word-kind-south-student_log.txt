@@ -56,7 +56,7 @@ tdf#115853 Custom properties deleted [Julien Nabet, Stephan Bergmann]
 -- downloading...
      src='http://geant4.cern.ch/support/source/G4PII.1.3.tar.gz'
      dst='/data/richards/NBRTT/build/Geant4/build/Externals/G4PII-1.3/src/G4PII.1.3.tar.gz'
-./.ATRIER/Son%20Systèmes
+./.ATRIER/Son%20SystÃ¨mes
 tdf#115719 DOCX import: lack of Word 2013-style increased spacing for paragraph with anchored objects [Miklos Vajna]
 (pdftex.def)             Requested size: 418.25368pt x 187.05655pt.
  [64] [65 </Users/natera/Dropbox/PhD/thesis/images/lqi/Budapest_Network_voronoi_op2.png>] [66] [67] [68] [69]
@@ -132,7 +132,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 756--766
  []
 tdf#115353 Status bar displays wrong characters upon load (OpenGL) [Tamas Bunth]
 tdf#115388 Change link in "About" to HTTPS [Xisco Fauli]
-tdf#115394 FILEOPEN: slide transition times are not imported correctly [Szymon Kłos]
+tdf#115394 FILEOPEN: slide transition times are not imported correctly [Szymon KÅos]
 Trace: 
   Error: EACCES: permission denied, mkdir '/Users/etyates/src/github/code-nasa-gov/node_modules/clean-css/node_modules/source-map'
 
@@ -211,14 +211,14 @@ Caused by: java.lang.IllegalStateException
                            Hadronic Processes for pi-
 1999-059     1999 Oct 19 0622     1999-059A      Orion 2                        Orion 2                   S25949  Ariane 44LP            V122             CSG ELA2                 0.0
 1999-060     1999 Nov 13 2254     1999-060A      GE 4                           GE 4                      S25954  Ariane 44LP            V123             CSG ELA2                 0.0
-tdf#65856 Paste Special - Shift Cell misbehaviour [Zdeněk Crhonek]
+tdf#65856 Paste Special - Shift Cell misbehaviour [ZdenÄk Crhonek]
 build	14-Jul-2020 09:19:57	[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
 build	14-Jul-2020 09:19:57	[WARNING] 
  Version 1.21.1 (28 FEBRUARY 2018)
 
                          Max       Max/Min        Avg      Total 
 Time (sec):           1.145e+02      1.00000   1.145e+02
-ofz#4441 divide-by-zero [Caolán McNamara]
+ofz#4441 divide-by-zero [CaolÃ¡n McNamara]
           misuse/NN-25  ==                        DEL    $0.429  [D]
             from/IN-26  ==                        DEL    $0.429  [D]
                         ==  computer_networks...  INS    $0.377  [I]

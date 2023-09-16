@@ -35,8 +35,8 @@ Sushi:   File: /scratch/ig-build-temp-JHXSGN/repo/input/fsh/instances/us-ph-supp
 [   1927390] resources::ResourceCacheDeviceV2::DoFetch downloading resource.rpf (hash 467efa7dbebc1e3ccc4bf5b07325fa62c49d865b) from http://139.99.125.59:30124/files/op-banking/resource.rpf
 [   1927734] ResourceCache::AddEntry: Saved cache:v1:467efa7dbebc1e3ccc4bf5b07325fa62c49d865b to the index cache.
 [   1927750] ResourceCacheDevice: downloaded resource.rpf in 353 msec (size 258048)
-ofz#4940 null-dereference READ [Caolán McNamara]
-ofz#4943 direct-leak [Caolán McNamara]
+ofz#4940 null-dereference READ [CaolÃ¡n McNamara]
+ofz#4943 direct-leak [CaolÃ¡n McNamara]
 * \evensidemargin=1.0pt
 * \topmargin=-2.73714pt
 * \headheight=27.5pt
@@ -70,16 +70,16 @@ ofz#4943 direct-leak [Caolán McNamara]
 NOTE: There were 1715 observations read from the data set THIS.MYTICKER.
 [      3985] [    GTAProcess]               Render/ Changing video mode success: 1.
 [      3985] [    GTAProcess]               Render/ Changing video mode.
-tdf#51352 EDITING nested TABLE with undo / redo will CRASH [Zdeněk Crhonek]
-tdf#51368 EDITING: CRASH when Merge Cells with "move contents" and first of merged Cells is involved in calculation [Zdeněk Crhonek]
-tdf#114677 Base Form titles incorrect [Szymon Kłos]
+tdf#51352 EDITING nested TABLE with undo / redo will CRASH [ZdenÄk Crhonek]
+tdf#51368 EDITING: CRASH when Merge Cells with "move contents" and first of merged Cells is involved in calculation [ZdenÄk Crhonek]
+tdf#114677 Base Form titles incorrect [Szymon KÅos]
 tdf#114681 No support for Glagolitic in LibreOffice [Aleksandr Andreev]
 tdf#114684 Entering invalid print range (with two hyphenated numbers greater than max page number) prints last page [Mike Kaganski]
 tdf#114701 [UI] Missing widget labels and tooltips in Customization dialog [heiko tietze]
 tdf#114703 FILEOPEN: DOCX: Incorrect numbering alignment (follow-up bug) [Miklos Vajna]
 tdf#114709 New online help looks terrible [Ilmari Lauhakangas]
 tdf#114719 New RYB based standard palette: violet name assigned to magenta colors, indigo is the violet [heiko tietze]
-tdf#114720 crashing with insert subtotals in Calc [Zdeněk Crhonek]
+tdf#114720 crashing with insert subtotals in Calc [ZdenÄk Crhonek]
 tdf#114724 Outline headings remain highlighted in Navigator content navigation view after cursor is positioned to different outline heading in document [Jim Raykowski]
 tdf#114726 Area tabpage: Pattern editor doesn't work, preview not shown [Vasily Melenchuk]
 tdf#114732 Undo make bullet reappear unexpectedly. [Mark Hung]
@@ -91,15 +91,15 @@ tdf#114751 Preferred font order for Japanese locale [Takeshi Abe]
 tdf#114768 Preferred font order for Chinese locales [Yousuf Philips]
 tdf#114771 Focus rectangle misplaced in Navigator content navigation view after promote or demote or dnd [Jim Raykowski]
 tdf#114817 New bitmap presets for Area Fill [andreas kainz]
-tdf#114821 FILEOPEN PPTX: In some files bar chart data labels are incorectly positioned [Szymon Kłos]
+tdf#114821 FILEOPEN PPTX: In some files bar chart data labels are incorectly positioned [Szymon KÅos]
 tdf#114833 Dutch locale: date input without year (pattern D-M) displays as dd-mm-yy, while with year (pattern D-M-Y) displays as ISO yyyy-mm-dd [Eike Rathke]
 tdf#114837 FILEOPEN: Image is blank [Noel Grandin]
 tdf#114842 FILESAVE: to XLSX: comments lose background colour [Bartosz Kosiorek]
-tdf#114848 FILESAVE: PPTX: Shape's colour lost after RT [Szymon Kłos]
-tdf#114872 Broken selection from other user [Tamás Zolnai]
-tdf#114873 Letter, fax and agenda wizard not localized [Caolán McNamara, Julien Nabet]
+tdf#114848 FILESAVE: PPTX: Shape's colour lost after RT [Szymon KÅos]
+tdf#114872 Broken selection from other user [TamÃ¡s Zolnai]
+tdf#114873 Letter, fax and agenda wizard not localized [CaolÃ¡n McNamara, Julien Nabet]
 tdf#114882 Error Message: File format error found at SAXParseException: '[word/document.xml line 2]: Opening and ending tag mismatch: txbxContent line 0 and sdtContent ', Stream 'word/document.xml', Line 2, Column 3157(row,col). [Mike Kaganski]
-tdf#114901 UI: TSCP Classification dialog: too much vertical white space and Part list too wide [Tomaž Vajngerl]
+tdf#114901 UI: TSCP Classification dialog: too much vertical white space and Part list too wide [TomaÅ¾ Vajngerl]
 tdf#114907 [NEW HELP] Contents folder symbol not rendered in Windows 7 [Ilmari Lauhakangas]
 tdf#114913 FILEOPEN: PPTX: Bullets size is too small [Paul Trojahn]
 [   1919515] resources::ResourceCacheDeviceV2::DoFetch downloading resource.rpf (hash d9f58dc16daa4913ed61c9be12ab17f1c35837ea) from http://139.99.125.59:30124/files/sessionmanager/resource.rpf
@@ -265,7 +265,7 @@ argT.first: num
 	at info.magnolia.cms.i18n.I18nContentSupportFilter.doFilter(I18nContentSupportFilter.java:85) [magnolia-core-6.2.3.jar:?]
 	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.3.jar:?]
 	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.3.jar:?]
-    + add EDB-39395-1 test-case [Caolán McNamara]
+    + add EDB-39395-1 test-case [CaolÃ¡n McNamara]
 	New feature
 		- Add feature export to excel for BOM Report menu
 		
@@ -494,7 +494,7 @@ buick+open+tee+times	01.08.2009 22:26:05	http://www.google.com/url?sa=t&source=w
 [2023.05.20-22.07.39:933][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
 [2023.05.20-22.07.39:933][  0]LogConfig: Set CVar [[r.SceneColorFormat:2]]
 [2023.05.20-22.07.39:933][  0]LogConfig: Set CVar [[r.DetailMode:2]]
-ofz#7359 integer overflow [Caolán McNamara]
-ofz#7364 integer overflow [Caolán McNamara]
-ofz#7365 integer overflow [Caolán McNamara]
+ofz#7359 integer overflow [CaolÃ¡n McNamara]
+ofz#7364 integer overflow [CaolÃ¡n McNamara]
+ofz#7365 integer overflow [CaolÃ¡n McNamara]
 \c@pgf@countc=\count314

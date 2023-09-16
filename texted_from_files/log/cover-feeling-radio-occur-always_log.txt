@@ -142,9 +142,9 @@ Importing redirects...
                                                 <host>192.168.0.2</host>
                                                 <port>3306</port>
                                                 <name>kodi_music</name>
-coverity#1426737 uninitialized scalar field [Caolán McNamara]
-coverity#1426738 dereference null return value [Caolán McNamara]
-coverity#1426740 uninitialized scalar field [Caolán McNamara]
+coverity#1426737 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1426738 dereference null return value [CaolÃ¡n McNamara]
+coverity#1426740 uninitialized scalar field [CaolÃ¡n McNamara]
 12:32:06 T:4308  NOTICE: Thread PVRManager start, auto delete: false
 12:32:06 T:7040  NOTICE: Thread PVRClient start, auto delete: false
           serious/JJ-8  ==                        DEL    $0.429  [D]
@@ -465,8 +465,8 @@ gold+coast+art+fair+2009	01.08.2009 19:47:33	http://www.google.com/search?q=GOLD
                                                 TOTAL   $10.157
 </MANLIResult>
 All txt words are: [Vatican-NNP, spokesman_Joaquin_Navarro-Valls-NNS, announced-VBD, that-IN, Pope_John_Paul-NNP, was-VBD, still-RB, in-IN, serious-JJ, condition-NN, ,-,, but-CC, he-PRP, was-VBD, not-RB, in-IN, a-DT, coma-NN, .-.]
-coverity#1421119 dereference after null check [Caolán McNamara]
-coverity#1421122 silence Uncaught exception [Caolán McNamara]
+coverity#1421119 dereference after null check [CaolÃ¡n McNamara]
+coverity#1421122 silence Uncaught exception [CaolÃ¡n McNamara]
 [2023.05.20-22.07.40:104][  0]LogInit: High frequency timer resolution =10.000000 MHz
               Complete w/o Wrap Limit(s): Yes
   Opt. Period         Initial Wrap Valid: No

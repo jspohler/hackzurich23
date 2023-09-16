@@ -185,27 +185,27 @@ LogConfig: Display: Loading HoloLens ini files took 0.04 seconds
       "eslint-config-prettier": "^6.15.0",
       "eslint-plugin-import": "^2.22.1",
       "eslint-plugin-no-only-tests": "^2.4.0",
-coverity#1421124 uncaught exception [Caolán McNamara]
-coverity#1424266 uncaught exception [Caolán McNamara]
-coverity#1424321 dereference after null check [Caolán McNamara]
-coverity#1424322 uninitialized scalar field [Caolán McNamara]
-coverity#1424323 uninitialized scalar field [Caolán McNamara]
-coverity#1424325 uninitialized scalar field [Caolán McNamara]
-coverity#1425723 silence 'Wrapper object use after free' [Caolán McNamara]
-coverity#1426162 refactor to be more clear [Caolán McNamara]
-coverity#1426163 improper use of negative value [Caolán McNamara]
-coverity#1426164 unchecked dynamic_cast [Caolán McNamara]
-coverity#1426165 unchecked dynamic_cast [Caolán McNamara]
-coverity#1426166 refactor to be less obscure [Caolán McNamara]
-coverity#1426167 refactor to be less obscure [Caolán McNamara]
-coverity#1426168 dereference after null check [Caolán McNamara]
-coverity#1426169 refactor to be less obscure [Caolán McNamara]
-coverity#1426170 unchecked dynamic_cast [Caolán McNamara]
-coverity#1426171 unchecked dynamic_cast [Caolán McNamara]
-coverity#1426312 unchecked return value [Caolán McNamara]
+coverity#1421124 uncaught exception [CaolÃ¡n McNamara]
+coverity#1424266 uncaught exception [CaolÃ¡n McNamara]
+coverity#1424321 dereference after null check [CaolÃ¡n McNamara]
+coverity#1424322 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1424323 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1424325 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1425723 silence 'Wrapper object use after free' [CaolÃ¡n McNamara]
+coverity#1426162 refactor to be more clear [CaolÃ¡n McNamara]
+coverity#1426163 improper use of negative value [CaolÃ¡n McNamara]
+coverity#1426164 unchecked dynamic_cast [CaolÃ¡n McNamara]
+coverity#1426165 unchecked dynamic_cast [CaolÃ¡n McNamara]
+coverity#1426166 refactor to be less obscure [CaolÃ¡n McNamara]
+coverity#1426167 refactor to be less obscure [CaolÃ¡n McNamara]
+coverity#1426168 dereference after null check [CaolÃ¡n McNamara]
+coverity#1426169 refactor to be less obscure [CaolÃ¡n McNamara]
+coverity#1426170 unchecked dynamic_cast [CaolÃ¡n McNamara]
+coverity#1426171 unchecked dynamic_cast [CaolÃ¡n McNamara]
+coverity#1426312 unchecked return value [CaolÃ¡n McNamara]
 i#59160 tcmalloc could be used as allocator [Stephan Bergmann]
 i#72503 remove hedabu procedure [Stephan Bergmann]
-ofz#6088 null-dereference [Caolán McNamara]
+ofz#6088 null-dereference [CaolÃ¡n McNamara]
 int (*fprintf_ptr)(FILE*,const char*,...) = fprintf;
 void  foo(void){
 12:32:05 T:6472  NOTICE:         m_displayNameExtra: WASAPI: Realtek Digital Output(Optical) (2- Realtek High Definition Audio)
@@ -220,7 +220,7 @@ start-stop-daemon (START_STOP_DAEMON) [Y/n/?] y
 2021-10-26T21:50:50.132Z,1.132051,ab3bf380,6 [channel] Caps: 32bIdx 1 Memoryless 0
 Generating Summary Outputs                                                       (20:15.019)
 [   1900812] [assets-eup]
-tdf#116138 Insert Special Character also inserts selected character in current cursor in Title numbering [Caolán McNamara]
+tdf#116138 Insert Special Character also inserts selected character in current cursor in Title numbering [CaolÃ¡n McNamara]
  1/8=5,14=-1,18=10,26=3/3(-5);
  2/29=1/2;
  6/7=2,8=2,9=2,10=2,19=2,28=1/1;
@@ -375,8 +375,8 @@ status code: 200
 [   1911922] resources::ResourceCacheDeviceV2::DoFetch downloading resource.rpf (hash 50bf2dd6d0151f1202700547dec216e2350b0c7b) from http://139.99.125.59:30124/files/connectqueue/resource.rpf
 [   1912093] ResourceCache::AddEntry: Saved cache:v1:50bf2dd6d0151f1202700547dec216e2350b0c7b to the index cache.
 [   1912109] ResourceCacheDevice: downloaded resource.rpf in 184 msec (size 6144)
-ofz#6617 integer-overflow [Caolán McNamara]
-ofz#6625 just don't care about exceptions during fuzzing [Caolán McNamara]
+ofz#6617 integer-overflow [CaolÃ¡n McNamara]
+ofz#6625 just don't care about exceptions during fuzzing [CaolÃ¡n McNamara]
  PROC_COUNT alpha : alphaInelastic = 344
  PROC_COUNT alpha : ALL = 1.40592e+06
      8  O    2.173265   3.366973   0.000000
@@ -426,21 +426,21 @@ tdf#115797 Help about Fill series of type Date is irrelevant if not wrong [Laure
 tdf#115831 [Calc] Help page about Renaming sheet is not correct [Olivier Hallot, Laurent BP]
 tdf#115835 Calc - Copying Cells in a Row with Conditional formatting - Conditional formatting not copied [Markus Mohrhard]
 tdf#115853 Custom properties deleted [Julien Nabet, Stephan Bergmann]
-tdf#115859 PPTX/XLSX/DOCX Chart number format export is missing [Szymon Kłos]
+tdf#115859 PPTX/XLSX/DOCX Chart number format export is missing [Szymon KÅos]
 tdf#115867 Windows 10 icon theme follow MSO guidelines [andreas kainz]
 tdf#115873 Shape selected in navigator is not selected in the main window [Miklos Vajna]
 tdf#115874 On Style dialog's Organizer tab, non-integer font size is shown rounded to integer [Mike Kaganski]
 tdf#115875 On Character Style dialog's Organizer tab, no indication of Western/Asian/CTL font groups (unlike Paragraph Style) [Mike Kaganski]
 tdf#115879 Odd behaviour of concatenated NOT functions [Eike Rathke]
-tdf#115880 Wrong Selection with „Navigate By“ Function [Jim Raykowski]
+tdf#115880 Wrong Selection with âNavigate Byâ Function [Jim Raykowski]
 tdf#115892 Opening a Style dialog's Font tab adds Asian text size to the properties set in the style [Mike Kaganski]
 tdf#115895 Color picker images missing in Impress [Noel Grandin]
 tdf#115905 Help mentions non-existing "Slide Show - Custom Animation" menu entry [Olivier Hallot]
 tdf#115933 XLSX <fileSharing> password protected with algorithmName, hashValue, saltValue and spinCount [Eike Rathke]
 tdf#115938 Opening a Style dialog's Borders tab adds Shadow properties to the property set in the style [Mike Kaganski]
 tdf#115950 EDITING: Crash while selecting cell format with double-click [Jan Holesovsky]
-tdf#115951 Arabic alphabet page number format is not showing correctly [Caolán McNamara]
-tdf#115964 Document password prompt not centered to window with GTK3, when opening file directly [Caolán McNamara]
+tdf#115951 Arabic alphabet page number format is not showing correctly [CaolÃ¡n McNamara]
+tdf#115964 Document password prompt not centered to window with GTK3, when opening file directly [CaolÃ¡n McNamara]
 tdf#115968 CMIS: various protocol handling problems & incompatibilities [Andreas Brandner]
 tdf#115994 Grey area instead of settings for "Tools - Options - Language Settings -English sentence checking" and " "Tools - Options - Internet - MediaWiki" on master [Katarina Behrens]
 tdf#116001 Incorrect Colors in Chart Wall Area w/ 3D Look and Extruded Shapes [Noel Grandin]

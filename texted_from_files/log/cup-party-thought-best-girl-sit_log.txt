@@ -5,7 +5,7 @@ ERROR info.magnolia.ai.text.TextClassificationModule 15.10.2020 00:12:42 -- Subm
 2016-02-23 15:45:25,573  INFO Injector:68 org.matsim.core.router.RoutingModule @com.google.inject.name.Named(value=walk)
 2016-02-23 15:45:25,573  INFO Injector:69    -> org.matsim.core.router.Teleportation@161479c6
 0 categories imported
-ofz#5276 oom [Caolán McNamara]
+ofz#5276 oom [CaolÃ¡n McNamara]
 \inpenc@posthook=\toks16
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
@@ -56,11 +56,11 @@ LogConfig: Set CVar [[r.setres:1280x720]]
                                   1973-F02       D-5A                           D-5A                      F00678
              1974 Mar 21 0645     -              NASA 10.411GM                  NASA 10.411GM                     Nike Cajun             NASA 10.411GM    CSG ALFS                83.0
 [22:42:40] Precious metals: [+] 0098/8003 matches engine Wordpress Article - http://mgsetoshotel.com/2013/12/03/donec-luctus-imperdiet/
-tdf#116820 The viewer does not show recent files after selecting remote server [Mert Tümer]
+tdf#116820 The viewer does not show recent files after selecting remote server [Mert TÃ¼mer]
 tdf#116821 row and column toolbar not available when selecting non-adjacent rows/columns by pressing ctrl key [Maxim Monastirsky]
 tdf#116836 Anchored to Cells set to Resize also Move when Shrunk [Samuel Mehrbrodt]
 tdf#116841 FILEOPEN: Bullet list has no identation [Miklos Vajna]
-tdf#116842 Adding spreadsheets or slides crashes android viewer [Mert Tümer]
+tdf#116842 Adding spreadsheets or slides crashes android viewer [Mert TÃ¼mer]
 [      2532] [    GTAProcess]             MainThrd/ pre-gameload component rage:device:five
 x+games+15+moto+x+best+trick	01.08.2009 19:35:19	http://www.google.com/url?sa=t&source=web&ct=res&cd=9&url=http%3A%2F%2Fcomicsunlimited.com%2Fcomics%2Findex.php%3Fx%2Bgames%2B15%2Bmoto%2Bx%2Bbest%2Btrick&ei=yJh0SuuOFpSwMIq2_LAM&rct=j&q=x+games+15+moto+big+air+gold&usg=AFQjCNG5gy7MF-uiLAZGZz3au71yD6R-9g	Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20	24.11.253.121
 sayville+summerfest	01.08.2009 19:35:30	http://www.google.com/search?hl=en&rlz=1R2DKUS_enUS332&q=sayville+street+fair+2009&aq=f&oq=&aqi=	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB6; .NET CLR 1.1.4322; InfoPath.1; .NET CLR 2.0.50727)	24.185.120.179
@@ -972,7 +972,7 @@ what+did+greg+mcmackin+say	01.08.2009 20:00:03	http://www.google.com/search?sour
 ./Carpenters/The_Singles__1969-1973
 ./Indochine
 ./Indochine/Indochine%20-%201982%20-%20L'aventurier
-./Indochine/Indochine%20-%201983%20-%20Le%20Péril%20Jaune
+./Indochine/Indochine%20-%201983%20-%20Le%20PÃ©ril%20Jaune
 ./Indochine/Indochine%20-%201985%20-%203
 	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.3.jar:?]
 	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.3.jar:?]

@@ -12,14 +12,14 @@ tdf#113197 FILEOPEN: EMF+ Incorrect lines' height [Armin Le Grand]
 tdf#113239 UI Spin button field for Column spacing (in Sections / Page styles) changes with 0,01 cm :) [brian houston morrow]
 tdf#113258 FILEOPEN: Text in shape in a docx document is misplaced (partially cut) when opening in LO [Miklos Vajna]
 tdf#113275 Last line drop down and expand single word check box should only be show active for Justified [Jim Raykowski]
-tdf#113284 Crash opening index dialog [Zdeněk Crhonek]
+tdf#113284 Crash opening index dialog [ZdenÄk Crhonek]
 tdf#113377 Crash in: OpenGLContext::AcquireFramebuffer(OpenGLTexture const &) [Miklos Vajna]
 tdf#113413 LibO hangs at the JRE Required dialog when creating a New Database [Michael Stahl]
 tdf#113455 Impossible to clear "Width/Height in pages" after converting "Page style" sheet to Widget UI [Mike Kaganski]
 tdf#113481 EDITING: it takes multiple backspace to delete one ideographic variation sequence [Mark Hung]
 tdf#113558 Replace 'AutoFormat' button with table style listbox in insert table dialog [Gabor Kelemen, Furkan Tokac, heiko tietze]
 tdf#113572 Copying a chart converts data ranges to data table [Vasily Melenchuk]
-tdf#114477 Can't set character highlighting on a text box using sidebar highlighting icon. [Tamás Zolnai]
+tdf#114477 Can't set character highlighting on a text box using sidebar highlighting icon. [TamÃ¡s Zolnai]
 tdf#114488 EDITING: Writer is showing a low res image when copy/pasting a WMF image from Draw to Writer [Samuel Mehrbrodt]
 tdf#114495 CRASH: A control of tables 'grid' inside a form gives me an error [Julien Nabet]
 tdf#114523 Make inline tooltip for track changes optional [heiko tietze]
@@ -30,7 +30,7 @@ tdf#114552 Improve image anchoring in Calc [Samuel Mehrbrodt]
 tdf#114555 Calc does not give warning when opening file containing a sheet with more than 1024 columns [Eike Rathke]
 tdf#114596 External forms for a database doesn't save data - closing form with dataloss [Michael Stahl]
 tdf#114603 do not highlights text field Range with not correct range in dialogue "Conditional formatting for" [tagezi]
-tdf#114613 Repair function does not work after opening PPTX file [Tamás Zolnai]
+tdf#114613 Repair function does not work after opening PPTX file [TamÃ¡s Zolnai]
 build	14-Jul-2020 09:19:53	[INFO] Searching for local aggregator root...
 build	14-Jul-2020 09:19:53	[INFO] Local aggregation root: D:\BambooAgent\xml-data\build-dir\EPDG-EPWBD-JOB1\epdg-app-aggregator
 jerry+garcia+birthday	01.08.2009 22:26:35	http://www.google.com/search?hl=en&client=safari&rls=en&q=jerry+garcia+birthday+tribute+santa+cruz&aq=f&oq=&aqi=	Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; en) AppleWebKit/530.19.2 (KHTML, like Gecko) Version/4.0.2 Safari/530.19	99.170.149.41
@@ -52,7 +52,7 @@ tdf#115873 Shape selected in navigator is not selected in the main window [Miklo
 tdf#115874 On Style dialog's Organizer tab, non-integer font size is shown rounded to integer [Mike Kaganski]
 tdf#115875 On Character Style dialog's Organizer tab, no indication of Western/Asian/CTL font groups (unlike Paragraph Style) [Mike Kaganski]
 tdf#115879 Odd behaviour of concatenated NOT functions [Eike Rathke]
-tdf#115880 Wrong Selection with „Navigate By“ Function [Jim Raykowski]
+tdf#115880 Wrong Selection with âNavigate Byâ Function [Jim Raykowski]
 
       end
 [     48579] [    GTAProcess]  UV loop: httpClient/ 

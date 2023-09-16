@@ -14,8 +14,8 @@ build	14-Jul-2020 09:19:57	[DEBUG]   Imported: org.apache.maven.configuration < 
 [     20859] rage::gameSkeleton::RunInitFunctions: Invoking CStatsMgr INIT_CORE init (29 out of 52)
 (KD4CQY/#earthquake) IF thishad happened during the day.. wow
 build	14-Jul-2020 09:19:57	[DEBUG] Adding property artifactory.publish.password from the command property: sun.java.command
-ofz#6102 null-dereference [Caolán McNamara]
-ofz#6104 guard against self recursive GetShadow [Caolán McNamara]
+ofz#6102 null-dereference [CaolÃ¡n McNamara]
+ofz#6104 guard against self recursive GetShadow [CaolÃ¡n McNamara]
 2A4	ALASKA	VOR LAKE WATERLANE SEAPLANE	afd	al_31_25OCT2007.png
 BGQ	ALASKA	BIG LAKE	afd	al_31_25OCT2007.png
 [22:42:37] Travels: [-] 8123/8261 no engine matches (HTTP-Status: 400) - https://www.escdaily.com/

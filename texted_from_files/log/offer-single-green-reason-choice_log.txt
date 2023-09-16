@@ -131,16 +131,16 @@ onGenerate.jira.packagelistcopy:
   with                 ==&gt; with
     [0mExecuting: 'python /home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../interfaceCV.py ./examples/Fischer/FERA3.imi ./examples/Fischer/FERA3-learning_learning_1.imi delta=1,Delta=1'[0m
                                                 <!-- <regexp>Season[\._ ]([0-9]+)[\\/]([0-9]+)([^\\/]*)$</regexp> -->
-ofz#6674 direct-leak [Caolán McNamara]
+ofz#6674 direct-leak [CaolÃ¡n McNamara]
           Initialized LDFLAGS to 
 2021-10-26T21:50:50.236Z,1.236310,4337000,6 [FLog::LocalStorage] LocalStorage flushing
 2021-10-26T21:50:50.236Z,1.236478,4337000,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
 stdout: Linux
 ================================================================================
 TEST checkPIC from config.setCompilers(/sandbox/petsc/petsc.next/config/BuildSystem/config/setCompilers.py:1003)
-ofz#5391 integer-overflow [Caolán McNamara]
-ofz#5402 timeout [Caolán McNamara]
-ofz#5420 out-of-memory [Caolán McNamara]
+ofz#5391 integer-overflow [CaolÃ¡n McNamara]
+ofz#5402 timeout [CaolÃ¡n McNamara]
+ofz#5420 out-of-memory [CaolÃ¡n McNamara]
 ))
 \Gm@cnth=\count276
 \Gm@cntv=\count277
@@ -182,7 +182,7 @@ tdf#115584 Crash when launching Base [Julien Nabet]
 staticfield com/android/dx/rop/type/Type CLONEABLE Lcom/android/dx/rop/type/Type; com/android/dx/rop/type/Type
 staticfield com/android/dx/rop/type/Type OBJECT Lcom/android/dx/rop/type/Type; com/android/dx/rop/type/Type
 staticfield com/android/dx/rop/type/Type SERIALIZABLE Lcom/android/dx/rop/type/Type; com/android/dx/rop/type/Type
-[0;36;40m…The end of Interfaçator![0;36;40m
+[0;36;40mâ¦The end of InterfaÃ§ator![0;36;40m
 [2023.05.20-22.07.39:933][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
          towards/IN-38  ==                        DEL    $0.429  [D]
                a/DT-39  ==                        DEL    $0.429  [D]
@@ -230,9 +230,9 @@ G4ParticleHPManager::GetDataStream FILE /home/arce/gamos/external/geant4/geant4.
 instanceKlass sun/reflect/ReflectionFactory
 * checking Rd files ... OK
     + always align color bar to icon bottom edge (tdf#84985) [Regina Henschel]
-    + always copying the full bitmap, not just a portion of it [Caolán McNamara]
-    + always copying to a different bitmap [Caolán McNamara]
-ofz#6950 integer-overflow [Caolán McNamara]
+    + always copying the full bitmap, not just a portion of it [CaolÃ¡n McNamara]
+    + always copying to a different bitmap [CaolÃ¡n McNamara]
+ofz#6950 integer-overflow [CaolÃ¡n McNamara]
 instanceKlass sun/nio/ByteBuffered
 Package caption Info: listings package is loaded.
 US Core Comparison: compare StructureDefinition[http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-pregnancy-status-observation|1.0.0] to StructureDefinition[http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry|6.1.0]
@@ -270,12 +270,12 @@ Preprocess stderr after filtering::
 tdf#115434 Sidebar: Incorrect handling of Enter, Del, Ins, PgUp, PgDn, End, and Backspace key presses [Jim Raykowski]
 tdf#115440 Add help text for Calc function ROUNDSIG [Olivier Hallot]
 tdf#115451 Sidebar focus becomes hidden on deck change [Jim Raykowski]
-tdf#115453 Confusion on the Impress Views Tab Bar: UI [Álex Puchades]
+tdf#115453 Confusion on the Impress Views Tab Bar: UI [Ãlex Puchades]
 tdf#115470 Name of the "Cycle Case" is too long [heiko tietze]
 LogInit:  - BufferSize = 65536
-ofz#4829 floating-point-exception [Caolán McNamara]
-./Les%202%20Minutes%20du%20Peuple%20-%20François%20Pérusse/Radio%20associative
-./Les%202%20Minutes%20du%20Peuple%20-%20François%20Pérusse/Radio%20positive
+ofz#4829 floating-point-exception [CaolÃ¡n McNamara]
+./Les%202%20Minutes%20du%20Peuple%20-%20FrancÌ§ois%20PeÌrusse/Radio%20associative
+./Les%202%20Minutes%20du%20Peuple%20-%20FrancÌ§ois%20PeÌrusse/Radio%20positive
       %T - percent time in this phase         %F - percent flops in this phase
       %M - percent messages in this phase     %L - percent message lengths in this phase
       %R - percent reductions in this phase
@@ -360,12 +360,12 @@ Sushi: warn  Sliced element Condition.category is being accessed via numeric ind
 [     51938] [    GTAProcess]               Render/ OnConnectionProgress: Downloading content manifest (645.67 kB)
 [     52047] [    GTAProcess]               Render/ OnConnectionProgress: Downloading content manifest (675.06 kB)
 [     52188] [    GTAProcess]               Render/ OnConnectionProgress: Downloading content manifest (731.03 kB)
-ofz#5274 out-of-memory [Caolán McNamara]
-Valuating component A with pi0…
-Writing content to "./examples/Fischer/FERA3.cv"…
-[0;36;40mExecuting "/home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../CV/Compositional_Verifier -imi ./examples/Fischer/FERA3.cv"…[0;36;40m
+ofz#5274 out-of-memory [CaolÃ¡n McNamara]
+Valuating component A with pi0â¦
+Writing content to "./examples/Fischer/FERA3.cv"â¦
+[0;36;40mExecuting "/home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../CV/Compositional_Verifier -imi ./examples/Fischer/FERA3.cv"â¦[0;36;40m
 [0;36;40mCounter-example detected[0;36;40m
-[0;36;40mMoving learning result from "/home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../CV/tmp/counterexample.imi" to "./examples/Fischer/FERA3-learning_learning_1.imi-output.cv"…[0;36;40m
+[0;36;40mMoving learning result from "/home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../CV/tmp/counterexample.imi" to "./examples/Fischer/FERA3-learning_learning_1.imi-output.cv"â¦[0;36;40m
 \@float@every@algorithm=\toks39
 \c@algorithm=\count311
   GEN     networking/Kbuild
@@ -455,11 +455,11 @@ cancun+beach+closed	01.08.2009 23:03:45	http://www.google.com/m/search?ct=fsh&q=
 shun+ken+onion+11+piece+knife+block+set	01.08.2009 23:03:49	http://www.google.com/search?q=shun+7+piece+classic&hl=en&rlz=1T4ADBF_enUS284US286&start=10&sa=N	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB6; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506)	69.182.153.137
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
 1993-066     1993 Oct 22 0646:00  1993-066A      Intelsat 701                   Intelsat 701              S22871  Ariane 44LP            V60              CSG ELA2                 0.0
-ofz#4422 integer-overflow [Caolán McNamara]
-ofz#4424 black list the div by zero calc cases [Caolán McNamara]
-ofz#4441 divide-by-zero [Caolán McNamara]
-ofz#4461 integer-overflow [Caolán McNamara]
-ofz#4476 integer-overflow [Caolán McNamara]
+ofz#4422 integer-overflow [CaolÃ¡n McNamara]
+ofz#4424 black list the div by zero calc cases [CaolÃ¡n McNamara]
+ofz#4441 divide-by-zero [CaolÃ¡n McNamara]
+ofz#4461 integer-overflow [CaolÃ¡n McNamara]
+ofz#4476 integer-overflow [CaolÃ¡n McNamara]
         Model:              hElasticLHEP: 0 eV  ---> 1.0001 GeV
         Model:            Binary Cascade: 199 MeV ---> 9.9 GeV
         Model:       ParticleHPInelastic: 0 eV  ---> 200 MeV

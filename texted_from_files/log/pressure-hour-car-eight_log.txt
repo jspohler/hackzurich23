@@ -227,9 +227,9 @@ tdf#107601 Rename Data > Statistics > "t-test" to "paired t-test" [Olivier Hallo
 For [4mJeuxVideos[24m: [01;33m0[01;37m photos, [01;35m36[01;37m subdirs.
 For [4mJim_Croce[24m: [01;33m21[01;37m photos, [01;35m0[01;37m subdirs.
 For [4mBESTOF[24m: [01;33m164[01;37m photos, [01;35m0[01;37m subdirs.
-For [4mChanson Plus Bifluorée[24m: [01;33m30[01;37m photos, [01;35m0[01;37m subdirs.
+For [4mChanson Plus BifluorÃ©e[24m: [01;33m30[01;37m photos, [01;35m0[01;37m subdirs.
 For [4mInconnus[24m: [01;33m17[01;37m photos, [01;35m3[01;37m subdirs.
-For [4mL'intégral de Coluche[24m: [01;33m80[01;37m photos, [01;35m0[01;37m subdirs.
+For [4mL'intÃ©gral de Coluche[24m: [01;33m80[01;37m photos, [01;35m0[01;37m subdirs.
 For [4mLes aventuriers du Survivaure[24m: [01;33m14[01;37m photos, [01;35m0[01;37m subdirs.
 For [4mManau[24m: [01;33m0[01;37m photos, [01;35m1[01;37m subdirs.
 For [4mNotre_Dame_de_Paris[24m: [01;33m0[01;37m photos, [01;35m2[01;37m subdirs.
@@ -241,7 +241,7 @@ For [4mBobby_Lapointe[24m: [01;33m51[01;37m photos, [01;35m0[01;37m subdir
 For [4mCarpenters[24m: [01;33m0[01;37m photos, [01;35m1[01;37m subdirs.
 For [4mIndochine[24m: [01;33m0[01;37m photos, [01;35m11[01;37m subdirs.
 For [4mIron Maiden[24m: [01;33m0[01;37m photos, [01;35m20[01;37m subdirs.
-For [4mTéléphone[24m: [01;33m0[01;37m photos, [01;35m13[01;37m subdirs.
+For [4mTeÌleÌphone[24m: [01;33m0[01;37m photos, [01;35m13[01;37m subdirs.
 For [4mThe_Beatles[24m: [01;33m0[01;37m photos, [01;35m5[01;37m subdirs.
 For [4mThe_Notting_Hillbillies[24m: [01;33m0[01;37m photos, [01;35m1[01;37m subdirs.
 For [4mTurisas[24m: [01;33m0[01;37m photos, [01;35m6[01;37m subdirs.
@@ -386,7 +386,7 @@ fedex+field	01.08.2009 23:17:38	http://www.google.com/search?q=concert+aug+1+red
 carolina+panthers	01.08.2009 23:18:22	http://search.hp.my.aol.com/aol/search?s_it=topsearchbox.search&query=aug+1+2009+carolina+panthers+updated+transations	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.21022; .NET CLR 3.5.30729; .NET CLR 3.0.30618)	24.129.85.219
 what+did+greg+mcmackin+say	01.08.2009 23:19:03	http://www.google.com/search?sourceid=navclient&aq=0&oq=what+did+&ie=UTF-8&rlz=1T4GGIH_enUS283US283&q=what+did+greg+mcmackin+say	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; WOW64; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.0.04506; Media Center PC 5.0)	68.13.70.19
 gold+coast+art+fair+2009	01.08.2009 23:19:22	http://www.google.com/search?hl=en&rls=gm&sourceid=gmail&q=2009+gold+coast+fair+in+chicago&aq=f&oq=&aqi=	Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.19.2 (KHTML, like Gecko) Version/4.0.2 Safari/530.19	207.181.205.221
-ofz#4733 align size types [Caolán McNamara]
+ofz#4733 align size types [CaolÃ¡n McNamara]
 KWP	ALASKA	WEST POINT VILLAGE SEAPLANE	afd	al_239_25OCT2007.png
 Oak Harbor	ALASKA	WHIDBEY ISLAND NAS (AULT FLD)	afd	al_240_25OCT2007.png
 CYXY	ALASKA	WHITEHORSE INTL	afd	al_241_25OCT2007.png
@@ -412,8 +412,8 @@ Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
  (/usr/local/texlive/2021/texmf-dist/tex/latex/nextpage/nextpage.sty
 Package: nextpage 2009/09/03 v1.1a additional page commands
 )
-tdf#55734 REGRESSION Crash when subtotals calculated for "none" with cell selected outside subtotal range [Zdeněk Crhonek]
-tdf#56958 Spreadsheet Crashes trying to SORT after using and removing SUBTOTALs [Zdeněk Crhonek]
+tdf#55734 REGRESSION Crash when subtotals calculated for "none" with cell selected outside subtotal range [ZdenÄk Crhonek]
+tdf#56958 Spreadsheet Crashes trying to SORT after using and removing SUBTOTALs [ZdenÄk Crhonek]
 
 creating config.status
 simple	14-Jul-2020 09:21:05	Running on server: post build plugin 'Clover Delta Calculator'
@@ -421,7 +421,7 @@ simple	14-Jul-2020 09:21:05	Running on server: post build plugin 'Maven Dependen
 simple	14-Jul-2020 09:21:05	All post build plugins have finished
    Global: entire computation
    Stage: stages of a computation. Set stages with PetscLogStagePush() and PetscLogStagePop().
-[18/Jun/2019:19:43:09] (ℹ️): WordPress Version : 5.2.1
+[18/Jun/2019:19:43:09] (â¹ï¸): WordPress Version : 5.2.1
 Importing posts...
 7 posts imported
 0 medias imported
@@ -429,9 +429,9 @@ Importing K2 items...
 12:32:06 T:7040   DEBUG: Previous line repeats 2 times.
 -- [download 78% complete]
 -- [download 79% complete]
-ofz#4422 integer-overflow [Caolán McNamara]
-ofz#4424 black list the div by zero calc cases [Caolán McNamara]
-ofz#4441 divide-by-zero [Caolán McNamara]
+ofz#4422 integer-overflow [CaolÃ¡n McNamara]
+ofz#4424 black list the div by zero calc cases [CaolÃ¡n McNamara]
+ofz#4441 divide-by-zero [CaolÃ¡n McNamara]
 in                   ==> in
 
 [100]
@@ -487,7 +487,7 @@ market+days+chicago+2009	01.08.2009 19:01:07	http://www.google.com/search?hl=en&
 [ERROR] Can't copy http://localhost:3128/joomla/images/news/2015-03-20/o2C&amp;M19th.jpg to C:\AppServ\www\joomla/wp-content/uploads/2015/03/o2C&amp;M19th.jpg : Not Found
 File: bk12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "Arabic QWERTY" successfully loaded
-12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "Bulgarian ЯВЕРТЪ" successfully loaded
+12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "Bulgarian Ð¯ÐÐÐ Ð¢Ðª" successfully loaded
 12:32:05 T:7432  NOTICE: Additional mode: 1280x720@ 75.00 - Full Screen
 12:32:05 T:7432  NOTICE: Previous line repeats 2 times.
 12:32:05 T:7432  NOTICE: Additional mode: 1280x768@ 60.00 - Full Screen

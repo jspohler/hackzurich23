@@ -8,7 +8,7 @@ LogDevObjectVersion:   FortniteNC (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 10
 friendship+quotes	01.08.2009 18:52:10	http://www.google.com/search?q=funny+friendship+sayings&hl=en&rlz=1T4HPNN_enOM313OM313&start=70&sa=N	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB6; SLCC1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.5.30729; .NET CLR 3.0.30618)	82.178.4.124
 <images/datadriven/Nodes_cc.png, id=1816, 1156.32pt x 939.51pt>
 File: images/datadriven/Nodes_cc.png Graphic file (type png)
-ofz#4531 bad-cast [Caolán McNamara]
+ofz#4531 bad-cast [CaolÃ¡n McNamara]
 unix2dos (UNIX2DOS) [Y/n/?] y
 staticfield com/android/dx/rop/type/Type INT Lcom/android/dx/rop/type/Type; com/android/dx/rop/type/Type
 staticfield com/android/dx/rop/type/Type LONG Lcom/android/dx/rop/type/Type; com/android/dx/rop/type/Type
@@ -188,7 +188,7 @@ ciMethod java/util/Arrays copyOf ([CI)[C 1033 1 6305 0 -1
 2016-02-23 15:45:25,617  INFO Injector:69    -> com.google.inject.internal.ConstructorBindingImpl$Factory@7530ad9c[Scopes.SINGLETON]
     + add description about NoLabel property... (i#126658) [Kay Schenk]
     + add description and @since LibreOffice 5.2 [Eike Rathke]
-    + add EDB-39395-1 test-case [Caolán McNamara]
+    + add EDB-39395-1 test-case [CaolÃ¡n McNamara]
 Build BusyBox as a static binary (no shared libs) (STATIC) [N/y/?] n
 ERROR info.magnolia.aws.foundation.AwsCredentialsProvider 15.10.2020 00:12:42 -- AWS credentials are expected to be set in Password manager module.
 ERROR info.magnolia.ai.text.TextClassificationModule 15.10.2020 00:12:42 -- Submission of text classification request has been failed at page path '/bdcwebsite/find-atm' with error code: 'null'.
@@ -473,12 +473,12 @@ NOTE: Libref TAQ was successfully assigned as follows:
 14         libname this '.';
 NOTE: Libref THIS was successfully assigned as follows: 
       Engine:        V9 
-tdf#111739 Selecting a custom character as a bullet symbol inserts the symbol into the document [Tamás Zolnai, Caolán McNamara]
+tdf#111739 Selecting a custom character as a bullet symbol inserts the symbol into the document [TamÃ¡s Zolnai, CaolÃ¡n McNamara]
 tdf#111747 Selecting position protection disables rotation settings only after reopening the dialog [Kshitij Pathania]
-tdf#111781 Wrong rendering of selection highlight in animation effect list [Bán Róbert]
+tdf#111781 Wrong rendering of selection highlight in animation effect list [BÃ¡n RÃ³bert]
 tdf#111785 PPTX: Hatch fill background color is not exported to PPTX [geri1245]
-tdf#111786 PPTX export: Shape's line transparency is not exported [Tamás Zolnai]
-tdf#111789 TextBox shadow propeties are not saved to PPTX [Tamás Zolnai]
+tdf#111786 PPTX export: Shape's line transparency is not exported [TamÃ¡s Zolnai]
+tdf#111789 TextBox shadow propeties are not saved to PPTX [TamÃ¡s Zolnai]
 tdf#111790 Shadow imported from a PPTX file is not overriden by the settings while saving back to PPTX [martinb214]
 tdf#111801 No hover effect in table design sidebar tab [Kshitij Pathania]
 tdf#111837 Navigator: Lag in navigator selection update when clicking on next slide [Kshitij Pathania]
@@ -496,10 +496,10 @@ tdf#112373 cleanup SpellChecker [abstatic]
 tdf#112384 Chapter Numbering: Allow line breaks for "separator, after" in the Chapter Numbering dialog [Adolfo Jayme Barrientos, Nithin Kumar Padavu]
 tdf#112448 FILEOPEN, DOCX spurious blank line in text [Serge Krot]
 tdf#112474 Statusbar: Clicking on page number section should open go to dialog [Jim Raykowski]
-tdf#112481 Ability to add sheets on Calc on Android Viewer [Mert Tümer]
-tdf#112482 Ability to add slides on Impress on Android Viewer [Mert Tümer]
+tdf#112481 Ability to add sheets on Calc on Android Viewer [Mert TÃ¼mer]
+tdf#112482 Ability to add slides on Impress on Android Viewer [Mert TÃ¼mer]
 tdf#112571 FILESAVE XLSX New named range is created every time an Excel made spreadsheet that contains print ranges is saved as XLSX [Eike Rathke]
-tdf#112656 selected text is truncated in Calc sort dropdown [Zdeněk Crhonek]
+tdf#112656 selected text is truncated in Calc sort dropdown [ZdenÄk Crhonek]
 tdf#112689 Replace chained O(U)StringBuffer::append() with operator+ [Shubham Verma]
 tdf#112755 [NEWHELP] Reorder module Icons in top of the page [Olivier Hallot]
 tdf#112757 [NEWHELP] Improvements required in index search [Ilmari Lauhakangas]

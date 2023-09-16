@@ -90,11 +90,11 @@ argH.first: num
 PROC_CREATOR_COUNT B10 : dInelastic = 40
 PROC_CREATOR_COUNT B10 : neutronInelastic = 40
      Firmware Version         : (A11)
-ofz#5234 direct-leak [Caolán McNamara]
-ofz#5235 bad-cast [Caolán McNamara]
-ofz#5244 tighten depth check [Caolán McNamara]
-ofz#5247 integer-overflow [Caolán McNamara]
-ofz#5248 integer-overflow [Caolán McNamara]
+ofz#5234 direct-leak [CaolÃ¡n McNamara]
+ofz#5235 bad-cast [CaolÃ¡n McNamara]
+ofz#5244 tighten depth check [CaolÃ¡n McNamara]
+ofz#5247 integer-overflow [CaolÃ¡n McNamara]
+ofz#5248 integer-overflow [CaolÃ¡n McNamara]
                   All Rights Reserved.
 tdf#55058 EMF+ List of EMF import bugs with examples [Bartosz Kosiorek]
 1988-098     1988 Oct 28 0217:00  1988-098A      TDF 1                          TDF 1                     S19621  Ariane 2               V26              CSG ELA1                 0.0
@@ -338,9 +338,9 @@ what+did+greg+mcmackin+say	01.08.2009 18:55:50	http://www.google.com/url?sa=t&so
 (Tua/#earthquake) ok..based on that waves in the claremont area came east-west
 i#119141 IP clearance: replace ISCII<->Unicode tables [Chris Sherlock]
 i#696969 colibre icons: use for font icons [andreas kainz]
-ofz#4746 invalid-bool-value [Caolán McNamara]
-ofz#4753 bad-cast, check all open tables [Caolán McNamara]
-ofz#4760 floating-point-exception [Caolán McNamara]
+ofz#4746 invalid-bool-value [CaolÃ¡n McNamara]
+ofz#4753 bad-cast, check all open tables [CaolÃ¡n McNamara]
+ofz#4760 floating-point-exception [CaolÃ¡n McNamara]
 
 ] [79] [80] [81] [82]
 Underfull \hbox (badness 10000) in paragraph at lines 756--766
@@ -351,8 +351,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 756--766
   Check that the archiver exists and can make a library usable by the compiler
 Executing: ar -V
 08A	ALABAMA	WETUMPKA MUNI	afd	se_44_25OCT2007.png
-ofz#5391 integer-overflow [Caolán McNamara]
-ofz#5402 timeout [Caolán McNamara]
+ofz#5391 integer-overflow [CaolÃ¡n McNamara]
+ofz#5402 timeout [CaolÃ¡n McNamara]
      src='/data/richards/NBRTT/build/Geant4/build/Externals/G4EMLOW-6.32/src/G4EMLOW.6.32.tar.gz'
 ciMethodData java/lang/String indexOf (II)I 2 30418 orig 264 8 110 37 81 0 0 0 0 128 81 124 22 0 0 0 0 16 2 0 0 88 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63 20 0 0 201 26 0 0 153 20 3 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 15 0 2 0 0 0 224 0 0 0 255 255 255 255 7 0 7 0 0 0 0 0 data 28 0x70007 0x359 0x38 0x0 0xc0003 0x0 0x38 0x110007 0x2f1 0x20 0x68 0x190007 0x0 0x78 0x2f1 0x280007 0x2bc 0x58 0x62c8 0x310007 0x6293 0x20 0x35 0x3a0003 0x6293 0xffffffffffffffc0 0x420002 0x0 oops 0
  PROC_COUNT Ne20 : ALL = 3249
@@ -409,8 +409,8 @@ onGenerate.data:
   is                   ==&gt; was
   the                  ==&gt; _
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Polish QWERTY" successfully loaded
-21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Russian ЙЦУКЕН" successfully loaded
-21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Russian АБВ" successfully loaded
+21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Russian ÐÐ¦Ð£ÐÐÐ" successfully loaded
+21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Russian ÐÐÐ" successfully loaded
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Spanish QWERTY" successfully loaded
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "German QWERTZ" successfully loaded
     + add existing CppUnit test for sal/rtl/random [Christoph Brill]
@@ -459,8 +459,8 @@ G4ParticleHPManager::GetDataStream FILE /home/arce/gamos/external/geant4/geant4.
 -- [download 68% complete]
 ./JeuxVideos/World_Of_Warcraft
 ./JeuxVideos/Xenoblade_Chronicles
-ofz#6024 direct-leak [Caolán McNamara]
-ofz#6064 clear footnotes from tobe-deleted paragraph [Caolán McNamara]
+ofz#6024 direct-leak [CaolÃ¡n McNamara]
+ofz#6064 clear footnotes from tobe-deleted paragraph [CaolÃ¡n McNamara]
 	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.3.jar:?]
 	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.3.jar:?]
 	at info.magnolia.cms.filters.RangeSupportFilter.doFilter(RangeSupportFilter.java:78) [magnolia-core-6.2.3.jar:?]
@@ -497,4 +497,4 @@ ofz#6064 clear footnotes from tobe-deleted paragraph [Caolán McNamara]
     + add ScDocument::InsertNewRangeName() for sheet-local scope [Eike Rathke]
     + add script to generate symbols [Markus Mohrhard]
     + add script to upload symbols to crash reporting site [Markus Mohrhard]
-ofz#4530 null-dereference READ [Caolán McNamara]
+ofz#4530 null-dereference READ [CaolÃ¡n McNamara]

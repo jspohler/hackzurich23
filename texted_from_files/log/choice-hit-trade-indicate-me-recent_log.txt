@@ -110,7 +110,7 @@ Sushi:   File: /scratch/ig-build-temp-JHXSGN/repo/input/fsh/instances/us-ph-trav
 12:32:05 T:7432   DEBUG: ADDON: cpluff: 'Plug-in script.module.pil has been installed.'
 12:32:05 T:7432   DEBUG: ADDON: cpluff: 'Plug-in visualization.dxspectrum has been installed.'
 12:32:05 T:7432   DEBUG: ADDON: cpluff: 'Plug-in pvr.vuplus has been installed.'
-12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "Bulgarian АБВ" successfully loaded
+12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "Bulgarian ÐÐÐ" successfully loaded
 12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "Danish QWERTY" successfully loaded
 12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "English QWERTY" successfully loaded
 12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "English AZERTY" successfully loaded

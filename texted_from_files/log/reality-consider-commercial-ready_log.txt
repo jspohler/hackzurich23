@@ -61,8 +61,8 @@ ciInstanceKlass java/lang/invoke/VolatileCallSite 0 0 33 10 10 10 10 10 10 100 1
     Support killing processes that have been removed from inittab (FEATURE_KILL_REMOVED) [Y/n/?] y
 
 NeutronHP: .3.2/Alpha/Inelastic file for Z = 1, A = 2 is not found and CrossSection set to 0.
-coverity#1426737 uninitialized scalar field [Caolán McNamara]
-coverity#1426738 dereference null return value [Caolán McNamara]
+coverity#1426737 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1426738 dereference null return value [CaolÃ¡n McNamara]
 <09:27AM DrStupid> I get no records available for nbc.com
 <09:27AM KFWB> nbc.com?  unknown host
 <09:27AM KNBC> damn

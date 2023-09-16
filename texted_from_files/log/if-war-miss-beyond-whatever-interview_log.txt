@@ -1,4 +1,4 @@
-cellstdf#105412 uitest Calc merged [Zdeněk Crhonek]
+cellstdf#105412 uitest Calc merged [ZdenÄk Crhonek]
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Turkish QWERTY" successfully loaded
               in/IN-43  ==                        DEL    $0.429  [D]
         response/NN-44  ==                        DEL    $0.429  [D]
@@ -17,7 +17,7 @@ PROC_CREATOR_COUNT C14 : protonInelastic = 12
 PROC_CREATOR_COUNT C14 : tInelastic = 2
 
 PROC_CREATOR_COUNT O14 : protonInelastic = 29
-coverity#1426922 uninitialized scalar field [Caolán McNamara]
+coverity#1426922 uninitialized scalar field [CaolÃ¡n McNamara]
 [  1%] No patch step for 'G4PII'
 [  1%] No update step for 'G4PII'
 [  1%] No configure step for 'G4PII'
@@ -216,7 +216,7 @@ simple	14-Jul-2020 09:19:45	From ssh://127.0.0.1:57370/epdgs/epdg-web-app
 <09:59AM cavalier> thanks tasm. finally.
 <09:59AM cavalier> AutoMaton Update: For TALK/CHAT join #QUAKECHAT or #QUAKETALK. This is the NEWS Channel.
 (WildEep/#earthquake) that was a big one.
-ofz#6360 direct-leak [Caolán McNamara]
+ofz#6360 direct-leak [CaolÃ¡n McNamara]
      Monument Inscription     :
 CYXY	ALASKA	WHITEHORSE INTL	afd	al_241_25OCT2007.png
 
@@ -377,16 +377,16 @@ tdf#114013 Compound strings in Writer: "Text Format " + "(Search)" or "(Replace)
 tdf#114117 draw: page shadow issue. [Stephan Bergmann]
 tdf#114122 Double click in special character dialog inserts a character into the document, even when the dialog is only opened to select a single character [Mark Vecsernyes]
 tdf#114132 Tiling bitmaps does not work for charts (Format Wall) [Katarina Behrens]
-tdf#114173 FILESAVE XLSX Custom size of chart legend is not preserved when the file is saved as XLSX [Caolán McNamara]
+tdf#114173 FILESAVE XLSX Custom size of chart legend is not preserved when the file is saved as XLSX [CaolÃ¡n McNamara]
 tdf#114180 FILESAVE XLSX Many custom chart wall properties are not preserved when the spreadsheet is saved as XLSX [Markus Mohrhard]
 tdf#114182 FILESAVE XLSX Pie chart slice moved back by LibreOffice Calc [Markus Mohrhard]
 tdf#114200 FILEOPEN: "Text Import" dialog: option to trim whitespace [Gabor Kelemen, manujvashist]
 tdf#114204 Clarify the "Local Help not installed" message [tagezi]
 tdf#114206 Remove duplication of strings found in StartModuleCommands.xcu [Yousuf Philips, Stephan Bergmann]
-tdf#114232 function ISERROR() doesn't work [Eike Rathke, Zdeněk Crhonek]
+tdf#114232 function ISERROR() doesn't work [Eike Rathke, ZdenÄk Crhonek]
 tdf#114242 Menu/LibreOffice/Help/LibreOffice Help/[Content] -> Crash [Michael Stahl]
 tdf#114251 Hang loading spreadsheet [Eike Rathke]
-tdf#114256 Regression: Print Range not working anymore (Format - Page - Sheet - Scale) [Tomaž Vajngerl]
+tdf#114256 Regression: Print Range not working anymore (Format - Page - Sheet - Scale) [TomaÅ¾ Vajngerl]
 tdf#114260 Customization button missing from menu, toolbar and context menus tab of customization dialog [Muhammet Kara]
 tdf#114261 Modifying a toolbar entry with a set toolbar:style attribute causes the attribute to be removed [Maxim Monastirsky]
 [2023.05.20-22.07.40:630][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
@@ -432,36 +432,36 @@ GROUP=petsc
 HOSTTYPE=x86_64-linux
 SSH_CLIENT=140.221.8.249 35558 22
 LOGNAME=petsc
-coverity#1421089 seems to be really reporting missing move ctors/assignments [Caolán McNamara]
-coverity#1421097 uncaught exception [Caolán McNamara]
-coverity#1421100 uncaught exception [Caolán McNamara]
-coverity#1421119 dereference after null check [Caolán McNamara]
-coverity#1421122 silence Uncaught exception [Caolán McNamara]
-coverity#1428610 unintended sign extension [Caolán McNamara]
+coverity#1421089 seems to be really reporting missing move ctors/assignments [CaolÃ¡n McNamara]
+coverity#1421097 uncaught exception [CaolÃ¡n McNamara]
+coverity#1421100 uncaught exception [CaolÃ¡n McNamara]
+coverity#1421119 dereference after null check [CaolÃ¡n McNamara]
+coverity#1421122 silence Uncaught exception [CaolÃ¡n McNamara]
+coverity#1428610 unintended sign extension [CaolÃ¡n McNamara]
 coverity#1428611 check for nullptr [Eike Rathke]
-coverity#1428612 silence reasonable 'Unchecked return value' warning [Caolán McNamara]
+coverity#1428612 silence reasonable 'Unchecked return value' warning [CaolÃ¡n McNamara]
 coverity#1428613 check IsValidReference() return value, follow-up [Eike Rathke]
-coverity#1428661 uninitialized scalar field [Caolán McNamara]
-coverity#1428735 silence Use of untrusted scalar value [Caolán McNamara]
-coverity#1428736 dereference null return value [Caolán McNamara]
-coverity#1428737 dereference null return value [Caolán McNamara]
-coverity#1429470 uncaught exception [Caolán McNamara]
-coverity#1430056 dereference null return value [Caolán McNamara]
-coverity#1430057 silence Argument cannot be negative [Caolán McNamara]
-coverity#1430061 silence Unchecked return value [Caolán McNamara]
-coverity#1430065 silence Uncaught exception [Caolán McNamara]
-coverity#1430066 uncaught exception [Caolán McNamara]
-coverity#1430069 silence Uninitialized scalar field [Caolán McNamara]
-coverity#1430071 uninitialized scalar field [Caolán McNamara]
-coverity#1430073 silence Unchecked return value [Caolán McNamara]
-coverity#1430074 uncaught exception [Caolán McNamara]
-coverity#1430075 dereference after null check [Caolán McNamara]
-coverity#1430076 add assert for 'Division or modulo by zero' [Caolán McNamara]
-coverity#1430077 add assert for 'Division or modulo by zero' [Caolán McNamara]
-coverity#1430078 add assert for 'Division or modulo by zero' [Caolán McNamara]
-coverity#1430079 overflowed return value [Caolán McNamara]
-coverity#1430082 add assert for 'Division or modulo by zero' [Caolán McNamara]
-coverity#1430083 add assert for 'Division or modulo by zero' [Caolán McNamara]
+coverity#1428661 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1428735 silence Use of untrusted scalar value [CaolÃ¡n McNamara]
+coverity#1428736 dereference null return value [CaolÃ¡n McNamara]
+coverity#1428737 dereference null return value [CaolÃ¡n McNamara]
+coverity#1429470 uncaught exception [CaolÃ¡n McNamara]
+coverity#1430056 dereference null return value [CaolÃ¡n McNamara]
+coverity#1430057 silence Argument cannot be negative [CaolÃ¡n McNamara]
+coverity#1430061 silence Unchecked return value [CaolÃ¡n McNamara]
+coverity#1430065 silence Uncaught exception [CaolÃ¡n McNamara]
+coverity#1430066 uncaught exception [CaolÃ¡n McNamara]
+coverity#1430069 silence Uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1430071 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1430073 silence Unchecked return value [CaolÃ¡n McNamara]
+coverity#1430074 uncaught exception [CaolÃ¡n McNamara]
+coverity#1430075 dereference after null check [CaolÃ¡n McNamara]
+coverity#1430076 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
+coverity#1430077 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
+coverity#1430078 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
+coverity#1430079 overflowed return value [CaolÃ¡n McNamara]
+coverity#1430082 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
+coverity#1430083 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
 carolina+panthers	01.08.2009 23:31:02	http://www.google.com/search?hl=en&client=firefox-a&channel=s&rls=org.mozilla%3Aen-US%3Aofficial&hs=oWN&q=panther+fan+fantasy+football+names&btnG=Search&aq=f&oq=&aqi=	Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.12) Gecko/2009070611 Firefox/3.0.12 (.NET CLR 3.5.30729)	24.148.179.14
 AQY	ALASKA	GIRDWOOD	afd	al_85_25OCT2007.png
 [   1928250] resources::ResourceCacheDeviceV2::DoFetch downloading resource.rpf (hash 447fc70b44c130290c360e2f00db2ac7705669d3) from http://139.99.125.59:30124/files/op-scoreboard/resource.rpf
@@ -535,8 +535,8 @@ Z20	ALASKA	TUNTUTULIAK SEAPLANE	afd	al_227_25OCT2007.png
 A63	ALASKA	TWIN HILLS	afd	al_228_25OCT2007.png
 		- Add feature validation check customer data exist before print transportation document
 		
-ofz#4919 direct-leak [Caolán McNamara]
-ofz#4920 direct-leak [Caolán McNamara]
+ofz#4919 direct-leak [CaolÃ¡n McNamara]
+ofz#4920 direct-leak [CaolÃ¡n McNamara]
 
  [10] [11]
  PART_COUNT: B10 = 357
@@ -802,8 +802,8 @@ DBQ	IOWA	DUBUQUE RGNL	afd	nc_16_25OCT2007.png
 [   1911312] resources::ResourceCacheDeviceV2::DoFetch downloading resource.rpf (hash 69d6b12bae272d48182ed2ee129a352c791ab8c7) from http://139.99.125.59:30124/files/clothing/resource.rpf
 	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79) [magnolia-core-6.2.3.jar:?]
 	at info.magnolia.cms.security.LogoutFilter.doFilter(LogoutFilter.java:94) [magnolia-core-6.2.3.jar:?]
-[18/Jun/2019:19:43:09] (ℹ️): [PLUGIN] BackWPup : v3.6.9 (Inpsyde GmbH)
-[18/Jun/2019:19:43:09] (ℹ️): [PLUGIN] Better Admin Bar : v2.3 (KubiQ)
+[18/Jun/2019:19:43:09] (â¹ï¸): [PLUGIN] BackWPup : v3.6.9 (Inpsyde GmbH)
+[18/Jun/2019:19:43:09] (â¹ï¸): [PLUGIN] Better Admin Bar : v2.3 (KubiQ)
 -- Configuring download of missing dataset G4NDL (4.2)
 (Sea-Marie/#earthquake) unknown host, nbc.com
 

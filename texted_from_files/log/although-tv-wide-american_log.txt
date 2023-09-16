@@ -95,11 +95,11 @@ US Core Comparison: compare StructureDefinition[http://hl7.org/fhir/us/ph-librar
 US Core Comparison: compare StructureDefinition[http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-disability-status|1.0.0] to StructureDefinition[http://hl7.org/fhir/us/core/StructureDefinition/pediatric-bmi-for-age|6.1.0]
 US Core Comparison: compare StructureDefinition[http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-disability-status|1.0.0] to StructureDefinition[http://hl7.org/fhir/us/core/StructureDefinition/pediatric-weight-for-height|6.1.0]
 [     47985] [    GTAProcess]             MainThrd/ rage::gameSkeleton::RunInitFunctions: Invoking CTaskClassInfoManager INIT_CORE init (41 out of 52)
-tdf#114821 FILEOPEN PPTX: In some files bar chart data labels are incorectly positioned [Szymon Kłos]
+tdf#114821 FILEOPEN PPTX: In some files bar chart data labels are incorectly positioned [Szymon KÅos]
 tdf#114833 Dutch locale: date input without year (pattern D-M) displays as dd-mm-yy, while with year (pattern D-M-Y) displays as ISO yyyy-mm-dd [Eike Rathke]
 tdf#114837 FILEOPEN: Image is blank [Noel Grandin]
 tdf#114842 FILESAVE: to XLSX: comments lose background colour [Bartosz Kosiorek]
-tdf#114848 FILESAVE: PPTX: Shape's colour lost after RT [Szymon Kłos]
+tdf#114848 FILESAVE: PPTX: Shape's colour lost after RT [Szymon KÅos]
 void *handle = dlopen("/tmp/petsc-uGvYRc/config.setCompilers/libconftest.so", 0);
 int (*foo)(void) = (int (*)(void)) dlsym(handle, "foo");
 [22:42:47] Justice degree: [+] 8027/8289 new URL - http://asmartpioneeragent.com/wp-login.php?action=register
@@ -327,8 +327,8 @@ Sushi:   File: /scratch/ig-build-temp-JHXSGN/repo/input/fsh/instances/us-ph-supp
  Region(s) which use this couple : 
 tdf#115968 CMIS: various protocol handling problems & incompatibilities [Andreas Brandner]
 [22:42:35] Mortgage T1: [+] 0840/1000 unknown registration status - http://www.rafes.gr/index.php/joomla-pages-ii/user-registration
-ofz#3005 timeout [Caolán McNamara]
-ofz#3032 timeout [Caolán McNamara]
+ofz#3005 timeout [CaolÃ¡n McNamara]
+ofz#3032 timeout [CaolÃ¡n McNamara]
 Preserve hard links (FEATURE_PRESERVE_HARDLINKS) [Y/n/?] y
 *
 Sushi:   Line: 13                                                                (04:23.742)
@@ -435,10 +435,10 @@ addgroup (ADDGROUP) [Y/n/?] y
 {"jobId":"JoinPrivateGame:PlaceId=4996049426&AccessCode=df63cb48-6c59-4b3c-b945-a9bd6dc15df7","status":0,"joinScriptUrl":null,"authenticationUrl":null,"authenticationTicket":null,"message":null,"joinScript":null}
 ./JeuxVideos/Final_Fantasy/FF9/Piano%20Collections
 [   1957593] rage::gameSkeleton::RunInitFunctions: Invoking CPed INIT_AFTER_MAP_LOADED init (6 out of 29)
-[18/Jun/2019:19:43:09] (ℹ️): [PLUGIN] reSmush.it Image Optimizer : v0.1.22 (reSmush.it)
-[18/Jun/2019:19:43:09] (ℹ️): [PLUGIN] Slider Revolution : v5.4.7.1 (ThemePunch)
+[18/Jun/2019:19:43:09] (â¹ï¸): [PLUGIN] reSmush.it Image Optimizer : v0.1.22 (reSmush.it)
+[18/Jun/2019:19:43:09] (â¹ï¸): [PLUGIN] Slider Revolution : v5.4.7.1 (ThemePunch)
 tdf#115451 Sidebar focus becomes hidden on deck change [Jim Raykowski]
-tdf#115453 Confusion on the Impress Views Tab Bar: UI [Álex Puchades]
+tdf#115453 Confusion on the Impress Views Tab Bar: UI [Ãlex Puchades]
 socorro+caro	01.08.2009 17:17:16	http://www.google.com/search?hl=en&q=socorro+caro&aq=f&oq=&aqi=g-z1g9	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; InfoPath.1)	170.35.224.63
 charlene+yi	01.08.2009 17:17:41	http://www.google.com/search?q=jillian+tamaki&hl=en&lr=&client=news&tbs=qdr:d&start=10&sa=N	Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; en) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/3.2.1 Safari/525.27.1	74.73.109.151
 tim+hack+and+kelly+drew	01.08.2009 19:30:28	http://www.google.com/search?hl=en&client=firefox-a&rls=org.mozilla%3Aen-US%3Aofficial&hs=ALf&q=Tim+Hack+and+Kelly+Drew+picture&aq=f&oq=&aqi=	Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.11) Gecko/2009060215 Firefox/3.0.11	76.170.153.15
@@ -448,14 +448,14 @@ tdf#113197 FILEOPEN: EMF+ Incorrect lines' height [Armin Le Grand]
 tdf#113239 UI Spin button field for Column spacing (in Sections / Page styles) changes with 0,01 cm :) [brian houston morrow]
 tdf#113258 FILEOPEN: Text in shape in a docx document is misplaced (partially cut) when opening in LO [Miklos Vajna]
 tdf#113275 Last line drop down and expand single word check box should only be show active for Justified [Jim Raykowski]
-tdf#113284 Crash opening index dialog [Zdeněk Crhonek]
+tdf#113284 Crash opening index dialog [ZdenÄk Crhonek]
 tdf#113377 Crash in: OpenGLContext::AcquireFramebuffer(OpenGLTexture const &) [Miklos Vajna]
 tdf#113413 LibO hangs at the JRE Required dialog when creating a New Database [Michael Stahl]
 tdf#113455 Impossible to clear "Width/Height in pages" after converting "Page style" sheet to Widget UI [Mike Kaganski]
 tdf#113481 EDITING: it takes multiple backspace to delete one ideographic variation sequence [Mark Hung]
 tdf#113558 Replace 'AutoFormat' button with table style listbox in insert table dialog [Gabor Kelemen, Furkan Tokac, heiko tietze]
 tdf#113572 Copying a chart converts data ranges to data table [Vasily Melenchuk]
-tdf#114477 Can't set character highlighting on a text box using sidebar highlighting icon. [Tamás Zolnai]
+tdf#114477 Can't set character highlighting on a text box using sidebar highlighting icon. [TamÃ¡s Zolnai]
 tdf#114488 EDITING: Writer is showing a low res image when copy/pasting a WMF image from Draw to Writer [Samuel Mehrbrodt]
 tdf#114495 CRASH: A control of tables 'grid' inside a form gives me an error [Julien Nabet]
 tdf#114523 Make inline tooltip for track changes optional [heiko tietze]
@@ -466,12 +466,12 @@ tdf#114552 Improve image anchoring in Calc [Samuel Mehrbrodt]
 tdf#114555 Calc does not give warning when opening file containing a sheet with more than 1024 columns [Eike Rathke]
 tdf#114596 External forms for a database doesn't save data - closing form with dataloss [Michael Stahl]
 tdf#114603 do not highlights text field Range with not correct range in dialogue "Conditional formatting for" [tagezi]
-tdf#114613 Repair function does not work after opening PPTX file [Tamás Zolnai]
+tdf#114613 Repair function does not work after opening PPTX file [TamÃ¡s Zolnai]
 tdf#114622 add static list of available Native Numbering entries, for example Persian / Arabic-Indic / Hindi numbers [Suhail Alkowaileet]
 tdf#114635 In Writer 5.4.3.2 (x64)- Scanners not recognized [Mike Kaganski]
-tdf#114648 When creating any new document from LibreOffice OSX Dock icon, new document window doesn't get focus ( steps in comment 4 ) [Caolán McNamara]
+tdf#114648 When creating any new document from LibreOffice OSX Dock icon, new document window doesn't get focus ( steps in comment 4 ) [CaolÃ¡n McNamara]
 tdf#114664 The paragraph style is lost after delete and undo [Mark Hung]
-tdf#114677 Base Form titles incorrect [Szymon Kłos]
+tdf#114677 Base Form titles incorrect [Szymon KÅos]
 tdf#114681 No support for Glagolitic in LibreOffice [Aleksandr Andreev]
 tdf#114684 Entering invalid print range (with two hyphenated numbers greater than max page number) prints last page [Mike Kaganski]
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.

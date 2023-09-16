@@ -80,7 +80,7 @@ FHIR IG Publisher Version 1.3.28 (Git# cad7585c587e). Built 2023-08-04T19:34:36.
 Detected Java version: 21-ea from /usr/local/openjdk-21 on Linux/amd64 (64bit). 19008MB available
 dir = /scratch/ig-build-temp-JHXSGN/repo, path = /usr/local/openjdk-21/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 Parameters: -ig ig.json -api-key-file /etc/ig.builder.keyfile.ini -fhir-settings /etc/fhir-settings.json -auto-ig-build -tx http://tx.fhir.org -target https://build.fhir.org/ig/HL7/fhir-us-ph-library/ -out /scratch/ig-build-temp-JHXSGN/repo
-Start Clock @ Wednesday, August 16, 2023, 9:18:38 PM Coordinated Universal Time (2023-08-16T21:18:38Z)
+Start Clock @ Wednesday, August 16, 2023, 9:18:38â¯PM Coordinated Universal Time (2023-08-16T21:18:38Z)
                                                                                 
 Build FHIR IG from /scratch/ig-build-temp-JHXSGN/repo                            (00:00.016)
 API keys loaded from /etc/fhir-settings.json                                     (00:00.016)

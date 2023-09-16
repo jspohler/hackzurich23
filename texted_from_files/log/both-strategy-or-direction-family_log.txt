@@ -66,10 +66,10 @@ invicta+9212+men%E2%80%99s+gold+plated+stainless+steel+speedway+watch	01.08.2009
 [   1955484] instrumented function 0x1408f82a0 (10) took 8msec
 [   1955500] instrumented function 0x1408f8c5c (11) took 2msec
 ofz#6372 fix bitmap decoding of pattern in LwpBackgroundStuff [Noel Grandin]
-ofz#7671 undefined-shift [Caolán McNamara]
-ofz#7729 null-dereference READ [Caolán McNamara]
-ofz#1429182 unchecked dynamic_cast [Caolán McNamara]
-rhbz#1396729 [GTK3] LibreOffice Writer slows scrolling with embedded images [Caolán McNamara]
+ofz#7671 undefined-shift [CaolÃ¡n McNamara]
+ofz#7729 null-dereference READ [CaolÃ¡n McNamara]
+ofz#1429182 unchecked dynamic_cast [CaolÃ¡n McNamara]
+rhbz#1396729 [GTK3] LibreOffice Writer slows scrolling with embedded images [CaolÃ¡n McNamara]
 LogPluginManager: Mounting Engine plugin Bridge
 0 K2 categories imported
 ciInstanceKlass java/security/ProtectionDomain 1 1 291 10 9 7 10 9 9 9 10 7 9 9 7 9 9 10 100 10 10 10 10 9 10 8 100 8 10 10 10 10 10 8 11 8 10 8 8 10 10 10 10 8 10 8 8 10 9 10 9 10 100 100 10 10 7 10 100 10 10 11 11 11 100 10 10 11 11 10 10 11 10 7 10 10 8 10 7 10 10 7 7 100 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 1 100 100 1 100 100 100 100 100 100 100 1 1 1 1 12 12 1 12 12 12 12 1 12 12 1 12 12 100 12 100 100 12 12 12 100 12 1 1 1 12 12 100 12 12 1 1 12 1 1 12 12 12 12 1 12 1 1 100 12 12 12 12 100 12 1 1 12 100 12 1 1 12 12 100 12 12 100 12 1 12 12 12 12 100 12 12 12 1 12 7 12 1 7 12 1 12 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
@@ -160,8 +160,8 @@ tdf#113624 Wrong position and size of the characters in EMF/EMF+ dual mode [Bart
 tdf#113651 UI Edit - Track Changes submenu item names inconsistent with ones in Writer [Yousuf Philips]
 tdf#113688 Cannot set data series filling to pattern [Katarina Behrens]
 tdf#113715 Customize dialog: .uno:EditAnnotation visible in functions list [Maxim Monastirsky]
-tdf#113788 ActiveX controls' text color is not saved back to DOCX file [Bán Róbert]
-tdf#113805 Insert->Footnote/Endnote , choose character [Caolán McNamara]
+tdf#113788 ActiveX controls' text color is not saved back to DOCX file [BÃ¡n RÃ³bert]
+tdf#113805 Insert->Footnote/Endnote , choose character [CaolÃ¡n McNamara]
 tdf#113854 Cross-reference "above" and "below" in Swedish should trade places [sleepingpillow]
 tdf#113856 Navigator: Bad behaviour of controllers when changing slides [martinb214]
 tdf#113860 Selecting a recent or favorite special character is not applied by OK in bullets and numbering dialog [Mark Vecsernyes]
@@ -295,10 +295,10 @@ sayville+summerfest	01.08.2009 22:00:37	http://www.google.com/search?client=safa
 market+days+chicago+2009	01.08.2009 22:01:00	http://www.google.com/search?q=market+days+2009&hl=en&rlz=1G1GGLQ_ENUS338&start=10&sa=N	Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.37 Safari/530.5	75.21.67.101
 clasica+san+sebastian+live	01.08.2009 22:01:01	http://www.google.it/search?hl=it&q=g+p+san+sebastian+&meta=&aq=f&oq=	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727)	80.183.22.95
 >>> toolchain-external-custom  Copying external toolchain libraries to target...
-[18/Jun/2019:19:43:09] (ℹ️): [PLUGIN] Duplicate Page : v3.5 (mndpsingh287)
-[18/Jun/2019:19:43:09] (ℹ️): [PLUGIN] Elementor : v2.5.16 (Elementor.com)
-[18/Jun/2019:19:43:09] (ℹ️): [PLUGIN] Jetpack por WordPress.com : v7.4 (Automattic)
-ofz#4999 divide-by-zero [Caolán McNamara]
+[18/Jun/2019:19:43:09] (â¹ï¸): [PLUGIN] Duplicate Page : v3.5 (mndpsingh287)
+[18/Jun/2019:19:43:09] (â¹ï¸): [PLUGIN] Elementor : v2.5.16 (Elementor.com)
+[18/Jun/2019:19:43:09] (â¹ï¸): [PLUGIN] Jetpack por WordPress.com : v7.4 (Automattic)
+ofz#4999 divide-by-zero [CaolÃ¡n McNamara]
   Fetching:
 
 Installing fhir.base.template#current done.
@@ -362,8 +362,8 @@ RTE "synthetic" properties:
   Parser model path:             = /u/nlp/rte/resources/anno/parse/englishPCFG.ser.gz
  (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 jonathan+campos	01.08.2009 18:07:38	http://www.google.com/search?q=Petty+Officer+Jonathan+Campos+&rls=com.microsoft:*:IE-SearchBox&ie=UTF-8&oe=UTF-8&sourceid=ie7&rlz=1I7ADBF_en	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; GTB6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)	74.176.59.108
-coverity#1428610 unintended sign extension [Caolán McNamara]
-./.ATRIER/Son%20Systèmes/_jeux_videos_conception
+coverity#1428610 unintended sign extension [CaolÃ¡n McNamara]
+./.ATRIER/Son%20SystÃ¨mes/_jeux_videos_conception
 ./.ATRIER/JeuxVideos_old
 ./.ATRIER/JeuxVideos_old/Breath%20of%20Fire%201_2__old
 ./.ATRIER/JeuxVideos_old/Breath%20of%20Fire%201_2__old/Disc%2001%20(Breath%20of%20Fire)
@@ -481,33 +481,33 @@ Now handling font encoding PU ...
 sizeof(short) 2 sizeof(int) 4 sizeof(long) 8 sizeof(void*) 8 sizeof(PetscScalar) 8 sizeof(PetscInt) 4
 * Common options for df, du, ls
 *
-ofz#5423 timeout [Caolán McNamara]
-ofz#5428 timeout [Caolán McNamara]
-ofz#5431 direct-leak [Caolán McNamara]
+ofz#5423 timeout [CaolÃ¡n McNamara]
+ofz#5428 timeout [CaolÃ¡n McNamara]
+ofz#5431 direct-leak [CaolÃ¡n McNamara]
 ofz#5435 sw: fix crash during painting of excessively nested tables [Michael Stahl]
-ofz#5444 asserts and Null-dereference READ [Caolán McNamara]
-ofz#5462 direct-leak [Caolán McNamara]
-ofz#5468 integer-overflow [Caolán McNamara]
-ofz#5471 null-dereference READ [Caolán McNamara]
-ofz#5475 integer-overflow [Caolán McNamara]
-ofz#5483 integer-overflow [Caolán McNamara]
-ofz#5508 out of memory [Caolán McNamara]
-ofz#5514 direct-leak [Caolán McNamara]
-ofz#5526 restrict mml parsing depth [Caolán McNamara]
-ofz#5535 max decimal places for rtl_math_round is 20 [Caolán McNamara]
-ofz#5539 stricter on strings in dxf [Caolán McNamara]
-ofz#5561 integer-overflow [Caolán McNamara]
-ofz#5565 indirect-leak [Caolán McNamara]
+ofz#5444 asserts and Null-dereference READ [CaolÃ¡n McNamara]
+ofz#5462 direct-leak [CaolÃ¡n McNamara]
+ofz#5468 integer-overflow [CaolÃ¡n McNamara]
+ofz#5471 null-dereference READ [CaolÃ¡n McNamara]
+ofz#5475 integer-overflow [CaolÃ¡n McNamara]
+ofz#5483 integer-overflow [CaolÃ¡n McNamara]
+ofz#5508 out of memory [CaolÃ¡n McNamara]
+ofz#5514 direct-leak [CaolÃ¡n McNamara]
+ofz#5526 restrict mml parsing depth [CaolÃ¡n McNamara]
+ofz#5535 max decimal places for rtl_math_round is 20 [CaolÃ¡n McNamara]
+ofz#5539 stricter on strings in dxf [CaolÃ¡n McNamara]
+ofz#5561 integer-overflow [CaolÃ¡n McNamara]
+ofz#5565 indirect-leak [CaolÃ¡n McNamara]
 ofz#5566 sw: HTML import: ignore <DIV> in table structure elements [Michael Stahl]
-ofz#5573 out of memory [Caolán McNamara]
-ofz#5575 call cleanup while its still a SmXMLImport [Caolán McNamara]
-ofz#5578 remove Extraneous Paras before applying redlines [Caolán McNamara]
-ofz#6376 floating-point-exception [Caolán McNamara]
-ofz#6390 leak [Caolán McNamara]
-ofz#6414 integer-overflow [Caolán McNamara]
-ofz#6427 use of uninitialized values [Caolán McNamara]
-ofz#6432 bad-cast [Caolán McNamara]
-ofz#6433 bad-cast [Caolán McNamara]
-ofz#6435 bad-cast [Caolán McNamara]
-ofz#6448 infinite-regress [Caolán McNamara]
-ofz#6449 integer-overflow [Caolán McNamara]
+ofz#5573 out of memory [CaolÃ¡n McNamara]
+ofz#5575 call cleanup while its still a SmXMLImport [CaolÃ¡n McNamara]
+ofz#5578 remove Extraneous Paras before applying redlines [CaolÃ¡n McNamara]
+ofz#6376 floating-point-exception [CaolÃ¡n McNamara]
+ofz#6390 leak [CaolÃ¡n McNamara]
+ofz#6414 integer-overflow [CaolÃ¡n McNamara]
+ofz#6427 use of uninitialized values [CaolÃ¡n McNamara]
+ofz#6432 bad-cast [CaolÃ¡n McNamara]
+ofz#6433 bad-cast [CaolÃ¡n McNamara]
+ofz#6435 bad-cast [CaolÃ¡n McNamara]
+ofz#6448 infinite-regress [CaolÃ¡n McNamara]
+ofz#6449 integer-overflow [CaolÃ¡n McNamara]

@@ -17,7 +17,7 @@ onGenerate.r2b-schemas:
 instanceKlass com/android/multidex/MainDexListBuilder
 instanceKlass java/lang/ClassValue$Version
 instanceKlass java/lang/ClassValue$Identity
-tdf#86253 Copying & paste special / Paintbrush of conditional formatting applies to wrong cell range [Zdeněk Crhonek]
+tdf#86253 Copying & paste special / Paintbrush of conditional formatting applies to wrong cell range [ZdenÄk Crhonek]
 tdf#86399 find and replace dialogue - composed characters do not display properly - sometimes hidden completely [Khaled Hosny]
 \@belowrulesep=\dimen299
 \@thisruleclass=\count348
@@ -118,7 +118,7 @@ instanceKlass com/android/dx/rop/cst/CstLiteralBits
 instanceKlass com/android/dx/rop/cst/CstString
 ciInstanceKlass com/android/dx/rop/cst/TypedConstant 1 1 35 10 10 10 10 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 100 12 12 1 1 1 1 1 1
 ciInstanceKlass com/android/dx/rop/cst/CstString 1 1 214 10 10 10 10 10 10 7 10 100 100 10 8 10 10 8 10 10 10 10 100 8 10 10 9 7 10 10 9 8 10 7 10 10 10 8 10 8 8 10 10 8 8 8 8 10 8 10 8 9 10 9 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 1 1 1 1 1 1 1 1 1 1 1 100 100 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 7 12 12 12 12 1 12 1 1 12 1 12 100 12 1 12 12 12 1 1 12 12 1 12 12 12 1 12 1 12 12 12 1 12 1 1 12 12 1 1 1 1 100 12 1 12 1 100 12 12 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-tdf#115319 Reference fields: support automatic Hungarian article selection [László Németh]
+tdf#115319 Reference fields: support automatic Hungarian article selection [LÃ¡szlÃ³ NÃ©meth]
 tdf#115329 Navigation with Find Toolbar does not Work Correctly with Drawings [Jim Raykowski]
 tdf#115345 Impress slide with notes has wrong dimensions and orientation [Vasily Melenchuk]
 <10:04AM CNN_news> I will relay for non-speakers if needed.
@@ -278,7 +278,7 @@ Px6Gen wrapper
 [   1900890] [op-chopshop]
 [   1900906] [op-scoreboard]
 [   1900922] [op-cocaine]
-    + 8 bit palettes are on the slow path for quartz/svp/gtk3 [Caolán McNamara]
+    + 8 bit palettes are on the slow path for quartz/svp/gtk3 [CaolÃ¡n McNamara]
     + 8 useless calls. (cid#1326581) [jan iversen]
     + <vcl/spin.h> can be private to vcl [Tor Lillqvist]
  452391 words of font info for 162 fonts, out of 8000000 for 9000
@@ -507,8 +507,8 @@ Importing redirects...
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Arabic QWERTY" successfully loaded
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Hungarian QWERTZ" successfully loaded
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Polish QWERTY" successfully loaded
-21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Russian ЙЦУКЕН" successfully loaded
-21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Russian АБВ" successfully loaded
+21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Russian ÐÐ¦Ð£ÐÐÐ" successfully loaded
+21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Russian ÐÐÐ" successfully loaded
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Spanish QWERTY" successfully loaded
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "German QWERTZ" successfully loaded
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Turkish QWERTY" successfully loaded

@@ -4,8 +4,8 @@ Package pdftex.def Info: images/lqi/Budapest_Network_voronoi_op2.png  used on in
 market+days+chicago+2009	01.08.2009 22:01:26	http://www.google.com/search?q=market+days+2009&hl=en&rlz=1G1GGLQ_ENUS338&start=10&sa=N	Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.37 Safari/530.5	75.21.67.101
 sayville+summerfest	01.08.2009 22:02:31	http://www.google.com/search?client=safari&rls=en-us&q=summerfest+sayville&ie=UTF-8&oe=UTF-8	Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-us) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/3.2.1 Safari/525.27.1	69.117.122.136
 invicta+9212+men%E2%80%99s+gold+plated+stainless+steel+speedway+watch	01.08.2009 22:03:43	http://www.google.com/	Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16	69.122.58.237
-ofz#4649 don't care about exceptions for testing [Caolán McNamara]
-ofz#4677 indirect-leak [Caolán McNamara]
+ofz#4649 don't care about exceptions for testing [CaolÃ¡n McNamara]
+ofz#4677 indirect-leak [CaolÃ¡n McNamara]
 21:38:12 T:139832867932032    INFO: UDisks: Added /boot/efi
 21:38:12 T:139832867932032   DEBUG: UDisks: Is not able to mount DeviceUDI /org/freedesktop/UDisks/devices/sda2: IsFileSystem false HasFileSystem  IsSystemInternal true IsMounted false IsRemovable false IsPartition true IsOptical false
 21:38:12 T:139832867932032   DEBUG: UDisks: Is not able to mount DeviceUDI /org/freedesktop/UDisks/devices/sda3: IsFileSystem true HasFileSystem ext4 IsSystemInternal true IsMounted true IsRemovable false IsPartition true IsOptical false
@@ -47,7 +47,7 @@ LogPluginManager: Mounting Engine plugin WmfMedia
 [   1940031] ResourceCacheDevice: downloaded resource.rpf in 3580 msec (size 1849344)
 [   1940125] resources::ResourceCacheDeviceV2::DoFetch downloading resource.rpf (hash 3c0719dd7e05b6dfa44945c8a717483316552eeb) from http://139.99.125.59:30124/files/op-vehicles/resource.rpf
 [   1943093] ResourceCache::AddEntry: Saved cache:v1:3c0719dd7e05b6dfa44945c8a717483316552eeb to the index cache.
-ofz#4734 null-deref [Caolán McNamara]
+ofz#4734 null-deref [CaolÃ¡n McNamara]
       8      8  O        0  -1.077086          1.065096         -3.880397
  ---------------------------------------------------------------------------------------------------
                          Z-Matrix orientation:                         

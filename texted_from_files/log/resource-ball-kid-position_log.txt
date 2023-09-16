@@ -33,7 +33,7 @@ CWS	ARKANSAS	CONWAY DENNIS F CANTRELL FLD	afd	sc_9_25OCT2007.png
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - channel update id:262014743, name:ARD-alpha
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - channel update id:311783343, name:Eurosport 1 Deutschland
 12:32:06 T:7988   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - receive message [channelAdd]
-12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - channel update id:349062250, name:BR Süd HD
+12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - channel update id:349062250, name:BR SÃ¼d HD
 12:32:06 T:7988   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - receive message [channelAdd]
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - channel update id:383330332, name:EuroNews
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - channel update id:405638816, name:ProSieben
@@ -107,8 +107,8 @@ NeutronHP: .3.2/Proton/Inelastic file for Z = 8, A = 18 is not found and CrossSe
     + .doc import image flipped status (tdf#56321) [Justin Luth]
       
 [         0] [    DumpServer]                 1676/ DumpServer is active and waiting.
-ofz#4966 loop in text styles [Caolán McNamara]
-ofz#4971 bad-cast [Caolán McNamara]
+ofz#4966 loop in text styles [CaolÃ¡n McNamara]
+ofz#4971 bad-cast [CaolÃ¡n McNamara]
 <MANLIResult id="RTE2_dev.10.p0" score="13.350" normscore="0.431">
                         ==  2.7_percent/CD-0      INS    $0.377  [I]
 chvt (CHVT) [Y/n/?] y
@@ -173,7 +173,7 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
          Omega=  0.000000  0.000000  1.000000  0.000000  0.000000 ICntrl=     500 IOpCl=  0
      Additional Information   : RECEIVER UPDATED
 
-tdf#114720 crashing with insert subtotals in Calc [Zdeněk Crhonek]
+tdf#114720 crashing with insert subtotals in Calc [ZdenÄk Crhonek]
 tdf#114724 Outline headings remain highlighted in Navigator content navigation view after cursor is positioned to different outline heading in document [Jim Raykowski]
 tdf#114726 Area tabpage: Pattern editor doesn't work, preview not shown [Vasily Melenchuk]
 tdf#114732 Undo make bullet reappear unexpectedly. [Mark Hung]
@@ -190,7 +190,7 @@ For [4mSonata_Artica[24m: [01;33m17[01;37m photos, [01;35m0[01;37m subdirs
 For [4mJeuxVideos[24m: [01;33m0[01;37m photos, [01;35m36[01;37m subdirs.
 For [4mJim_Croce[24m: [01;33m21[01;37m photos, [01;35m0[01;37m subdirs.
 For [4mBESTOF[24m: [01;33m164[01;37m photos, [01;35m0[01;37m subdirs.
-For [4mChanson Plus Bifluorée[24m: [01;33m30[01;37m photos, [01;35m0[01;37m subdirs.
+For [4mChanson Plus BifluorÃ©e[24m: [01;33m30[01;37m photos, [01;35m0[01;37m subdirs.
 instanceKlass java/util/Locale
 tdf#116017 the About Fields online help seems wrong about What's This tip [Adolfo Jayme Barrientos]
 tdf#116019 the About Fields online help for F9 seems wrong for Placeholder fields. [Olivier Hallot]
@@ -297,7 +297,7 @@ Additional CFLAGS (EXTRA_CFLAGS) []
 Additional LDFLAGS (EXTRA_LDFLAGS) [] 
 Additional LDLIBS (EXTRA_LDLIBS) [] 
 ciMethod java/lang/String startsWith (Ljava/lang/String;I)Z 2233 3969 7603 0 -1
-ofz#4825 bad-cast [Caolán McNamara]
+ofz#4825 bad-cast [CaolÃ¡n McNamara]
 0 categories imported
 D75	ALASKA	WASILLA BLODGET LAKE SEAPLANE	afd	al_235_25OCT2007.png
 1997-009     1997 Mar  1 0107:42  1997-009A      Intelsat 801                   Intelsat 801              S24742  Ariane 44P             V94              CSG ELA2                 0.0
@@ -372,36 +372,36 @@ MTF	ALASKA	FAIRBANKS METRO FLD 	afd	al_78_25OCT2007.png
     + allow both dimensions of a graphic to be 0 (tdf#92157) [Mike Kaganski]
 (Tua/#earthquake) claremont (or at least mudd) seems to be just fine..
 fedex+field	01.08.2009 19:30:20	http://www.google.com/search?hl=en&q=FEDEX+field+parking+for+concerts&cts=1249155014456&aq=f&oq=&aqi=	Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.12) Gecko/2009070611 Firefox/3.0.12	173.67.25.190
-ofz#4746 invalid-bool-value [Caolán McNamara]
-ofz#4753 bad-cast, check all open tables [Caolán McNamara]
-ofz#4760 floating-point-exception [Caolán McNamara]
-ofz#4765 conditional jump or move depends on uninitialised value [Caolán McNamara]
-ofz#4767 bad-cast [Caolán McNamara]
-ofz#4777 direct-leak [Caolán McNamara]
-ofz#4783 integer-overflow [Caolán McNamara]
-ofz#4794 null-dereference [Caolán McNamara]
-ofz#4796 null-dereference [Caolán McNamara]
-ofz#4813 direct-leak [Caolán McNamara]
-ofz#4814 asserts and Null-dereference on broken shape [Caolán McNamara]
-ofz#4817 bad-cast [Caolán McNamara]
-ofz#4825 bad-cast [Caolán McNamara]
-ofz#4829 floating-point-exception [Caolán McNamara]
-ofz#4837 null-dereference READ [Caolán McNamara]
-ofz#4845 avoid oom [Caolán McNamara]
-ofz#4848 null-dereference READ [Caolán McNamara]
-ofz#4849 direct leak [Caolán McNamara]
-ofz#4852 integer-overflow [Caolán McNamara]
-ofz#4864 SvgTools::create required via html import [Caolán McNamara]
-ofz#4872 null-dereference READ [Caolán McNamara]
-ofz#4879 divide-by-zero [Caolán McNamara]
-ofz#4886 integer-overflow [Caolán McNamara]
-ofz#4901 divide-by-zero [Caolán McNamara]
-ofz#4909 direct-leak [Caolán McNamara]
-ofz#4914 undefined-shift [Caolán McNamara]
-ofz#4917 direct-leak [Caolán McNamara]
-ofz#4919 direct-leak [Caolán McNamara]
-ofz#4920 direct-leak [Caolán McNamara]
-ofz#4923 divide-by-zero [Caolán McNamara]
+ofz#4746 invalid-bool-value [CaolÃ¡n McNamara]
+ofz#4753 bad-cast, check all open tables [CaolÃ¡n McNamara]
+ofz#4760 floating-point-exception [CaolÃ¡n McNamara]
+ofz#4765 conditional jump or move depends on uninitialised value [CaolÃ¡n McNamara]
+ofz#4767 bad-cast [CaolÃ¡n McNamara]
+ofz#4777 direct-leak [CaolÃ¡n McNamara]
+ofz#4783 integer-overflow [CaolÃ¡n McNamara]
+ofz#4794 null-dereference [CaolÃ¡n McNamara]
+ofz#4796 null-dereference [CaolÃ¡n McNamara]
+ofz#4813 direct-leak [CaolÃ¡n McNamara]
+ofz#4814 asserts and Null-dereference on broken shape [CaolÃ¡n McNamara]
+ofz#4817 bad-cast [CaolÃ¡n McNamara]
+ofz#4825 bad-cast [CaolÃ¡n McNamara]
+ofz#4829 floating-point-exception [CaolÃ¡n McNamara]
+ofz#4837 null-dereference READ [CaolÃ¡n McNamara]
+ofz#4845 avoid oom [CaolÃ¡n McNamara]
+ofz#4848 null-dereference READ [CaolÃ¡n McNamara]
+ofz#4849 direct leak [CaolÃ¡n McNamara]
+ofz#4852 integer-overflow [CaolÃ¡n McNamara]
+ofz#4864 SvgTools::create required via html import [CaolÃ¡n McNamara]
+ofz#4872 null-dereference READ [CaolÃ¡n McNamara]
+ofz#4879 divide-by-zero [CaolÃ¡n McNamara]
+ofz#4886 integer-overflow [CaolÃ¡n McNamara]
+ofz#4901 divide-by-zero [CaolÃ¡n McNamara]
+ofz#4909 direct-leak [CaolÃ¡n McNamara]
+ofz#4914 undefined-shift [CaolÃ¡n McNamara]
+ofz#4917 direct-leak [CaolÃ¡n McNamara]
+ofz#4919 direct-leak [CaolÃ¡n McNamara]
+ofz#4920 direct-leak [CaolÃ¡n McNamara]
+ofz#4923 divide-by-zero [CaolÃ¡n McNamara]
 --> "+v KD4CQY" mode change by KNBC on #earthquake
 --> "-b *!*@192.*" mode change by tasm on #earthquake
 *
@@ -415,38 +415,38 @@ PROC_CREATOR_COUNT gamma : He3Inelastic = 2
   GEN     modutils/Kbuild
   HOSTCC  scripts/basic/split-include
   HOSTCC  scripts/basic/docproc
-ofz#5000 integer-overflow [Caolán McNamara]
+ofz#5000 integer-overflow [CaolÃ¡n McNamara]
 #include "confdefs.h"
-ofz#6563 nBytesPerScan of 0 [Caolán McNamara]
-ofz#6571 catch exception [Caolán McNamara]
-ofz#6602 infinite recursion [Caolán McNamara]
-ofz#6617 integer-overflow [Caolán McNamara]
-ofz#6625 just don't care about exceptions during fuzzing [Caolán McNamara]
-ofz#6639 null-dereference [Caolán McNamara]
-ofz#6640 avoid recurse to death [Caolán McNamara]
-ofz#6674 direct-leak [Caolán McNamara]
-ofz#6702 integer-overflow [Caolán McNamara]
-ofz#6720 divide-by-zero [Caolán McNamara]
-ofz#6723 bad-cast [Caolán McNamara]
-ofz#6764 null-Dereference [Caolán McNamara]
-ofz#6800 null dereference [Caolán McNamara]
-ofz#6843 integer-overflow [Caolán McNamara]
+ofz#6563 nBytesPerScan of 0 [CaolÃ¡n McNamara]
+ofz#6571 catch exception [CaolÃ¡n McNamara]
+ofz#6602 infinite recursion [CaolÃ¡n McNamara]
+ofz#6617 integer-overflow [CaolÃ¡n McNamara]
+ofz#6625 just don't care about exceptions during fuzzing [CaolÃ¡n McNamara]
+ofz#6639 null-dereference [CaolÃ¡n McNamara]
+ofz#6640 avoid recurse to death [CaolÃ¡n McNamara]
+ofz#6674 direct-leak [CaolÃ¡n McNamara]
+ofz#6702 integer-overflow [CaolÃ¡n McNamara]
+ofz#6720 divide-by-zero [CaolÃ¡n McNamara]
+ofz#6723 bad-cast [CaolÃ¡n McNamara]
+ofz#6764 null-Dereference [CaolÃ¡n McNamara]
+ofz#6800 null dereference [CaolÃ¡n McNamara]
+ofz#6843 integer-overflow [CaolÃ¡n McNamara]
 ofz#6845 use of "deleted" ScRange [Eike Rathke]
-ofz#6888 /forcepoint#27 adjust consistency check [Caolán McNamara]
-ofz#6891 empty vector access [Caolán McNamara]
-ofz#6950 integer-overflow [Caolán McNamara]
-ofz#6990 integer-overflow [Caolán McNamara]
-ofz#6999 check available data len [Caolán McNamara]
-ofz#7012 integer-overflow [Caolán McNamara]
-ofz#7026 integer-overflow [Caolán McNamara]
-ofz#7065 integer-overflow [Caolán McNamara]
-ofz#7109 infinite regress [Caolán McNamara]
-ofz#7110 ensure join is called on std::exceptions as well as uno::Exception [Caolán McNamara]
-ofz#7121 NamedDBs::insert takes ownership of its argument [Caolán McNamara]
-ofz#7146 infinite recurse [Caolán McNamara]
-ofz#7165 set a recursion limit for svm in svm [Caolán McNamara]
-ofz#7229 divide by zero [Caolán McNamara]
-ofz#7244 integer overflow [Caolán McNamara]
+ofz#6888 /forcepoint#27 adjust consistency check [CaolÃ¡n McNamara]
+ofz#6891 empty vector access [CaolÃ¡n McNamara]
+ofz#6950 integer-overflow [CaolÃ¡n McNamara]
+ofz#6990 integer-overflow [CaolÃ¡n McNamara]
+ofz#6999 check available data len [CaolÃ¡n McNamara]
+ofz#7012 integer-overflow [CaolÃ¡n McNamara]
+ofz#7026 integer-overflow [CaolÃ¡n McNamara]
+ofz#7065 integer-overflow [CaolÃ¡n McNamara]
+ofz#7109 infinite regress [CaolÃ¡n McNamara]
+ofz#7110 ensure join is called on std::exceptions as well as uno::Exception [CaolÃ¡n McNamara]
+ofz#7121 NamedDBs::insert takes ownership of its argument [CaolÃ¡n McNamara]
+ofz#7146 infinite recurse [CaolÃ¡n McNamara]
+ofz#7165 set a recursion limit for svm in svm [CaolÃ¡n McNamara]
+ofz#7229 divide by zero [CaolÃ¡n McNamara]
+ofz#7244 integer overflow [CaolÃ¡n McNamara]
 12:32:04 T:7432  NOTICE: No settings file to load (special://xbmc/system/advancedsettings.xml)
 -- [download 61% complete]
 -- extracting... done
@@ -582,11 +582,11 @@ socorro+caro	01.08.2009 18:28:44	http://www.google.com/search?q=Socorro%20Caro&o
      Elevation Cutoff Setting : 0
      Date Installed           : 2015-01-14
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
-12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:1709419490, state:completed, title:Einstein - Genie und Superstar, desc:Am 25. November 1915 trägt Einstein seine berühmte Allgemeine Relativitätstheorie vor. Nachdem eine Sonnenfinsternis die Theorie bestätigt, wird er zum Superstar der Wissenschaft.Geschickt nutzt Einstein seine Popularität und schenkt einer vom Krieg versehrten Welt, wonach sie sich sehnt: seine Genialität, seine eigenwillige Erscheinung, seine Zivilcourage. Schon bald ist Einsteins Urteil weit über die Physik hinaus gefragt.HD-ProduktionAltersfreigabe: 6, error:none
-12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:511424338, state:completed, title:Wunderschön!, desc:Die Provinz Limburg - nahe der deutschen Grenze bei Aachen - gibt es gleich zwei Mal: rechts und links der Maas. Auf der einen Seite liegt Belgien, auf der anderen die Niederlande. Die Mentalität der Menschen ist geprägt von französischem "savoir vivre" und niederländisch-rheinischem Frohsinn. Doch was sind die Unterschiede zwischen Limburg und Limburg? Das will Stefan Pinnow herausfinden - diesseits und jenseits der Grenze: Er macht eine Fahrradtour durch das "bergige" Göhltal, eine Bootsfahrt auf der Maas und eine Kutschfahrt mit belgischen Kaltblütern.Produziert in HD, error:none
-12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:1732188716, state:completed, title:Terra X, desc:Deutschland 2010Die Existenz der Ozeane unterscheidet die Erde von anderen Himmelskörpern. Denn ohne die Ozeane wäre unser Heimatplanet nur ein öder Gesteinsbrocken im All - ohne Pflanzen, Tiere, Menschen.Die Weltmeere bedecken drei Viertel der Erdoberfläche und bieten Lebensräume für unzählige Pflanzen und Tiere. Sie stellen unerschöpflich scheinende Nahrungsreserven zur Verfügung und Bodenschätze, von denen nur ein geringer Teil bisher entdeckt wurde.Regie: Stefan SchneiderBuch/Autor: Claudia Ruby, Stefan SchneiderKamera: Martin ChristMusik: Paul RabigerHD-ProduktionAltersfreigabe: 6, error:none
-12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:198582660, state:completed, title:Terra X, desc:Deutschland 2010Die letzte Etappe der abenteuerlichen Zeitreise führt in die eisigen Weiten des Nordens. Frank Schätzing muss sich warm anziehen, denn sein erstes Ziel liegt in der Arktis.Und als wäre das noch nicht kalt genug, macht er auf seiner Stippvisite durch Zeit und Raum auch Halt in der fernen Vergangenheit - als unser Heimatplanet durch eine Laune der Natur komplett einfror.Regie: Stefan SchneiderBuch/Autor: Claudia Ruby, Stefan SchneiderKamera: Martin ChristMusik: Paul RabigerHD-ProduktionAltersfreigabe: 6, error:none
-12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:1128829112, state:completed, title:Terra X, desc:Deutschland 2010In der zweiten Folge begibt sich Frank Schätzing an die ungewöhnlichsten Orte, um die Geheimnisse vom Werden und Vergehen der großen Räuber der Ozeane zu erkunden.Auf einem hängenden Floß, über einer Hai-verseuchten Bucht, meditiert er über unser Verhältnis zum Großen Weißen. Mit einem U-Boot taucht er durch ein Meer von Quallen und erkennt, dass ein "normaler Ozean" vor 500 Jahren etwas anderes war als heute.Regie: Stefan SchneiderBuch/Autor: Claudia Ruby, Stefan SchneiderKamera: Martin ChristMusik: Paul RabigerHD-ProduktionAltersfreigabe: 6, error:none
+12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:1709419490, state:completed, title:Einstein - Genie und Superstar, desc:Am 25. November 1915 trÃ¤gt Einstein seine berÃ¼hmte Allgemeine RelativitÃ¤tstheorie vor. Nachdem eine Sonnenfinsternis die Theorie bestÃ¤tigt, wird er zum Superstar der Wissenschaft.Geschickt nutzt Einstein seine PopularitÃ¤t und schenkt einer vom Krieg versehrten Welt, wonach sie sich sehnt: seine GenialitÃ¤t, seine eigenwillige Erscheinung, seine Zivilcourage. Schon bald ist Einsteins Urteil weit Ã¼ber die Physik hinaus gefragt.HD-ProduktionAltersfreigabe: 6, error:none
+12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:511424338, state:completed, title:WunderschÃ¶n!, desc:Die Provinz Limburg - nahe der deutschen Grenze bei Aachen - gibt es gleich zwei Mal: rechts und links der Maas. Auf der einen Seite liegt Belgien, auf der anderen die Niederlande. Die MentalitÃ¤t der Menschen ist geprÃ¤gt von franzÃ¶sischem "savoir vivre" und niederlÃ¤ndisch-rheinischem Frohsinn. Doch was sind die Unterschiede zwischen Limburg und Limburg? Das will Stefan Pinnow herausfinden - diesseits und jenseits der Grenze: Er macht eine Fahrradtour durch das "bergige" GÃ¶hltal, eine Bootsfahrt auf der Maas und eine Kutschfahrt mit belgischen KaltblÃ¼tern.Produziert in HD, error:none
+12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:1732188716, state:completed, title:Terra X, desc:Deutschland 2010Die Existenz der Ozeane unterscheidet die Erde von anderen HimmelskÃ¶rpern. Denn ohne die Ozeane wÃ¤re unser Heimatplanet nur ein Ã¶der Gesteinsbrocken im All - ohne Pflanzen, Tiere, Menschen.Die Weltmeere bedecken drei Viertel der ErdoberflÃ¤che und bieten LebensrÃ¤ume fÃ¼r unzÃ¤hlige Pflanzen und Tiere. Sie stellen unerschÃ¶pflich scheinende Nahrungsreserven zur VerfÃ¼gung und BodenschÃ¤tze, von denen nur ein geringer Teil bisher entdeckt wurde.Regie: Stefan SchneiderBuch/Autor: Claudia Ruby, Stefan SchneiderKamera: Martin ChristMusik: Paul RabigerHD-ProduktionAltersfreigabe: 6, error:none
+12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:198582660, state:completed, title:Terra X, desc:Deutschland 2010Die letzte Etappe der abenteuerlichen Zeitreise fÃ¼hrt in die eisigen Weiten des Nordens. Frank SchÃ¤tzing muss sich warm anziehen, denn sein erstes Ziel liegt in der Arktis.Und als wÃ¤re das noch nicht kalt genug, macht er auf seiner Stippvisite durch Zeit und Raum auch Halt in der fernen Vergangenheit - als unser Heimatplanet durch eine Laune der Natur komplett einfror.Regie: Stefan SchneiderBuch/Autor: Claudia Ruby, Stefan SchneiderKamera: Martin ChristMusik: Paul RabigerHD-ProduktionAltersfreigabe: 6, error:none
+12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:1128829112, state:completed, title:Terra X, desc:Deutschland 2010In der zweiten Folge begibt sich Frank SchÃ¤tzing an die ungewÃ¶hnlichsten Orte, um die Geheimnisse vom Werden und Vergehen der groÃen RÃ¤uber der Ozeane zu erkunden.Auf einem hÃ¤ngenden FloÃ, Ã¼ber einer Hai-verseuchten Bucht, meditiert er Ã¼ber unser VerhÃ¤ltnis zum GroÃen WeiÃen. Mit einem U-Boot taucht er durch ein Meer von Quallen und erkennt, dass ein "normaler Ozean" vor 500 Jahren etwas anderes war als heute.Regie: Stefan SchneiderBuch/Autor: Claudia Ruby, Stefan SchneiderKamera: Martin ChristMusik: Paul RabigerHD-ProduktionAltersfreigabe: 6, error:none
 l.229 \chapter
               *{Acknowledgements} [1]pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has been already used, duplicate ignored
 <to be read again> 

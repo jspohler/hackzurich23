@@ -104,7 +104,7 @@ Underfull \hbox (badness 7064) in paragraph at lines 756--766
 2016-02-23 15:45:25,617  INFO Injector:68 org.matsim.analysis.CalcLinkStats 
 <09:50AM DrStupid> from the onsite fire chief.
   *
-ofz#5294 indirect-leak [Caolán McNamara]
+ofz#5294 indirect-leak [CaolÃ¡n McNamara]
 tdf#116274 Cannot open an excel workbook, "maximum number of columns per sheet" only in 64bit Calc on Windows 10 [Eike Rathke]
 tdf#116283 FILESAVE: DOCX File corrupted after roundtrip [Jan Holesovsky]
 tdf#116296 [NEWHELP] Remove product version from help pages path when building offline case [Olivier Hallot]

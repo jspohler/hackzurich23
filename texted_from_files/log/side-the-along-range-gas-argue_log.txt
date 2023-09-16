@@ -27,7 +27,7 @@ Version 1.59.0 (4 MAY 2023)
 [22:42:38] eBay: [-] 8124/8467 no engine matches (HTTP-Status: 400) - https://www.patlector-patentanwalt.net
 [22:42:38] Hollywood: [-] 8223/8544 no engine matches (HTTP-Status: 301) - https://komikangkot.wordpress.com/
 \tcb@temp=\box69
-ofz#6448 infinite-regress [Caolán McNamara]
+ofz#6448 infinite-regress [CaolÃ¡n McNamara]
 G4ParticleHPManager::GetDataStream FILE /home/arce/gamos/external/geant4/geant4.10.04.p02.gamos/../data/G4TENDL1.3.2/Alpha/Inelastic/F02//18_36_Argon.z
 [2023.05.20-22.07.39:931][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
 [2023.05.20-22.07.39:931][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
@@ -168,7 +168,7 @@ Sushi:   Line: 24                                                               
 [22:42:48] Cooking TIPS: [-] 0209/7845 download failed (Return: -) - https://www.piratde.de
 [22:42:48] Agriculture: [-] 0013/7854 download failed (Return: -) - http://un.derg.i.rdpax.t@jouwonlinecasinobonus.nl/
 [22:42:48] Mesa DUI lawyer: [-] 8192/8413 download failed (Return: -) - https://www.cybrary.it/0p3n/types-of-hackers/
-./Inconnus/Les%20étonnifiants
+./Inconnus/Les%20Ã©tonnifiants
 \tcb@lowerbox=\box67
 \tcb@phantombox=\box68
 
@@ -267,11 +267,11 @@ tdf#95827 (Draw-Menus) [META] Reorganization of the menu bar for Draw [Yousuf Ph
 tdf#95843 Headless mode leaves zombie process [Stephan Bergmann]
 tdf#96099 Reduce number of typedefs used for trivial container types [kowther, ekuiitr]
 tdf#96505 Get rid of cargo cult "long" integer literals [ekuiitr, tagezi]
-tdf#96790 Android: provide search functionality in non-experimental mode (Missing a search button for documents) [Mert Tümer]
-tdf#96795 Android: Viewer Incorrect alphabetical sort order in file-list with utf-8 (e.g. Turkish) filenames [Mert Tümer]
-tdf#96796 Android Viewer does not show copy, cut and paste options when the text is selected in an odt file [Mert Tümer, Thorsten Behrens]
+tdf#96790 Android: provide search functionality in non-experimental mode (Missing a search button for documents) [Mert TÃ¼mer]
+tdf#96795 Android: Viewer Incorrect alphabetical sort order in file-list with utf-8 (e.g. Turkish) filenames [Mert TÃ¼mer]
+tdf#96796 Android Viewer does not show copy, cut and paste options when the text is selected in an odt file [Mert TÃ¼mer, Thorsten Behrens]
 tdf#96821 ROUND changes integers when it should not [Winfried Donkers]
-tdf#96892 Low precision in PDF export of SVG images leads to visible artifacts at high zoom levels [Caolán McNamara]
+tdf#96892 Low precision in PDF export of SVG images leads to visible artifacts at high zoom levels [CaolÃ¡n McNamara]
 tdf#97035 FILEOPEN: RTF wrong cell width [Mike Kaganski]
 tdf#97228 Split up include files in include/vcl where possible into separate public and internal parts [Shubham Verma]
 tdf#97361 Make unittests more pythonic [Saurav Chirania]
@@ -287,7 +287,7 @@ tdf#98212 RTL: 'Text Direction' drop down menu doesnt update preview in alignmen
 tdf#98505 Pressing ENTER in SIDEBAR combobox/spinbox cause it to press ENTER in the document [Jim Raykowski]
 tdf#98931 Insert images into cells in Calc [Samuel Mehrbrodt]
 tdf#99363 SMTP over SSL on port 465 (mailmerge on your Google Account: smtp.gmail.com) [Justin Luth]
-tdf#99386 Undo with merged cell, needs hard recalculate, no automatic update [Zdeněk Crhonek]
+tdf#99386 Undo with merged cell, needs hard recalculate, no automatic update [ZdenÄk Crhonek]
 tdf#99483 Marque cell selection should be removed after paste [Olivier Hallot]
 tdf#99524 Broken undo for bulleted lists [Mark Hung]
        Additional Information : (multiple lines)

@@ -201,16 +201,16 @@ udf filesystem (FEATURE_VOLUMEID_UDF) [N/y/?] n
 ./Divers/Claude_Nougaro
 ./Divers/Janis_Joplin
 ./Divers/Ultimate%2090
-./Les%202%20Minutes%20du%20Peuple%20-%20François%20Pérusse/Roger%20et%20Caroline
-./Les%202%20Minutes%20du%20Peuple%20-%20François%20Pérusse/Sexe%20conseil
-./Les%202%20Minutes%20du%20Peuple%20-%20François%20Pérusse/Star%20Trek%20du%20peuple
-./Les%202%20Minutes%20du%20Peuple%20-%20François%20Pérusse/Théatre%20de%20boulevard
-./Les%202%20Minutes%20du%20Peuple%20-%20François%20Pérusse/Tribunal%20du%20peuple
-./Les%202%20Minutes%20du%20Peuple%20-%20François%20Pérusse/Urgences%20du%20peuple
-./Les%202%20Minutes%20du%20Peuple%20-%20François%20Pérusse/X-Files%20du%20peuple[01;37m
+./Les%202%20Minutes%20du%20Peuple%20-%20FrancÌ§ois%20PeÌrusse/Roger%20et%20Caroline
+./Les%202%20Minutes%20du%20Peuple%20-%20FrancÌ§ois%20PeÌrusse/Sexe%20conseil
+./Les%202%20Minutes%20du%20Peuple%20-%20FrancÌ§ois%20PeÌrusse/Star%20Trek%20du%20peuple
+./Les%202%20Minutes%20du%20Peuple%20-%20FrancÌ§ois%20PeÌrusse/TheÌatre%20de%20boulevard
+./Les%202%20Minutes%20du%20Peuple%20-%20FrancÌ§ois%20PeÌrusse/Tribunal%20du%20peuple
+./Les%202%20Minutes%20du%20Peuple%20-%20FrancÌ§ois%20PeÌrusse/Urgences%20du%20peuple
+./Les%202%20Minutes%20du%20Peuple%20-%20FrancÌ§ois%20PeÌrusse/X-Files%20du%20peuple[01;37m
 For the directory [01;34m'.'[01;37m.........
 Working for the directory [01;36m : /home/lilian/Music[01;37m.
-[01;31m./.ATRIER ./ABBA ./ACDC ./Apocalyptica ./Metallica ./Dragon_Force ./Era ./Film ./Haruhi_Suzumiya ./Hugues_Aufray ./Pink_Floyd ./Reflets%20d'acide ./Renaud ./Rhapsody ./Simon_and_Garfunkel ./Sonata_Artica ./JeuxVideos ./Jim_Croce ./BESTOF ./Chanson%20Plus%20Bifluorée ./Inconnus ./L'intégral%20de%20Coluche ./Les%20aventuriers%20du%20Survivaure ./Manau ./Notre_Dame_de_Paris ./Tari%20Tari ./Walt%20Disney ./Les%20Choristes ./Lindsey_Stirling ./Bobby_Lapointe ./Carpenters ./Indochine ./Iron%20Maiden ./Téléphone ./The_Beatles ./The_Notting_Hillbillies ./Turisas ./Classique ./Divers ./Djiboutep%20-%20Chants%20de%20Marins ./Le%20Donjon%20de%20Naheulbeuk ./Led_Zeppelin ./Les%202%20Minutes%20du%20Peuple%20-%20François%20Pérusse[01;37m
+[01;31m./.ATRIER ./ABBA ./ACDC ./Apocalyptica ./Metallica ./Dragon_Force ./Era ./Film ./Haruhi_Suzumiya ./Hugues_Aufray ./Pink_Floyd ./Reflets%20d'acide ./Renaud ./Rhapsody ./Simon_and_Garfunkel ./Sonata_Artica ./JeuxVideos ./Jim_Croce ./BESTOF ./Chanson%20Plus%20BifluorÃ©e ./Inconnus ./L'intÃ©gral%20de%20Coluche ./Les%20aventuriers%20du%20Survivaure ./Manau ./Notre_Dame_de_Paris ./Tari%20Tari ./Walt%20Disney ./Les%20Choristes ./Lindsey_Stirling ./Bobby_Lapointe ./Carpenters ./Indochine ./Iron%20Maiden ./TeÌleÌphone ./The_Beatles ./The_Notting_Hillbillies ./Turisas ./Classique ./Divers ./Djiboutep%20-%20Chants%20de%20Marins ./Le%20Donjon%20de%20Naheulbeuk ./Led_Zeppelin ./Les%202%20Minutes%20du%20Peuple%20-%20FrancÌ§ois%20PeÌrusse[01;37m
 [2023.05.20-22.07.39:930][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
       cpu time            0.77 seconds
 2021-10-26T21:51:42.958Z,53.958817,4337000,6 [FLog::Output] Connection accepted from 128.116.28.145|49574
@@ -458,7 +458,7 @@ G4ParticleHPManager::GetDataStream FILE /home/arce/gamos/external/geant4/geant4.
 
                                   1999-064B      Clementine                     Clementine                S25978
 1999-066     1999 Dec 10 1432:07  1999-066A      XMM                            XMM                       S25989  Ariane 5G              V119 (504)       CSG ELA3                 0.0
-ofz#6291 out-of-memory [Caolán McNamara]
+ofz#6291 out-of-memory [CaolÃ¡n McNamara]
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@shorten@end@additional=\dimen267
 \pgf@shorten@start@additional=\dimen268
@@ -490,7 +490,7 @@ File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
 ciInstanceKlass java/lang/Thread 1 1 550 9 9 9 9 100 8 10 3 8 3 10 10 100 8 10 9 10 10 10 10 10 10 10 9 10 10 9 10 9 10 9 10 9 10 9 9 10 9 10 9 10 9 100 10 10 9 9 9 7 100 10 8 10 10 10 10 10 100 10 10 10 10 100 11 10 9 10 9 10 100 10 10 100 10 10 11 10 100 10 10 10 7 10 10 10 10 10 10 10 10 10 10 100 8 10 10 10 8 10 8 10 8 8 10 10 7 8 10 9 9 10 10 10 9 10 100 10 11 9 9 10 100 10 11 100 10 10 11 10 100 10 10 10 8 9 10 11 10 11 10 7 8 100 1 1 100 1 100 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 1 3 1 3 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 1 1 1 1 1 1 100 1 1 1 1 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 1 1 100 100 1 1 1 1 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 1 1 12 1 12 12 1 1 12 12 7 12 100 12 7 12 12 12 12 12 12 12 12 12 12 12 12 12 7 12 12 12 12 12 100 12 12 12 12 1 12 12 12 12 1 1 1 12 12 12 12 12 1 12 12 12 1 12 12 12 100 12 12 1 12 1 12 100 12 12 1 12 12 1 12 12 12 12 12 12 12 12 12 1 1 12 12 1 12 1 1 1 100 12 100 12 1 12 12 12 12 12 12 1 12 100 12 12 12 12 1 12 100 12 1 12 12 12 12 1 12 12 100 12 12 12 12 100 12 12 12 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-ofz#6435 bad-cast [Caolán McNamara]
+ofz#6435 bad-cast [CaolÃ¡n McNamara]
 instanceKlass java/lang/Terminator$1
 instanceKlass sun/misc/SignalHandler
 instanceKlass java/lang/Terminator

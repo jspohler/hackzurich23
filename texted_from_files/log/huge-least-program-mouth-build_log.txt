@@ -19,7 +19,7 @@ tdf#114913 FILEOPEN: PPTX: Bullets size is too small [Paul Trojahn]
 tdf#114935 Document will lose focus after using the floating windows color picker [Maxim Monastirsky]
 tdf#114939 rtl_digest SHA1 and MD5 code both have an off by 1 bug [Stephan Bergmann, Michael Stahl]
 tdf#114952 filep is still used in soltools/mkdepend/parse.c [Noel Grandin]
-tdf#114992 Delete a sheet in a calc document and LO crashes. [Zdeněk Crhonek]
+tdf#114992 Delete a sheet in a calc document and LO crashes. [ZdenÄk Crhonek]
      Temperature Stabiliz.    : none
 [   1962672] overriding handle for mp_f_freemode_01/accs_diff_015_j_uni.ytd (was 4cd011e) -> 213
 ./Film/by_John_Williams/JOHN%20WILLIAMS%20GREATEST%20HITS/CD01
@@ -217,7 +217,7 @@ Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 Initializing featurizer...
 Activated AlignmentScore featurizer
 Activated Alignment featurizer
-    + always copying to a different bitmap [Caolán McNamara]
+    + always copying to a different bitmap [CaolÃ¡n McNamara]
     + always provide control points for beziers (tdf#99165) [Armin Le Grand]
     + always save cell format (tdf#92296, tdf#98083) [Katarina Behrens]
 	at com.vaadin.data.provider.HierarchicalDataCommunicator.expand(HierarchicalDataCommunicator.java:289) ~[vaadin-server-8.9.4.jar:8.9.4]
@@ -276,7 +276,7 @@ Importing posts...
 ./Carpenters/The_Singles__1969-1973
 ./Indochine
 ./Indochine/Indochine%20-%201982%20-%20L'aventurier
-./Indochine/Indochine%20-%201983%20-%20Le%20Péril%20Jaune
+./Indochine/Indochine%20-%201983%20-%20Le%20PÃ©ril%20Jaune
 ./Indochine/Indochine%20-%201985%20-%203
 ./Indochine/Indochine%20-%201987%20-%207000%20Danses
 ./Indochine/Indochine%20-%201990%20-%20Le%20Baiser
@@ -298,16 +298,16 @@ Importing posts...
 ./Turisas/To%20Holmgard%20and%20Beyond
 ./Classique
 ./Classique/Antonio%20Vivaldi
-./Classique/Antonio%20Vivaldi/CD%206%20Sonates%20n°%208%20à%2012%20pour%20violon
+./Classique/Antonio%20Vivaldi/CD%206%20Sonates%20nÂ°%208%20aÌ%2012%20pour%20violon
 ./Classique/Antonio%20Vivaldi/CD%209%20Concertos%20pour%20orgue%20et%20orchestre
 -- [download 66% complete]
 -- [download 67% complete]
 -- [download 68% complete]
-ofz#4952 avoid liblangtag config when fuzzing enabled [Caolán McNamara]
-ofz#4966 loop in text styles [Caolán McNamara]
-ofz#4971 bad-cast [Caolán McNamara]
-ofz#4976 integer-overflow [Caolán McNamara]
-ofz#4979 divide-by-zero [Caolán McNamara]
+ofz#4952 avoid liblangtag config when fuzzing enabled [CaolÃ¡n McNamara]
+ofz#4966 loop in text styles [CaolÃ¡n McNamara]
+ofz#4971 bad-cast [CaolÃ¡n McNamara]
+ofz#4976 integer-overflow [CaolÃ¡n McNamara]
+ofz#4979 divide-by-zero [CaolÃ¡n McNamara]
  There are     1 symmetry adapted basis functions of A2  symmetry.
 instanceKlass com/android/dx/rop/annotation/AnnotationsList
 instanceKlass com/android/dx/rop/cst/CstArray$List
@@ -328,10 +328,10 @@ NeutronHP: .3.2/Deuteron/Inelastic file for Z = 8, A = 18 is not found and Cross
      Cr_sctns: Glauber-Gribov nucleus nucleus: 0 eV  ---> 2.88022e+295 J  
 Alignment score: 10.157
 
-[18/Jun/2019:19:43:09] (ℹ️): [PLUGIN] Gutenberg Blocks and Template Library by Otter : v1.2.3 (ThemeIsle)
+[18/Jun/2019:19:43:09] (â¹ï¸): [PLUGIN] Gutenberg Blocks and Template Library by Otter : v1.2.3 (ThemeIsle)
 LogPluginManager: Mounting Engine plugin OpenImageDenoise
 [22:42:48] Mesothelioma: [+] 0535/7981 new URL - http://blogs.journalism.cuny.edu/wp-login.php?redirect_to=http%3A%2F%2Fblogs.journalism.cuny.edu%2Fwp-admin%2F&reauth=1
-    [0m  [BC (full coverage with learning-based abstraction)] Starting running cartography…
+    [0m  [BC (full coverage with learning-based abstraction)] Starting running cartographyâ¦
     [0m
     [0m
     **************************************************[0m
@@ -349,17 +349,17 @@ LogPluginManager: Mounting Engine plugin OpenImageDenoise
     & Delta = 1[0m
     [0mExecuting: 'python /home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../interfaceCV.py ./examples/Fischer/FERA3.imi ./examples/Fischer/FERA3-learning_learning_1.imi delta=1,Delta=1'[0m
 [0;36;40m*-**--***---****---***--**-*[0;36;40m
-[0;36;40mHello, this is Interfaçator![0;36;40m
-Building reference valuation…
+[0;36;40mHello, this is InterfaÃ§ator![0;36;40m
+Building reference valuationâ¦
 Pi0:
     v(delta) = 1
     v(Delta) = 1
-Valuating component A with pi0…
-Writing content to "./examples/Fischer/FERA3.cv"…
-[0;36;40mExecuting "/home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../CV/Compositional_Verifier -imi ./examples/Fischer/FERA3.cv"…[0;36;40m
+Valuating component A with pi0â¦
+Writing content to "./examples/Fischer/FERA3.cv"â¦
+[0;36;40mExecuting "/home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../CV/Compositional_Verifier -imi ./examples/Fischer/FERA3.cv"â¦[0;36;40m
 [0;36;40mCounter-example detected[0;36;40m
-[0;36;40mMoving learning result from "/home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../CV/tmp/counterexample.imi" to "./examples/Fischer/FERA3-learning_learning_1.imi-output.cv"…[0;36;40m
-[0;36;40mCopying abstract model into "./examples/Fischer/FERA3-learning_learning_1.imi"…[0;36;40m
+[0;36;40mMoving learning result from "/home/etienne/Boulot/SVN/andre/papiers/2017/learning/IMICV/bin/../CV/tmp/counterexample.imi" to "./examples/Fischer/FERA3-learning_learning_1.imi-output.cv"â¦[0;36;40m
+[0;36;40mCopying abstract model into "./examples/Fischer/FERA3-learning_learning_1.imi"â¦[0;36;40m
 [0;36;40m[0;36;40m
  PROC_COUNT Na21 : Transportation = 234
  PROC_COUNT Na21 : ALL = 234

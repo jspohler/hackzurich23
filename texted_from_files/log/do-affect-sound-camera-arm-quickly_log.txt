@@ -8,7 +8,7 @@
 	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:448) [vaadin-server-8.9.4.jar:8.9.4]
 PROC_CREATOR_COUNT C14 : protonInelastic = 12
 PROC_CREATOR_COUNT C14 : tInelastic = 2
-ofz#4502 direct-leak [Caolán McNamara]
+ofz#4502 direct-leak [CaolÃ¡n McNamara]
 status code: 200
 
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
@@ -90,7 +90,7 @@ tdf#116043 Searching in the customize dialog makes the icons go away [Jim Raykow
 		- Sorting ASC code id in table of code tab.
 		
  Version 1.18.0 (17 JULY 2017)
-tdf#113805 Insert->Footnote/Endnote , choose character [Caolán McNamara]
+tdf#113805 Insert->Footnote/Endnote , choose character [CaolÃ¡n McNamara]
 	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.3.jar:?]
 	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.3.jar:?]
 	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.3.jar:?]
@@ -198,8 +198,8 @@ PWR	ALASKA	PORT WALTER SEAPLANE	afd	al_179_25OCT2007.png
 US Core Comparison: compare StructureDefinition[http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-pregnancy-status-observation|1.0.0] to StructureDefinition[http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-occupation|6.1.0]
 US Core Comparison: compare StructureDefinition[http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-pregnancy-status-observation|1.0.0] to StructureDefinition[http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-pregnancyintent|6.1.0]
 US Core Comparison: compare StructureDefinition[http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-pregnancy-status-observation|1.0.0] to StructureDefinition[http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-pregnancystatus|6.1.0]
-ofz#4677 indirect-leak [Caolán McNamara]
-ofz#4703 direct-leak [Caolán McNamara]
+ofz#4677 indirect-leak [CaolÃ¡n McNamara]
+ofz#4703 direct-leak [CaolÃ¡n McNamara]
 [     23875] EndpointMapper::HandleRequest: POST /gta5/11/gameservices/socialclub.asmx/GetPasswordRequirements
 [     23922] EndpointMapper::HandleRequest: POST /gta5/11/gameservices/Inbox.asmx/GetUnreadMessages
 [     23984] EndpointMapper::HandleRequest: POST /gta5/11/gameservices/Clans.asmx/GetMine
@@ -306,8 +306,8 @@ instanceKlass java/lang/SystemClassLoaderAction
 instanceKlass sun/misc/Launcher$AppClassLoader$1
 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:9.0.34]
 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [catalina.jar:9.0.34]
-[18/Jun/2019:19:43:09] (ℹ️): [PLUGIN] Orbit Fox Companion : v2.8.4 (Themeisle)
-[18/Jun/2019:19:43:09] (ℹ️): [PLUGIN] Toolbar Extras : v1.4.3 (David Decker - DECKERWEB)
+[18/Jun/2019:19:43:09] (â¹ï¸): [PLUGIN] Orbit Fox Companion : v2.8.4 (Themeisle)
+[18/Jun/2019:19:43:09] (â¹ï¸): [PLUGIN] Toolbar Extras : v1.4.3 (David Decker - DECKERWEB)
 
 8.   Meteorological Instrumentation
 
@@ -329,7 +329,7 @@ LogPluginManager: Mounting Engine plugin Metasound
 [22:42:30] Win News Time: [-] 7741/7826 no engine matches (HTTP-Status: 503) - https://greenroots.jp/%e6%8e%a5%e5%ae%a2%e3%81%ae%e8%b3%aa/
 [22:42:30] Car Insurance: [-] 4185/8012 no engine matches (HTTP-Status: 503) - http://www.ff-winners.com/motivation/
 [22:42:30] Sports: [+] 8077/8698 matches engine Wordpress Article - http://ringofentrepreneurs.com/hello-world/
-tdf#116072 Improve spell checking by better word breaking for Hungarian [László Németh]
+tdf#116072 Improve spell checking by better word breaking for Hungarian [LÃ¡szlÃ³ NÃ©meth]
 tdf#116074 Send -> E-mail document... blocks LibreOffice until sending e-mail is finished [Mike Kaganski]
 tdf#116086 extension xlsm not in apparmor libreoffice profile [Olivier Tilloy]
 CYDM	ALASKA	ROSS RIVER	afd	al_186_25OCT2007.png
@@ -446,9 +446,9 @@ HEY	ALABAMA	HANCHEY AHP 	afd	se_25_25OCT2007.png
 ./JeuxVideos/Final_Fantasy/Final%20Fantasy%20Tactics
 ./JeuxVideos/Final_Fantasy/Final%20Fantasy%20Tactics/CD1
 ./JeuxVideos/Final_Fantasy/Final%20Fantasy%20Tactics/CD2
-./JeuxVideos/Pokémon_-_OST
-./JeuxVideos/Pokémon_-_OST/Générique%20Pokémon%20(Francais)
-./JeuxVideos/Pokémon_-_OST/NGB%20-%20Pokémon%20Red
+./JeuxVideos/PokÃ©mon_-_OST
+./JeuxVideos/PokÃ©mon_-_OST/GeÌneÌrique%20PokeÌmon%20(Francais)
+./JeuxVideos/PokÃ©mon_-_OST/NGB%20-%20PokÃ©mon%20Red
 ./JeuxVideos/Rift
 ./JeuxVideos/Secret_of_Evermore
 ./JeuxVideos/Secret_of_Mana

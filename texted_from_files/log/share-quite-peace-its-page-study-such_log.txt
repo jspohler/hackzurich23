@@ -71,9 +71,9 @@ build	14-Jul-2020 09:19:57	[DEBUG] Repositories (dependencies): [Artifactory (ht
 	at info.magnolia.cms.security.auth.login.LoginFilter.doFilter(LoginFilter.java:127) [magnolia-core-6.2.3.jar:?]
 <images/datadriven/SI_Directness.png, id=1824, 1057.41335pt x 933.7284pt>
 File: images/datadriven/SI_Directness.png Graphic file (type png)
-ofz#4982 integer-overflow [Caolán McNamara]
-ofz#4983 divide-by-zero [Caolán McNamara]
-ofz#4990 direct-leak [Caolán McNamara]
+ofz#4982 integer-overflow [CaolÃ¡n McNamara]
+ofz#4983 divide-by-zero [CaolÃ¡n McNamara]
+ofz#4990 direct-leak [CaolÃ¡n McNamara]
 Running ModalFeaturizer
 build	14-Jul-2020 09:19:57	[DEBUG]   Imported: org.apache.maven.project < plexus.core
 [  1%] Completed 'G4NEUTRONXS'

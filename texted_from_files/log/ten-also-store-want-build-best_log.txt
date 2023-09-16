@@ -40,16 +40,16 @@ tdf#114013 Compound strings in Writer: "Text Format " + "(Search)" or "(Replace)
 tdf#114117 draw: page shadow issue. [Stephan Bergmann]
 tdf#114122 Double click in special character dialog inserts a character into the document, even when the dialog is only opened to select a single character [Mark Vecsernyes]
 tdf#114132 Tiling bitmaps does not work for charts (Format Wall) [Katarina Behrens]
-tdf#114173 FILESAVE XLSX Custom size of chart legend is not preserved when the file is saved as XLSX [Caolán McNamara]
+tdf#114173 FILESAVE XLSX Custom size of chart legend is not preserved when the file is saved as XLSX [CaolÃ¡n McNamara]
 tdf#114180 FILESAVE XLSX Many custom chart wall properties are not preserved when the spreadsheet is saved as XLSX [Markus Mohrhard]
 tdf#114182 FILESAVE XLSX Pie chart slice moved back by LibreOffice Calc [Markus Mohrhard]
 tdf#114200 FILEOPEN: "Text Import" dialog: option to trim whitespace [Gabor Kelemen, manujvashist]
 tdf#114204 Clarify the "Local Help not installed" message [tagezi]
 tdf#114206 Remove duplication of strings found in StartModuleCommands.xcu [Yousuf Philips, Stephan Bergmann]
-tdf#114232 function ISERROR() doesn't work [Eike Rathke, Zdeněk Crhonek]
+tdf#114232 function ISERROR() doesn't work [Eike Rathke, ZdenÄk Crhonek]
 tdf#114242 Menu/LibreOffice/Help/LibreOffice Help/[Content] -> Crash [Michael Stahl]
 tdf#114251 Hang loading spreadsheet [Eike Rathke]
-tdf#114256 Regression: Print Range not working anymore (Format - Page - Sheet - Scale) [Tomaž Vajngerl]
+tdf#114256 Regression: Print Range not working anymore (Format - Page - Sheet - Scale) [TomaÅ¾ Vajngerl]
 tdf#114260 Customization button missing from menu, toolbar and context menus tab of customization dialog [Muhammet Kara]
 tdf#114261 Modifying a toolbar entry with a set toolbar:style attribute causes the attribute to be removed [Maxim Monastirsky]
 tdf#114286 Move uno command entries from module specific xcu file to GenericCommands.xcu [Yousuf Philips]
@@ -94,7 +94,7 @@ petty+officer+jonathan+campos	01.08.2009 21:44:55	http://www.google.com/search?c
 [   1962515] overriding handle for mp_f_freemode_01/accs_diff_012_m_uni.ytd (was 4cd0100) -> 208
 [   1962531] overriding handle for mp_f_freemode_01/accs_diff_012_n_uni.ytd (was 4cd0101) -> 209
 [   1962531] overriding handle for mp_f_freemode_01/accs_diff_012_o_uni.ytd (was 4cd0102) -> 20a
-21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Bulgarian ЯВЕРТЪ" successfully loaded
+21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Bulgarian Ð¯ÐÐÐ Ð¢Ðª" successfully loaded
 21:38:12 T:139832867932032    INFO: Pixel Ratio: 1.065844
 ERROR info.magnolia.aws.foundation.AwsCredentialsProvider 15.10.2020 00:12:42 -- AWS credentials are expected to be set in Password manager module.
 ERROR info.magnolia.ai.text.TextClassificationModule 15.10.2020 00:12:42 -- Submission of text classification request has been failed at page path '/travel/about/careers/customer-experience-agent' with error code: 'null'.

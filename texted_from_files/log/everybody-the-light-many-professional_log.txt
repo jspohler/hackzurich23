@@ -119,7 +119,7 @@ sayville+summerfest	01.08.2009 18:00:09	http://www.google.com/search?hl=en&q=say
 mcmackin+slur	01.08.2009 18:00:13	http://www.google.com/url?sa=t&source=web&ct=res&cd=2&url=http%3A%2F%2Fcomicsunlimited.com%2Fcomics%2Findex.php%3Fmcmackin%2Bslur&ei=pIJ0SrmuKJL8sQOms7j0CA&rct=j&q=what+word+did+mcmackin+say+that+was+derogatory&usg=AFQjCNENWKwwF9W4_bdosNa0pja25yLzBQ	Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.1.1) Gecko/20090715 Firefox/3.5.1	24.7.165.189
 [     52579] [    GTAProcess]               Render/ OnConnectionProgress: Downloading content manifest (845.78 kB)
 [     52719] [    GTAProcess]               Render/ OnConnectionProgress: Downloading content manifest (884.95 kB)
-tdf#114308 FILEOPEN: Incorrect watermark size [Szymon Kłos]
+tdf#114308 FILEOPEN: Incorrect watermark size [Szymon KÅos]
     [0m
     **************************************************[0m
  Keep R1 ints in memory in canonical form, NReq=857956.
@@ -174,7 +174,7 @@ LogPluginManager: Mounting Engine plugin ActorLayerUtilities
     + adjust print page range for unprinted blank pages (tdf#89708) [Eilidh McAdam]
     + adjust sheet references when copying sheet-local named expressions [Eike Rathke]
     + adjust skip-slash condition, allow unterminated quote (tdf#54584) [Mike Kaganski]
-tdf#77479 Calc: State of AutoFilter lost after sorting [Zdeněk Crhonek]
+tdf#77479 Calc: State of AutoFilter lost after sorting [ZdenÄk Crhonek]
     + add test for (tdf#99093, tdf#96912, tdf#97308, tdf#88849, tdf#72240, tdf#94626) [Markus Mohrhard]
 fedex+field	01.08.2009 18:16:55	http://www.google.com/search?hl=en&client=firefox-a&rls=org.mozilla%3Aen-US%3Aofficial&hs=UBe&q=fedex+field+concert+parking&aq=f&oq=&aqi=	Mozilla/5.0 (Windows; N; Windows NT 5.1; en-US; rv:1.9.0.12) Gecko/2009070611 Firefox/3.0.12	68.228.13.150
 Not activating NewStructure featurizer
@@ -270,22 +270,22 @@ tdf#106541 FILEOPEN: Numbering from custom style based on Heading 1 is not consi
 tdf#106544 Calc: Merge cells dialog is difficult to understand for new/infrequent users [heiko tietze]
 tdf#106611 EDITING: click on status bar does not change the overwrite mode [Jim Raykowski]
 tdf#106667 Hang when trying to open a dialog and the whole sheet is selected [Noel Grandin]
-tdf#106746 copy/pasting revisions copy deleted words [Aron Budea, Zdeněk Crhonek]
-tdf#106991 Highlighting remains after select and no fill. [Tamás Zolnai]
-tdf#107026 Adding page resulting from inserting text doesn't update document view. [Mert Tümer]
+tdf#106746 copy/pasting revisions copy deleted words [Aron Budea, ZdenÄk Crhonek]
+tdf#106991 Highlighting remains after select and no fill. [TamÃ¡s Zolnai]
+tdf#107026 Adding page resulting from inserting text doesn't update document view. [Mert TÃ¼mer]
 tdf#107079 LOCALHELP: Index: colors;defining and saving needs update to new color tab [Olivier Hallot]
 tdf#107501 Convert manual tests to automated UI tests [Saurav Chirania]
 tdf#107555 Apply the 'Default Style' table style to newly inserted tables [Jim Raykowski]
 tdf#107567 Text previews in Paragraph dialog not showing correctly for RTL [Jim Raykowski]
 tdf#107601 Rename Data > Statistics > "t-test" to "paired t-test" [Olivier Hallot]
-tdf#107608 FILEOPEN PPTX: pattern fill has transparent background instead of white background [Tamás Zolnai]
+tdf#107608 FILEOPEN PPTX: pattern fill has transparent background instead of white background [TamÃ¡s Zolnai]
 tdf#107866 Changing table column width/row height with Alt+arrow key strokes is broken [Noel Grandin]
 tdf#108048 Change numbering pages with new style not working when set from within the macro [Mike Kaganski]
 tdf#108122 Copy/paste of mixed content (text and not embedded images) does not paste the images [Miklos Vajna]
-tdf#108124 CRASH: bad dynamic_cast! after redo operation [Zdeněk Crhonek]
+tdf#108124 CRASH: bad dynamic_cast! after redo operation [ZdenÄk Crhonek]
 tdf#108210 Can't open file for editing if there is a lingering lock file from a different user [Mike Kaganski]
 tdf#108224 Insert -> Field -> Author puts "DocInformation:Created" field instead of "Author" [Gabriele Ponzo]
-tdf#108446 Android: Shape is not changed after change [Mert Tümer]
+tdf#108446 Android: Shape is not changed after change [Mert TÃ¼mer]
 tdf#108448 FILTER:DOC endnotes page gains an extra paragraph each roundtrip [Justin Luth]
 tdf#108523 Remove @author annotations from source code [Manuj Vashist]
 tdf#108556 Start center welcome text should respect window width [heiko tietze]
@@ -577,11 +577,11 @@ staticfield com/android/dx/rop/cst/CstType BYTE_ARRAY Lcom/android/dx/rop/cst/Cs
 21:38:12 T:139832867932032    INFO: ID:0x10e Name:1280x1024 Refresh:60.019741 Width:1280 Height:1024
 21:38:12 T:139832867932032    INFO: Pixel Ratio: 1.279012
 jonathan+campos	01.08.2009 22:54:44	http://www.google.com/search?q=Petty+Officer+Jonathan+Campos&hl=en&start=10&sa=N	Opera/9.63 (Windows NT 5.1; U; en) Presto/2.1.1	98.168.178.86
-coverity#1421119 dereference after null check [Caolán McNamara]
-coverity#1421122 silence Uncaught exception [Caolán McNamara]
+coverity#1421119 dereference after null check [CaolÃ¡n McNamara]
+coverity#1421122 silence Uncaught exception [CaolÃ¡n McNamara]
   </ObtainLexScorer>
-coverity#1424322 uninitialized scalar field [Caolán McNamara]
-coverity#1424323 uninitialized scalar field [Caolán McNamara]
+coverity#1424322 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1424323 uninitialized scalar field [CaolÃ¡n McNamara]
 US Core Comparison: compare StructureDefinition[http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-pregnancy-status-observation|1.0.0] to StructureDefinition[http://hl7.org/fhir/us/core/StructureDefinition/us-core-head-circumference|6.1.0]
 US Core Comparison: compare StructureDefinition[http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-pregnancy-status-observation|1.0.0] to StructureDefinition[http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate|6.1.0]
 US Core Comparison: compare StructureDefinition[http://hl7.org/fhir/us/ph-library/StructureDefinition/us-ph-pregnancy-status-observation|1.0.0] to StructureDefinition[http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result|6.1.0]
@@ -682,9 +682,9 @@ what+did+greg+mcmackin+say	01.08.2009 19:41:31	http://www.google.com/search?q=Mc
      Additional Information   : (multiple lines)
      Antenna Graphics with Dimensions
        ftp://www.igs.org/pub/station/general/antenna.gra
-[18/Jun/2019:19:43:09] (ℹ️): WordPress Instance Info:
-[18/Jun/2019:19:43:09] (ℹ️): Home URL : http://ambientetotal.org.br
-[18/Jun/2019:19:43:09] (ℹ️): Site URL : http://ambientetotal.org.br
+[18/Jun/2019:19:43:09] (â¹ï¸): WordPress Instance Info:
+[18/Jun/2019:19:43:09] (â¹ï¸): Home URL : http://ambientetotal.org.br
+[18/Jun/2019:19:43:09] (â¹ï¸): Site URL : http://ambientetotal.org.br
 	at com.vaadin.ui.Grid$Column.access$1100(Grid.java:849) ~[vaadin-server-8.9.4.jar:8.9.4]
 	at com.vaadin.ui.Grid$Column$1.generateData(Grid.java:898) ~[vaadin-server-8.9.4.jar:8.9.4]
 	at com.vaadin.data.provider.DataCommunicator.getDataObject(DataCommunicator.java:481) ~[vaadin-server-8.9.4.jar:8.9.4]
@@ -751,7 +751,7 @@ CGZ	ARIZONA	CASA GRANDE MUNI	afd	sw_4_25OCT2007.png
 CHD	ARIZONA	CHANDLER MUNI	afd	sw_4_25OCT2007.png
 P19	ARIZONA	CHANDLER STELLAR AIRPARK	afd	sw_5_25OCT2007.png
 E91	ARIZONA	CHINLE MUNI	afd	sw_5_25OCT2007.png
-./Film/Nausicaa_de_la_Vallée_du_Vent
+./Film/Nausicaa_de_la_VallÃ©e_du_Vent
 LogInit:      CURL_VERSION_LIBZ
       5    23.548161
       6    21.180509
@@ -890,8 +890,8 @@ Running NullPunisherFeaturizer
 
 )
 \c@section@level=\count358
-tdf#114384 export to pdf wrong results [Tomaž Vajngerl]
-tdf#114407 Empty help text tooltip while hovering the form (gtk) [Caolán McNamara]
+tdf#114384 export to pdf wrong results [TomaÅ¾ Vajngerl]
+tdf#114407 Empty help text tooltip while hovering the form (gtk) [CaolÃ¡n McNamara]
 tdf#114418 BASIC Format() runtime function help should contain a link to number format codes [Olivier Hallot]
 <09:44AM KFWB> Most areas of the valley are blacked-out.  DWP expects power back by mid-day
 <09:44AM DrStupid> KNBC - Holy Cross hospital was under evacuation of its patients
@@ -931,11 +931,11 @@ Chapter 7.
 21:38:12 T:139832867932032   DEBUG: ADDON: cpluff: 'Plug-in xbmc.core has been installed.'
 
 busybox-1.26.2.tar.bz2: OK (md5: bb59d25ee2643db20f212eec539429f1)
-12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:1868422472, state:scheduled, title:Börse vor acht, desc:Moderation: Markus Gürne, error:none
+12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:1868422472, state:scheduled, title:BÃ¶rse vor acht, desc:Moderation: Markus GÃ¼rne, error:none
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:1844310176, state:scheduled, title:Tagesschau, desc:, error:none
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:259642368, state:scheduled, title:Silent Witness, desc:Verschollen (1), error:none
 12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:1117432608, state:scheduled, title:Silent Witness, desc:Verschollen (2), error:none
-12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:2085455399, state:scheduled, title:Börse vor acht, desc:Moderation: Markus Gürne, error:none
+12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:2085455399, state:scheduled, title:BÃ¶rse vor acht, desc:Moderation: Markus GÃ¼rne, error:none
 12:32:06 T:7432    INFO: Loading special://xbmc/system/keymaps/joystick.PS4.Controller.xml
 12:32:06 T:7432    INFO: Loading special://xbmc/system/keymaps/joystick.Sony.PLAYSTATION(R)3.Controller.xml
 12:32:06 T:7432    INFO: Loading special://xbmc/system/keymaps/joystick.WiiRemote.xml
@@ -980,7 +980,7 @@ busybox-1.26.2.tar.bz2: OK (md5: bb59d25ee2643db20f212eec539429f1)
 (epstopdf)                    date: 2020-09-01 12:21:14
 [   1918250] resources::ResourceCacheDeviceV2::DoFetch downloading resource.rpf (hash 04acf21f6028cae3047e21235d7d255995112547) from http://139.99.125.59:30124/files/notifications/resource.rpf
 [   1918422] ResourceCache::AddEntry: Saved cache:v1:04acf21f6028cae3047e21235d7d255995112547 to the index cache.
-ofz#4940 null-dereference READ [Caolán McNamara]
+ofz#4940 null-dereference READ [CaolÃ¡n McNamara]
 socorro+caro	01.08.2009 19:23:53	http://www.google.com/search?hl=en&q=socorro+caro&aq=0z&oq=socor&aqi=g-z1g5g-s1g3	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; MSN Optimized;US)	64.59.60.234
 jonathan+campos	01.08.2009 19:24:15	http://www.google.com/search?q=Jonathan+Campos+military+pics&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a	Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.1) Gecko/20090715 Firefox/3.5.1 (.NET CLR 3.5.30729)	75.83.224.233
 Executing: /usr/bin/ranlib /tmp/petsc-uGvYRc/config.setCompilers/libconf1.a

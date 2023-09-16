@@ -23,9 +23,9 @@
 ./JeuxVideos/Final_Fantasy/Final%20Fantasy%20Tactics
 ./JeuxVideos/Final_Fantasy/Final%20Fantasy%20Tactics/CD1
 ./JeuxVideos/Final_Fantasy/Final%20Fantasy%20Tactics/CD2
-./JeuxVideos/Pokémon_-_OST
-./JeuxVideos/Pokémon_-_OST/Générique%20Pokémon%20(Francais)
-./JeuxVideos/Pokémon_-_OST/NGB%20-%20Pokémon%20Red
+./JeuxVideos/PokÃ©mon_-_OST
+./JeuxVideos/PokÃ©mon_-_OST/GeÌneÌrique%20PokeÌmon%20(Francais)
+./JeuxVideos/PokÃ©mon_-_OST/NGB%20-%20PokÃ©mon%20Red
 ./JeuxVideos/Rift
 ./JeuxVideos/Secret_of_Evermore
 ./JeuxVideos/Secret_of_Mana
@@ -49,36 +49,36 @@ status code: 200
 
 2021-10-26T21:52:01.045Z,72.045349,4231000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequestForTeleport: requestCount: 12, url: https://gamejoin.roblox.com/v1/join-reserved-game
 	at com.vaadin.data.provider.HierarchicalDataCommunicator.doExpand(HierarchicalDataCommunicator.java:316) ~[vaadin-server-8.9.4.jar:8.9.4]
-coverity#1421100 uncaught exception [Caolán McNamara]
-coverity#1421119 dereference after null check [Caolán McNamara]
-coverity#1421122 silence Uncaught exception [Caolán McNamara]
-coverity#1428610 unintended sign extension [Caolán McNamara]
+coverity#1421100 uncaught exception [CaolÃ¡n McNamara]
+coverity#1421119 dereference after null check [CaolÃ¡n McNamara]
+coverity#1421122 silence Uncaught exception [CaolÃ¡n McNamara]
+coverity#1428610 unintended sign extension [CaolÃ¡n McNamara]
 coverity#1428611 check for nullptr [Eike Rathke]
-coverity#1428612 silence reasonable 'Unchecked return value' warning [Caolán McNamara]
+coverity#1428612 silence reasonable 'Unchecked return value' warning [CaolÃ¡n McNamara]
 coverity#1428613 check IsValidReference() return value, follow-up [Eike Rathke]
-coverity#1428661 uninitialized scalar field [Caolán McNamara]
-coverity#1428735 silence Use of untrusted scalar value [Caolán McNamara]
-coverity#1428736 dereference null return value [Caolán McNamara]
-coverity#1428737 dereference null return value [Caolán McNamara]
-coverity#1429470 uncaught exception [Caolán McNamara]
-coverity#1430056 dereference null return value [Caolán McNamara]
-coverity#1430057 silence Argument cannot be negative [Caolán McNamara]
-coverity#1430061 silence Unchecked return value [Caolán McNamara]
-coverity#1430065 silence Uncaught exception [Caolán McNamara]
-coverity#1430066 uncaught exception [Caolán McNamara]
-coverity#1430069 silence Uninitialized scalar field [Caolán McNamara]
-coverity#1430071 uninitialized scalar field [Caolán McNamara]
-coverity#1430073 silence Unchecked return value [Caolán McNamara]
-coverity#1430074 uncaught exception [Caolán McNamara]
-coverity#1430075 dereference after null check [Caolán McNamara]
-coverity#1430076 add assert for 'Division or modulo by zero' [Caolán McNamara]
-coverity#1430077 add assert for 'Division or modulo by zero' [Caolán McNamara]
-coverity#1430078 add assert for 'Division or modulo by zero' [Caolán McNamara]
-coverity#1430079 overflowed return value [Caolán McNamara]
-coverity#1430082 add assert for 'Division or modulo by zero' [Caolán McNamara]
-coverity#1430083 add assert for 'Division or modulo by zero' [Caolán McNamara]
-coverity#1430085 add assert for 'Division or modulo by zero' [Caolán McNamara]
-coverity#1430090 uninitialized scalar field [Caolán McNamara]
+coverity#1428661 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1428735 silence Use of untrusted scalar value [CaolÃ¡n McNamara]
+coverity#1428736 dereference null return value [CaolÃ¡n McNamara]
+coverity#1428737 dereference null return value [CaolÃ¡n McNamara]
+coverity#1429470 uncaught exception [CaolÃ¡n McNamara]
+coverity#1430056 dereference null return value [CaolÃ¡n McNamara]
+coverity#1430057 silence Argument cannot be negative [CaolÃ¡n McNamara]
+coverity#1430061 silence Unchecked return value [CaolÃ¡n McNamara]
+coverity#1430065 silence Uncaught exception [CaolÃ¡n McNamara]
+coverity#1430066 uncaught exception [CaolÃ¡n McNamara]
+coverity#1430069 silence Uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1430071 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1430073 silence Unchecked return value [CaolÃ¡n McNamara]
+coverity#1430074 uncaught exception [CaolÃ¡n McNamara]
+coverity#1430075 dereference after null check [CaolÃ¡n McNamara]
+coverity#1430076 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
+coverity#1430077 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
+coverity#1430078 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
+coverity#1430079 overflowed return value [CaolÃ¡n McNamara]
+coverity#1430082 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
+coverity#1430083 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
+coverity#1430085 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
+coverity#1430090 uninitialized scalar field [CaolÃ¡n McNamara]
 [     13593] versioning: /prod/gtav/splash.png
 [     13750] somefunc found TitleUpdateDLC:/!
 [     13765] EndpointMapper::HandleRequest: GET /prod/gtav/roboto.ttf

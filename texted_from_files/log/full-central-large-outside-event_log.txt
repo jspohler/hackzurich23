@@ -6,7 +6,7 @@ tdf#112373 cleanup SpellChecker [abstatic]
 tdf#112384 Chapter Numbering: Allow line breaks for "separator, after" in the Chapter Numbering dialog [Adolfo Jayme Barrientos, Nithin Kumar Padavu]
 tdf#112448 FILEOPEN, DOCX spurious blank line in text [Serge Krot]
 tdf#112474 Statusbar: Clicking on page number section should open go to dialog [Jim Raykowski]
-tdf#112481 Ability to add sheets on Calc on Android Viewer [Mert Tümer]
+tdf#112481 Ability to add sheets on Calc on Android Viewer [Mert TÃ¼mer]
 
 	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.3.jar:?]
 	at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81) [magnolia-core-6.2.3.jar:?]
@@ -233,11 +233,11 @@ what+did+greg+mcmackin+say	01.08.2009 21:48:51	http://www.google.com/search?hl=e
 Buffer allocation policy
 > 1. Allocate with Malloc (FEATURE_BUFFERS_USE_MALLOC)
 tdf#115623 EPUB: support vertical writing mode (tb) [Mark Hung]
-tdf#115639 Align right/center with trailing spaces aren't treated the same in PPT(X) as in DOC(X) [Tamás Zolnai]
+tdf#115639 Align right/center with trailing spaces aren't treated the same in PPT(X) as in DOC(X) [TamÃ¡s Zolnai]
 tdf#115659 Apparmor profile for senddoc is broken [Olivier Tilloy]
-tdf#115666 “Navigate By” Function does not Work if Cursor is Positioned in Comment [Jim Raykowski]
+tdf#115666 âNavigate Byâ Function does not Work if Cursor is Positioned in Comment [Jim Raykowski]
 tdf#115675 Shape selection breaks after changing position or size from the sidebar [Jan Holesovsky]
-tdf#115683 When CSV file importing to calc, if LibreOffice already open, text import dialog box open behind a grey window. [Caolán McNamara]
+tdf#115683 When CSV file importing to calc, if LibreOffice already open, text import dialog box open behind a grey window. [CaolÃ¡n McNamara]
 tdf#115691 Automatic preview of custom animation throws focus out of the effects list [Jim Raykowski]
 tdf#115719 DOCX import: lack of Word 2013-style increased spacing for paragraph with anchored objects [Miklos Vajna]
 tdf#115742 Can't save over a file if there is a lingering lock file from a different user [Mike Kaganski]
@@ -248,20 +248,20 @@ tdf#115797 Help about Fill series of type Date is irrelevant if not wrong [Laure
 tdf#115831 [Calc] Help page about Renaming sheet is not correct [Olivier Hallot, Laurent BP]
 tdf#115835 Calc - Copying Cells in a Row with Conditional formatting - Conditional formatting not copied [Markus Mohrhard]
 tdf#115853 Custom properties deleted [Julien Nabet, Stephan Bergmann]
-tdf#115859 PPTX/XLSX/DOCX Chart number format export is missing [Szymon Kłos]
+tdf#115859 PPTX/XLSX/DOCX Chart number format export is missing [Szymon KÅos]
 tdf#115867 Windows 10 icon theme follow MSO guidelines [andreas kainz]
 tdf#115873 Shape selected in navigator is not selected in the main window [Miklos Vajna]
 tdf#115874 On Style dialog's Organizer tab, non-integer font size is shown rounded to integer [Mike Kaganski]
 tdf#115875 On Character Style dialog's Organizer tab, no indication of Western/Asian/CTL font groups (unlike Paragraph Style) [Mike Kaganski]
 tdf#115879 Odd behaviour of concatenated NOT functions [Eike Rathke]
-tdf#115880 Wrong Selection with „Navigate By“ Function [Jim Raykowski]
+tdf#115880 Wrong Selection with âNavigate Byâ Function [Jim Raykowski]
 tdf#115892 Opening a Style dialog's Font tab adds Asian text size to the properties set in the style [Mike Kaganski]
 tdf#115895 Color picker images missing in Impress [Noel Grandin]
 tdf#115905 Help mentions non-existing "Slide Show - Custom Animation" menu entry [Olivier Hallot]
 tdf#115933 XLSX <fileSharing> password protected with algorithmName, hashValue, saltValue and spinCount [Eike Rathke]
 tdf#115938 Opening a Style dialog's Borders tab adds Shadow properties to the property set in the style [Mike Kaganski]
 tdf#115950 EDITING: Crash while selecting cell format with double-click [Jan Holesovsky]
-tdf#115951 Arabic alphabet page number format is not showing correctly [Caolán McNamara]
+tdf#115951 Arabic alphabet page number format is not showing correctly [CaolÃ¡n McNamara]
 
 MatMult            21547 1.0 9.3700e+01 1.0 1.08e+11 1.0 0.0e+00 0.0e+00 0.0e+00 82 76  0  0  0  82 76  0  0  0  1148
 MatAssemblyBegin       1 1.0 4.0531e-06 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
@@ -333,7 +333,7 @@ onGenerate.r4-schemas:
 
              1971 Sep 20 0615     -              NASA 10.354GM                  NASA 10.354GM                     Nike Cajun             NASA 10.354GM    CSG ALFS               115.0
              1971 Sep 20 0930     -              NASA 10.352GM                  NASA 10.352GM                     Nike Cajun             NASA 10.352GM    CSG ALFS               117.0
-ofz#4814 asserts and Null-dereference on broken shape [Caolán McNamara]
+ofz#4814 asserts and Null-dereference on broken shape [CaolÃ¡n McNamara]
 build	14-Jul-2020 09:19:57	[DEBUG] Reading global settings from D:\Maven\apache-maven-3.3.9\conf\settings.xml
 build	14-Jul-2020 09:19:57	[DEBUG] Reading user settings from C:\Windows\system32\config\systemprofile\.m2\settings.xml
 	at com.vaadin.data.provider.DataCommunicator.pushData(DataCommunicator.java:461) ~[vaadin-server-8.9.4.jar:8.9.4]
@@ -383,7 +383,7 @@ TEST resetEnvCompilers from config.setCompilers(/sandbox/petsc/petsc.next/config
       2          1           0        0.000000    0.756950   -0.468706
 2021-10-26T21:50:50.710Z,1.710461,4337000,6 [FLog::LocalStorage] LocalStorage flushing
 YAK	ALASKA	YAKUTAT	afd	al_248_25OCT2007.png
-./Les%202%20Minutes%20du%20Peuple%20-%20François%20Pérusse/L'Album%20du%20Peuple%20-%20Volume%202%20-%20Made%20For
+./Les%202%20Minutes%20du%20Peuple%20-%20FrancÌ§ois%20PeÌrusse/L'Album%20du%20Peuple%20-%20Volume%202%20-%20Made%20For
 staticfield com/android/dx/rop/type/StdTypeList INT_INT Lcom/android/dx/rop/type/StdTypeList; com/android/dx/rop/type/StdTypeList
 staticfield com/android/dx/rop/type/StdTypeList LONG_LONG Lcom/android/dx/rop/type/StdTypeList; com/android/dx/rop/type/StdTypeList
 [2023.05.20-22.07.40:573][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (3D)
@@ -399,7 +399,7 @@ staticfield com/android/dx/rop/type/StdTypeList LONG_LONG Lcom/android/dx/rop/ty
 [   1966375] overriding handle for mp_f_freemode_01_mp_f_importexport_01/jbib_diff_003_g_uni.ytd (was 5120038) -> 563
 }
 Executing: /usr/local/cuda/bin/nvcc  -o /tmp/petsc-uGvYRc/config.setCompilers/conftest   -Xcompiler -fPIC /tmp/petsc-uGvYRc/config.setCompilers/conftest.o 
-ofz#5810 the vector has an entry for each char [Caolán McNamara]
+ofz#5810 the vector has an entry for each char [CaolÃ¡n McNamara]
 10th_of_December_,_1936 ==> _
 .                    ==> .
 Alignment score: 15.372
@@ -598,8 +598,8 @@ HUA	ALABAMA	REDSTONE AAF 	afd	se_37_25OCT2007.png
 [22:42:39] Sai: [-] 8087/8249 required variable "your e-mail" was not used in form. http://www.marta.in/wp-login.php?action=lostpassword
 [22:42:39] Hollywood: [-] 8224/8544 no engine matches (HTTP-Status: 503) - http://blog.polskaiswiat.com/
 [22:42:39] Mesa DUI lawyer: [-] 8178/8414 no engine matches - http://swerto.blogspot.com/2011/03/dragon-age-ii.html
-coverity#1426945 unchecked dynamic_cast [Caolán McNamara]
-coverity#1426946 unchecked return value [Caolán McNamara]
+coverity#1426945 unchecked dynamic_cast [CaolÃ¡n McNamara]
+coverity#1426946 unchecked return value [CaolÃ¡n McNamara]
 build	14-Jul-2020 09:19:57	[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
 build	14-Jul-2020 09:19:57	[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
 [2023.05.20-22.07.43:062][  0]LogDeviceProfileManager: 	[00000A60F7A8CC00][00000A60F7FA0000 52] iPhone11Pro, 
@@ -696,36 +696,36 @@ build	14-Jul-2020 09:19:54	[INFO] Artifactory Build Info Recorder: Saving Build 
 build	14-Jul-2020 09:19:54	[INFO] Artifactory Build Info Recorder: deploy artifacts set to false, artifacts will not be deployed...
 build	14-Jul-2020 09:19:54	[INFO] Artifactory Build Info Recorder: Deploying build info ...
 build	14-Jul-2020 09:19:55	[INFO] Deploying build descriptor to: https://artifactory.XXXXXX.com/artifactory/api/build
-coverity#1428610 unintended sign extension [Caolán McNamara]
+coverity#1428610 unintended sign extension [CaolÃ¡n McNamara]
 coverity#1428611 check for nullptr [Eike Rathke]
-coverity#1428612 silence reasonable 'Unchecked return value' warning [Caolán McNamara]
+coverity#1428612 silence reasonable 'Unchecked return value' warning [CaolÃ¡n McNamara]
 coverity#1428613 check IsValidReference() return value, follow-up [Eike Rathke]
-coverity#1428661 uninitialized scalar field [Caolán McNamara]
-coverity#1428735 silence Use of untrusted scalar value [Caolán McNamara]
-coverity#1428736 dereference null return value [Caolán McNamara]
-coverity#1428737 dereference null return value [Caolán McNamara]
-coverity#1429470 uncaught exception [Caolán McNamara]
-coverity#1430056 dereference null return value [Caolán McNamara]
-coverity#1430057 silence Argument cannot be negative [Caolán McNamara]
-coverity#1430061 silence Unchecked return value [Caolán McNamara]
-coverity#1430065 silence Uncaught exception [Caolán McNamara]
-coverity#1430066 uncaught exception [Caolán McNamara]
-coverity#1430069 silence Uninitialized scalar field [Caolán McNamara]
-coverity#1430071 uninitialized scalar field [Caolán McNamara]
-coverity#1430073 silence Unchecked return value [Caolán McNamara]
-coverity#1430074 uncaught exception [Caolán McNamara]
-coverity#1430075 dereference after null check [Caolán McNamara]
-coverity#1430076 add assert for 'Division or modulo by zero' [Caolán McNamara]
-coverity#1430077 add assert for 'Division or modulo by zero' [Caolán McNamara]
-coverity#1430078 add assert for 'Division or modulo by zero' [Caolán McNamara]
-coverity#1430079 overflowed return value [Caolán McNamara]
-coverity#1430082 add assert for 'Division or modulo by zero' [Caolán McNamara]
-coverity#1430083 add assert for 'Division or modulo by zero' [Caolán McNamara]
-coverity#1430085 add assert for 'Division or modulo by zero' [Caolán McNamara]
-coverity#1430090 uninitialized scalar field [Caolán McNamara]
-coverity#1430091 unchecked return value [Caolán McNamara]
-coverity#1430093 logically dead code [Caolán McNamara]
-coverity#1430095 uncaught exception [Caolán McNamara]
+coverity#1428661 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1428735 silence Use of untrusted scalar value [CaolÃ¡n McNamara]
+coverity#1428736 dereference null return value [CaolÃ¡n McNamara]
+coverity#1428737 dereference null return value [CaolÃ¡n McNamara]
+coverity#1429470 uncaught exception [CaolÃ¡n McNamara]
+coverity#1430056 dereference null return value [CaolÃ¡n McNamara]
+coverity#1430057 silence Argument cannot be negative [CaolÃ¡n McNamara]
+coverity#1430061 silence Unchecked return value [CaolÃ¡n McNamara]
+coverity#1430065 silence Uncaught exception [CaolÃ¡n McNamara]
+coverity#1430066 uncaught exception [CaolÃ¡n McNamara]
+coverity#1430069 silence Uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1430071 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1430073 silence Unchecked return value [CaolÃ¡n McNamara]
+coverity#1430074 uncaught exception [CaolÃ¡n McNamara]
+coverity#1430075 dereference after null check [CaolÃ¡n McNamara]
+coverity#1430076 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
+coverity#1430077 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
+coverity#1430078 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
+coverity#1430079 overflowed return value [CaolÃ¡n McNamara]
+coverity#1430082 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
+coverity#1430083 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
+coverity#1430085 add assert for 'Division or modulo by zero' [CaolÃ¡n McNamara]
+coverity#1430090 uninitialized scalar field [CaolÃ¡n McNamara]
+coverity#1430091 unchecked return value [CaolÃ¡n McNamara]
+coverity#1430093 logically dead code [CaolÃ¡n McNamara]
+coverity#1430095 uncaught exception [CaolÃ¡n McNamara]
 [     13593] versioning: /prod/gtav/splash.png
 	at info.magnolia.cms.filters.MultiChannelFilter.doFilter(MultiChannelFilter.java:83) [magnolia-core-6.2.3.jar:?]
 	at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85) [magnolia-core-6.2.3.jar:?]
@@ -759,7 +759,7 @@ coverity#1430095 uncaught exception [Caolán McNamara]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_252]
 LaTeX Info: Redefining \frac on input line 234.
 <09:24AM KNBC> LAx partially re opened
-12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "Ukrainian АБВ" successfully loaded
+12:32:05 T:7432   DEBUG: CKeyboardLayoutManager: keyboard layout "Ukrainian ÐÐÐ" successfully loaded
 12:32:05 T:7432   DEBUG: CWIN32Util::GetDriveStatus: Requesting status for drive \\.\F:.
 Sushi: info  Checking /root/.fhir/packages for hl7.fhir.uv.extensions#1.0.0...   (00:33.718)
 	at com.vaadin.data.provider.DataCommunicator.pushData(DataCommunicator.java:461) ~[vaadin-server-8.9.4.jar:8.9.4]
@@ -813,8 +813,8 @@ com.vaadin.server.ServerRpcManager$RpcInvocationException: Unable to invoke meth
 simple	14-Jul-2020 09:21:01	Running post build plugin 'Artifactory Release Management Staging'
 simple	14-Jul-2020 09:21:01	Running post build plugin 'Artifactory Build Info Copier'
 simple	14-Jul-2020 09:21:01	Copying the buildinfo artifacts for build: EPDG-EPWBD-JOB1-16
-ofz#7146 infinite recurse [Caolán McNamara]
-ofz#7165 set a recursion limit for svm in svm [Caolán McNamara]
+ofz#7146 infinite recurse [CaolÃ¡n McNamara]
+ofz#7165 set a recursion limit for svm in svm [CaolÃ¡n McNamara]
 [2023.05.20-22.07.39:930][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
 [2023.05.20-22.07.39:930][  0]LogConfig: Set CVar [[r.SceneRenderTargetResizeMethod:2]]
 #include "confdefs.h"
@@ -837,8 +837,8 @@ tdf#114724 Outline headings remain highlighted in Navigator content navigation v
            world/NN-12  ==                        DEL    $0.429  [D]
                 ,/,-13  ==                        DEL    $0.429  [D]
 NeutronHP: /Capture file for Z = 6, A = 13 is not found and NeutronHP will use /home/arce/gamos/external/geant4/geant4.10.04.p02.gamos/../data/G4NDL4.5/Capture/CrossSection/6_nat_Carbon
-./Les%202%20Minutes%20du%20Peuple%20-%20François%20Pérusse/Ca%20se%20dispute
-./Les%202%20Minutes%20du%20Peuple%20-%20François%20Pérusse/Calembours%20stupides
+./Les%202%20Minutes%20du%20Peuple%20-%20FrancÌ§ois%20PeÌrusse/Ca%20se%20dispute
+./Les%202%20Minutes%20du%20Peuple%20-%20FrancÌ§ois%20PeÌrusse/Calembours%20stupides
 [22:42:33] Agriculture: [-] 0004/7854 no form at all - http://www.vaping-world.com/login-register?action=register
 
 [2023.05.20-22.07.43:062][  0]LogDeviceProfileManager: 	[00000A60F7A8A600][00000A60ED6D5000 52] IPadPro, 
@@ -903,28 +903,28 @@ ObservationInterval: TargetType: Ephemeris Object
                          DSN ID: 183,
 12:32:05 T:7432   DEBUG: ADDON: cpluff: 'Plug-in pvr.vbox has been installed.'
 ./Film/Conan_the_Barbarian
-ofz#6368 integer-overflow [Caolán McNamara]
+ofz#6368 integer-overflow [CaolÃ¡n McNamara]
 ofz#6372 fix bitmap decoding of pattern in LwpBackgroundStuff [Noel Grandin]
-ofz#7671 undefined-shift [Caolán McNamara]
-ofz#7729 null-dereference READ [Caolán McNamara]
-ofz#1429182 unchecked dynamic_cast [Caolán McNamara]
-rhbz#1396729 [GTK3] LibreOffice Writer slows scrolling with embedded images [Caolán McNamara]
-rhbz#1517407 Capitalize every word does not work with words after non-alphabet characters [Caolán McNamara]
-rhbz#1527945 [fix available] Segmentation fault when opening password protected LO document [Caolán McNamara]
+ofz#7671 undefined-shift [CaolÃ¡n McNamara]
+ofz#7729 null-dereference READ [CaolÃ¡n McNamara]
+ofz#1429182 unchecked dynamic_cast [CaolÃ¡n McNamara]
+rhbz#1396729 [GTK3] LibreOffice Writer slows scrolling with embedded images [CaolÃ¡n McNamara]
+rhbz#1517407 Capitalize every word does not work with words after non-alphabet characters [CaolÃ¡n McNamara]
+rhbz#1527945 [fix available] Segmentation fault when opening password protected LO document [CaolÃ¡n McNamara]
 rhbz#1541486 Base table creation dialog window title is shown in different languages [Stephan Bergmann]
 rhbz#1559633 Cannot open immutable files [Stephan Bergmann]
-rhbz#1569331 Libreoffice applications crash when tried to input through any IME [Caolán McNamara]
+rhbz#1569331 Libreoffice applications crash when tried to input through any IME [CaolÃ¡n McNamara]
 tdf#16083 writer table resize behavior is random [Noel Grandin]
 tdf#32935 CSV import dialog doesn't get focus if libreoffice is already running [Mike Kaganski]
 tdf#33596 [TASK] Extract PDF Export and Hyperlink handling bugs from original export [Justin Luth]
-tdf#35294 Calc autofilter function: column header drop-down box contents isn't sorted correctly [Zdeněk Crhonek]
+tdf#35294 Calc autofilter function: column header drop-down box contents isn't sorted correctly [ZdenÄk Crhonek]
 tdf#35301 Allow vertical ruby text in the Asian phonetic guide [Mark Hung, Adolfo Jayme Barrientos]
 tdf#36308 [UI]Change behaviour for "tree view" on Writer's Navigator [Jim Raykowski]
 tdf#36970 Help on Managing Digital Signatures is incorrect [Olivier Hallot]
 tdf#37074 customization of MOD3 missing on macOS [Heiko Tietze]
-tdf#37901 EDITING: Undo not available for Merge Cells in Calc [Zdeněk Crhonek]
+tdf#37901 EDITING: Undo not available for Merge Cells in Calc [ZdenÄk Crhonek]
 tdf#38915 Multiple soffice.bin soffice.exe [Mike Kaganski]
-tdf#39312 Writer improvement: Reorder buttons in “Paragraph Style” dialog for better usability [heiko tietze]
+tdf#39312 Writer improvement: Reorder buttons in âParagraph Styleâ dialog for better usability [heiko tietze]
 tdf#39593 copy/paste code detector / fixing [tagezi, Hrishabh, Eike Rathke]
 tdf#40457 Place captions above tables by default [vikasmahato]
 tdf#40460 [LOCALHELP] Calc IRR function error can be avoided but is not documented in help (see comment 11) [Olivier Hallot]
@@ -933,7 +933,7 @@ tdf#42949 accelerating compile times by removing unnecessary header #include [Ga
 tdf#43431 EDITING: Hyperlinks do not work if DRAW picture in background (wrongly select object) [Justin Luth]
 tdf#43569 Fileopen: Conditional field from .DOC write-protected, cannot be edited or deleted [Serge Krot]
 tdf#44443 EDITING: Crash on inserting a large number of sheets [Laurent BP]
-12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:1057518172, state:completed, title:Meine Heldin, desc:Frankreich 1998Der geschiedene Philosophiedozent Martin, ein Mann Anfang 40, steckt in einer Lebens- und Sinnkrise. Unter tragischen Umständen lernt er ein blutjunges Model namens Cécilia kennen.Aus einem ersten sexuellen Abenteuer mit dem unschuldig-naiv wirkenden Mädchen wird rasch eine Liaison, in der der Kopfmensch wie ein kleiner Marquis de Sade seine erotischen Wünsche mit der jungen Geliebten inszeniert, die ihm bereitwillig gehorcht.Darsteller:Martin - Charles BerlingCécilia - Sophie GuilleminSophie - Arielle DombasleMeyers - Robert KramerMutter von Cécilia - Alice Greyu. a.Regie: Cédric KahnBuch/Autor: Cédric Kahn, Laurence Ferreira-BarbosaKamera: Pascal MartiHD-ProduktionAltersfreigabe: 16, error:none
+12:32:06 T:6224   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - recording id:1057518172, state:completed, title:Meine Heldin, desc:Frankreich 1998Der geschiedene Philosophiedozent Martin, ein Mann Anfang 40, steckt in einer Lebens- und Sinnkrise. Unter tragischen UmstÃ¤nden lernt er ein blutjunges Model namens CÃ©cilia kennen.Aus einem ersten sexuellen Abenteuer mit dem unschuldig-naiv wirkenden MÃ¤dchen wird rasch eine Liaison, in der der Kopfmensch wie ein kleiner Marquis de Sade seine erotischen WÃ¼nsche mit der jungen Geliebten inszeniert, die ihm bereitwillig gehorcht.Darsteller:Martin - Charles BerlingCÃ©cilia - Sophie GuilleminSophie - Arielle DombasleMeyers - Robert KramerMutter von CÃ©cilia - Alice Greyu. a.Regie: CÃ©dric KahnBuch/Autor: CÃ©dric Kahn, Laurence Ferreira-BarbosaKamera: Pascal MartiHD-ProduktionAltersfreigabe: 16, error:none
 -- [download 15% complete]
 -- [download 16% complete]
 220-        ---------------------------------------------------------------
@@ -989,8 +989,8 @@ Command line editing (FEATURE_EDITING) [Y/n/?] y
   History saving (FEATURE_EDITING_SAVEHISTORY) [Y/n/?] y
     Save history on shell exit, not after every command (FEATURE_EDITING_SAVE_ON_EXIT) [N/y/?] n
   Reverse history search (FEATURE_REVERSE_SEARCH) [Y/n/?] y
-tdf#104786 FILESAVE: PPTX: Corrupted File after RT (The element has invalid child element) [Szymon Kłos]
-tdf#104792 FILESAVE: PPTX: Corrupted File after RT (The element has incomplete child element) [Szymon Kłos]
+tdf#104786 FILESAVE: PPTX: Corrupted File after RT (The element has invalid child element) [Szymon KÅos]
+tdf#104792 FILESAVE: PPTX: Corrupted File after RT (The element has incomplete child element) [Szymon KÅos]
 2021-10-26T21:51:05.216Z,16.216265,43ba000,6 [FLog::Warning] Warning: Infinite yield possible on 'Players.FruitySama:WaitForChild("DataLoad")'
 2021-10-26T21:51:05.216Z,16.216288,43ba000,6 [FLog::Output] Info: Stack Begin
 2021-10-26T21:51:05.216Z,16.216311,43ba000,6 [FLog::Output] Info: Script 'Players.FruitySama.PlayerGui.HUD.Setting.Trade.FXButtonLocal', Line 2

@@ -5,8 +5,8 @@
  Initial command:
 ./Film/Django_Unchained__2013
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Polish QWERTY" successfully loaded
-21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Russian ЙЦУКЕН" successfully loaded
-21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Russian АБВ" successfully loaded
+21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Russian ÐÐ¦Ð£ÐÐÐ" successfully loaded
+21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Russian ÐÐÐ" successfully loaded
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Spanish QWERTY" successfully loaded
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "German QWERTZ" successfully loaded
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Turkish QWERTY" successfully loaded
@@ -14,10 +14,10 @@
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Hebrew ABC" successfully loaded
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Swedish QWERTY" successfully loaded
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Portuguese (Portugal) QWERTY" successfully loaded
-21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Bulgarian ЯВЕРТЪ" successfully loaded
-21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Bulgarian АБВ" successfully loaded
-21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Ukrainian ЙЦУКЕН" successfully loaded
-21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Ukrainian АБВ" successfully loaded
+21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Bulgarian Ð¯ÐÐÐ Ð¢Ðª" successfully loaded
+21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Bulgarian ÐÐÐ" successfully loaded
+21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Ukrainian ÐÐ¦Ð£ÐÐÐ" successfully loaded
+21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Ukrainian ÐÐÐ" successfully loaded
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Greek QWERTY" successfully loaded
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Danish QWERTY" successfully loaded
 21:38:12 T:139832867932032   DEBUG: CKeyboardLayoutManager: keyboard layout "Lithuanian AZERTY" successfully loaded

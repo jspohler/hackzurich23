@@ -21,7 +21,7 @@ def extract_data_from_db(db_file, output_folder):
     db_file_name = os.path.splitext(os.path.basename(db_file))[0]
     txt_file_path = os.path.join(output_folder, f"{db_file_name}_db.txt")
 
-    with open(txt_file_path, 'a') as txt_file:
+    with open(txt_file_path, 'w') as txt_file:
         txt_file.write(f"{db_file_name}\n")
 
         # Loop through each table and fetch text
@@ -69,9 +69,9 @@ def copy_data_from_log(log_file, output_folder):
 
     # Rename the .log file to .txt
     txt_file_path = os.path.join(output_folder, f"{base_name}_log.txt")
-    with open(ps1_file, 'r', encoding='ISO-8859-1') as ps1_file:
+    with open(log_file, 'r', encoding='ISO-8859-1') as log_file_content:
         with open(txt_file_path, 'w', encoding='utf-8') as txt_file:
-            txt_file.write(log_file.read())
+            txt_file.write(log_file_content.read())
 
 def extract_log_data(folder_path, output_folder):
     # Extract data from all log files in the specified folder
@@ -87,9 +87,9 @@ def copy_data_from_md(md_file, output_folder):
 
     # Create a new .txt file in the output folder and copy the content
     txt_file_path = os.path.join(output_folder, f"{base_name}_md.txt")
-    with open(md_file, 'r', encoding='ISO-8859-1') as md_file:
+    with open(md_file, 'r', encoding='ISO-8859-1') as md_file_content:
         with open(txt_file_path, 'w', encoding='utf-8', errors='ignore') as txt_file:
-            txt_file.write(md_file.read())
+            txt_file.write(md_file_content.read())
 
 def extract_md_data(folder_path, output_folder):
     # Extract data from all md files in the specified folder
@@ -133,9 +133,9 @@ def copy_data_from_ps1(ps1_file, output_folder):
 
     # Create a new .txt file in the output folder and copy the content
     txt_file_path = os.path.join(output_folder, f"{base_name}_ps1.txt")
-    with open(ps1_file, 'r', encoding='ISO-8859-1') as ps1_file:
+    with open(ps1_file, 'r', encoding='ISO-8859-1') as ps1_file_content:
         with open(txt_file_path, 'w', encoding='utf-8') as txt_file:
-            txt_file.write(ps1_file.read())
+            txt_file.write(ps1_file_content.read())
 
 def extract_ps1_data(folder_path, output_folder):
     os.makedirs(output_folder, exist_ok=True)
@@ -145,15 +145,14 @@ def extract_ps1_data(folder_path, output_folder):
     for ps1_file in ps1_files:
         copy_data_from_ps1(ps1_file, output_folder)
     
-
-
 #This code will attempt to extract the text from the files but may not preserve the layout perfectly.
-
 def extract_data_from_pub(pub_file, output_folder):
-    txt_file_path = os.path.join(output_folder, f"{os.path.splitext(os.path.basename(pub_file))[0]}_pub.txt")
+    base_name = os.path.splitext(os.path.basename(pub_file))[0]
+
+    txt_file_path = os.path.join(output_folder, f"{base_name}_pub.txt")
     try:
-        with open(pub_file, 'r', encoding='utf-8', errors='ignore') as pub_file:
-            rsa_key_text = pub_file.read()
+        with open(pub_file, 'r', encoding='utf-8', errors='ignore') as pub_file_content:
+            rsa_key_text = pub_file_content.read()
         
         # Save the extracted RSA key text to a .txt file
         with open(txt_file_path, 'w', encoding='utf-8') as txt_file:
@@ -165,14 +164,66 @@ def extract_data_from_pub(pub_file, output_folder):
 def extract_pub_data(folder_path, output_folder):
     os.makedirs(output_folder, exist_ok=True)
     
-    for root, _, files in os.walk(folder_path):
-        for file in files:
-            if file.endswith('.pub'):
-                pub_file = os.path.join(root, file)
-                extract_data_from_pub(pub_file, output_folder)
+    pub_files = glob.glob(os.path.join(folder_path, '*.pub'))
+    
+    for pub_file in pub_files:
+        if pub_file.endswith('.pub'):
+            extract_data_from_pub(pub_file, output_folder)
 
+def extract_data_from_pem(pem_file, output_folder):
+    base_name = os.path.splitext(os.path.basename(pem_file))[0]
+
+    txt_file_path = os.path.join(output_folder, f"{base_name}_pem.txt")
+    try:
+        with open(pem_file, 'r', encoding='utf-8', errors='ignore') as pem_file_content:
+            pem_data = pem_file_content.read()
+        # Save the extracted PEM data to a .txt file
+        with open(txt_file_path, 'w', encoding='utf-8') as txt_file:
+            txt_file.write(pem_data)
         
+    except Exception as e:
+        print(f"Error extracting data from {pem_file}: {e}")
+
+def extract_pem_data(folder_path, output_folder):
+    os.makedirs(output_folder, exist_ok=True)
+    pem_files = glob.glob(os.path.join(folder_path, '*.pem'))
+    
+    for pem_file in pem_files:
+        if pem_file.endswith('.pem'):
+            extract_data_from_pub(pem_file, output_folder)
+
+def extract_data_from_py(py_file, output_folder):
+    base_name = os.path.splitext(os.path.basename(py_file))[0]
+
+    txt_file_path = os.path.join(output_folder, f"{base_name}_py.txt")
+    try:
+        with open(py_file, 'r', encoding='utf-8') as py_file_content:
+            python_code = py_file_content.read()
+        with open(txt_file_path, 'w', encoding='utf-8') as txt_file:
+            txt_file.write(python_code)
+    except Exception as e:
+        print(f"Error transforming Python code from {py_file}: {e}")
+                    
+def extract_py_data(folder_path, output_folder):
+    os.makedirs(output_folder, exist_ok=True)
+    
+    py_files = glob.glob(os.path.join(folder_path, '*.py'))
+    
+    for py_file in py_files:
+        if py_file.endswith('.pem'):
+            extract_data_from_pub(py_file, output_folder)
+
 folder_path = 'files'
+
+#py
+if True:
+    output_folder_py = 'texted_from_files/py/'
+    extract_py_data(folder_path, output_folder_py)
+
+#pem
+if True:
+    output_folder_pem = 'texted_from_files/pem/'
+    extract_pub_data(folder_path, output_folder_pem)
     
 #pub
 if True:
@@ -180,33 +231,32 @@ if True:
     extract_pub_data(folder_path, output_folder_pub)
         
 #ps1
-if False:
+if True:
     output_folder_ps1 = 'texted_from_files/ps1/'
     extract_ps1_data(folder_path, output_folder_ps1)
     
 #msg
-if False:
+if True:
     output_folder_msg = 'texted_from_files/msg/'
     extract_msg_data(folder_path, output_folder_msg)
     
 #md
-if False:
+if True:
     output_folder_md = 'texted_from_files/md/'
     extract_md_data(folder_path, output_folder_md)
     
 #log
-if False:
+if True:
     output_folder_log = 'texted_from_files/log/'
     extract_log_data(folder_path, output_folder_log)
 
-
 #docx
-if False:
+if True:
     output_folder_docx = 'texted_from_files/docx/'
     extract_docx_data(folder_path, output_folder_docx)
     
 #db
-if False:
+if True:
     output_folder_db = 'texted_from_files/db/'
     extract_db_data(folder_path, output_folder_db)
 
