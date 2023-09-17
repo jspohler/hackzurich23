@@ -1,0 +1,8 @@
+Sender: None
+Recipients: halil.lüscher@juliusbaer.com <None>; adam.burri@juliusbaer.com <None>; noé.spörri@juliusbaer.com <None>; erik.tobler@juliusbaer.com <None>
+Subject: Lunch and Learn
+Email Text:
+Hello, 
+
+Join us for a 'Lunch and Learn' session on financial analytics this Friday. RSVP by Thursday. Hope to see you there! Regards, Neil.
+

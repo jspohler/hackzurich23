@@ -1,0 +1,777 @@
+among-defense-us
+employees
+1	Leonhard Kaiser			
+2				CH6479761325557874642
+3			Freystrasse 30
+9832 Weinfelden	
+4		leandra.haas@yahoo.com		
+5				CH5615229273663656113
+6				CH2787693422025199938
+7		livio.zollinger@hotmail.com		
+8				
+9			Stalderstrasse 9
+8932 Münsingen	
+10		viktor.schoch@gmail.com		
+11				
+12		prisca.bieri@gmail.com		
+13				CH5829196794284586760
+14		lorenza.kessler@gmail.com		
+15	Marjorie Flückiger-Favre			
+16				CH3932879433231397839
+17			Hürlimannstrasse 6
+1206 Rüti	
+18			Käserstrasse 96
+8979 Hinwil	
+19			Albrechtstrasse 4
+7602 Frauenfeld	
+20			Fankhauserstrasse 9
+4436 Bassersdorf	
+21				CH3552150136653782141
+22	Flavia Seiler			
+23	Boris Fischer			
+24				
+25	Sandro Wettstein			
+26				
+27			Ackermannstrasse 964
+1631 Hinwil	
+28		blerim.müller@yahoo.com		
+29	Adelheid Fankhauser-Tanner			
+30				CH8482594318386833905
+31	Inês Hofmann Bättig			
+32				
+33		jasmin.weibel@gmail.com		
+34				
+35	Dr. Giuliana Hug			
+36			Käserstrasse 56
+1041 Yverdon-les-Bains	
+37				CH0571397338374398534
+38	Murielle Schmid			
+39	Gertrud Jenni			
+40		cátia.meier@gmail.com		
+41				
+42		dave.hirt@gmail.com		
+43				CH1905796233642106036
+44			Scheideggerstrasse 122
+6438 Baar	
+45	Nick Knecht			
+46				CH8505447351669595670
+47		sanije.bernasconi.knecht@yahoo.com		
+48				CH8245235421594382912
+49		valerio.steffen@hotmail.com		
+50			Martinstrasse 879
+9836 Baden	
+51	Prof. Gianna Fuchs			
+52			Eglistrasse 64
+5563 Spiez	
+53		anouk.ziegler@yahoo.com		
+54	Cecilia Kaufmann			
+55				
+56		bojan.meyer@gmail.com		
+57				CH2426334098294630482
+58		eveline.wagner@gmail.com		
+59			Jennistrasse 745
+5337 Möhlin	
+60				CH8425327245265237291
+61		amanda.arnold@hotmail.com		
+62	Romy Moser-Stadelmann			
+63				CH6278658356528033083
+64				CH8827486832236897152
+65				
+66				CH3657797525429459518
+67		kevin.weber-meister@hotmail.com		
+68	Gaëlle Frey			
+69			Staubstrasse 736
+3448 Altstätten	
+70				CH0505743956616237154
+71			Sidlerstrasse 78
+5994 Martigny	
+72				CH5207678256043482924
+73				
+74	Sarah Scherrer Hodel			
+75				CH4107120649610134024
+76	Ariana Fankhauser			
+77	Erica Kunz			
+78	Alba Kohler			
+79	Prof. Katarzyna Sidler			
+80				
+81				CH1806027783771593987
+82		christophe.schlatter@hotmail.com		
+83		simona.schürch.betschart@yahoo.com		
+84		ella.seiler.martin@yahoo.com		
+85		ruben.lang@yahoo.com		
+86			Kellerstrasse 76
+2734 Gossau	
+87			Rüeggstrasse 84
+2305 Pratteln	
+88				CH2128387317247395609
+89		jona.wüthrich-jost@gmail.com		
+90				CH3963748954574965488
+91			Sigriststrasse 51
+1863 Vevey	
+92	Neo Küng			
+93	Dr. Salomé Meier			
+94	Dominic Albrecht			
+95			Baurstrasse 20
+8668 Burgdorf	
+96				CH4557176552024658921
+97			Fuchsstrasse 1
+4758 Allschwil	
+98			Wehrlistrasse 7
+2609 Spiez	
+99	Mohammed Studer			
+100				CH1923915032931422772
+101				CH6313973647386643322
+102	Emanuele Wagner			
+103			Haasstrasse 706
+2799 Rüti	
+104			Tannerstrasse 97
+2439 Köniz	
+105		ariane.lustenberger@hotmail.com		
+106	Dr. Ghislaine Schlatter			
+107				
+108				
+109				CH4467662738326530568
+110	Prof. Berat Jäggi			
+111				
+112			Kaufmannstrasse 64
+2710 Emmen	
+113				
+114				CH5176512188698482658
+115				CH4655775440055651899
+116				CH8186610252735616668
+117		prof..aurel.wirth@yahoo.com		
+118			Baumgartnerstrasse 190
+1155 Risch	
+119				CH9184458507880884454
+120				CH9760099625900713166
+121				CH8334241086530100357
+122			Mayerstrasse 558
+7554 La Tour-de-Peilz	
+123	Pauline Widmer			
+124				CH1524168741504702003
+125		ester.rey.geiger@hotmail.com		
+126			Zieglerstrasse 90
+4469 Chêne-Bougeries	
+127				
+128			Favrestrasse 38
+1915 Aesch	
+129				CH7280867866712287757
+130				
+131		mehdi.frey@yahoo.com		
+132		fatima.wolf@hotmail.com		
+133			Wyssstrasse 17
+4873 Bülach	
+134			Bolligerstrasse 3
+2141 Bernex	
+135		magda.michel@hotmail.com		
+136	Alexia Lustenberger Keller			
+137				CH8977076151170776972
+138			Schwabstrasse 2
+2707 Adliswil	
+139			Amreinstrasse 2
+7024 Mendrisio	
+140				
+141				
+142				CH8865213471451839998
+143	Adelheid Koch			
+144	Dr. Romeo Felder			
+145				
+146				
+147				CH6703839828055878514
+148				CH8374895201268133235
+149	Yolanda Bolliger			
+150				
+151	Romana Fehr			
+152		adrienne.studer@hotmail.com		
+153				
+154				CH1652248656149067933
+155	Priscilla Tobler-Zimmermann			
+156		astrit.maier@yahoo.com		
+157				CH9201448500660090137
+158				CH6974317288225214037
+159	Marie-Laure Vogel Ackermann			
+160	Naomi Braun			
+161			Langstrasse 4
+5799 St. Gallen	
+162			Fehrstrasse 41
+6148 Oberwil	
+163				CH2336213729437903143
+164				CH9429177062382622690
+165				CH2320105893519775761
+166				CH4647575164579026898
+167				CH1473920802331453450
+168	Maryline Frei			
+169				
+170				CH7758007933821801930
+171	Joanna Stalder			
+172		dr..gerlinde.vogt@yahoo.com		
+173			Kunzstrasse 34
+5226 Oftringen	
+174				
+175		alan.schärer@yahoo.com		
+176	Chloé Steffen			
+177				
+178	Serena Meili-Kaiser			
+179				
+180				
+181		dr..elena.baur@hotmail.com		
+182	Dr. Giacomo Baur			
+183				
+184				CH5411723579353355861
+185			Spörristrasse 37
+4741 Brig-Glis	
+186	Prof. David Stettler			
+187				
+188				
+189				CH5950055190911982417
+190			Bättigstrasse 4
+6271 Aarau	
+191				CH8805583416513720507
+192		virginie.senn.wagner@hotmail.com		
+193	Toni Wettstein			
+194				
+195		katerina.steffen.schweizer@yahoo.com		
+196			Hoferstrasse 96
+6314 Lenzburg	
+197				
+198				CH5633900968094210742
+199	Lucas Müller			
+200				
+201	Prof. Tibor Jenni			
+202			Hartmannstrasse 402
+7510 Einsiedeln	
+203				CH8393011719569683759
+204			Walterstrasse 83
+9246 Bernex	
+205				
+206		dr..arif.gross@yahoo.com		
+207				CH5122159817829350260
+208	René Schnyder-Erni			
+209				CH3424851891610295508
+210	Xavier Schaub			
+211	Katarzyna Wirth			
+212				
+213		eline.lustenberger@hotmail.com		
+214				CH4567285618301885895
+215				CH6411989688343342631
+216			Baumannstrasse 3
+6215 Lancy	
+217				
+218		thea.scherrer@gmail.com		
+219			Michelstrasse 37
+1045 Richterswil	
+220				
+221				
+222		anke.hoffmann@yahoo.com		
+223		maria.hürlimann@yahoo.com		
+224				CH3014661782079000854
+225	Dave Ziegler			
+226	Irène Iten			
+227			Kälinstrasse 74
+6598 Allschwil	
+228			Kochstrasse 28
+6658 Payerne	
+229		léonie.hodel.wehrli@yahoo.com		
+230				
+231			Meilistrasse 3
+4406 Aesch	
+232				CH0867126577358630817
+233	Raffaella Fehr			
+234				
+235			Zollingerstrasse 28
+9778 Chur	
+236				CH1489220360029734109
+237				
+238			Schulerstrasse 30
+2966 Montreux	
+239				
+240				CH2893239788382402512
+241	Noa Friedli			
+242				CH5970654388107580968
+243				
+244		nadège.sutter@gmail.com		
+245				
+246				
+247				CH1492930061934661022
+248				CH1481991097858032578
+249		gertrud.bauer@gmail.com		
+250	Anne Kaufmann			
+251			Hermannstrasse 39
+8861 Aigle	
+252				CH7285927178040995368
+253				
+254				CH4862693569091037056
+255				
+256			Staufferstrasse 51
+5244 Volketswil	
+257	Drita Frey			
+258	Nick Gasser			
+259			Wirzstrasse 70
+9031 Payerne	
+260		heidi.hauser.schwab@hotmail.com		
+261		marta.schlatter@yahoo.com		
+262				
+263				CH6791391818966208441
+264				
+265				CH3910779389768062384
+266	Rose-Marie Hoffmann-Wirz			
+267		kristina.kern-eichenberger@yahoo.com		
+268				
+269	Carine Aebi-Wagner			
+270	Roxane Bianchi			
+271				CH2848216002425274789
+272	Danica Roth			
+273	Carla Huber			
+274		bukurije.hofer-imhof@yahoo.com		
+275		radmila.favre@hotmail.com		
+276			Wüthrichstrasse 51
+7661 Oftringen	
+277			Gutstrasse 5
+4206 Monthey	
+278				
+279				CH3990903853123212430
+280			Stöcklistrasse 5
+6437 Grenchen	
+281			Arnoldstrasse 536
+6011 Stäfa	
+282				
+283				CH4671094226473764736
+284				
+285		piotr.sutter@yahoo.com		
+286	Joseph Leu			
+287			Lüthistrasse 74
+6272 Thalwil	
+288				CH4792204169568403499
+289			Meisterstrasse 30
+8683 Montreux	
+290				CH8365221255779214466
+291	Corine Ernst			
+292			Stuckistrasse 831
+2415 Wetzikon	
+293		gerhard.felder@hotmail.com		
+294				CH7802653721247078008
+295		marlies.weber@yahoo.com		
+296			Beckstrasse 1
+3081 Illnau-Effretikon	
+297		flamur.ackermann@yahoo.com		
+298				CH0464667361928368851
+299			Suterstrasse 36
+7507 Lausanne	
+300			Favrestrasse 1
+8684 Allschwil	
+301				CH3139349221729287174
+302		stjepan.fuchs@hotmail.com		
+303				CH1467011979990902935
+304				CH8345096717292388807
+305	Jeannette Schmid			
+306	Kushtrim Kunz			
+307	Margarida Jenni Wenger			
+308		lydie.hasler@gmail.com		
+309		valeria.roos@yahoo.com		
+310				
+311	Prisca Fischer			
+312	Angelica Leu			
+313				CH3057751626849887726
+314		isabelle.gfeller@yahoo.com		
+315			Sutterstrasse 97
+5930 Arbon	
+316		emma.wettstein@hotmail.com		
+317	Lea Hug			
+318				CH1265937788791571905
+319				CH9025887097882582840
+320				
+321				CH6867617169282997762
+322		lejla.schnyder@yahoo.com		
+323			Itenstrasse 2
+7341 Binningen	
+324				
+325			Beckstrasse 7
+8185 Frauenfeld	
+326				CH9818176894595914462
+327				
+328	Sergej Grob			
+329				CH2535792210131992648
+330				CH5560097920708953616
+331			Wehrlistrasse 51
+2778 Weinfelden	
+332			Hotzstrasse 54
+6616 Kloten	
+333			Freystrasse 76
+4421 Pfäffikon	
+334			Lanzstrasse 17
+8670 Wettingen	
+335		claude.hafner@gmail.com		
+336			Studerstrasse 6
+2513 Schaffhausen	
+337				
+338			Ackermannstrasse 15
+9474 Villars-sur-Glâne	
+339				
+340				CH6589877050176302034
+341	Frederik Stutz			
+342				
+343				
+344				CH1161714483352655237
+345	Luciana Ferrari			
+346	Isa Marti-Schäfer			
+347			Steigerstrasse 29
+9463 Frauenfeld	
+348				
+349				
+350				
+351				
+352	Julia Ackermann			
+353	Melinda Beck Schürch			
+354		drita.bolliger@yahoo.com		
+355	Sónia Herzog			
+356		paulette.grob@yahoo.com		
+357		giorgia.gerber@hotmail.com		
+358		sophia.zollinger@hotmail.com		
+359				CH0884541914364597585
+360	Tobias Grob			
+361				CH1772389907580946647
+362			Müllerstrasse 99
+9864 Binningen	
+363				CH5673043185298618517
+364				CH5388246444370972871
+365				
+366			Baurstrasse 35
+6158 Villars-sur-Glâne	
+367				
+368				CH1192680654967659992
+369	Georgios Stutz			
+370				CH8287617383052898835
+371		ewald.jost-staub@gmail.com		
+372				CH7679888044119941642
+373	Dr. Slavica Schenk			
+374		hugo.gloor@hotmail.com		
+375				CH1729570316555066155
+376	Marilena Felber			
+377				
+378	Oscar Betschart			
+379			Steigerstrasse 96
+8151 Aesch	
+380		suzana.näf@hotmail.com		
+381				CH4343241948370905907
+382				CH3657034639099894000
+383				
+384	Dr. Carol Vogt			
+385	Jörg Amrein			
+386	Philippe Baumann			
+387				CH9251761958488052094
+388			Maierstrasse 88
+9971 Delsberg	
+389		andrina.steffen@gmail.com		
+390				
+391				
+392				
+393			Bernasconistrasse 63
+6169 Oftringen	
+394				
+395				
+396		jusuf.pfister@yahoo.com		
+397			Müllerstrasse 55
+3742 Birsfelden	
+398			Spörristrasse 54
+7336 Solothurn	
+399	Clémence Bianchi			
+400		alba.peter@yahoo.com		
+401		justin.hafner-arnold@hotmail.com		
+402		sanije.gerber@hotmail.com		
+403				
+404				CH6099864570001518580
+405		maddalena.portmann@yahoo.com		
+406		katherine.stocker.erni@gmail.com		
+407				
+408				
+409	Hannes Kaiser			
+410			Kunzstrasse 98
+6053 Lugano	
+411				CH9589679051823872496
+412	Margret Zbinden			
+413			Stuckistrasse 18
+7928 Glarus	
+414			Beckstrasse 799
+8193 Wohlen	
+415				
+416	Hannah Furrer			
+417		prof..samira.zehnder@yahoo.com		
+418			Meyerstrasse 388
+9755 Solothurn	
+419		evan.käser@gmail.com		
+420				CH5883194303802169650
+421			Brunnerstrasse 8
+6678 Volketswil	
+422				
+423	Mentor Wegmann			
+424			Aebistrasse 19
+7159 Ebikon	
+425			Stöcklistrasse 2
+1632 Urdorf	
+426	Neil Aebi			
+427		natalia.burri@hotmail.com		
+428				
+429				CH6022433734130507376
+430	Bertha Baumann			
+431				CH7055064784162332447
+432	Vanesa Amrein			
+433				
+434	Laila Tobler			
+435			Lüscherstrasse 235
+8718 Herisau	
+436		andreas.stettler@gmail.com		
+437				
+438			Lustenbergerstrasse 32
+6701 Solothurn	
+439		dardan.walter@hotmail.com		
+440				CH3744956536455373459
+441				
+442	Albrecht Mayer			
+443		zeynep.scherrer@gmail.com		
+444		ferdinand.geiger@hotmail.com		
+445	Dr. Johannes Jäggi			
+446				CH7696959079054483059
+447				
+448				CH0850539894303567786
+449		harald.schuler@gmail.com		
+450		alessandro.gloor@yahoo.com		
+451				CH0205616149275539969
+452				
+453	Marcin Roos			
+454	Prof. Gérard Felber			
+455			Küngstrasse 24
+5644 Emmen	
+456				
+457	Ruedi Hauser			
+458				CH6952795848057295739
+459	Max Schlatter			
+460				CH1246293967067449642
+461			Meierstrasse 451
+7203 Zürich	
+462				CH5505509559874931934
+463				CH8575376090066040195
+464	Prof. Carolin Hoffmann			
+465	Prof. Marie-Thérèse Kohler			
+466		adriana.flückiger@yahoo.com		
+467				
+468			Suterstrasse 50
+7036 Horgen	
+469			Hermannstrasse 3
+5650 Zollikofen	
+470				CH6375077988396463366
+471	Hussein Maurer			
+472			Thommenstrasse 3
+9287 Gossau	
+473				CH4438307666200987802
+474			Hugstrasse 92
+1185 Rheinfelden	
+475		karine.walter@yahoo.com		
+476	Markus Suter			
+477	Azra Hotz			
+478	Mathias Fehr			
+479	Carolina Rüegg Lehmann			
+480				
+481			Freystrasse 92
+2755 Rüti	
+482			Küngstrasse 46
+7434 Glarus	
+483		prof..katarina.bader@gmail.com		
+484			Schaubstrasse 38
+2337 Möhlin	
+485			Wagnerstrasse 9
+3431 Horw	
+486	Dorothea Ott			
+487			Bolligerstrasse 36
+3273 Brig-Glis	
+488				CH8887971071559860195
+489		prof..gerlinde.sidler@yahoo.com		
+490				CH5961971414895769955
+491			Staufferstrasse 22
+9930 Val-de-Ruz	
+492				CH3298686605122824563
+493				CH8986878814127554357
+494	Prof. Paul Hug			
+495			Albrechtstrasse 39
+2930 Steinhausen	
+496	Sacha Weber-Schneider			
+497	Henriette Gross-Huber			
+498				CH3598428435020858165
+499			Kuhnstrasse 980
+2129 Schlieren	
+500		beatriz.studer.schnyder@yahoo.com		
+501				
+502		murielle.lehmann.ziegler@hotmail.com		
+503				
+504		prof..sylviane.zbinden@hotmail.com		
+505				
+506				
+507	Dr. Marie-José Ziegler			
+508		lola.hofer.zbinden@hotmail.com		
+509				CH2054680412646159776
+510	Holger Zimmermann			
+511				CH2831894762627381953
+512	Thi Sutter			
+513		monica.schneider@hotmail.com		
+514			Hafnerstrasse 393
+3722 Spreitenbach	
+515		léonie.brunner@hotmail.com		
+516				
+517				
+518				CH9276773749634101936
+519	Dr. Yvonne Keller			
+520			Seilerstrasse 97
+4546 Meilen	
+521			Baurstrasse 7
+9998 Uzwil	
+522				
+523			Hofstetterstrasse 611
+9829 Affoltern	
+524				
+525				
+526	Prof. Aurel Frick			
+527				
+528			Baumgartnerstrasse 301
+9044 St. Gallen	
+529	Prof. Arianna Christen			
+530				
+531		josip.zingg@gmail.com		
+532			Eichenbergerstrasse 5
+6622 Maur	
+533			Huberstrasse 52
+3724 Davos	
+534			Scherrerstrasse 57
+9964 Wädenswil	
+535				CH2687770397287318116
+536				
+537				
+538				
+539				
+540				
+541				CH2082267739129865760
+542				
+543		dr..leyla.kägi@gmail.com		
+544	Arianna Schenk			
+545			Langstrasse 95
+9384 Weinfelden	
+546				
+547				
+548		norbert.bär@gmail.com		
+549				
+550		carina.isler@hotmail.com		
+551		rosalia.koch-lüscher@gmail.com		
+552		delphine.fuchs.schweizer@yahoo.com		
+553				
+554		cristiano.zimmermann@gmail.com		
+555			Blaserstrasse 32
+2345 Bassersdorf	
+556	Jürg Weber			
+557		salomé.merz@yahoo.com		
+558			Näfstrasse 7
+4788 Freienbach	
+559				CH3388109934502737824
+560		henrik.haas@gmail.com		
+561			Peterstrasse 70
+3142 Val-de-Travers	
+562			Eglistrasse 180
+4833 Dietikon	
+563		bekim.wehrli@gmail.com		
+564			Lutzstrasse 72
+1235 Cham	
+565		artan.beck@gmail.com		
+566			Kernstrasse 416
+2450 Kriens	
+567		albin.eugster@hotmail.com		
+568				CH5696983669952525698
+569				CH5858338469317362989
+570				CH5904603524933071167
+571				CH3997344417953165743
+572				CH5168502732658763504
+573	Prof. Ron Stutz			
+574		bruno.blum-roos@hotmail.com		
+575			Zehnderstrasse 81
+8325 Vernier	
+576	Brian Baumann			
+577				CH7897677559962296580
+578				CH0269680054591035051
+579	Christof Kunz			
+580	Susi Betschart			
+581				CH9171176343948426900
+582				
+583			Sutterstrasse 31
+2164 Münchenbuchsee	
+584		alban.mäder@hotmail.com		
+585		leonardo.bernasconi@yahoo.com		
+586			Sutterstrasse 54
+6709 Hinwil	
+587				
+588		margaux.hug.geiger@yahoo.com		
+589		merita.furrer.roth@yahoo.com		
+590				CH7299300074395956698
+591	Pamela Hotz			
+592				
+593				CH6818400232675902228
+594			Amreinstrasse 92
+6683 Wohlen	
+595	Maya Lustenberger			
+596			Sigriststrasse 50
+8432 Bulle	
+597	Marlyse Leunberger			
+598				
+599				
+600				
+601			Wirzstrasse 936
+6488 Allschwil	
+602	Nives Koch			
+603	Ramona Winkler Meyer			
+604			Gasserstrasse 312
+4205 Bellinzona	
+605	Katerina Widmer			
+606			Wegmannstrasse 1
+7486 Chur	
+607				CH3605747168283200205
+608		dr..catarina.imhof@yahoo.com		
+609			Ottstrasse 73
+5418 Illnau-Effretikon	
+610				
+611		marin.wehrli@yahoo.com		
+612			Gutstrasse 22
+9760 Grenchen	
+613	Oskar Schär			
+614			Lutzstrasse 38
+2093 Sitten	
+615				CH3759517861258628690
+616		khaled.bernasconi-zingg@gmail.com		
+617				
+618				CH3314330126421680029
+619				CH6371518629382502968
+620			Blaserstrasse 3
+1111 Baden	
+621				CH0860307039088592665
+622			Aebistrasse 35
+1663 Kreuzlingen	
+623			Kuhnstrasse 876
+5141 Thalwil	
+624				CH7550179493783527054
+625			Langstrasse 435
+5587 Glarus	
+626		roberto.sigrist-müller@hotmail.com		
+627	Mirella Fuchs			
+628				CH9018023069736774809
+629			Wettsteinstrasse 57
+8529 Worb	
+630			Arnoldstrasse 75
+6645 Solothurn	
+631				CH5738912107883494902
+632				
+633	Niclas Bachmann			
+634		lucienne.blaser.forster@hotmail.com		
+635				CH6423219134119947414
+636			Eugsterstrasse 77
+7749 Burgdorf	
+637	Abraham Steiner			
+638				CH3796673979989645043
+639	Alen Zehnder			
+640				CH4110648231020827883
+641		dylan.fehr@yahoo.com		
+sqlite_sequence
+employees	641

@@ -17,11 +17,16 @@ things are satisfied:
   Use the filename as the key and the label as the value for each file.
 - Your code cannot the internet during evaluation. Design accordingly.
 """
-
+from typing import List
 import os
 from pathlib import Path
 import pickle
 
+from entities_detector import detect_pii_entities_in_text
+from entity import Entity
+from decide_label import decide_label_from_entities
+from file_reader import extract_str_from_docx
+import reader_function
 
 def save_dict_as_pickle(labels, filename):
     with open(filename, "wb") as handle:
@@ -29,35 +34,30 @@ def save_dict_as_pickle(labels, filename):
 
 
 def classifier(file_path):
-    # Check the data type
-    if file_path.suffix == ".txt":
-        # Open the file to read out the content
-        with open(file_path) as f:
-            file_content = f.read()
-            # If the file contains the word "hello" label it as true
-            if file_content.find("hello") != -1:
-                return "True"
-            else:
-                return "False"
-    else:
-        # If it is not a `.txt` file the set the label to "review"
-        return "review"
-
+    text = reader_function.reader_function(file_path)
+    entities = detect_pii_entities_in_text(text)
+    label = decide_label_from_entities(entities)
+    return label
 
 def main():
     # Get the path of the directory where this script is in
     script_dir_path = Path(os.path.realpath(__file__)).parents[1]
     # Get the path containing the files that we want to label
     file_dir_path = script_dir_path / "files"
-
     if os.path.exists(file_dir_path):
         # Initialize the label dictionary
         labels = {}
-
+        #file_path = file_dir_path / "baby-thing-follow.docx"
+        #labels = classifier(file_path)
+        
         # Loop over all items in the file directory
-        for file_name in os.listdir(file_dir_path):
+        files = os.listdir(file_dir_path)
+        for idx, file_name in enumerate(files):
             file_path = file_dir_path / file_name
+            print(f'file {idx}/{len(files)}')
             labels[file_name] = classifier(file_path)
+
+        print('final labels', labels)
 
         # Save the label dictionary as a Pickle file
         save_dict_as_pickle(labels, script_dir_path / 'results' / 'crawler_labels.pkl')
