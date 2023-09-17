@@ -20,7 +20,7 @@ ner = pipeline(task="ner", model=model, tokenizer=tokenizer)
 
 def detect_pii_entities_in_text_ner(text: str) -> list[str]:
     result = set()
-    print('input text', text)
+    # print('input text', text)
     entities = ner(text)
     for entity in entities:
         if entity['score'] > 0.5 and len(entity['word']) > 1:
@@ -30,14 +30,14 @@ def detect_pii_entities_in_text_ner(text: str) -> list[str]:
     return list(result)
 
 
-from funcs import NER
+# from funcs import NER
 
-def detect_pii_entities_in_text_spacy(text: str) -> list[str]:
-    return NER(text)
+# def detect_pii_entities_in_text_spacy(text: str) -> list[str]:
+#     return NER(text)
 
 
 def detect_pii_entities_in_text(text: str) -> list[str]:
     ner_entitites = detect_pii_entities_in_text_ner(text)
-    spacy_entities = detect_pii_entities_in_text_spacy(text)
+    spacy_entities =[]# detect_pii_entities_in_text_spacy(text)
 
     return list(set(ner_entitites  + spacy_entities))

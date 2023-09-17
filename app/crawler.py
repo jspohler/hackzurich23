@@ -21,7 +21,7 @@ from typing import List
 import os
 from pathlib import Path
 import pickle
-import funcs
+
 from entities_detector import detect_pii_entities_in_text
 from entity import Entity
 from decide_label import decide_label_from_entities
@@ -49,11 +49,15 @@ def main():
         labels = {}
         #file_path = file_dir_path / "baby-thing-follow.docx"
         #labels = classifier(file_path)
-        #print('final labels', labels)
+        
         # Loop over all items in the file directory
-        for file_name in os.listdir(file_dir_path):
+        files = os.listdir(file_dir_path)
+        for idx, file_name in enumerate(files):
             file_path = file_dir_path / file_name
+            print(f'file {idx}/{len(files)}')
             labels[file_name] = classifier(file_path)
+
+        print('final labels', labels)
 
         # Save the label dictionary as a Pickle file
         save_dict_as_pickle(labels, script_dir_path / 'results' / 'crawler_labels.pkl')
