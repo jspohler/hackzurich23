@@ -2,6 +2,10 @@
   <img src="./logo_hack_black.jpg" width="300" height="330">
 </p>
 
+<p align="center">
+  <img src="./Crawler architecture.drawio.png", width="600">
+</p>
+
 # HackZurich 2023 - Scan the Bank Workshop
 Welcome to the Scan the Bank Workshop. This README leads you through this challenge and contains all the relevant information. In case something is unclear don't hesitate to get in touch with us.
 
